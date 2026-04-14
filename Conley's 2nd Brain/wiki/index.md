@@ -1,0 +1,73 @@
+# ACE Wiki — Index
+
+**Last updated:** 2026-04-14  
+**Source count:** 10  
+**Page count:** 19
+
+This wiki documents the Autonomous Content Engine (ACE) — Conley Potter's automated freelance arbitrage business — and serves as a broader knowledge base for Conley's identity, career, and project portfolio. Pages cover strategy, architecture, operations, marketing, personal brand, and public-facing identity. The LLM maintains this wiki; Conley reads and directs it.
+
+---
+
+## Core Strategy
+
+| Page | Summary |
+|---|---|
+| [[ace-overview]] | What ACE is — the arbitrage thesis, the three-phase roadmap, and the 15-hr/week constraint |
+| [[conley-potter]] | Operator profile — day job (BA/AutoBoost), personal background, working style, long-range vision projects |
+| [[financial-projections]] | Unit economics, monthly OPEX (~$190), and the revenue ramp from $350 net (Month 1) to $4,025+ net (Month 6) |
+| [[platform-comparison]] | Upwork vs. Fiverr vs. Freelancer.com vs. Jobbers.io — fees, positioning, and strategic fit for ACE |
+
+## Operations & Tech
+
+| Page                        | Summary                                                                                                                     |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| [[tech-stack]]              | Full tool inventory: n8n, Apify, Gemini, Claude, ChatGPT, Apollo, Cleanlist, Supabase, OpenClaw, Slack, Google Drive        |
+| [[client-acquisition]]      | The automated bidding pipeline, Spartan Tone Protocol, HITL gate, and Upwork ToS compliance                                 |
+| [[phase-1-lead-enrichment]] | B2B lead enrichment — the Phase I service, Lancaster County micro-niche, fulfillment pipeline, and API waterfall            |
+| [[data-enrichment-apis]]    | API vendor analysis: Apollo, Cleanlist/Prospeo, Clay, Lusha, SyncGTM — costs, accuracy, and ACE's custom waterfall decision |
+| [[phase-2-content-vectors]] | Expansion into SEO content, YouTube scripts, and e-commerce image generation                                                |
+| [[phase-3-infrastructure]]  | High-ticket infrastructure cloning ($5k–$15k) and RevOps retainers ($2k–$8k/mo)                                             |
+
+## Marketing & Brand
+
+| Page | Summary |
+|---|---|
+| [[campaign-plan]] | Phase I "First Contract" campaign — 90-day plan (Apr 14–Jul 13, 2026), channels, content calendar, KPIs |
+| [[brand-voice]] | Conley's complete brand voice guide — tone attributes, language patterns, what to avoid, content type variations |
+| [[upwork-portfolio]] | Four portfolio projects — spec project (Lancaster County list), ABM research, CRM enrichment, AutoBoost ICP |
+
+## Identity & Public Presence
+
+| Page | Summary |
+|---|---|
+| [[conley-potter]] | Operator profile — day job (BA/AutoBoost), personal background, working style, long-range vision projects |
+| [[career-history]] | Full career timeline: Epic → freelance → Tenfold → Stoltzfus → AutoBoost, with key achievements and patterns |
+| [[portfolio-website]] | Current state of Conley's personal portfolio — what it says, what's accurate, what needs updating |
+| [[portfolio-update-plan]] | Four coding-agent queries to update the portfolio for ACE Phase 1 launch |
+
+## Projects
+
+| Page | Summary |
+|---|---|
+| [[ace-overview]] | Current ACE — HITL co-pilot + freelance arbitrage; the pivot story; two operating modes |
+| [[ace-legacy]] | The original ACE (fall 2025–Feb 2026) — 8-agent autonomous content studio, sunsetted; what the portfolio still describes |
+| [[the-sentinel]] | Holographic AI companion (Pepper's Ghost + Raspberry Pi + walnut/brass); aspirational, funded by ACE revenue |
+| [[thought-leader-engine]] | Social/outreach automation framework built on n8n. Active. |
+
+---
+
+## Source Files
+
+| File                                               | Type                                | Ingested   |
+| -------------------------------------------------- | ----------------------------------- | ---------- |
+| `ACE Business Plan_ Autonomous Freelance Agent.md` | Strategic business plan             | 2026-04-14 |
+| `ACE Phase 1 Reference Brief.md`                   | Operational reference / quick brief | 2026-04-14 |
+| `ACE_Phase1_Campaign_Plan.md`                      | Marketing campaign plan             | 2026-04-14 |
+| `Brand Voice Guide 4.14.md`                        | Brand voice documentation           | 2026-04-14 |
+| `Upwork_Portfolio_Projects.md`                     | Portfolio copy + instructions       | 2026-04-14 |
+| `Claude Accounts' Saved Memories.md`              | Multi-account operator memory consolidation | 2026-04-14 |
+| `Personal Portfolio Website Current State 4.14.26.md` | Current portfolio copy — career history, projects, philosophy, writing topics | 2026-04-14 |
+| `ACE Pivot Explanation.md` | Why and how ACE transitioned from autonomous content studio to HITL arbitrage system | 2026-04-14 |
+| `ACE What It Is, How It Works, and Why It Exists.md` | The original ACE system — 8-agent learning loop, sunsetted Feb 2026 | 2026-04-14 |
+| `Project Brief for The Sentinel.md` | Full project brief — hardware BOM, software stack, 4-phase execution plan, Pepper's Ghost optics | 2026-04-14 |
+| `Thought Leader Engine - Project ACE x OpenClaw.md` | Product architecture doc — The Proactive Ghost commercial design, multi-tenant OpenClaw deployment, SOUL.md memory system, content waterfall pipeline | 2026-04-14 |
