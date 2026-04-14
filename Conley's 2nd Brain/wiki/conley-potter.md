@@ -7,7 +7,7 @@
 ---
 
 ## Overview
-
+ 
 Conley Potter is the sole operator of ACE. This page consolidates personal and professional context across both his day-job identity and his ACE side-project identity, which are kept deliberately separate.
 
 ---

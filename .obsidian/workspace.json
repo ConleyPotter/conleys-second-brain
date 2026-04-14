@@ -25,12 +25,14 @@
             "id": "2b7109992a7f9c08",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.7"
+                "file": "Conley's 2nd Brain/wiki/financial-projections.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.7"
+              "icon": "lucide-file",
+              "title": "financial-projections"
             }
           }
         ],
@@ -209,6 +211,8 @@
   },
   "active": "2b7109992a7f9c08",
   "lastOpenFiles": [
+    "Conley's 2nd Brain/wiki/conley-potter.md",
+    "Conley's 2nd Brain/raw-sources/Upwork_Portfolio_Projects.md",
     "Conley's 2nd Brain/wiki/portfolio-website.md",
     "Conley's 2nd Brain/wiki/ace-overview.md",
     "Conley's 2nd Brain/wiki/tech-stack.md",
@@ -222,7 +226,6 @@
     "Conley's 2nd Brain/wiki/the-sentinel.md",
     "Conley's 2nd Brain/wiki/index.md",
     "Conley's 2nd Brain/wiki/log.md",
-    "Conley's 2nd Brain/wiki/conley-potter.md",
     "Conley's 2nd Brain/wiki/client-acquisition.md",
     "Conley's 2nd Brain/wiki/career-history.md",
     "Conley's 2nd Brain/wiki/brand-voice.md",
@@ -234,7 +237,6 @@
     "Conley's 2nd Brain/raw-sources/Project Brief for The Sentinel.md",
     "Conley's 2nd Brain/raw-sources/ACE Business Plan_ Autonomous Freelance Agent.md",
     "Conley's 2nd Brain/raw-sources/ACE Phase 1 Reference Brief.md",
-    "Conley's 2nd Brain/raw-sources/Claude Accounts' Saved Memories.md",
     "Conley's 2nd Brain/wiki/index.md.tmp.5.1776194504484",
     "Conley's 2nd Brain/wiki-ingest-review-iteration-1.html",
     "Conley's 2nd Brain/wiki",

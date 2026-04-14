@@ -8,15 +8,15 @@
 
 ## Monthly OPEX (~$190/month)
 
-| Item | Cost/Month |
-|---|---|
-| VPS (n8n + Apify) | ~$12 |
-| Apollo.io Basic | $49 |
-| Cleanlist / Prospeo | $29 |
-| Upwork Connects (AI-filtered, ~30% win rate) | ~$50 |
-| Gemini / Anthropic API tokens | ~$35 |
-| Other (misc tools) | ~$15 |
-| **Total** | **~$190** |
+| Item                                         | Cost/Month |
+| -------------------------------------------- | ---------- |
+| VPS (n8n + Apify)                            | ~$12       |
+| Apollo.io Basic                              | $49        |
+| Cleanlist / Prospeo                          | $29        |
+| Upwork Connects (AI-filtered, ~30% win rate) | ~$50       |
+| Gemini / Anthropic API tokens                | ~$35       |
+| Other (misc tools)                           | ~$15       |
+| **Total**                                    | **~$190**  |
 
 ---
 
