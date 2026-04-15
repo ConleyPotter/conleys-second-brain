@@ -141,6 +141,7 @@ Before publishing:
 
 ## Channel-Specific Notes (from [[campaign-plan]])
 
+- **Building Out Loud (podcast):** Primary channel for 2026. Long-form audio is the source of truth. Written content and social excerpts are derivative — not created from scratch. See [[building-out-loud]].
 - **Threads:** Builds, economics/stakes, and personal/reflective posts. Never pitch, never CTA. Document.
 - **Upwork proposals:** Spartan Tone Protocol (separate from brand voice — more utilitarian). See [[client-acquisition]].
 - **Email to clients:** Plain text, no template. Sounds like a person, not a newsletter.

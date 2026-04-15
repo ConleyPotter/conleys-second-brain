@@ -1,10 +1,10 @@
-# ACE Wiki — Index
+# Conley Potter's 2nd Brain — Index
 
 **Last updated:** 2026-04-14  
-**Source count:** 10  
-**Page count:** 19
+**Source count:** 11  
+**Page count:** 26
 
-This wiki documents the Autonomous Content Engine (ACE) — Conley Potter's automated freelance arbitrage business — and serves as a broader knowledge base for Conley's identity, career, and project portfolio. Pages cover strategy, architecture, operations, marketing, personal brand, and public-facing identity. The LLM maintains this wiki; Conley reads and directs it.
+This wiki documents Conley Potter's ACE business and broader life context. It began as an ACE-only knowledge base and is expanding into a full second brain covering personal operating philosophy, projects, identity, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
 ---
 
@@ -53,6 +53,17 @@ This wiki documents the Autonomous Content Engine (ACE) — Conley Potter's auto
 | [[ace-legacy]] | The original ACE (fall 2025–Feb 2026) — 8-agent autonomous content studio, sunsetted; what the portfolio still describes |
 | [[the-sentinel]] | Holographic AI companion (Pepper's Ghost + Raspberry Pi + walnut/brass); aspirational, funded by ACE revenue |
 | [[thought-leader-engine]] | Social/outreach automation framework built on n8n. Active. |
+| [[building-out-loud]] | Solo podcast; primary public channel for 2026; audio-first, source of truth for all public output |
+| [[muse]] | Paused AI project from 2025 — stub, needs expansion |
+| [[companion]] | Paused AI project from 2025 — stub, needs expansion |
+| [[book-project-2025]] | Paused book project from 2025 — stub, needs expansion |
+
+## Personal
+
+| Page | Summary |
+|---|---|
+| [[domain-personal]] | Personal domain anchor — what this domain covers and current year at a glance |
+| [[operating-doctrine-2026]] | Full 2026 operating doctrine — year theme, leverage stack, decision filter, end conditions |
 
 ---
 
@@ -71,3 +82,4 @@ This wiki documents the Autonomous Content Engine (ACE) — Conley Potter's auto
 | `ACE What It Is, How It Works, and Why It Exists.md` | The original ACE system — 8-agent learning loop, sunsetted Feb 2026 | 2026-04-14 |
 | `Project Brief for The Sentinel.md` | Full project brief — hardware BOM, software stack, 4-phase execution plan, Pepper's Ghost optics | 2026-04-14 |
 | `Thought Leader Engine - Project ACE x OpenClaw.md` | Product architecture doc — The Proactive Ghost commercial design, multi-tenant OpenClaw deployment, SOUL.md memory system, content waterfall pipeline | 2026-04-14 |
+| `2026 Operating Doctrine.md` | Personal operating doctrine — year theme, leverage stack, creative stance, public presence, body/relationships/inner work, decision filter, 2026 end conditions | 2026-04-14 |

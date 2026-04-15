@@ -253,3 +253,31 @@ The current copy from all seven sections of Conley's personal portfolio website:
 4. **`index.md`** — Added the missing 10th source: `Thought Leader Engine - Project ACE x OpenClaw.md`. Confirmed to exist in `raw-sources/`. The prior ingest session (which produced `thought-leader-engine.md`) ran out of Claude Cowork tokens before the log/index update step completed. Source count corrected: 9 → 10.
 
 5. **`portfolio-website.md`** (continued) — Clarified that the three blog posts in the Writing section are **placeholder stubs** — titles and topics are defined, but no post content has been written. Added a note that a `writing/` wiki section is a natural future addition when the Personal domain opens.
+
+## [2026-04-14] ingest | 2026 Operating Doctrine
+
+**Source type:** Personal operating doctrine — Conley's written principles, priorities, and commitments for the year
+**Pages created:** 6 (`domain-personal.md`, `operating-doctrine-2026.md`, `building-out-loud.md`, `muse.md`, `companion.md`, `book-project-2025.md`)
+**Pages updated:** 3 (`conley-potter.md`, `brand-voice.md`, `index.md`)
+
+### What this source contains
+
+A 9-section personal operating doctrine covering Conley's year theme (Consolidation and Signal), the two pillars of his leverage stack (BA and ACE), his creative output stance, public presence doctrine, body and capacity philosophy, relational commitments, inner work orientation, a weekly decision filter, and five end conditions for the year. First source that is explicitly personal rather than ACE-operational.
+
+### What changed
+
+- **`domain-personal.md`** (new) — First Personal domain anchor page. Defines what the domain covers and links out to all Personal-domain pages. Includes the 2026 year-at-a-glance.
+- **`operating-doctrine-2026.md`** (new) — Full summary of the doctrine. All nine sections preserved. The decision filter (Section 8) is written as a standing operational tool.
+- **`building-out-loud.md`** (new) — Stub for the solo podcast named in the doctrine as the primary public channel for 2026. Notes the distinction from River & Root (separate, broader project; sources forthcoming).
+- **`muse.md`**, **`companion.md`**, **`book-project-2025.md`** (new stubs) — Three projects explicitly paused in the doctrine. No detail available yet; Conley intends to return to each.
+- **`conley-potter.md`** (updated) — River & Root corrected from "Podcast Concept" to broader long-range project. New "2026 Posture" section added: year theme, paused projects, and decision filter summary.
+- **`brand-voice.md`** (updated) — Building Out Loud added as primary channel entry in Channel-Specific Notes.
+- **`index.md`** (updated) — Wiki renamed to "Conley Potter's 2nd Brain — Index" to reflect expanded scope. Source count: 10 → 11. Page count: 19 → 26. New Personal section added. Projects section expanded with four new entries.
+
+### Notable observations
+
+- This is the first source that establishes a formal hierarchy between BA and ACE: BA is the income floor; ACE is the owned asset built on top of it. The wiki previously treated BA as background context. The doctrine reframes it as load-bearing infrastructure.
+- The decision filter (Section 8) is the most immediately useful operational artifact in this source — a weekly tool that can govern any new request or project consideration.
+- Three unnamed 2025 projects (Muse, Companion, book) surface here for the first time. They are named but unexplained; stubs created to hold the space until sources arrive.
+- "Building Out Loud" and "River & Root" are now explicitly distinguished. River & Root is broader than a podcast; sources needed before it can be properly documented.
+- "Integration beats identity performance" (Section 7) is the most direct articulation of the anti-performance stance that runs through the brand voice — worth surfacing if brand voice is ever revised.
