@@ -87,10 +87,22 @@ A scalable AI framework for automating organic social presence and professional 
 ### The River Room
 A long-range creative concept: a creative commons and digital workshop combining a café/bookshop, membership-based creative studio, and AI/digital skills co-op — intended to serve small-town community infrastructure. Not active; exploratory.
 
-### River & Root (Podcast Concept)
-A podcast concept that emerged from River Room planning, framed around building, creating, and belonging in specific places. Not active; exploratory.
+### River & Root
+A broader long-range project — more than just a podcast. Shares thematic DNA with [[building-out-loud]] but is distinct from it. Sources forthcoming; do not conflate the two.
 
 Both projects reflect a consistent throughline in Conley's thinking: connecting **place, community, creativity, and technology**.
+
+---
+
+## 2026 Posture
+
+**Year theme:** Consolidation and Signal — not expansion by addition, but clarity, leverage, and compounding focus.
+
+**Paused projects (2025):** [[muse]], [[companion]], [[book-project-2025]] — three projects Conley intends to return to. Paused to consolidate on ACE and BA.
+
+**Decision filter for 2026:** Say yes only if it strengthens BA or ACE, increases calm/leverage/clarity, or compounds attention. Say no if it creates urgency without leverage, pulls into paused projects, or commoditizes authority. When unsure: default to restraint.
+
+See [[operating-doctrine-2026]] for full doctrine and end conditions.
 
 ---
 
