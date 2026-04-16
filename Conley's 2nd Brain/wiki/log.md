@@ -281,3 +281,39 @@ A 9-section personal operating doctrine covering Conley's year theme (Consolidat
 - Three unnamed 2025 projects (Muse, Companion, book) surface here for the first time. They are named but unexplained; stubs created to hold the space until sources arrive.
 - "Building Out Loud" and "River & Root" are now explicitly distinguished. River & Root is broader than a podcast; sources needed before it can be properly documented.
 - "Integration beats identity performance" (Section 7) is the most direct articulation of the anti-performance stance that runs through the brand voice — worth surfacing if brand voice is ever revised.
+
+---
+
+## [2026-04-16] ingest | the-river-room-business-plan-v2.md
+
+**Source type:** Full V2 draft business plan for The River Room — community creative commons and digital workshop concept  
+**Pages created:** 1 (`the-river-room.md`)  
+**Pages updated:** 3 (`conley-potter.md`, `domain-personal.md`, `index.md`)
+
+### What this source contains
+
+A complete 2026 draft business plan for The River Room, a long-range physical community project Conley has been developing. The plan covers vision and values, market opportunity, space design, programming, operations, financial projections, funding strategy, community partnerships, and a phased launch strategy. This is V2 — the significant addition over V1 is a **dual-operation financial model** that introduces a parallel digital revenue strategy (evergreen products, paid community, cohort courses, consulting) as a separate but mission-aligned entity that funds and de-risks the physical space. The physical operation no longer needs to be profitable from day one; it needs to be viable while the digital operation generates surplus capital.
+
+Key data points extracted:
+- Three-layer model: The Commons (café/bookshop, open to all), The Studio (membership creative co-working), The Workshop (AI/digital skills co-op with corporate training as highest-margin stream)
+- Startup cost estimate: $172K–$336K total
+- Combined 4-year revenue: up to $462K–$742K by Year 4; net operating position reaches $202K–$372K by Year 4
+- Year 3 threshold built into the plan: if digital operation isn't generating ≥$75K annually, a formal strategic review triggers
+- Funding sources include digital revenue pre-accumulation of $40K–$80K — explicitly the ACE-equivalent digital operation
+- Phased launch: Phase 0 is building-independent (pop-up workshops, newsletter) and can begin immediately
+- AutoBoost named as a formal strategic partner for the digital clinic
+
+### What changed
+
+- **`the-river-room.md`** (new) — Full summary page. Covers all nine sections of the business plan with key tables preserved. Includes connections to [[conley-potter]], [[brand-voice]], [[the-sentinel]], [[financial-projections]], and [[operating-doctrine-2026]]. Five open questions filed at the bottom — most importantly: does the "companion Digital Revenue Strategy document" referenced in the financial section exist?
+- **`conley-potter.md`** — Long-Range Vision Projects section: The River Room entry expanded from one vague sentence to a full paragraph describing the three-layer model, V2 financial structure, current status (pre-Phase 0), and link to the new page. `[[the-river-room]]` added to Related.
+- **`domain-personal.md`** — `[[the-river-room]]` added to the Pages in this domain table and to Related. It belongs in Personal domain: it's a long-range community project, not an ACE operation.
+- **`index.md`** — Source count 11→12, page count 26→27. `[[the-river-room]]` added to Projects section. New source row added to Source Files.
+
+### Notable observations
+
+- The V2 plan's dual-operation structure is a direct application of Conley's ACE mental model to a physical business. The digital revenue operation described for The River Room is structurally identical to what ACE is building: evergreen products, paid community, cohort courses, consulting. This is not incidental — it's the most concrete evidence that ACE's architecture is being designed with The River Room in mind.
+- AutoBoost appears as a named strategic partner for the digital clinic (co-branding + client referral pipeline). This is the only place in the wiki where Conley's day job and a long-range personal project intersect operationally. Worth monitoring: this is either a future conversation with Adam Kushner or a plan Conley hasn't surfaced yet.
+- "Human First" and "Honest and Useful" — the River Room's stated core values — are direct echoes of the documented brand voice. The plan reads as an expression of the same identity that informs ACE's public-facing stance.
+- The plan distinguishes Building Out Loud (2026 active podcast) from the River Room programming (future speaker series, River Room Creative Summit) without naming the connection. River & Root also appears unresolved. All three share thematic DNA: place, community, audio/conversation, Susquehanna Valley.
+- Phase 0 requires no building and costs almost nothing. It could start today under the 2026 operating doctrine's decision filter — IF Conley decides The River Room qualifies as a 2026 priority (it's currently classified as long-range, not active). The plan itself anticipates that the digital revenue operation starts before the physical space opens.
