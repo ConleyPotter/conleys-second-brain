@@ -72,6 +72,12 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 |---|---|
 | [[daily-recap-2026-04-15]] | BA workday recap Apr 15: client pipeline, Turnkey/AutoVitals partners, FLSA compliance catch, 13 open items |
 
+## Meta
+
+| Page | Summary |
+|---|---|
+| [[wiki-structure-planning]] | Structural recommendations for expanding the wiki beyond ACE — flat vs. segmented, new BA domain pages, CLAUDE.md changes |
+
 ---
 
 ## Source Files

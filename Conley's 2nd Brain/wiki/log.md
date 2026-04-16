@@ -352,3 +352,22 @@ A structured end-of-day recap of Conley's BA workday on Wednesday, April 15, 202
 - The FLSA compliance catch is the clearest operational example of what "Director of Client Success & Strategy" behavior looks like at BA — unsolicited, legally literate, corrective, and immediately effective. Worth referencing if the formal title alignment ever needs justification.
 - The distinction between *search terms* (Search campaigns) and *search themes* (Performance Max) that Conley explained to Carlos is a signal that BA's clients are running Performance Max campaigns — a nuance that affects reporting and optimization decisions.
 - 13 open items after a single day suggests the BA role is consistently high-load. The 2026 operating doctrine designates BA as the "income foundation" — this log shows the operational density that entails.
+
+---
+
+## [2026-04-16] query | Wiki structure planning — how to expand beyond ACE
+
+**What was asked:** How to evolve the wiki structure to be comprehensive across all life domains (not just ACE), whether to stay flat or split into segments, how many new wikis to create for concepts from the weekly/daily summaries, and what changes to make to CLAUDE.md.
+
+**How it was answered:** Full codebase read — all raw sources and wiki pages reviewed. Synthesis filed as a standing page.
+
+**Page created:** `wiki-structure-planning.md` (type: `synthesis`)  
+**Pages updated:** `index.md` (Meta section added, page count 28→29)
+
+### Summary of recommendations
+
+- **Stay flat** (no subfolders) until ~80 pages; solve organization via domain frontmatter and `index.md` discipline
+- **6 new BA domain pages**: `ba-overview.md`, `ba-products.md`, `ba-partners.md`, `ba-team.md`, `ba-clients-pipeline.md`, `adam-shop-incubator.md`
+- **1 new weekly recap page**: `weekly-recap-2026-04-06.md` for the Apr 6–12 source
+- **New page type**: `work-log` (archival, dated, never modified post-creation)
+- **CLAUDE.md changes**: add `work-log` type, update active domains, add `domain:` frontmatter field, add rolling vs. archival distinction, add recurring-source ingest pattern, update index section list
