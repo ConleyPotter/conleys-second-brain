@@ -8,7 +8,7 @@ sources: [2026 Operating Doctrine.md]
 
 # Personal Domain
 
-**Related:** [[operating-doctrine-2026]], [[conley-potter]], [[building-out-loud]]
+**Related:** [[operating-doctrine-2026]], [[conley-potter]], [[building-out-loud]], [[the-river-room]]
 
 ---
 
@@ -52,3 +52,4 @@ See [[operating-doctrine-2026]] for the full doctrine.
 | [[muse]] | Paused AI project from 2025 — stub, needs expansion |
 | [[companion]] | Paused AI project from 2025 — stub, needs expansion |
 | [[book-project-2025]] | Paused book project from 2025 — stub, needs expansion |
+| [[the-river-room]] | Long-range creative commons and digital workshop in Marietta, PA — full V2 business plan exists |
