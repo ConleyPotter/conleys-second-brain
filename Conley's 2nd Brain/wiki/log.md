@@ -371,3 +371,35 @@ A structured end-of-day recap of Conley's BA workday on Wednesday, April 15, 202
 - **1 new weekly recap page**: `weekly-recap-2026-04-06.md` for the Apr 6–12 source
 - **New page type**: `work-log` (archival, dated, never modified post-creation)
 - **CLAUDE.md changes**: add `work-log` type, update active domains, add `domain:` frontmatter field, add rolling vs. archival distinction, add recurring-source ingest pattern, update index section list
+
+---
+
+## [2026-04-16] ingest | conley-weekly-summary-apr-6-12-2026.md + BA domain build-out
+
+**Source type:** BA weekly work summary — Google Calendar, Gmail, HubSpot, Slack  
+**Pages created:** 7 (`ba-overview.md`, `ba-products.md`, `ba-partners.md`, `ba-team.md`, `ba-clients-pipeline.md`, `adam-shop-incubator.md`, `weekly-recap-2026-04-06.md`)  
+**Pages updated:** 3 (`index.md`, `CLAUDE.md`, `log.md`)
+
+### What this source contains
+
+A structured weekly summary of Conley's BA workday activity for the week of April 6–12, 2026. ~20 client meetings, 3 deals closed-won (~$29,610 attributed), 3 new HubSpot deals created (CarLink360 $19,884, Tilson's LSA deal, Legacy Auto Care $5,985), and two onboardings advanced signed → paid. Adam and Jon traveled to TEKTONIC Conference Thu–Fri; Conley covered solo. Notable events: auto shop incubator GC referral placed (Jim Walton), POS-based conversion tracking initiative in #internal-google-ads, filming session with Kyle.
+
+### What changed
+
+- **`ba-overview.md`** (new) — Foundation page for the BA day job domain. Covers what BA is, Conley's role, the two-pillar relationship to the 2026 Operating Doctrine, services overview, tooling, partner ecosystem, and revenue/scale signals. Extensive TODOs for BA revenue figures, AutoBoost product description, and flatarchy org proposal status.
+- **`ba-products.md`** (new) — Full BA service catalog built by inference from deal records and sales conversations. Documents website tiers, Google Ads tiers (Jumpstart / Jumpstart+ / Standard / Advanced / Performance Max), LSA tiers (Standard / Advanced), programmatic, review platform, call tracking, social content curation, attribution (Gauge), video, email. Pricing partially filled from observed deal amounts. TODOs for official rate card and the Standard vs. Advanced LSA breakdown Conley sent Jared Baker.
+- **`ba-partners.md`** (new) — Turnkey Auto Marketing (Jared Baker, Suzanne Berger) and AutoVitals (Carly Lama, Carlos Massaquoi, Shelby Maggard, Steve, Adam Hicks, Jordan) documented in full. Commercial structure of both partnerships flagged as a TODO.
+- **`ba-team.md`** (new) — All internal team members documented with roles inferred from behavioral observation. Formal titles flagged for verification. AI prompts included for Slack-connected agents to pull roster and role data.
+- **`ba-clients-pipeline.md`** (new) — Rolling reference for key accounts and pipeline. Seeded from two sources. Organized by: High-Priority Accounts, Active Clients, AutoVitals Co-Managed Accounts, Recently Closed/Onboarding, Pipeline Watch List, Accounts Needing Attention.
+- **`adam-shop-incubator.md`** (new) — Documents Adam's 6-location auto repair shop chain initiative. GC referral (Jim Walton) placed Apr 7; walkthrough completed; bid pending. Notes strategic connection to BA marketing incubator thesis and possible future ACE Phase III relevance.
+- **`weekly-recap-2026-04-06.md`** (new, archival) — Full structured wiki summary of the Apr 6–12 week. Executive summary, notable events, full meeting list by day, HubSpot deal activity, email/follow-up work, Slack threads driven, wins/themes.
+- **`CLAUDE.md`** (updated) — Added `work-log` page type, `domain:` frontmatter field, rolling vs. archival distinction, recurring log source ingest pattern, expanded active domains (ACE / BA / Personal), updated index section list, updated Known Pages Needing Attention with four new items.
+- **`index.md`** (updated) — New "Day Job (BA)" section added with 6 entries. "Operations & Tech" renamed to "ACE Operations & Tech". Day Job Logs section updated with weekly recap entry. Source count 13→14, page count 28→37.
+
+### Notable observations
+
+- The BA day job is now the highest-volume raw source type — daily and weekly recaps will arrive continuously. The `work-log` archival pattern established here is the repeatable framework for all future recaps.
+- `ba-products.md` is the most speculative page in the wiki — built entirely by inference. It should be the first page to validate against official BA documentation.
+- The AutoVitals partnership is structurally deeper than it initially appeared. Multiple named contacts, joint call cadence, and shared client base suggest it's not a simple referral relationship — it may be closer to a co-delivery arrangement.
+- The POS-based conversion tracking initiative (Gauge/Pilot + GCLID capture) is a differentiation play worth watching — if it ships, it becomes a meaningful selling point for Advanced-tier clients.
+- `ba-clients-pipeline.md` deliberately does not replicate HubSpot data. It holds relational context and strategic notes. This distinction should be maintained — resist the temptation to make it a deal tracker.
