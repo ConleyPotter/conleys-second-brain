@@ -96,6 +96,8 @@ Three pieces listed as of April 2026:
 
 The topics align tightly with Conley's documented brand voice themes (systems, augmentation, infrastructure thinking). When posts are eventually written, they'll be strong voice demonstrations. A `writing/` section in this wiki is a natural future addition once the Personal domain opens.
 
+**First draft ready — April 16, 2026:** [[second-brain-article]] is a complete, portfolio-ready essay documenting the creation and development of this second brain system. It's written in Conley's voice, covers the architecture and mechanics, credits Karpathy and Ray C Fu, and includes the team adaptation angle. It's a candidate for the Writing section as the first substantive published piece.
+
 ### Contact
 
 - **Email:** conley.potter@gmail.com
