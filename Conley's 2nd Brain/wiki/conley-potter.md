@@ -2,7 +2,7 @@
 
 **Tags:** operator, context, identity  
 **Sources:** Claude Accounts' Saved Memories.md, Personal Portfolio Website Current State 4.14.26.md  
-**Related:** [[ace-overview]], [[brand-voice]], [[campaign-plan]], [[tech-stack]], [[career-history]], [[portfolio-website]], [[the-sentinel]], [[thought-leader-engine]]
+**Related:** [[ace-overview]], [[brand-voice]], [[campaign-plan]], [[tech-stack]], [[career-history]], [[portfolio-website]], [[the-sentinel]], [[thought-leader-engine]], [[the-river-room]]
 
 ---
 
@@ -85,7 +85,7 @@ A scalable AI framework for automating organic social presence and professional 
 ## Long-Range Vision Projects
 
 ### The River Room
-A long-range creative concept: a creative commons and digital workshop combining a café/bookshop, membership-based creative studio, and AI/digital skills co-op — intended to serve small-town community infrastructure. Not active; exploratory.
+A long-range physical community project: a creative commons and digital workshop in a restored historic building in Marietta, PA. Three layers — café/bookshop (The Commons), membership-based creative studio (The Studio), and AI/digital skills co-op (The Workshop). A full draft business plan (V2, 2026) exists, including a dual-operation financial model where a parallel digital revenue strategy de-risks the physical space. Status: pre-Phase 0, no building acquired, no capital committed. ACE digital revenue is the intended seed capital. See [[the-river-room]].
 
 ### River & Root
 A broader long-range project — more than just a podcast. Shares thematic DNA with [[building-out-loud]] but is distinct from it. Sources forthcoming; do not conflate the two.

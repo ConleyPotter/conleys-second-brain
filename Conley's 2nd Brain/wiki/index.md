@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
-**Last updated:** 2026-04-14  
-**Source count:** 11  
-**Page count:** 26
+**Last updated:** 2026-04-16  
+**Source count:** 12  
+**Page count:** 27
 
 This wiki documents Conley Potter's ACE business and broader life context. It began as an ACE-only knowledge base and is expanding into a full second brain covering personal operating philosophy, projects, identity, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -54,6 +54,7 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | [[the-sentinel]] | Holographic AI companion (Pepper's Ghost + Raspberry Pi + walnut/brass); aspirational, funded by ACE revenue |
 | [[thought-leader-engine]] | Social/outreach automation framework built on n8n. Active. |
 | [[building-out-loud]] | Solo podcast; primary public channel for 2026; audio-first, source of truth for all public output |
+| [[the-river-room]] | Long-range creative commons and digital workshop in Marietta, PA — café/bookshop, creative studio, AI skills co-op; full V2 business plan with dual physical/digital revenue model |
 | [[muse]] | Paused AI project from 2025 — stub, needs expansion |
 | [[companion]] | Paused AI project from 2025 — stub, needs expansion |
 | [[book-project-2025]] | Paused book project from 2025 — stub, needs expansion |
@@ -83,3 +84,4 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | `Project Brief for The Sentinel.md` | Full project brief — hardware BOM, software stack, 4-phase execution plan, Pepper's Ghost optics | 2026-04-14 |
 | `Thought Leader Engine - Project ACE x OpenClaw.md` | Product architecture doc — The Proactive Ghost commercial design, multi-tenant OpenClaw deployment, SOUL.md memory system, content waterfall pipeline | 2026-04-14 |
 | `2026 Operating Doctrine.md` | Personal operating doctrine — year theme, leverage stack, creative stance, public presence, body/relationships/inner work, decision filter, 2026 end conditions | 2026-04-14 |
+| `the-river-room-business-plan-v2.md` | Full V2 business plan for The River Room — three-layer model (Commons, Studio, Workshop), dual physical/digital revenue strategy, 4-year projections, phased launch, funding strategy | 2026-04-16 |
