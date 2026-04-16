@@ -317,3 +317,38 @@ Key data points extracted:
 - "Human First" and "Honest and Useful" — the River Room's stated core values — are direct echoes of the documented brand voice. The plan reads as an expression of the same identity that informs ACE's public-facing stance.
 - The plan distinguishes Building Out Loud (2026 active podcast) from the River Room programming (future speaker series, River Room Creative Summit) without naming the connection. River & Root also appears unresolved. All three share thematic DNA: place, community, audio/conversation, Susquehanna Valley.
 - Phase 0 requires no building and costs almost nothing. It could start today under the 2026 operating doctrine's decision filter — IF Conley decides The River Room qualifies as a 2026 priority (it's currently classified as long-range, not active). The plan itself anticipates that the digital revenue operation starts before the physical space opens.
+
+---
+
+## [2026-04-16] ingest | Daily-Recap_2026-04-15.md
+
+**Source type:** BA workday log — Gmail sent mail, HubSpot calls/notes, Slack (BA + AutoVitals workspaces), Claude chat history  
+**Pages created:** 1 (`daily-recap-2026-04-15.md`)  
+**Pages updated:** 3 (`conley-potter.md`, `index.md`, `log.md`)
+
+### What this source contains
+
+A structured end-of-day recap of Conley's BA workday on Wednesday, April 15, 2026. High-volume operational day:
+
+- **5 client follow-up emails**: Heights Expert Automotive (Heather), Bernhard Auto Works (Dave), Chris Knopp/Paul Marsh website onboarding, Mike @ Mechanics of West Allis, Jaime (new inbound via AutoBoost form).
+- **4 partner/referral threads**: Turnkey Auto Marketing (Jared Baker — Advanced LSA inquiry for a multi-shop "huge stinking deal"; Suzanne Berger — new client referral), AutoVitals (Carly Lama — billing transfer + Stan performance; Carlos Massaquoi — search terms vs. search themes clarification; Shelby Maggard — Lael's meeting rescheduling).
+- **6 substantive HubSpot calls**: Kevin @ Exclusively Imports (33 min monthly review), Andy Makarevich (no-show), Brian @ Legacy Auto Care (31 min new prospect), Gina @ Metric Motors + Adam (49 min, Adam-led).
+- **1 handbook policy change**: Conley identified a travel time compensation clause that conflicts with 29 C.F.R. § 785.37; recommended removal; Adam agreed same day.
+- **1 healthcare discussion**: Micah exploring 100% minimum tier coverage ($310 vs. $155 current employee share).
+- **13 open items carrying forward** across clients, partners, and internal policy.
+
+### What changed
+
+- **`daily-recap-2026-04-15.md`** (new) — Full summary page. Covers all 9 operational sections, open items table, and a "What This Reveals" synthesis section. New page type: `log` (first in the Day Job Logs category).
+- **`conley-potter.md`** (updated) — Two additions:
+  1. **Partner ecosystem section** (under Day Job): Turnkey Auto Marketing and AutoVitals named as primary referral/co-delivery channels with key contacts.
+  2. **Legal/compliance proactivity paragraph** (under Working Style): The 29 C.F.R. § 785.37 incident documented as a concrete example of how Conley operates in his BA role.
+  LSA also added explicitly to the BA services line (was implied but not named).
+- **`index.md`** (updated) — Source count 12→13, page count 27→28. New "Day Job Logs" section added. New source row added.
+
+### Notable observations
+
+- The partner ecosystem (Turnkey + AutoVitals) is structurally important for BA's business — referrals, co-managed clients, and service scope questions all flow through these channels. This was previously undocumented in the wiki.
+- The FLSA compliance catch is the clearest operational example of what "Director of Client Success & Strategy" behavior looks like at BA — unsolicited, legally literate, corrective, and immediately effective. Worth referencing if the formal title alignment ever needs justification.
+- The distinction between *search terms* (Search campaigns) and *search themes* (Performance Max) that Conley explained to Carlos is a signal that BA's clients are running Performance Max campaigns — a nuance that affects reporting and optimization decisions.
+- 13 open items after a single day suggests the BA role is consistently high-load. The 2026 operating doctrine designates BA as the "income foundation" — this log shows the operational density that entails.
