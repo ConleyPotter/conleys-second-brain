@@ -1,7 +1,13 @@
+---
+type: asset
+tags: [identity, personal-brand, public-facing]
+created: 2026-04-14
+updated: 2026-04-16
+sources: [Personal Portfolio Website Current State 4.14.26.md, ACE Pivot Explanation.md]
+---
+
 # Portfolio Website — Current State
 
-**Tags:** identity, personal-brand, public-facing, projects  
-**Sources:** Personal Portfolio Website Current State 4.14.26.md, ACE Pivot Explanation.md  
 **Related:** [[conley-potter]], [[brand-voice]], [[ace-overview]], [[ace-legacy]], [[the-sentinel]], [[thought-leader-engine]], [[career-history]]
 
 ---

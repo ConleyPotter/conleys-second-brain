@@ -1,7 +1,13 @@
+---
+type: strategy
+tags: [finance, unit-economics]
+created: 2026-04-14
+updated: 2026-04-16
+sources: [ACE Business Plan_ Autonomous Freelance Agent.md, ACE Phase 1 Reference Brief.md]
+---
+
 # Financial Projections
 
-**Tags:** finance, unit-economics  
-**Sources:** Business Plan, Phase 1 Reference Brief  
 **Related:** [[ace-overview]], [[phase-1-lead-enrichment]], [[phase-2-content-vectors]], [[phase-3-infrastructure]], [[data-enrichment-apis]]
 
 ---

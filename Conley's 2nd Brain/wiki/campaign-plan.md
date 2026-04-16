@@ -1,7 +1,13 @@
+---
+type: marketing
+tags: [marketing, campaign, phase-1]
+created: 2026-04-14
+updated: 2026-04-16
+sources: [ACE_Phase1_Campaign_Plan.md]
+---
+
 # Phase I Campaign Plan — "First Contract"
 
-**Tags:** marketing, campaign, phase-1  
-**Sources:** ACE_Phase1_Campaign_Plan.md  
 **Related:** [[ace-overview]], [[client-acquisition]], [[brand-voice]], [[upwork-portfolio]], [[platform-comparison]], [[conley-potter]]
 
 ---

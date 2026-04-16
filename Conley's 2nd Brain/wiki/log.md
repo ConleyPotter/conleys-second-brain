@@ -371,3 +371,37 @@ A structured end-of-day recap of Conley's BA workday on Wednesday, April 15, 202
 - **1 new weekly recap page**: `weekly-recap-2026-04-06.md` for the Apr 6–12 source
 - **New page type**: `work-log` (archival, dated, never modified post-creation)
 - **CLAUDE.md changes**: add `work-log` type, update active domains, add `domain:` frontmatter field, add rolling vs. archival distinction, add recurring-source ingest pattern, update index section list
+
+---
+
+## [2026-04-16] lint | Frontmatter standardization — 17 pages converted to YAML
+
+**Pages fixed:** 18 (`ace-overview.md`, `conley-potter.md`, `financial-projections.md`, `platform-comparison.md`, `tech-stack.md`, `client-acquisition.md`, `phase-1-lead-enrichment.md`, `data-enrichment-apis.md`, `phase-2-content-vectors.md`, `phase-3-infrastructure.md`, `campaign-plan.md`, `brand-voice.md`, `upwork-portfolio.md`, `career-history.md`, `portfolio-website.md`, `ace-legacy.md`, `the-sentinel.md`, `daily-recap-2026-04-15.md`)  
+**Suggestions made:** 0
+
+### Issues found and fixed
+
+**Frontmatter format inconsistency (17 pages):**  
+The prior lint flagged that most pages used informal `**Tags:**` / `**Sources:**` inline headers instead of the YAML frontmatter defined in CLAUDE.md. All 17 affected pages have been converted to proper YAML format:
+
+```yaml
+---
+type: [page type]
+tags: []
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+sources: []
+---
+```
+
+The inline `**Tags:**` and `**Sources:**` lines were removed from page bodies. The `**Related:**` lines were preserved in place — `related` is not a frontmatter field in the CLAUDE.md schema.
+
+**Source name normalization:** Inline source references that used shorthand (e.g., "Business Plan", "Phase 1 Reference Brief") were expanded to match actual raw-source filenames (e.g., `ACE Business Plan_ Autonomous Freelance Agent.md`, `ACE Phase 1 Reference Brief.md`).
+
+**Missing `updated:` field (1 page):**  
+`daily-recap-2026-04-15.md` was missing the `updated:` field. Added `updated: 2026-04-16`.
+
+### Remaining known issues (not addressed in this pass)
+
+- `type: log` in `daily-recap-2026-04-15.md` does not match any type in the CLAUDE.md schema. The `wiki-structure-planning.md` synthesis recommends adding `work-log` as a new type; that CLAUDE.md update has not been made yet.
+- `domain:` frontmatter field recommended by `wiki-structure-planning.md` has not been added — CLAUDE.md schema update required first.

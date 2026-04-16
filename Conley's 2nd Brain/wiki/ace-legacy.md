@@ -1,7 +1,13 @@
+---
+type: project
+tags: [history, archived, ace, context]
+created: 2026-04-14
+updated: 2026-04-16
+sources: [ACE What It Is, How It Works, and Why It Exists.md, ACE Business Plan_ Autonomous Freelance Agent.md]
+---
+
 # ACE — Legacy System (Pre-Pivot)
 
-**Tags:** history, archived, ace, context  
-**Sources:** ACE What It Is, How It Works, and Why It Exists.md, ACE Business Plan_ Autonomous Freelance Agent.md  
 **Related:** [[ace-overview]], [[the-sentinel]]
 
 ---
