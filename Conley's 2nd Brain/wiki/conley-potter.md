@@ -2,7 +2,7 @@
 
 **Tags:** operator, context, identity  
 **Sources:** Claude Accounts' Saved Memories.md, Personal Portfolio Website Current State 4.14.26.md  
-**Related:** [[ace-overview]], [[brand-voice]], [[campaign-plan]], [[tech-stack]], [[career-history]], [[portfolio-website]], [[the-sentinel]], [[thought-leader-engine]]
+**Related:** [[ace-overview]], [[brand-voice]], [[campaign-plan]], [[tech-stack]], [[career-history]], [[portfolio-website]], [[the-sentinel]], [[thought-leader-engine]], [[the-river-room]]
 
 ---
 
@@ -27,7 +27,11 @@ Conley Potter is the sole operator of ACE. This page consolidates personal and p
 - Ethan Wauls — analytics
 - Micah Dilts — acting COO
 
-**BA services:** Websites, enhanced SEO, listing management, Google/Bing/programmatic ads, call tracking, review platform, social media, video marketing, email marketing, revenue attribution; geographic exclusivity offered to clients.
+**BA services:** Websites, enhanced SEO, listing management, Google/Bing/programmatic ads, Local Service Ads (Standard and Advanced tiers), call tracking, review platform, social media, video marketing, email marketing, revenue attribution; geographic exclusivity offered to clients.
+
+**Partner ecosystem:** Two primary referral/co-delivery channels:
+- **Turnkey Auto Marketing** (Jared Baker, Suzanne Berger) — sends BA client referrals; BA provides managed LSA services to TK's prospects. A multi-shop Advanced LSA lead (plus Google Ads and website) came through this channel in April 2026.
+- **AutoVitals** — shared client base; Conley coordinates frequently with Carly Lama, Carlos Massaquoi, and Shelby Maggard on billing transitions, search reporting, and meeting scheduling for co-managed clients.
 
 **AutoBoost context:** Conley appears heavily in AutoBoost's video content (internal videographer, in-house studio). Potential future CEO trajectory has been explored with Adam.
 
@@ -85,12 +89,24 @@ A scalable AI framework for automating organic social presence and professional 
 ## Long-Range Vision Projects
 
 ### The River Room
-A long-range creative concept: a creative commons and digital workshop combining a café/bookshop, membership-based creative studio, and AI/digital skills co-op — intended to serve small-town community infrastructure. Not active; exploratory.
+A long-range physical community project: a creative commons and digital workshop in a restored historic building in Marietta, PA. Three layers — café/bookshop (The Commons), membership-based creative studio (The Studio), and AI/digital skills co-op (The Workshop). A full draft business plan (V2, 2026) exists, including a dual-operation financial model where a parallel digital revenue strategy de-risks the physical space. Status: pre-Phase 0, no building acquired, no capital committed. ACE digital revenue is the intended seed capital. See [[the-river-room]].
 
-### River & Root (Podcast Concept)
-A podcast concept that emerged from River Room planning, framed around building, creating, and belonging in specific places. Not active; exploratory.
+### River & Root
+A broader long-range project — more than just a podcast. Shares thematic DNA with [[building-out-loud]] but is distinct from it. Sources forthcoming; do not conflate the two.
 
 Both projects reflect a consistent throughline in Conley's thinking: connecting **place, community, creativity, and technology**.
+
+---
+
+## 2026 Posture
+
+**Year theme:** Consolidation and Signal — not expansion by addition, but clarity, leverage, and compounding focus.
+
+**Paused projects (2025):** [[muse]], [[companion]], [[book-project-2025]] — three projects Conley intends to return to. Paused to consolidate on ACE and BA.
+
+**Decision filter for 2026:** Say yes only if it strengthens BA or ACE, increases calm/leverage/clarity, or compounds attention. Say no if it creates urgency without leverage, pulls into paused projects, or commoditizes authority. When unsure: default to restraint.
+
+See [[operating-doctrine-2026]] for full doctrine and end conditions.
 
 ---
 
@@ -111,6 +127,8 @@ Both projects reflect a consistent throughline in Conley's thinking: connecting 
 2. Wait for Conley's confirmation before drafting anything
 3. Draft only approved emails after confirmation
 4. Archive P4 emails if tool allows
+
+**Legal/compliance proactivity:** On April 15, 2026, Conley identified an unsolicited FLSA compliance issue in BA's employee handbook — a travel time compensation clause that conflicted with 29 C.F.R. § 785.37 (special one-day assignment travel to another city is compensable time, minus normal commute). He cited the specific federal regulation, recommended removing the clause pending HR/legal review, and Adam agreed same-day. This kind of initiative supports the in-progress Director title alignment.
 
 **Pattern to be aware of:** Tends toward overdelivering at work and anxiety-driven difficulty disengaging even when rest is warranted.
 

@@ -253,3 +253,102 @@ The current copy from all seven sections of Conley's personal portfolio website:
 4. **`index.md`** — Added the missing 10th source: `Thought Leader Engine - Project ACE x OpenClaw.md`. Confirmed to exist in `raw-sources/`. The prior ingest session (which produced `thought-leader-engine.md`) ran out of Claude Cowork tokens before the log/index update step completed. Source count corrected: 9 → 10.
 
 5. **`portfolio-website.md`** (continued) — Clarified that the three blog posts in the Writing section are **placeholder stubs** — titles and topics are defined, but no post content has been written. Added a note that a `writing/` wiki section is a natural future addition when the Personal domain opens.
+
+## [2026-04-14] ingest | 2026 Operating Doctrine
+
+**Source type:** Personal operating doctrine — Conley's written principles, priorities, and commitments for the year
+**Pages created:** 6 (`domain-personal.md`, `operating-doctrine-2026.md`, `building-out-loud.md`, `muse.md`, `companion.md`, `book-project-2025.md`)
+**Pages updated:** 3 (`conley-potter.md`, `brand-voice.md`, `index.md`)
+
+### What this source contains
+
+A 9-section personal operating doctrine covering Conley's year theme (Consolidation and Signal), the two pillars of his leverage stack (BA and ACE), his creative output stance, public presence doctrine, body and capacity philosophy, relational commitments, inner work orientation, a weekly decision filter, and five end conditions for the year. First source that is explicitly personal rather than ACE-operational.
+
+### What changed
+
+- **`domain-personal.md`** (new) — First Personal domain anchor page. Defines what the domain covers and links out to all Personal-domain pages. Includes the 2026 year-at-a-glance.
+- **`operating-doctrine-2026.md`** (new) — Full summary of the doctrine. All nine sections preserved. The decision filter (Section 8) is written as a standing operational tool.
+- **`building-out-loud.md`** (new) — Stub for the solo podcast named in the doctrine as the primary public channel for 2026. Notes the distinction from River & Root (separate, broader project; sources forthcoming).
+- **`muse.md`**, **`companion.md`**, **`book-project-2025.md`** (new stubs) — Three projects explicitly paused in the doctrine. No detail available yet; Conley intends to return to each.
+- **`conley-potter.md`** (updated) — River & Root corrected from "Podcast Concept" to broader long-range project. New "2026 Posture" section added: year theme, paused projects, and decision filter summary.
+- **`brand-voice.md`** (updated) — Building Out Loud added as primary channel entry in Channel-Specific Notes.
+- **`index.md`** (updated) — Wiki renamed to "Conley Potter's 2nd Brain — Index" to reflect expanded scope. Source count: 10 → 11. Page count: 19 → 26. New Personal section added. Projects section expanded with four new entries.
+
+### Notable observations
+
+- This is the first source that establishes a formal hierarchy between BA and ACE: BA is the income floor; ACE is the owned asset built on top of it. The wiki previously treated BA as background context. The doctrine reframes it as load-bearing infrastructure.
+- The decision filter (Section 8) is the most immediately useful operational artifact in this source — a weekly tool that can govern any new request or project consideration.
+- Three unnamed 2025 projects (Muse, Companion, book) surface here for the first time. They are named but unexplained; stubs created to hold the space until sources arrive.
+- "Building Out Loud" and "River & Root" are now explicitly distinguished. River & Root is broader than a podcast; sources needed before it can be properly documented.
+- "Integration beats identity performance" (Section 7) is the most direct articulation of the anti-performance stance that runs through the brand voice — worth surfacing if brand voice is ever revised.
+
+---
+
+## [2026-04-16] ingest | the-river-room-business-plan-v2.md
+
+**Source type:** Full V2 draft business plan for The River Room — community creative commons and digital workshop concept  
+**Pages created:** 1 (`the-river-room.md`)  
+**Pages updated:** 3 (`conley-potter.md`, `domain-personal.md`, `index.md`)
+
+### What this source contains
+
+A complete 2026 draft business plan for The River Room, a long-range physical community project Conley has been developing. The plan covers vision and values, market opportunity, space design, programming, operations, financial projections, funding strategy, community partnerships, and a phased launch strategy. This is V2 — the significant addition over V1 is a **dual-operation financial model** that introduces a parallel digital revenue strategy (evergreen products, paid community, cohort courses, consulting) as a separate but mission-aligned entity that funds and de-risks the physical space. The physical operation no longer needs to be profitable from day one; it needs to be viable while the digital operation generates surplus capital.
+
+Key data points extracted:
+- Three-layer model: The Commons (café/bookshop, open to all), The Studio (membership creative co-working), The Workshop (AI/digital skills co-op with corporate training as highest-margin stream)
+- Startup cost estimate: $172K–$336K total
+- Combined 4-year revenue: up to $462K–$742K by Year 4; net operating position reaches $202K–$372K by Year 4
+- Year 3 threshold built into the plan: if digital operation isn't generating ≥$75K annually, a formal strategic review triggers
+- Funding sources include digital revenue pre-accumulation of $40K–$80K — explicitly the ACE-equivalent digital operation
+- Phased launch: Phase 0 is building-independent (pop-up workshops, newsletter) and can begin immediately
+- AutoBoost named as a formal strategic partner for the digital clinic
+
+### What changed
+
+- **`the-river-room.md`** (new) — Full summary page. Covers all nine sections of the business plan with key tables preserved. Includes connections to [[conley-potter]], [[brand-voice]], [[the-sentinel]], [[financial-projections]], and [[operating-doctrine-2026]]. Five open questions filed at the bottom — most importantly: does the "companion Digital Revenue Strategy document" referenced in the financial section exist?
+- **`conley-potter.md`** — Long-Range Vision Projects section: The River Room entry expanded from one vague sentence to a full paragraph describing the three-layer model, V2 financial structure, current status (pre-Phase 0), and link to the new page. `[[the-river-room]]` added to Related.
+- **`domain-personal.md`** — `[[the-river-room]]` added to the Pages in this domain table and to Related. It belongs in Personal domain: it's a long-range community project, not an ACE operation.
+- **`index.md`** — Source count 11→12, page count 26→27. `[[the-river-room]]` added to Projects section. New source row added to Source Files.
+
+### Notable observations
+
+- The V2 plan's dual-operation structure is a direct application of Conley's ACE mental model to a physical business. The digital revenue operation described for The River Room is structurally identical to what ACE is building: evergreen products, paid community, cohort courses, consulting. This is not incidental — it's the most concrete evidence that ACE's architecture is being designed with The River Room in mind.
+- AutoBoost appears as a named strategic partner for the digital clinic (co-branding + client referral pipeline). This is the only place in the wiki where Conley's day job and a long-range personal project intersect operationally. Worth monitoring: this is either a future conversation with Adam Kushner or a plan Conley hasn't surfaced yet.
+- "Human First" and "Honest and Useful" — the River Room's stated core values — are direct echoes of the documented brand voice. The plan reads as an expression of the same identity that informs ACE's public-facing stance.
+- The plan distinguishes Building Out Loud (2026 active podcast) from the River Room programming (future speaker series, River Room Creative Summit) without naming the connection. River & Root also appears unresolved. All three share thematic DNA: place, community, audio/conversation, Susquehanna Valley.
+- Phase 0 requires no building and costs almost nothing. It could start today under the 2026 operating doctrine's decision filter — IF Conley decides The River Room qualifies as a 2026 priority (it's currently classified as long-range, not active). The plan itself anticipates that the digital revenue operation starts before the physical space opens.
+
+---
+
+## [2026-04-16] ingest | Daily-Recap_2026-04-15.md
+
+**Source type:** BA workday log — Gmail sent mail, HubSpot calls/notes, Slack (BA + AutoVitals workspaces), Claude chat history  
+**Pages created:** 1 (`daily-recap-2026-04-15.md`)  
+**Pages updated:** 3 (`conley-potter.md`, `index.md`, `log.md`)
+
+### What this source contains
+
+A structured end-of-day recap of Conley's BA workday on Wednesday, April 15, 2026. High-volume operational day:
+
+- **5 client follow-up emails**: Heights Expert Automotive (Heather), Bernhard Auto Works (Dave), Chris Knopp/Paul Marsh website onboarding, Mike @ Mechanics of West Allis, Jaime (new inbound via AutoBoost form).
+- **4 partner/referral threads**: Turnkey Auto Marketing (Jared Baker — Advanced LSA inquiry for a multi-shop "huge stinking deal"; Suzanne Berger — new client referral), AutoVitals (Carly Lama — billing transfer + Stan performance; Carlos Massaquoi — search terms vs. search themes clarification; Shelby Maggard — Lael's meeting rescheduling).
+- **6 substantive HubSpot calls**: Kevin @ Exclusively Imports (33 min monthly review), Andy Makarevich (no-show), Brian @ Legacy Auto Care (31 min new prospect), Gina @ Metric Motors + Adam (49 min, Adam-led).
+- **1 handbook policy change**: Conley identified a travel time compensation clause that conflicts with 29 C.F.R. § 785.37; recommended removal; Adam agreed same day.
+- **1 healthcare discussion**: Micah exploring 100% minimum tier coverage ($310 vs. $155 current employee share).
+- **13 open items carrying forward** across clients, partners, and internal policy.
+
+### What changed
+
+- **`daily-recap-2026-04-15.md`** (new) — Full summary page. Covers all 9 operational sections, open items table, and a "What This Reveals" synthesis section. New page type: `log` (first in the Day Job Logs category).
+- **`conley-potter.md`** (updated) — Two additions:
+  1. **Partner ecosystem section** (under Day Job): Turnkey Auto Marketing and AutoVitals named as primary referral/co-delivery channels with key contacts.
+  2. **Legal/compliance proactivity paragraph** (under Working Style): The 29 C.F.R. § 785.37 incident documented as a concrete example of how Conley operates in his BA role.
+  LSA also added explicitly to the BA services line (was implied but not named).
+- **`index.md`** (updated) — Source count 12→13, page count 27→28. New "Day Job Logs" section added. New source row added.
+
+### Notable observations
+
+- The partner ecosystem (Turnkey + AutoVitals) is structurally important for BA's business — referrals, co-managed clients, and service scope questions all flow through these channels. This was previously undocumented in the wiki.
+- The FLSA compliance catch is the clearest operational example of what "Director of Client Success & Strategy" behavior looks like at BA — unsolicited, legally literate, corrective, and immediately effective. Worth referencing if the formal title alignment ever needs justification.
+- The distinction between *search terms* (Search campaigns) and *search themes* (Performance Max) that Conley explained to Carlos is a signal that BA's clients are running Performance Max campaigns — a nuance that affects reporting and optimization decisions.
+- 13 open items after a single day suggests the BA role is consistently high-load. The 2026 operating doctrine designates BA as the "income foundation" — this log shows the operational density that entails.
