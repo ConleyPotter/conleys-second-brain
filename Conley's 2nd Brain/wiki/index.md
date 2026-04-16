@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
 **Last updated:** 2026-04-16  
-**Source count:** 12  
-**Page count:** 27
+**Source count:** 13  
+**Page count:** 28
 
 This wiki documents Conley Potter's ACE business and broader life context. It began as an ACE-only knowledge base and is expanding into a full second brain covering personal operating philosophy, projects, identity, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -66,6 +66,12 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | [[domain-personal]] | Personal domain anchor — what this domain covers and current year at a glance |
 | [[operating-doctrine-2026]] | Full 2026 operating doctrine — year theme, leverage stack, decision filter, end conditions |
 
+## Day Job Logs
+
+| Page | Summary |
+|---|---|
+| [[daily-recap-2026-04-15]] | BA workday recap Apr 15: client pipeline, Turnkey/AutoVitals partners, FLSA compliance catch, 13 open items |
+
 ---
 
 ## Source Files
@@ -85,3 +91,4 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | `Thought Leader Engine - Project ACE x OpenClaw.md` | Product architecture doc — The Proactive Ghost commercial design, multi-tenant OpenClaw deployment, SOUL.md memory system, content waterfall pipeline | 2026-04-14 |
 | `2026 Operating Doctrine.md` | Personal operating doctrine — year theme, leverage stack, creative stance, public presence, body/relationships/inner work, decision filter, 2026 end conditions | 2026-04-14 |
 | `the-river-room-business-plan-v2.md` | Full V2 business plan for The River Room — three-layer model (Commons, Studio, Workshop), dual physical/digital revenue strategy, 4-year projections, phased launch, funding strategy | 2026-04-16 |
+| `Daily-Recap_2026-04-15.md` | BA workday log — client follow-ups, partner/referral threads, HubSpot calls, FLSA handbook incident, 13 open items | 2026-04-16 |

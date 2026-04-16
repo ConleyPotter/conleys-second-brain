@@ -27,7 +27,11 @@ Conley Potter is the sole operator of ACE. This page consolidates personal and p
 - Ethan Wauls — analytics
 - Micah Dilts — acting COO
 
-**BA services:** Websites, enhanced SEO, listing management, Google/Bing/programmatic ads, call tracking, review platform, social media, video marketing, email marketing, revenue attribution; geographic exclusivity offered to clients.
+**BA services:** Websites, enhanced SEO, listing management, Google/Bing/programmatic ads, Local Service Ads (Standard and Advanced tiers), call tracking, review platform, social media, video marketing, email marketing, revenue attribution; geographic exclusivity offered to clients.
+
+**Partner ecosystem:** Two primary referral/co-delivery channels:
+- **Turnkey Auto Marketing** (Jared Baker, Suzanne Berger) — sends BA client referrals; BA provides managed LSA services to TK's prospects. A multi-shop Advanced LSA lead (plus Google Ads and website) came through this channel in April 2026.
+- **AutoVitals** — shared client base; Conley coordinates frequently with Carly Lama, Carlos Massaquoi, and Shelby Maggard on billing transitions, search reporting, and meeting scheduling for co-managed clients.
 
 **AutoBoost context:** Conley appears heavily in AutoBoost's video content (internal videographer, in-house studio). Potential future CEO trajectory has been explored with Adam.
 
@@ -123,6 +127,8 @@ See [[operating-doctrine-2026]] for full doctrine and end conditions.
 2. Wait for Conley's confirmation before drafting anything
 3. Draft only approved emails after confirmation
 4. Archive P4 emails if tool allows
+
+**Legal/compliance proactivity:** On April 15, 2026, Conley identified an unsolicited FLSA compliance issue in BA's employee handbook — a travel time compensation clause that conflicted with 29 C.F.R. § 785.37 (special one-day assignment travel to another city is compensable time, minus normal commute). He cited the specific federal regulation, recommended removing the clause pending HR/legal review, and Adam agreed same-day. This kind of initiative supports the in-progress Director title alignment.
 
 **Pattern to be aware of:** Tends toward overdelivering at work and anxiety-driven difficulty disengaging even when rest is warranted.
 
