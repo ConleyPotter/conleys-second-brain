@@ -525,3 +525,37 @@ A short but high-signal Threads post from Boris Cherny (April 16, 2026) on getti
 - The verification-first workflow pattern from Cherny is directly applicable to how Conley uses Claude Code in this wiki's own maintenance (the `/simplify` skill is already in use). The advice is self-referential.
 - Opus 4.7 running longer and more autonomously changes the economics of the HITL gate in ACE. If the model can self-verify and run extended workstreams, the operator's role compresses further toward final approval rather than active monitoring. This is additive to ACE's core thesis about operator bandwidth.
 - The Chromium extension for frontend verification is a new tool not yet mentioned anywhere else in the wiki. Worth noting if ACE's Phase II (SEO content workflows) eventually involves frontend verification steps.
+
+---
+
+## [2026-04-17] ingest | Three external articles — LLM Wiki pattern, OpenAI Codex update, gstack
+
+**Source type:** External articles — two AI tooling/methodology posts (gstack README, OpenAI blog post) and one conceptual framework document (Karpathy's LLM Wiki pattern)
+**Pages created:** 3 (`llm-wiki-pattern.md`, `openai-codex-2026-update.md`, `gstack.md`)
+**Pages updated:** 4 (`domain-general.md`, `tech-stack.md`, `opus-4-7-workflow.md`, `index.md`)
+
+### What this source contains
+
+**`CLAUDE.md from Kaparthy.md`** — Andrej Karpathy's "LLM Wiki" idea file describing the pattern for building personal knowledge bases with LLMs. The core argument: instead of retrieving from raw documents at query time (RAG), an LLM incrementally builds and maintains a persistent wiki — a compounding artifact where cross-references are pre-built, contradictions pre-flagged, and synthesis already reflects everything read. Three layers: raw sources (immutable), wiki (LLM-owned), schema (CLAUDE.md / AGENTS.md). Describes the same ingest / query / lint operations and the same index.md + log.md navigation structure that this wiki uses. Connects to Vannevar Bush's 1945 Memex concept. Intentionally abstract — designed to be shared with an LLM agent to instantiate a version that fits the user's domain.
+
+**`Codex for (almost) everything.md`** — OpenAI's April 15, 2026 blog post on a major Codex app update. New capabilities: background computer use (multiple parallel agents operating your Mac without interfering with your work), in-app browser with page annotation, gpt-image-1.5 image generation inside the coding workflow, 90+ new plugins (MCP servers + app integrations), GitHub PR review support, multi-tab terminals, remote devboxes via SSH, memory across sessions (preferences and corrections), and proactive work suggestions. The memory and proactive suggestion features implement the same "persistent background agent" pattern as ACE's Proactive Ghost / heartbeat design.
+
+**`garrytangstack...md`** — Garry Tan (YC CEO) open-sourcing his Claude Code setup: 23 slash commands across the full sprint lifecycle (Think → Plan → Build → Review → Test → Ship → Reflect). Highlights: 600K+ lines of production code in 60 days part-time; `/qa` giving Claude a real Chromium browser as the unlock for scaling to 12+ parallel workers; native OpenClaw integration via ACP; `/codex` for cross-model second opinion (Claude + OpenAI); the Confusion Protocol (Claude stops and asks rather than guesses on architectural decisions). MIT license, 10 AI agents supported. Garry Tan background: YC CEO, Palantir (early eng/PM/design), Posterous (cofounder, sold to Twitter), Bookface (built at YC). Uses Conductor for 10–15 parallel sprint management.
+
+### What changed
+
+- `llm-wiki-pattern.md` (new) — Synthesis page documenting Karpathy's three-layer architecture, the four core operations (ingest, query, lint, and the overlooked "file answers back" pattern), the index.md / log.md navigation files, optional tooling (Obsidian, qmd, Marp, Dataview), and the Memex lineage. Includes a "Meta" section noting this wiki is a direct instance of the pattern described.
+- `openai-codex-2026-update.md` (new) — Tool analysis page covering all new Codex capabilities, availability rollout, strategic context vs. Claude Code + gstack, and relevance to ACE (Proactive Ghost pattern, multi-agent parallelism, MCP architecture parallels).
+- `gstack.md` (new) — Tool analysis page with full skills reference table organized by sprint phase, the parallel sprints model via Conductor, OpenClaw integration details, and a "Relevance to ACE" section connecting the single-operator leverage thesis, the `/qa` unlock, the Confusion Protocol, and the Phase III OpenClaw + gstack combination.
+- `domain-general.md` — Sources frontmatter added; three new page entries added to the Pages in this domain table.
+- `tech-stack.md` — New "Claude Code Tooling" section added before "What ACE Does NOT Use," documenting gstack as a Claude Code extension with direct OpenClaw ACP integration. Sources frontmatter updated.
+- `opus-4-7-workflow.md` — New closing section "Related: gstack and the Verification-First Ecosystem" added, connecting Cherny's verification-first methodology to gstack's `/qa` browser grounding and the Confusion Protocol. Karpathy's name tied to the gstack README quote.
+- `index.md` — Source count 18→21, page count 42→45. Three new General Knowledge rows added. Three new Source Files rows added.
+
+### Notable observations
+
+- The Karpathy article is the conceptual blueprint for this wiki. The fact that it arrived as an external source — read and ingested like any other — while describing the exact system being used to ingest it is worth noting. The CLAUDE.md schema already implements every layer Karpathy describes. The wiki has been running the pattern before encountering the pattern's written articulation.
+- gstack and OpenClaw share an integration layer (ACP). ACE's Phase III stack and the gstack sprint framework are potentially combinable without bridging work — they already speak the same protocol. This is the most concrete technical overlap between external tooling and ACE's documented architecture.
+- Garry Tan's output metrics (600K LOC / 60 days, 10–15 parallel sprints) are the closest real-world reference case for the ACE single-operator leverage thesis. The numbers are in software, not B2B lead research, but the structural claim is identical: one person with the right tooling can match a team.
+- The OpenAI Codex "proactive suggestions" feature (pushing work rather than waiting to be invoked) is the consumer product version of the Proactive Ghost heartbeat pattern in [[thought-leader-engine]]. Both arrived at the same architecture from different angles — this is a market validation signal, not a threat.
+- Three sources, three different scales of abstraction: Karpathy provides the conceptual framework (why), Tan provides the operational system (how), OpenAI provides the market context (where the industry is heading). Together they map the current frontier of agentic tooling from multiple vantage points.

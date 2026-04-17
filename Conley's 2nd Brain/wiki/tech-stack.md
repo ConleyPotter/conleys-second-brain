@@ -3,6 +3,7 @@ type: operations
 tags: [infrastructure, tools]
 created: 2026-04-14
 updated: 2026-04-17
+sources: [ACE Business Plan_ Autonomous Freelance Agent.md, ACE Phase 1 Reference Brief.md, ACE Pivot Explanation.md, garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA.md]
 sources: [ACE Business Plan_ Autonomous Freelance Agent.md, ACE Phase 1 Reference Brief.md, ACE Pivot Explanation.md]
 ---
 
@@ -140,6 +141,18 @@ n8n workflows must be hardened for silent failures (rate limits, timeouts, third
 2. **Context Extraction** — Set node parses workflow name, failed node, error message, execution URL; pushes to Slack
 3. **Retry / Exponential Backoff** — Retry on Fail enabled for critical nodes; backoff loop: 1s → 2s → 4s
 4. **Graceful Degradation** — "Continue On Fail" enabled on non-critical nodes (e.g., LinkedIn URL lookup); workflow continues with partial data rather than crashing
+
+---
+
+## Claude Code Tooling
+
+**gstack** (Garry Tan / open source, MIT)
+- 23 slash commands that turn Claude Code into a virtual engineering team
+- Sprint process: Think → Plan → Build → Review → Test → Ship → Reflect
+- Key skills for ACE workflow: `/office-hours` (product interrogation), `/review` (production bug detection), `/qa` (real browser testing), `/cso` (OWASP + STRIDE security), `/ship` (test-verified PR creation)
+- Native OpenClaw integration via ACP — gstack skills are available in OpenClaw-spawned Claude Code sessions automatically
+- The `/codex` skill adds an independent OpenAI Codex review of any diff — cross-model analysis when both Claude and Codex have reviewed the same branch
+- See [[gstack]] for full skill reference and relevance to ACE
 
 ---
 

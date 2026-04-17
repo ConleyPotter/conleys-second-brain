@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
 **Last updated:** 2026-04-17  
-**Source count:** 18  
-**Page count:** 42
+**Source count:** 21  
+**Page count:** 45
 
 This wiki documents Conley Potter's ACE business and broader life context. It began as an ACE-only knowledge base and is expanding into a full second brain covering personal operating philosophy, projects, identity, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -23,6 +23,9 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 |---|---|
 | [[domain-general]] | General Knowledge domain anchor — external articles, AI tools, research, and industry signals |
 | [[opus-4-7-workflow]] | Boris Cherny's Threads thread on Claude Opus 4.7 — verification-first workflow, context-specific methods, the agentic shift |
+| [[llm-wiki-pattern]] | Karpathy's LLM Wiki pattern — the three-layer architecture (raw sources / wiki / schema) that underlies this second brain |
+| [[openai-codex-2026-update]] | OpenAI Codex April 2026 update — computer use, in-app browser, memory, 90+ plugins; competitive context for agentic coding |
+| [[gstack]] | Garry Tan's 23-skill Claude Code toolkit — sprint process, parallel sprints, OpenClaw integration, solo operator leverage |
 
 ## Day Job (BA)
 
@@ -124,3 +127,6 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | `BA Team Roster.md` | Official BA team roster — 13 members with formal titles, Slack names, locations, and role descriptions | 2026-04-17 |
 | `Daily-Recap_2026-04-16.md` | BA workday log — split day; FLACA conference departure, client pipeline updates, Tilson's dropped, Mechanics of West Allis booked | 2026-04-17 |
 | `Opus 4.7 Thread by Boris Cherny.md` | Threads post — workflow patterns for Claude Opus 4.7; verification-first approach, agentic shift | 2026-04-17 |
+| `CLAUDE.md from Kaparthy.md` | Karpathy's LLM Wiki pattern — three-layer architecture (raw sources / wiki / schema), core operations, division of labor between human and LLM | 2026-04-17 |
+| `Codex for (almost) everything.md` | OpenAI blog post — April 2026 Codex update; computer use, in-app browser, memory, 90+ plugins, parallel background agents | 2026-04-17 |
+| `garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA.md` | GitHub README — 23 Claude Code slash commands forming a virtual engineering team; sprint process, OpenClaw integration, parallel sprints via Conductor | 2026-04-17 |

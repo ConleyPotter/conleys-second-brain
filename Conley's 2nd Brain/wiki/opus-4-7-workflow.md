@@ -58,3 +58,11 @@ Cherny's framing: "a nice improvement with old workflows, and a significant leap
 Opus 4.7's agentic capability directly affects how Claude can be positioned in ACE's HITL co-pilot mode (see [[ace-overview]]). If Claude can run longer with self-verification baked in, the human gate shifts from active monitoring to final approval — compressing operator time against the 15-hour weekly constraint.
 
 The router model strategy in [[tech-stack]] already designates Claude Opus as the premium layer for core creative output. Opus 4.7 is a direct upgrade to that layer, with the verification-first workflow pattern being the key behavioral change to adopt.
+
+---
+
+## Related: gstack and the Verification-First Ecosystem
+
+[[gstack]] (Garry Tan's Claude Code toolkit) enforces the same verification-first discipline across an entire sprint structure — not just single prompts. The `/qa` skill gives Claude a real Chromium browser to verify its own frontend work, directly implementing the "browser verification" method Cherny describes. The Confusion Protocol in gstack (Claude stops and asks rather than guessing) is the architectural version of the same rule: don't proceed without a verification mechanism.
+
+Karpathy — quoted in the gstack README as not having "typed a line of code since December" — is operating at the same mode Cherny's framework describes: treating Claude as an autonomous agent with built-in verification loops rather than a turn-by-turn assistant.
