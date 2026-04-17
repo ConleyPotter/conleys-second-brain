@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
 **Last updated:** 2026-04-16  
-**Source count:** 13  
-**Page count:** 28
+**Source count:** 14  
+**Page count:** 38
 
 This wiki documents Conley Potter's ACE business and broader life context. It began as an ACE-only knowledge base and is expanding into a full second brain covering personal operating philosophy, projects, identity, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -17,7 +17,18 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | [[financial-projections]] | Unit economics, monthly OPEX (~$190), and the revenue ramp from $350 net (Month 1) to $4,025+ net (Month 6) |
 | [[platform-comparison]] | Upwork vs. Fiverr vs. Freelancer.com vs. Jobbers.io — fees, positioning, and strategic fit for ACE |
 
-## Operations & Tech
+## Day Job (BA)
+
+| Page | Summary |
+|---|---|
+| [[ba-overview]] | What Business Actualization is, Conley's role, tooling, team, and its position in the 2026 Operating Doctrine |
+| [[ba-products]] | BA's full service/product catalog — website tiers, Google Ads tiers, LSA tiers, programmatic, review platform, attribution |
+| [[ba-partners]] | AutoVitals and Turnkey Auto Marketing — referral structure, key contacts, commercial relationships |
+| [[ba-team]] | Internal team roles: Adam, Jon, Micah, Ethan, Courtney, Kyle, Abby, Josh |
+| [[ba-clients-pipeline]] | Rolling reference for key client accounts and pipeline — context HubSpot doesn't hold |
+| [[adam-shop-incubator]] | Adam's 6-location auto repair shop chain — content engine, incubator, real estate play; GC referral placed Apr 7 |
+
+## ACE Operations & Tech
 
 | Page                        | Summary                                                                                                                     |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -70,6 +81,7 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 
 | Page | Summary |
 |---|---|
+| [[weekly-recap-2026-04-06]] | BA week of Apr 6–12: ~20 meetings, $29,610 closed-won, shop incubator GC referral, POS conversion tracking proposal |
 | [[daily-recap-2026-04-15]] | BA workday recap Apr 15: client pipeline, Turnkey/AutoVitals partners, FLSA compliance catch, 13 open items |
 
 ## Meta
@@ -77,6 +89,7 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | Page | Summary |
 |---|---|
 | [[wiki-structure-planning]] | Structural recommendations for expanding the wiki beyond ACE — flat vs. segmented, new BA domain pages, CLAUDE.md changes |
+| [[second-brain-article]] | Portfolio writing piece — the creation and development of this second brain system, and how it adapts for teams |
 
 ---
 
@@ -98,3 +111,4 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | `2026 Operating Doctrine.md` | Personal operating doctrine — year theme, leverage stack, creative stance, public presence, body/relationships/inner work, decision filter, 2026 end conditions | 2026-04-14 |
 | `the-river-room-business-plan-v2.md` | Full V2 business plan for The River Room — three-layer model (Commons, Studio, Workshop), dual physical/digital revenue strategy, 4-year projections, phased launch, funding strategy | 2026-04-16 |
 | `Daily-Recap_2026-04-15.md` | BA workday log — client follow-ups, partner/referral threads, HubSpot calls, FLSA handbook incident, 13 open items | 2026-04-16 |
+| `conley-weekly-summary-apr-6-12-2026.md` | BA week of Apr 6–12 — ~20 meetings, 3 closed-won deals, HubSpot activity, Slack threads, notable wins | 2026-04-16 |

@@ -49,6 +49,7 @@ Authority is present. Authority is not sold.
 
 - **River & Root** — a broader, distinct long-range project that shares some thematic DNA with *Building Out Loud* but is separate. Sources forthcoming. Do not conflate the two.
 - **Brand voice** — the podcast should embody [[brand-voice]] in audio form: grounded, honest about the mess, technical but accessible, not performative.
+- **Second brain article** — [[second-brain-article]] is a portfolio essay documenting the creation and development of this wiki system. It ends with "I'm building this. You're welcome to watch." — the exact *Building Out Loud* stance. It's a natural candidate for a written companion piece or episode source.
 
 ---
 

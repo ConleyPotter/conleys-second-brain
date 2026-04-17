@@ -38,19 +38,23 @@ Every page uses a `type` frontmatter field. Current types in use:
 |Type|Purpose|Example pages|
 |---|---|---|
 |`strategy`|High-level direction and thesis|`ace-overview.md`, `financial-projections.md`|
-|`operations`|How something works day-to-day|`client-acquisition.md`, `phase-1-lead-enrichment.md`|
+|`operations`|How something works day-to-day|`client-acquisition.md`, `ba-overview.md`|
 |`tool-analysis`|Vendor/API/platform evaluation|`data-enrichment-apis.md`, `platform-comparison.md`|
 |`marketing`|Campaigns, brand, channels|`campaign-plan.md`, `brand-voice.md`|
-|`identity`|Person profile, career, public presence|`conley-potter.md`, `career-history.md`|
-|`project`|A distinct project with its own arc|`the-sentinel.md`, `thought-leader-engine.md`, `ace-legacy.md`|
+|`identity`|Person profile, career, public presence|`conley-potter.md`, `ba-team.md`|
+|`project`|A distinct project with its own arc|`the-sentinel.md`, `adam-shop-incubator.md`|
 |`asset`|Ready-to-use copy or deliverable|`upwork-portfolio.md`, `portfolio-website.md`|
-|`synthesis`|Cross-cutting analysis worth keeping|(created on demand)|
+|`synthesis`|Cross-cutting analysis worth keeping|`wiki-structure-planning.md`|
+|`work-log`|Dated snapshot of professional activity — archival, never modified post-creation|`daily-recap-2026-04-15.md`, `weekly-recap-2026-04-06.md`|
+
+**Rolling vs. archival:** Most pages are **rolling** — updated in place as new information arrives. Pages with type `work-log` are **archival** — created once, never modified after creation. When a new daily or weekly recap is ingested, update rolling pages (e.g., `ba-clients-pipeline.md`, `ba-overview.md`) with new information, then create the dated archival page as a record.
 
 **Frontmatter template:**
 
 ```yaml
 ---
 type: strategy
+domain: ace          # ace | ba | personal | research | general
 tags: []
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
@@ -91,10 +95,14 @@ The index uses a header block followed by **section tables**. Match this structu
 **Section organization** (current):
 
 - Core Strategy
-- Operations & Tech
+- ACE Operations & Tech
 - Marketing & Brand
 - Identity & Public Presence
+- Day Job (BA)
 - Projects
+- Personal
+- Day Job Logs
+- Meta
 - Source Files
 
 Add new sections as the wiki expands into new domains. Do not reorganize existing sections without flagging it to Conley first.
@@ -159,6 +167,12 @@ When Conley points you to a file in `raw-sources/`:
 1. **Read** the source fully.
 2. **Discuss** — surface key takeaways, connections to existing pages, and anything that contradicts the wiki. Wait for Conley's input before writing.
 3. **Write or update pages** — create a summary page if warranted; update all entity, concept, and project pages touched by the source. A single source may touch 5–15 pages.
+
+**For recurring log sources (daily/weekly recaps specifically):**
+1. Read the recap fully.
+2. Update relevant rolling pages (`ba-clients-pipeline.md`, `ba-overview.md`, `ba-team.md`, etc.) with any new information — new clients, personnel changes, product developments, notable events.
+3. Create the dated archival page (`daily-recap-YYYY-MM-DD.md` or `weekly-recap-YYYY-MM-DD.md`) as a structured summary.
+4. Extract what changes standing pages or signals meaningful patterns. Noise stays in the raw source — not every granular detail belongs in the wiki.
 4. **Check for superseding information** — if the source overrides something in an existing page, update that page and note the change explicitly.
 5. **Update `index.md`** — increment source count and page count; add new pages to the correct section table; add a row to Source Files.
 6. **Append to `log.md`** — use the full structured format above.
@@ -227,7 +241,10 @@ When Conley asks for a health check:
 
 ## Current scope and expansion path
 
-**Active domain:** ACE — strategy, operations, marketing, identity, projects.
+**Active domains:**
+- **ACE** — strategy, operations, marketing, identity, projects
+- **BA (Day Job)** — professional operations, client pipeline, partners, team
+- **Personal** — doctrine, relationships, body, inner work
 
 **Expansion order** (as new sources arrive):
 
@@ -246,6 +263,10 @@ Track pages with open issues here so they aren't forgotten between sessions:
 - `[[tech-stack]]` — missing OpenClaw and LangGraph (added in ACE pivot; not yet reflected)
 - `[[portfolio-website]]` — About page flagged as needing human revision; ACE description is highest-priority fix
 - `[[the-sentinel]]` — status confirmed "aspirational / not yet built"; portfolio copy says "In Development" (inaccurate)
+- `[[ba-products]]` — built by inference; needs validation against BA's actual rate card
+- `[[ba-team]]` — roles inferred from behavioral observation; formal titles need verification
+- `[[ba-clients-pipeline]]` — seeded from two sources only; full client base not yet represented
+- `[[conley-potter]]` — wedding date June 12, 2026 (now 57 days out); update "engaged to Sami" to "married" post-June 12
 
 Clear items from this list when resolved; add new ones as they're discovered.
 
