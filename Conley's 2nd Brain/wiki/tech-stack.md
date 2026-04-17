@@ -1,7 +1,13 @@
+---
+type: operations
+tags: [infrastructure, tools]
+created: 2026-04-14
+updated: 2026-04-16
+sources: [ACE Business Plan_ Autonomous Freelance Agent.md, ACE Phase 1 Reference Brief.md, ACE Pivot Explanation.md]
+---
+
 # Tech Stack
 
-**Tags:** infrastructure, tools  
-**Sources:** Business Plan, Phase 1 Reference Brief, ACE Pivot Explanation.md  
 **Related:** [[ace-overview]], [[ace-legacy]], [[client-acquisition]], [[phase-1-lead-enrichment]], [[phase-3-infrastructure]]
 
 ---

@@ -1,7 +1,13 @@
+---
+type: strategy
+tags: [strategy, core-concept]
+created: 2026-04-14
+updated: 2026-04-16
+sources: [ACE Business Plan_ Autonomous Freelance Agent.md, ACE Phase 1 Reference Brief.md, ACE Pivot Explanation.md, Personal Portfolio Website Current State 4.14.26.md]
+---
+
 # ACE Overview
 
-**Tags:** strategy, core-concept  
-**Sources:** ACE Business Plan, ACE Phase 1 Reference Brief, ACE Pivot Explanation.md, Personal Portfolio Website Current State 4.14.26.md  
 **Related:** [[ace-legacy]], [[tech-stack]], [[financial-projections]], [[phase-1-lead-enrichment]], [[phase-2-content-vectors]], [[phase-3-infrastructure]], [[conley-potter]], [[portfolio-website]]
 
 ---

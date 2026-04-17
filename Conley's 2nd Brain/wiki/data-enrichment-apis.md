@@ -1,7 +1,13 @@
+---
+type: tool-analysis
+tags: [tools, apis, data]
+created: 2026-04-14
+updated: 2026-04-16
+sources: [ACE Business Plan_ Autonomous Freelance Agent.md]
+---
+
 # Data Enrichment APIs
 
-**Tags:** tools, apis, data  
-**Sources:** Business Plan  
 **Related:** [[tech-stack]], [[phase-1-lead-enrichment]], [[financial-projections]]
 
 ---
