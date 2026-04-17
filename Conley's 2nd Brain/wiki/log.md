@@ -410,6 +410,40 @@ The inline `**Tags:**` and `**Sources:**` lines were removed from page bodies. T
 
 ---
 
+## [2026-04-17] ingest | BA Team Roster.md
+
+**Source type:** Official BA active team roster — 13 members with formal titles, Slack display names, locations, and role/responsibility summaries  
+**Pages created:** 0  
+**Pages updated:** 4 (`ba-team.md`, `ba-overview.md`, `conley-potter.md`, `ba-clients-pipeline.md`)
+
+### What this source contains
+
+The first official BA team roster in the wiki. Confirms or corrects all prior inferred roles from behavioral observation. Documents 13 active team members: Adam Kushner (Founder & CEO), Micah Dilts (Acting COO), Conley Potter (Digital Marketing Project Manager), Jon Fonner (Google Ads Lead), Courtney Nguyen (Content Strategist), Van Nguyen (Content/Creative, part-time remote, New Orleans), Ethan Wauls (Analytics), Kyle Sarnowski (Video Production Associate), Josh Carson (Lead Software Engineer), Daniel Tobias (Junior SE), Jahson Gonzalez-Allie (Junior SE), Adam Hicks (Paid Media Specialist), Abby Steele (Digital Marketing). Slack names, locations, and internal naming conventions (e.g., "Hicks" for Adam Hicks) confirmed. The engineering team structure (Josh → Daniel + Jahson) documented for the first time. BA uses Scrum/Kanban methodology with Micah as Product Owner and Conley as Sprint Planning stakeholder.
+
+### What changed
+
+- **`ba-team.md`** — Major rewrite. Three significant corrections from prior inferred-role version:
+  1. **Courtney Nguyen** was incorrectly described as "Scheduling / Intake" — corrected to "Content Strategist" and longest-tenured BA employee. Her content leadership role was not previously captured.
+  2. **Kyle Sarnowski** was listed as "Role TBD" — now confirmed as "Video Production Associate." BA is actively selling video production as a client service; ~6 months into the role with no client projects sold yet.
+  3. **Josh Carson** — last name now confirmed; role confirmed as Lead Software Engineer owning AutoBoost platform and internal tooling. Gauge is BA's internally-built revenue attribution platform, not an external vendor.
+  Four new team members added: Van Nguyen, Daniel Tobias, Jahson Gonzalez-Allie (engineering under Josh), Adam Hicks (Paid Media Specialist; was previously undocumented in ba-team.md but appeared in client pipeline). Abby's last name (Steele) confirmed. "Gauge (Josh) — External/Vendor Relationships" section removed since Josh is a BA employee and Gauge is an internal tool. All TODO notes for title verification removed — now answered by the official roster.
+
+- **`ba-overview.md`** — Key People section expanded from 8 to 13, with confirmed formal titles for all members. Source list and updated date updated.
+
+- **`conley-potter.md`** — Key colleagues list rewritten with all 12 other team members, confirmed titles, and brief role notes. Updated date updated.
+
+- **`ba-clients-pipeline.md`** — STAR Automotive entry corrected: "AV contact: Adam Hicks" label removed. Adam Hicks is a BA employee (Paid Media Specialist), not an AutoVitals contact. The context was Conley asking Hicks about Meta ads for STAR, not an AV-side relationship.
+
+### Notable observations
+
+- Confirming Courtney's role as Content Strategist (not scheduling/intake) is the most significant correction this source delivers. The prior wiki was built only from behavioral observation in daily/weekly recaps, where Courtney's content leadership rarely appeared directly. This is a reminder that role inference from recaps captures what someone *does in Conley's view*, not what they formally own.
+- The three-person engineering team (Josh, Daniel, Jahson) is fully focused on AutoBoost platform development and internal tooling. No client-facing engineering is documented. The Gauge attribution platform is their internal product.
+- BA has two "Adams": Adam Kushner (CEO) and Adam Hicks (Paid Media). The internal convention — "Hicks" for Adam Hicks — should be preserved in any AI prompts or Slack searches referencing him.
+- Van Nguyen (part-time remote, New Orleans) is the only team member outside the in-office Palmyra cluster who wasn't already known. Adds a second remote content resource alongside Courtney.
+- Kyle's video production role is explicitly noted as not yet generating client revenue (~6 months in). This suggests BA is internally incubating a new service line — video production for automotive shops — using Kyle as the foundation. Worth tracking whether this converts to client-facing work in future recaps.
+
+---
+
 ## [2026-04-17] update | second-brain-article.md revised + writing-style.md created
 
 **Pages updated:** 2 (`second-brain-article.md`, `index.md`)

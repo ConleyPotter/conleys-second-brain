@@ -114,9 +114,8 @@ Accounts are organized by how recently they appeared in Conley's recaps and thei
 These clients are managed jointly with AutoVitals. See [[ba-partners]] for the AutoVitals relationship structure.
 
 ### STAR Automotive
-**AV contact:** Adam Hicks  
 **Status:** Active AutoVitals partner account  
-**Recent activity (Apr 6–12):** Google Ads performance review (Apr 7). Conley asked Adam Hicks about Meta brand-awareness ads for technician hiring at STAR (Apr 10).
+**Recent activity (Apr 6–12):** Google Ads performance review (Apr 7). Conley asked Adam Hicks (BA's Paid Media Specialist) about Meta brand-awareness ads for technician hiring at STAR (Apr 10).
 
 ### Los Gatos Auto
 **Contact:** David  
