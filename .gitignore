@@ -1,4 +1,7 @@
-
-/.obsidian/workspace.json
-/Conley's 2nd Brain/.claude/worktrees/*
-/*/workspace.json
+Conley's 2nd Brain/.claude/worktrees/*
+*/workspace.json
+workspace.json
+.DS_Store
+.obsidian/workspace.json
+.obsidian/cache/*
+Untitled.base

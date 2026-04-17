@@ -17,7 +17,7 @@ sources: [Daily-Recap_2026-04-16.md]
 
 ## What This Is
 
-A split day: three client meetings in the office from 9–11:30 AM, then solo travel to Orlando for the FLACA (Florida Automotive Community Association) conference. Jon and Adam covered the afternoon call slate. Conley arrived at the venue by 7 PM and ran exhibitor setup through 9:15 PM.
+A split day: three client meetings in the office from 9–11:30 AM, then solo travel to Orlando for the FLACA (Florida Automotive Care Alliance) conference. Jon and Adam covered the afternoon call slate. Conley arrived at the venue by 7 PM and ran exhibitor setup through 9:15 PM.
 
 ---
 
@@ -33,11 +33,11 @@ The warm inbound from AutoVitals identified on Apr 15 converted to a live call o
 
 ### 3. Tilson's Auto Officially Dropped
 
-In a DM thread with Jon, Conley closed the book on Tilson's Auto Repair: "I'm going to drop it with Tilson's. Honestly, he probably caught bad vibes from me." Jon agreed. This deal had been sitting in "Decision Maker Bought-In" with an LSA close expected on AutoVitals paper — it never closed. Both parties mutually disengaged. This is notable because it was a tracked pipeline item and reflects a clean, aligned decision to stop chasing.
+In a DM thread with Jon, Conley closed the book on Tilson's Auto Repair: "I'm going to drop it with Tilson's. Honestly, he probably caught bad vibes from me." Jon agreed. This deal had been sitting in "Decision Maker Bought-In" with an LSA close expected on AutoVitals paper, but there was an expectation that this could have turned into a larger deal involving Programmatic Ads and moving their website over to our management. Both parties mutually disengaged. This is notable because it was a tracked pipeline item and reflects a clean, aligned decision to stop chasing.
 
 ### 4. Mechanics of West Allis Finally Books
 
-After an extended rescheduling process (appearing in multiple recaps), Mechanics of West Allis finally confirmed an appointment approximately two weeks out. Jon acknowledged the schedule is "slammed" and going to get worse. The pipeline is filling up.
+After an extended rescheduling process (which appeared in multiple recaps), Mechanics of West Allis finally confirmed a second sales appointment approximately 2 weeks out. Jon acknowledged the schedule is "slammed" and going to get worse. The pipeline is filling up.
 
 ### 5. Metric Motors — Tiers Proposed, Sales Deck in Progress
 
@@ -48,9 +48,9 @@ Adam posted three service tier options in #internal-sales and assigned the sales
 
 ### 6. A&R Complete Auto — Contact Change (Taina Departed)
 
-Angie emailed to cancel the 2 PM meeting; Taina is no longer with A&R. Angie is now the sole contact. Conley forwarded to Jon, took ownership of rescheduling (available Fri 4/17 or Tue 4/22). Clean handoff.
+Angie emailed to cancel the 2 PM meeting; Taina (Marketing Director) is no longer with A&R. Angie is now the sole contact. Conley forwarded to Jon, took ownership of rescheduling (available Fri 4/17 or Tue 4/22). Clean handoff.
 
-### 7. Save More Automotive Promotions Activated
+### 7. Sav-Mor Automotive Promotions Activated
 
 Brenner Newman called in slow — wants April promos running across website, Google Ads, social, and blog. Conley and Courtney coordinated: $47 synthetic oil change, free A/C diagnostic + 10% off, April-only specials, blog anchored to National Car Care Month. Jon is also adjusting Google Ads to push general repair spend. Conley's reaction ("even he's feeling it now") is a market signal — a client who usually doesn't need promotional pushes is now pulling for one.
 
