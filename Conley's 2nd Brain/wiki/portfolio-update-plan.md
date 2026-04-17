@@ -2,23 +2,37 @@
 type: asset
 tags: [portfolio, phase-1, website, coding-queries]
 created: 2026-04-14
-updated: 2026-04-14
-sources: [portfolio-website.md, ace-overview.md, brand-voice.md, phase-1-lead-enrichment.md, campaign-plan.md]
+updated: 2026-04-17
+sources: [portfolio-website.md, ace-overview.md, brand-voice.md, phase-1-lead-enrichment.md, campaign-plan.md, conley-potter.md, career-history.md, operating-doctrine-2026.md, second-brain-article.md]
 ---
 
 # Portfolio Website Update Plan — Phase 1 ACE Launch
 
-**Related:** [[portfolio-website]], [[ace-overview]], [[brand-voice]], [[campaign-plan]], [[phase-1-lead-enrichment]]
+**Related:** [[portfolio-website]], [[ace-overview]], [[brand-voice]], [[campaign-plan]], [[phase-1-lead-enrichment]], [[conley-potter]], [[career-history]], [[second-brain-article]]
 
 ---
 
 ## Purpose
 
-This document contains four discrete queries for a coding agent. Each query is scoped to be handed over in a single session. Together they bring the portfolio website in line with ACE Phase 1 operations and Conley's actual brand voice.
+This document contains discrete queries for a coding agent. Each query is scoped to be handed over in a single session. Together they bring the portfolio website in line with ACE Phase 1 operations and Conley's actual brand voice.
 
 **Deadline:** Week 2 (April 21–27, 2026) — site must be live before first Upwork proposal batch.
 
 **Role the site plays in Phase 1:** Credibility anchor. Not a primary conversion path. When a Upwork buyer clicks through to verify Conley exists and is real, this site should reinforce rather than contradict.
+
+---
+
+## Status Overview
+
+| Query | Scope | Status |
+|---|---|---|
+| 1 | ACE entry, Sentinel status, TLE blurb (Projects section) | ✅ Complete |
+| 2 | B2B Lead Enrichment block (Consulting section) | ✅ Complete |
+| 3 | About page brand voice injection | ⏳ Pending |
+| 4 | Minor fixes and housekeeping (titles, meta, contact, nav) | ✅ Complete |
+| 5 | Publish second-brain article to Writing section | ⏳ Pending |
+| 6 | Capabilities section audit and update | ⏳ Pending |
+| 7 | Upwork profile URL (once live) | 🔜 Deferred |
 
 ---
 
@@ -37,82 +51,34 @@ The plan doesn't restructure the site. It makes targeted edits within the existi
 - The arbitrage framing or the phrase "output arbitrage"
 - Specific pricing
 - The ACE "15 hours a week" constraint (implies the work is not intensive — wrong signal for a buyer)
+- The River Room — too speculative and personal for a professional portfolio at this stage
+- Anything connecting ACE to the day job (AutoBoost / BA are kept separate identities)
 
 ---
 
-## Query 1 — Rewrite the ACE Entry in the Projects Section
+## Query 1 — Rewrite the ACE Entry in the Projects Section ✅ COMPLETE
 
-**Scope:** Projects section only. Touch: ACE description, The Sentinel status, Thought Leader Engine blurb.
+*(Executed week of April 14, 2026. No further action needed.)*
 
-### Background for the agent
-
-The ACE entry currently describes the original ACE — an 8-agent autonomous content studio that was built and then sunsetted in early 2026. The copy reads: *"ACE is a multi-agent learning engine, not a prompt stack. It runs like a small studio made of software: research, scripting, editing, publishing, and analysis working in loops. It is infrastructure with memory — every output is an experiment, and the system adapts based on evidence over time."*
-
-This is no longer accurate. The current ACE is a supervised pipeline for delivering structured professional outputs — primarily B2B lead enrichment in Phase 1. The public-facing description needs to reflect this without disclosing that the system is automated.
-
-### Changes to make
-
-**ACE project entry — replace entire description with:**
-
-> ACE began as an autonomous content studio — eight agents running a closed creative loop. It was ambitious, and it taught me where real leverage is and where it isn't.
->
-> The current version is more deliberate: a supervised pipeline infrastructure for delivering structured professional outputs. Human direction in, verified deliverables out.
->
-> Phase I delivers B2B lead enrichment — verified contact lists, built around the exact titles and geographies a client actually needs. Phase II expands into SEO content and marketing automation. Phase III deploys the infrastructure itself as the product.
->
-> This is a working system, not a portfolio concept.
-
-**The Sentinel entry — update status:**
-
-Find wherever the site says "In Development" for The Sentinel. Change to:
-
-> **Status: In Design** — hardware and software architecture defined. Being funded through ACE revenue before build begins.
-
-**Thought Leader Engine entry — add one sentence at the end of its description:**
-
-> This is the distribution and outreach layer that runs alongside ACE.
+**What was changed:**
+- ACE project description updated to reflect current supervised pipeline framing
+- The Sentinel status updated from "In Development" to "In Design — hardware and software architecture defined. Being funded through ACE revenue before build begins."
+- Thought Leader Engine description updated with one-sentence ACE connection
 
 ---
 
-## Query 2 — Add Phase 1 Service Positioning to the Consulting Section
+## Query 2 — Add Phase 1 Service Positioning to the Consulting Section ✅ COMPLETE
 
-**Scope:** Consulting section only. Do not remove any existing copy — add a block before it.
+*(Executed week of April 14, 2026. No further action needed.)*
 
-### Background for the agent
-
-The Consulting section currently leads with high-ticket advisory framing: "high-leverage engagements, strictly limited basis." This is accurate to the long-range identity (Phase 3 positioning) but doesn't speak to the Phase 1 buyer who wants to hire Conley for B2B data work.
-
-The fix: add a "Current Work" block at the top of the Consulting section, before the existing advisory copy. Keep the advisory copy exactly as-is below it.
-
-### Changes to make
-
-**Add the following block at the top of the Consulting section, before any existing copy:**
+**What was changed:**
+- "Current Work: B2B Lead Enrichment" block added to top of Consulting section
+- Advisory copy preserved unchanged below it under "Advisory & Strategic Engagements" subhead
+- Upwork profile placeholder link included (needs URL update — see Query 7)
 
 ---
 
-**Current Work: B2B Lead Enrichment**
-
-I build custom B2B contact lists for marketing teams, RevOps consultants, and SDR teams that need accurate data without paying for bloated database subscriptions.
-
-What you get: a structured CSV of verified contacts matched to your target titles, geographies, and company profiles. Every contact checked against live data before delivery.
-
-**Typical scope:** 250–500 contacts per engagement. Fixed price. No scope creep. Delivered within 48–72 hours of order confirmation.
-
-**Best for:** ABM campaigns, SDR territory builds, CRM cleanup, and account research where precision matters more than volume.
-
-Currently available via Upwork → [View Profile] *(link: https://www.upwork.com — update to actual profile URL once live)*
-
----
-
-**Then the existing advisory/consulting copy follows, unchanged, under a subhead:**
-
-**Advisory & Strategic Engagements**
-
-*(existing copy goes here)*
-
----
-
-## Query 3 — About Page Brand Voice Injection
+## Query 3 — About Page Brand Voice Injection ⏳ PENDING
 
 **Scope:** About page only. This is the highest-craft query — the goal is to inject voice, not just swap copy.
 
@@ -121,9 +87,12 @@ Currently available via Upwork → [View Profile] *(link: https://www.upwork.com
 The About page is technically accurate but reads in a polished, abstract register that was largely written by AI. It describes Conley's philosophy *about* rather than demonstrating it *through* the copy. The brand voice guide says the test is: "Does it sound like a real person talking?"
 
 Specific problems:
+
 - The "three domains" description of Conley's work is generic
 - "Long walks, good coffee" is placeholder-level personal detail
 - The page describes "calm ambition" correctly but the rest of the copy doesn't live it
+- The education narrative undersells one of the most distinctive things about Conley: he *chose* humanistic education over a CS degree and self-taught the technical side later. That trajectory explains the voice.
+- The community-service dimension of his career is absent. He managed 12 staff and a government-grant budget at a Lancaster housing and financial empowerment nonprofit before returning to marketing. That's load-bearing context for why he sounds the way he does.
 
 ### Changes to make
 
@@ -135,13 +104,25 @@ Specific problems:
 
 **2. Keep the "calm ambition" paragraph exactly as-is.** It's the best-written thing on the page and it's genuine.
 
-**3. Keep the English Lit + Chinese → systems architecture through-line exactly as-is.** It's distinctive and it's true.
+**3. Expand the Lit + Chinese → systems architecture through-line.** The current version states where he ended up but not how. The full arc is more interesting: started CS coursework at DePaul, transferred to UW–Madison and switched to English Literature and Chinese, then retrained technically via App Academy bootcamp. He got the humanistic education first and built the technical fluency on top of it — not the other way around.
 
-**4. Replace the "outside of work" section (wherever "long walks, good coffee" or similar generic text appears) with:**
+Replace the current through-line paragraph with something that captures this arc explicitly. The conclusion should stay the same (literary analysis and systems architecture require the same underlying skills — how components interact, how information flows, how small changes cascade). Add the journey that earns that conclusion.
 
-> Outside of work I hike the AT corridor near Lancaster, cook seriously (restaurant background — I know how to work a line), and spend most of my time with my wife Sami. I have fibromyalgia, which makes the gym a negotiation and intensity a practice rather than a given. 2026 is a wedding year and a build year simultaneously, which is about as honest a summary of my life right now as I can give.
+**4. Replace the "outside of work" section** (wherever "long walks, good coffee" or similar generic text appears) with:
 
-**5. Tone pass — while making the above changes, flag or soften any sentence that:**
+> Outside of work I hike the AT corridor near Lancaster, cook seriously (restaurant background — I know how to work a line), and spend most of my time with my fiancée Sami. We're getting married in June. I have fibromyalgia, which makes the gym a negotiation and intensity a practice rather than a given. 2026 is a wedding year and a build year simultaneously, which is about as honest a summary of my life right now as I can give.
+
+> **Note for agent:** After June 12, 2026, update "fiancée Sami. We're getting married in June." to "wife Sami." and remove the wedding sentence.
+
+**5. Add a one-paragraph closer** (after the "outside of work" section, before any contact CTA):
+
+This closer should land with grounded, forward-looking energy — not inspirational, not hustle. Something like:
+
+> If you're here because you want to hire me for something, the Consulting section is where to go. If you're here because you're building something too and you want to see how someone else is doing it — good. I'm documenting it.
+
+Adjust wording to sound natural in context, but preserve the energy: observational, real, no pitch. The test is whether it sounds like an invitation or a sales line. It should be an invitation.
+
+**6. Tone pass** — while making the above changes, flag or soften any sentence that:
 - Sounds like it was written to impress rather than inform
 - Uses abstract nouns where a specific example would do
 - Starts with "I believe" followed by a general claim rather than a specific experience
@@ -150,41 +131,161 @@ The test: read each paragraph aloud. If it sounds like a LinkedIn bio, revise it
 
 ---
 
-## Query 4 — Minor Fixes and Housekeeping
+## Query 4 — Minor Fixes and Housekeeping ✅ COMPLETE
 
-**Scope:** Scattered across the site. These can all be done in one fast pass.
+*(Executed week of April 14, 2026. No further action needed.)*
+
+**What was changed:**
+- Job title updated to "Systems Architect & Marketing Technology Leader" on Homepage and About page
+- "B2B data and lead enrichment projects" added as first bullet in Contact section
+- Site meta description updated
+- Open Graph / social preview title updated
+- Writing section CTA removed or redirected
+- Nav label confirmed as "Consulting" linking to top of section
+
+---
+
+## Query 5 — Publish the Second-Brain Article to the Writing Section ⏳ PENDING
+
+**Scope:** Writing section only. Add one new, complete post — the first substantive published piece on the site.
+
+### Background for the agent
+
+The three existing Writing section entries are **stubs** — titles and dates exist but no post content has been written. The portfolio currently has no published writing, only placeholders.
+
+A complete, portfolio-ready essay now exists: *"Building a Second Brain with Claude Code."* It is finished, in Conley's voice, and demonstrates the exact technical depth and voice the Writing section is meant to show. It covers the architecture and mechanics of an AI-assisted personal knowledge system built with Claude Code and Obsidian.
 
 ### Changes to make
 
-**1. Job title — Homepage and About page**
+Add the following as a new, complete post in the Writing section:
 
-Current: `Lead Initiatives & Systems Architect`
-New: `Systems Architect & Marketing Technology Leader`
+**Title:** Building a Second Brain with Claude Code  
+**Subtitle:** *A persistent memory system built on markdown, Obsidian, and a CLI I didn't expect to trust.*  
+**Date:** April 16, 2026  
+**Tags / category:** Systems, AI, Building in the Open
 
-*(More accurate to the actual function and consistent with how the work is described elsewhere on the site.)*
+**Where to place it:** Most recent entry in the Writing section, above the three existing stubs. Do not remove the stubs — they represent planned content and show range.
 
-**2. Contact section — "What I'm looking for"**
+**Article body** (paste verbatim, starting after the subtitle line):
 
-Current list presumably leads with consulting/advisory framing.
-Add as the first bullet: `B2B data and lead enrichment projects`
-Keep existing bullets below it.
+---
 
-**3. Site meta description (if one exists)**
+I have a problem that I suspect most people building with AI share: the model forgets everything.
 
-Update to: `Conley Potter — systems architect and marketing technology leader. B2B lead enrichment, AI workflow infrastructure, and content automation. Based in Lancaster, PA.`
+Every session starts cold. You brief it, it helps you, and when the window closes, the context evaporates. For one-off tasks, that's fine. For a complex, ongoing project (a business you're building, a career you're managing, or a life you're trying to understand), it's a structural limitation. The knowledge lives in your head, or scattered across documents, or buried in chat histories you can't search.
 
-**4. Open Graph / social preview title (if configured)**
+I started thinking about this differently after encountering Andrej Karpathy's approach to `CLAUDE.md`. The idea is simple: use a well-structured instruction file as an operating contract between you and the model. Load it at session start, and the model knows who it's talking to, what it's maintaining, and how to behave. A schema rather than memory, a way of making the model's behavior consistent across sessions, even when the model itself has no persistent state.
 
-Update to: `Conley Potter — Systems Architect & Marketing Technology Leader`
+That was the seed. [Rui Fu](https://www.raycfu.com/) (@raycfu) gave me the initial frame for pairing [Obsidian](https://obsidian.md) with [Claude Code](https://claude.ai/code) and the starter prompts that shaped the first session. The result is a personal implementation of what Tiago Forte calls the second brain: a persistent, compounding knowledge system, maintained by an AI.
 
-**5. Writing section**
+---
 
-The three existing blog posts are good. No changes to the posts themselves.
-If there is a CTA in the Writing section that says something like "get in touch about writing collaborations" or similar — remove it or redirect it to the Upwork profile link. Writing is not a service being sold in Phase 1.
+### What it is
 
-**6. Nav order check**
+The system works in layers.
 
-If the Consulting section now has two subsections (Current Work + Advisory), confirm the nav label still reads "Consulting" and links to the top of that section. No nav restructuring needed.
+The first is raw sources: immutable documents dropped into a folder the model never modifies. Business plans, brand guides, weekly recaps, project briefs. The source of truth.
+
+The second is the wiki, a flat collection of markdown files that Claude Code reads, writes, and keeps current. When a new source comes in, Claude synthesizes key information into pages, flags contradictions with what already exists, and links everything together using Obsidian's wiki-link format. A single source might touch ten pages, each updated and cross-referenced.
+
+The third is `CLAUDE.md`, the operating contract. It defines what types of pages exist, how to format the index, how to write the log, what the current scope is. Every session begins with Claude reading this file, which means every session begins oriented. The same conventions, every time, regardless of how long since the last one.
+
+---
+
+### How I set it up
+
+The first session was April 14, 2026, the same day I launched the Phase I campaign for ACE, the freelance automation business I've been building. I dropped five source documents in the raw-sources folder and ran the ingest workflow. Claude built twelve wiki pages, an index, and a log in a single session.
+
+Two days later: thirty-seven pages, fourteen source documents ingested, coverage across four distinct domains. ACE (the business). BA (my day job at Business Actualization, a digital marketing agency serving auto repair shops). Personal (operating doctrine, long-range projects, the life context that doesn't fit neatly anywhere else). And meta: pages about the system itself.
+
+The coverage surprised me. I went in thinking this would be a tool for the business. It became a tool for everything. The wiki now holds the kind of context that used to live in my head, the stuff that takes fifteen minutes to reconstruct each time someone asks a question touching more than one domain at once.
+
+---
+
+### What makes it work
+
+Every operation gets appended to `log.md`: what was read, what was created, what changed, and why. At the start of each session, Claude reads the last several entries. That log is greppable, structured, honest, and it's what gives sessions their continuity. Without it, each session would start cold, even with a schema in place.
+
+The index is the thing I didn't expect to matter as much as it does. A flat list of pages with one-line summaries sounds trivial until the wiki is large enough that you'd otherwise have to search or guess. I know what's in here without having to read everything.
+
+Ingestion is where the value actually compounds. When a new source comes in, Claude summarizes it, reads existing pages, and looks for contradictions. If the new source changes what a previous page said, the old page gets updated and the change gets noted. The wiki stays internally consistent across updates without me having to manage it manually.
+
+And then there's the discipline, which is probably the most important part, even though it's the least interesting to describe. Flat pages, consistent frontmatter, rolling versus archival page types, and a schema that the model follows precisely. None of it is technically sophisticated. Structure is what makes a folder of markdown something you can rely on six months from now.
+
+---
+
+### The team angle
+
+I've been running this as a personal tool, but the pattern doesn't require it to be.
+
+The same mechanics work for a small team: raw sources, wiki pages, schema file, index, log. Swap the personal `CLAUDE.md` for a team schema that defines company-level conventions. Replace Obsidian with any markdown viewer or GitHub's built-in rendering, use Git for version control and GitHub for access management. The AI becomes a maintainer of shared knowledge. Multiple contributors add source documents; the model synthesizes, cross-links, and keeps the wiki current.
+
+What changes is the governance layer. The schema needs to define domains more carefully and account for the fact that different people will carry different mental models of the same information. The core loop translates directly: read, synthesize, flag contradictions, update index, append log. That loop doesn't care whether one person is feeding it or ten.
+
+I'm pitching it to a friend of mine to try on a group project now, so I'm excited to see where that goes. I will report back if we make progress.
+
+---
+
+### Where it goes
+
+It's been two days. I don't have a verdict on whether this compounds the way I think it will.
+
+What I have: I already know where to look for things. The index is genuinely useful. The log tells me what I was thinking two days ago in a way chat history doesn't. When I open a new Claude Code session on this repository, the model reads three files and immediately knows me and my life. That handoff works.
+
+The questions that remain: Does the wiki remain useful at 200 pages? Does the schema hold when the domains get messier? Does the ingestion discipline hold up over weeks when there's no time to be methodical?
+
+I don't know yet. But I'm building this. You're welcome to watch.
+
+---
+
+*Built on Andrej Karpathy's `CLAUDE.md` pattern. Initial [Obsidian](https://obsidian.md) + [Claude Code](https://claude.ai/code) setup and starter prompts from [Rui Fu](https://www.raycfu.com/).*
+
+---
+
+*(End of article body)*
+
+---
+
+## Query 6 — Capabilities Section Audit and Update ⏳ PENDING
+
+**Scope:** Capabilities section only.
+
+### Background for the agent
+
+The Capabilities section likely reflects a generic or outdated snapshot of Conley's technical skills. The goal is to make it accurate to the current work without revealing the proprietary ACE stack. Whatever layout the section currently uses (logos, badges, list) should be preserved — update the contents, not the structure.
+
+### Changes to make
+
+Audit the current Capabilities section. Update it to reflect the following:
+
+**Include (safe to list publicly):**
+- Marketing automation and workflow architecture
+- B2B data infrastructure and lead enrichment
+- AI workflow integration and prompt systems
+- CRM architecture (Salesforce, HubSpot)
+- Performance marketing and attribution (GA4, multi-channel)
+- Content systems and SEO infrastructure
+- Python, JavaScript, SQL
+- WordPress, Webflow
+- DNS and hosting infrastructure (Route 53, CloudFront, GoDaddy)
+- Project management (Scrum, Kanban)
+
+**Remove or do not add:**
+- Specific AI model or API names (OpenAI, Anthropic, etc.)
+- Specific automation platform names that reveal the ACE pipeline (n8n, Apify, Apollo)
+- Anything that functions as a vendor endorsement
+
+**Framing guidance:** Capabilities should read as a practitioner's toolkit, not a certifications list. Prefer category-level labels ("CRM architecture") over product endorsements ("Salesforce certified"). The emphasis is on what Conley can *do*, not what tools he has logged into.
+
+---
+
+## Query 7 — Update Upwork Profile Link 🔜 DEFERRED
+
+**Scope:** Consulting section. One-line change.
+
+**Trigger:** Run this query once the Upwork profile is live and the URL is confirmed.
+
+**Change:** In the "Current Work: B2B Lead Enrichment" block added in Query 2, the Upwork link currently reads as a placeholder. Replace it with the actual live profile URL once known.
 
 ---
 
@@ -195,7 +296,7 @@ These things are working and should be preserved exactly:
 - Headline: `"I build autonomous systems and refuse to settle until they work."` — accurate and strong
 - "Calm ambition" definition and framing — authentic, keep verbatim
 - The career timeline on the Work page — accurate as-is
-- The three blog posts in the Writing section — voice is right, topics are right
+- The three stub blog posts in the Writing section — topics and voice are right; keep as planned content
 - Lancaster, PA location and contact info
 - Response time and contact email
 
@@ -205,11 +306,33 @@ These things are working and should be preserved exactly:
 
 Before calling the site live, verify:
 
-- [ ] ACE description no longer references "multi-agent learning engine" or "infrastructure with memory" (those describe the legacy system)
+**Content accuracy:**
+- [ ] ACE description no longer references "multi-agent learning engine" or "infrastructure with memory"
 - [ ] The Sentinel status says "In Design" not "In Development"
 - [ ] B2B lead enrichment appears in the Consulting section with a path to Upwork
-- [ ] About page "long walks, good coffee" or similar generic filler is gone
-- [ ] Job title updated to "Systems Architect & Marketing Technology Leader"
+- [ ] Job title reads "Systems Architect & Marketing Technology Leader" on Homepage and About
 - [ ] No automation tools, API names, or pipeline details are visible anywhere in public copy
-- [ ] Upwork profile URL is correctly linked (update once profile is live)
+- [ ] Upwork profile URL is linked (update once profile is live — see Query 7)
+
+**Voice and authenticity:**
+- [ ] About page education arc mentions DePaul CS → UW English Lit/Chinese → App Academy
+- [ ] About page "outside of work" section has specific texture (AT corridor, restaurant background, fibromyalgia, fiancée Sami)
+- [ ] About page closer has observational/invitation energy, not pitch energy
+- [ ] Read the entire About page aloud — if any paragraph sounds like a LinkedIn bio, it needs another pass
+- [ ] "Calm ambition" paragraph is intact and unchanged
+- [ ] No sentence starts with "I believe" followed by a general, unsupported claim
+
+**Writing section:**
+- [ ] Second-brain article is published as the newest, first *complete* post (above the three stubs)
+- [ ] Three stub posts remain as planned content below it
+- [ ] Article credits (Karpathy, Rui Fu) are intact at the bottom of the post as footnote
+
+**Technical:**
 - [ ] Site loads and nav works on mobile
+- [ ] Meta description reflects "Systems Architect & Marketing Technology Leader"
+- [ ] Open Graph / social preview title updated
+- [ ] Nav label still reads "Consulting" and links to top of that section
+
+**Post-wedding update (after June 12, 2026):**
+- [ ] About page "fiancée Sami. We're getting married in June." updated to "wife Sami."
+- [ ] Any other references to engagement or upcoming wedding updated accordingly
