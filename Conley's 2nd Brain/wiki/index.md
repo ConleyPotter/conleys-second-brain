@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
-**Last updated:** 2026-04-16  
+**Last updated:** 2026-04-17  
 **Source count:** 14  
-**Page count:** 38
+**Page count:** 39
 
 This wiki documents Conley Potter's ACE business and broader life context. It began as an ACE-only knowledge base and is expanding into a full second brain covering personal operating philosophy, projects, identity, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -90,6 +90,7 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 |---|---|
 | [[wiki-structure-planning]] | Structural recommendations for expanding the wiki beyond ACE — flat vs. segmented, new BA domain pages, CLAUDE.md changes |
 | [[second-brain-article]] | Portfolio writing piece — the creation and development of this second brain system, and how it adapts for teams |
+| [[writing-style]] | Writing mechanics reference: LLM-tells to avoid, formatting conventions, linking standards, punctuation rules |
 
 ---
 
