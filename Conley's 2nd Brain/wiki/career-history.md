@@ -1,7 +1,13 @@
+---
+type: identity
+tags: [identity, career, context]
+created: 2026-04-14
+updated: 2026-04-16
+sources: [Personal Portfolio Website Current State 4.14.26.md, Claude Accounts' Saved Memories.md]
+---
+
 # Career History
 
-**Tags:** identity, career, context  
-**Sources:** Personal Portfolio Website Current State 4.14.26.md, Claude Accounts' Saved Memories.md  
 **Related:** [[conley-potter]], [[ace-overview]], [[portfolio-website]]
 
 ---

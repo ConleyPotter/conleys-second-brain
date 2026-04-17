@@ -1,7 +1,13 @@
+---
+type: operations
+tags: [phase-1, operations, fulfillment]
+created: 2026-04-14
+updated: 2026-04-16
+sources: [ACE Business Plan_ Autonomous Freelance Agent.md, ACE Phase 1 Reference Brief.md]
+---
+
 # Phase I — B2B Lead Enrichment
 
-**Tags:** phase-1, operations, fulfillment  
-**Sources:** Business Plan, Phase 1 Reference Brief  
 **Related:** [[ace-overview]], [[tech-stack]], [[client-acquisition]], [[data-enrichment-apis]], [[financial-projections]], [[upwork-portfolio]]
 
 ---

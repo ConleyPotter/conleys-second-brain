@@ -1,7 +1,13 @@
+---
+type: identity
+tags: [operator, context, identity]
+created: 2026-04-14
+updated: 2026-04-16
+sources: [Claude Accounts' Saved Memories.md, Personal Portfolio Website Current State 4.14.26.md]
+---
+
 # Conley Potter — Operator Profile
 
-**Tags:** operator, context, identity  
-**Sources:** Claude Accounts' Saved Memories.md, Personal Portfolio Website Current State 4.14.26.md  
 **Related:** [[ace-overview]], [[brand-voice]], [[campaign-plan]], [[tech-stack]], [[career-history]], [[portfolio-website]], [[the-sentinel]], [[thought-leader-engine]], [[the-river-room]]
 
 ---

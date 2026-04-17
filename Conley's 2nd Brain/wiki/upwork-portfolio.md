@@ -1,7 +1,13 @@
+---
+type: asset
+tags: [upwork, portfolio, credibility]
+created: 2026-04-14
+updated: 2026-04-16
+sources: [Upwork_Portfolio_Projects.md]
+---
+
 # Upwork Portfolio Projects
 
-**Tags:** upwork, portfolio, credibility  
-**Sources:** Upwork_Portfolio_Projects.md  
 **Related:** [[phase-1-lead-enrichment]], [[campaign-plan]], [[client-acquisition]]
 
 ---
