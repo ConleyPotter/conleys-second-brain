@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
 **Last updated:** 2026-04-17  
-**Source count:** 17  
-**Page count:** 40
+**Source count:** 18  
+**Page count:** 42
 
 This wiki documents Conley Potter's ACE business and broader life context. It began as an ACE-only knowledge base and is expanding into a full second brain covering personal operating philosophy, projects, identity, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -16,6 +16,13 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | [[conley-potter]] | Operator profile — day job (BA/AutoBoost), personal background, working style, long-range vision projects |
 | [[financial-projections]] | Unit economics, monthly OPEX (~$190), and the revenue ramp from $350 net (Month 1) to $4,025+ net (Month 6) |
 | [[platform-comparison]] | Upwork vs. Fiverr vs. Freelancer.com vs. Jobbers.io — fees, positioning, and strategic fit for ACE |
+
+## General Knowledge
+
+| Page | Summary |
+|---|---|
+| [[domain-general]] | General Knowledge domain anchor — external articles, AI tools, research, and industry signals |
+| [[opus-4-7-workflow]] | Boris Cherny's Threads thread on Claude Opus 4.7 — verification-first workflow, context-specific methods, the agentic shift |
 
 ## Day Job (BA)
 
@@ -116,3 +123,4 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | `conley-weekly-summary-apr-6-12-2026.md` | BA week of Apr 6–12 — ~20 meetings, 3 closed-won deals, HubSpot activity, Slack threads, notable wins | 2026-04-16 |
 | `BA Team Roster.md` | Official BA team roster — 13 members with formal titles, Slack names, locations, and role descriptions | 2026-04-17 |
 | `Daily-Recap_2026-04-16.md` | BA workday log — split day; FLACA conference departure, client pipeline updates, Tilson's dropped, Mechanics of West Allis booked | 2026-04-17 |
+| `Opus 4.7 Thread by Boris Cherny.md` | Threads post — workflow patterns for Claude Opus 4.7; verification-first approach, agentic shift | 2026-04-17 |

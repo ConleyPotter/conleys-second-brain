@@ -2,7 +2,7 @@
 type: operations
 tags: [infrastructure, tools]
 created: 2026-04-14
-updated: 2026-04-16
+updated: 2026-04-17
 sources: [ACE Business Plan_ Autonomous Freelance Agent.md, ACE Phase 1 Reference Brief.md, ACE Pivot Explanation.md]
 ---
 
@@ -59,6 +59,13 @@ ACE runs on a self-hosted VPS with n8n as the central orchestration layer. Phase
 - Fast/cheap model for job scoring (1–10 fit score)
 - Quality model for proposal drafting in Spartan Tone
 - Data sanitization (normalizing company names, removing LLC/GmbH suffixes)
+
+**Anthropic Claude Opus** (premium/secondary — router model strategy)
+- Premium model for core creative output in OpenClaw workflows (see router model strategy above)
+- Current version: Opus 4.7 (April 2026) — more agentic than prior versions; designed for extended, self-directed runs
+- Key workflow pattern: give Claude a verification mechanism (bash/server for backend, Chromium extension for frontend, computer use for desktop) to 2–3x output quality on long-running tasks
+- Appears in OPEX budget (~$35/month alongside Gemini API costs)
+- See [[opus-4-7-workflow]] for workflow patterns specific to 4.7
 
 > Note: The Business Plan references OpenAI GPT-4o-mini and Claude 3.5 Sonnet/Haiku as the LLM layer. The Reference Brief supersedes this with Gemini as primary. Anthropic API tokens remain in the OPEX budget (~$35/month), suggesting Claude may still be used selectively. I'm open to using any LLM API that fits my needs.
 
