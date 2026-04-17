@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conley's 2nd Brain/wiki/log.md",
+                "file": "Conley's 2nd Brain/wiki/portfolio-update-plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "log"
+              "title": "portfolio-update-plan"
             }
           }
         ]
@@ -194,10 +194,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eeddc3f536cb6d43",
+  "active": "2618926ae3f6fac3",
   "lastOpenFiles": [
-    "Conley's 2nd Brain/wiki/ace-legacy.md",
+    "CLAUDE.md",
+    "Conley's 2nd Brain/raw-sources/Daily-Recap_2026-04-16.md",
+    "Conley's 2nd Brain/second-brain-ingest.skill",
     "Conley's 2nd Brain/wiki/second-brain-article.md",
+    "Conley's 2nd Brain/wiki/log.md",
+    "Conley's 2nd Brain/wiki/ace-legacy.md",
     "Conley's 2nd Brain/wiki/index.md",
     "Conley's 2nd Brain/wiki/writing-style.md",
     "Conley's 2nd Brain/INGEST-RAW-SOURCE-SKILL.md",
@@ -219,9 +223,6 @@
     "Conley's 2nd Brain/wiki/companion.md",
     "Conley's 2nd Brain/wiki/building-out-loud.md",
     "Conley's 2nd Brain/wiki/book-project-2025.md",
-    "Conley's 2nd Brain/raw-sources/Daily-Recap_2026-04-15.md",
-    "conflict-files-obsidian-git.md",
-    "Untitled.md",
     "Conley's 2nd Brain/wiki/index.md.tmp.5.1776194504484",
     "Conley's 2nd Brain/wiki-ingest-review-iteration-1.html",
     "Conley's 2nd Brain/wiki",

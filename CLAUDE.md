@@ -16,11 +16,13 @@ You (Claude) are the maintainer. Conley is the curator and director. He sources 
 
 ```
 vault/
-├── CLAUDE.md              ← this file (the schema)
-├── wiki/                  ← all LLM-generated markdown pages (flat)
-│   ├── index.md           ← catalog of all wiki pages
-│   └── log.md             ← append-only chronological record
-└── raw-sources/           ← immutable source documents (read, never modify)
+├── .claude
+│   CLAUDE.md                  ← this file (the schema)
+├── Conley's\ 2nd\ Brain 
+│   ├── wiki/                  ← all LLM-generated markdown pages (flat)
+│   │   ├── index.md           ← catalog of all wiki pages
+│   │   └── log.md             ← append-only chronological record
+│   └── raw-sources/           ← immutable source documents (read, never modify)
 ```
 
 **Rules:**

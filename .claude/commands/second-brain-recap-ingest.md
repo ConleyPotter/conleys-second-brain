@@ -33,8 +33,8 @@ This determines the archival page name and which rolling pages to prioritize.
 Read these three files in order before touching anything:
 
 1. `CLAUDE.md` — re-read the full operating contract
-2. `wiki/log.md` — read the last 5–10 entries to understand recent activity and what's already been ingested
-3. `wiki/index.md` — orient to current wiki shape; note page count and source count
+2. `Conley's\ 2nd\ Brain/wiki/log.md` — read the last 5–10 entries to understand recent activity and what's already been ingested
+3. `Conley's\ 2nd\ Brain/wiki/index.md` — orient to current wiki shape; note page count and source count
 
 Do not create or modify any file until Step 1 is complete.
 
@@ -56,7 +56,7 @@ As you read, build a mental map of:
 
 ## Step 3 — Identify Rolling Pages to Update
 
-Read `wiki/index.md` and identify which **rolling** pages (non-work-log type) are touched by this recap. For daily recaps, always check these first:
+Read `Conley's\ 2nd\ Brain/wiki/index.md` and identify which **rolling** pages (non-work-log type) are touched by this recap. For daily recaps, always check these first:
 
 | Page | Update if... |
 |---|---|
@@ -79,8 +79,8 @@ After updating, set the `updated` frontmatter date on each modified page.
 Create the dated archival wiki page. This page is **never modified after creation**.
 
 **Filename convention:**
-- Daily: `wiki/daily-recap-YYYY-MM-DD.md`
-- Weekly: `wiki/weekly-recap-YYYY-MM-DD.md`
+- Daily: `Conley's\ 2nd\ Brain/wiki/daily-recap-YYYY-MM-DD.md`
+- Weekly: `Conley's\ 2nd\ Brain/wiki/weekly-recap-YYYY-MM-DD.md`
 
 **Frontmatter:**
 ```yaml
@@ -138,7 +138,7 @@ sources: [Original-Filename.md]
 
 ## Step 5 — Update index.md
 
-Open `wiki/index.md` and make exactly these changes:
+Open `Conley's\ 2nd\ Brain/wiki/index.md` and make exactly these changes:
 
 1. Increment **Source count** by 1
 2. Increment **Page count** by 1 (for the archival page; add 1 more for each new rolling page created, if any)
@@ -158,7 +158,7 @@ Do not reorganize sections or change anything else in index.md.
 
 ## Step 6 — Append to log.md
 
-Append a new entry to the **bottom** of `wiki/log.md`. Use this exact structure — do not abbreviate:
+Append a new entry to the **bottom** of `Conley's\ 2nd\ Brain/wiki/log.md`. Use this exact structure — do not abbreviate:
 
 ```markdown
 ## [YYYY-MM-DD] ingest | Daily Recap — [Month DD, YYYY]
