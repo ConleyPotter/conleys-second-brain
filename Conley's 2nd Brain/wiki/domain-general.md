@@ -30,3 +30,6 @@ Pages here address:
 | Page | Summary |
 |---|---|
 | [[opus-4-7-workflow]] | Workflow patterns for Claude Opus 4.7 — verification-first approach, context-specific methods, the agentic shift |
+| [[llm-wiki-pattern]] | The LLM wiki pattern — persistent compounding knowledge base vs. RAG, three-layer architecture, ingest/query/lint operations |
+| [[openai-codex-app]] | OpenAI Codex April 2026 update — background computer use, in-app browser, 90+ plugins, memory, scheduled autonomous work |
+| [[gstack]] | Garry Tan's Claude Code sprint framework — 23 specialist slash commands, Think→Plan→Build→Review→Test→Ship, parallel sprints |

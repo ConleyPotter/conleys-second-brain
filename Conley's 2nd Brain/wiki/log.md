@@ -525,3 +525,37 @@ A short but high-signal Threads post from Boris Cherny (April 16, 2026) on getti
 - The verification-first workflow pattern from Cherny is directly applicable to how Conley uses Claude Code in this wiki's own maintenance (the `/simplify` skill is already in use). The advice is self-referential.
 - Opus 4.7 running longer and more autonomously changes the economics of the HITL gate in ACE. If the model can self-verify and run extended workstreams, the operator's role compresses further toward final approval rather than active monitoring. This is additive to ACE's core thesis about operator bandwidth.
 - The Chromium extension for frontend verification is a new tool not yet mentioned anywhere else in the wiki. Worth noting if ACE's Phase II (SEO content workflows) eventually involves frontend verification steps.
+
+---
+
+## [2026-04-17] ingest | LLM Wiki Pattern + OpenAI Codex App + gstack
+
+**Source type:** Three external articles — pattern document, product announcement, open-source README  
+**Pages created:** 3 (`llm-wiki-pattern.md`, `openai-codex-app.md`, `gstack.md`)  
+**Pages updated:** 5 (`domain-general.md`, `second-brain-article.md`, `opus-4-7-workflow.md`, `index.md`, `log.md`)
+
+### What these sources contain
+
+**CLAUDE.md from Kaparthy.md** — An abstract pattern document (associated with Andrej Karpathy) titled "LLM Wiki." Describes the conceptual architecture underlying this second brain: three layers (raw sources / wiki / schema), three operations (ingest / query / lint), and two navigation files (index.md / log.md). The document is intentionally implementation-agnostic — its job is to communicate the pattern, not prescribe a stack. This is the intellectual source that `second-brain-article.md` references when it credits Karpathy's approach.
+
+**Codex for (almost) everything.md** — OpenAI's April 15, 2026 blog post announcing a major update to the Codex desktop app. Five new capability categories: background computer use (parallel agents, own cursor, non-interfering), in-app browser with direct page commenting, gpt-image-1.5 image generation, 90+ new plugins (JIRA, GitLab, CircleCI, MS Suite, Neon), and expanded SDK lifecycle features (PR review, multi-terminal, SSH to remote devboxes). Plus: memory across sessions, automations that can wake up to continue long-term tasks across days/weeks, and proactive task suggestions based on projects + memory + plugins.
+
+**garrytangstack README** — Garry Tan's (YC CEO) open-source Claude Code sprint framework. 23+ specialist slash commands (CEO, designer, eng manager, QA, security, release) organized as a repeatable sprint: Think → Plan → Build → Review → Test → Ship → Reflect. Stats: 600K+ LOC in 60 days, 10–20K LOC/day part-time. Key skills: `/office-hours` (6 forcing questions), `/autoplan` (full review pipeline in one command), `/qa` (real Chromium browser with auto-generated regression tests), `/cso` (OWASP + STRIDE), `/ship`. Parallel sprints via Conductor (10–15 Claude Code sessions). Integrates with OpenClaw via ACP dispatch. MIT licensed, free.
+
+### What changed
+
+- `llm-wiki-pattern.md` (new) — Synthesis page documenting the three-layer architecture, three operations, two navigation files, division of labor, applicable domains, optional infrastructure (qmd, Obsidian, Marp, git), and the connection to Vannevar Bush's Memex. Connects explicitly back to how this wiki implements the pattern.
+- `openai-codex-app.md` (new) — Tool analysis page covering all five capability categories, competitive context vs. Claude Code / gstack, and the ACE relevance note (Codex's automation roadmap is converging on the same endpoint as ACE's HITL architecture).
+- `gstack.md` (new) — Tool analysis page: sprint process, full skill tables (planning / build+review / ship / design pipeline / power tools), parallel sprint model, OpenClaw dispatch patterns, and relationship to Karpathy's AI coding rules.
+- `domain-general.md` — Three new rows added to the pages table. `updated` date unchanged (already 2026-04-17).
+- `second-brain-article.md` — `[[llm-wiki-pattern]]` added to the Related line. The article already credits Karpathy at the bottom; this creates the formal wiki cross-link.
+- `opus-4-7-workflow.md` — New "Related Tooling" section added at the end, cross-referencing `[[gstack]]` and `[[openai-codex-app]]` as the workflow enforcement layer and competitive context respectively. `[[gstack]]` added to Related. Source list updated.
+- `index.md` — Source count 18→21, page count 42→45. Three rows added to General Knowledge section. Three rows added to Source Files.
+
+### Notable observations
+
+- The Karpathy LLM wiki pattern is the conceptual source of this entire second brain, but until now it had no wiki page. Filing it closes a notable gap: the system's intellectual foundation is now documented inside the system it founded. The self-referential loop is complete.
+- gstack's OpenClaw integration is the most operationally relevant connection for ACE. If Conley ever runs multi-session development sprints for ACE Phase II/III infrastructure, gstack's dispatch model (OpenClaw → Claude Code → /autoplan → implement → /ship) could significantly compress operator time. Worth revisiting when Phase II work begins.
+- OpenAI Codex's scheduled autonomous work (wake up and continue long-term tasks across days/weeks) is the feature to watch. If it matures, it represents a direct challenge to the HITL co-pilot architecture that ACE is building — a model where the agent doesn't need a human to restart it. Claude Code and OpenClaw don't yet have this natively.
+- All three articles cluster around the same moment in AI tooling: April 2026, when agentic developer tools are rapidly acquiring memory, verification, and extended autonomy. The wiki's General Knowledge domain is becoming a useful lens for tracking this shift as it unfolds.
+- gstack's /retro stats (140K+ lines, 362 commits, ~115K net LOC in one week for one person) are the most concrete published evidence of the "single builder as team" thesis that ACE's arbitrage model is built on. Worth referencing in client acquisition or positioning conversations.
