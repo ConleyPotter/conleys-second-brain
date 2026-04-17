@@ -3,8 +3,8 @@ type: identity
 domain: ba
 tags: [ba, day-job, team, people]
 created: 2026-04-16
-updated: 2026-04-16
-sources: [Claude Accounts' Saved Memories.md, conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md]
+updated: 2026-04-17
+sources: [Claude Accounts' Saved Memories.md, conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md, BA Team Roster.md]
 ---
 
 # BA Team
@@ -15,109 +15,125 @@ sources: [Claude Accounts' Saved Memories.md, conley-weekly-summary-apr-6-12-202
 
 ## Overview
 
-Business Actualization is a ~15-person agency. The people below appear in Conley's recaps as active working relationships. Roles are inferred from observed behavior; formal titles should be verified.
-
-> **TODO:** Verify formal titles for all team members below. An AI assistant with Slack access could run:
-> *"List all team members in the BA Slack workspace with their display names, profile titles, and departments if set."*
+Business Actualization has 13 active team members as of April 2026. The roster below reflects the official team list, supplemented with behavioral context from Conley's recaps. Formal titles, Slack names, and locations are confirmed from the official BA Team Roster source.
 
 ---
 
 ## Leadership
 
-### Adam Kushner — Founder / CEO
+### Adam Kushner — Founder & CEO
+**Slack:** Adam | **Location:** Palmyra, PA (in-office)
 
-Founded BA and AutoBoost. Sets strategic direction. Involved in high-value or escalated client calls (e.g., the 49-min Gina @ Metric Motors call on Apr 15 was Adam-led). Manages Conley's title alignment and compensation conversations. Attended TEKTONIC Conference in Houston with Jon (Apr 9–11). Owns the [[adam-shop-incubator]] project separately from BA.
+Sets company vision, owns key client and partner relationships, leads strategic direction for both BA and AutoBoost. Involved in high-value or escalated client calls (led the 49-min Gina @ Metric Motors call on Apr 15). Attended TEKTONIC Conference in Houston with Jon (Apr 9–11). Owns the [[adam-shop-incubator]] project separately from BA.
 
 **Working relationship with Conley:** Direct report. Adam is receptive to Conley's proactive initiatives — he agreed same-day when Conley flagged the FLSA handbook issue (Apr 15). A future CEO trajectory at AutoBoost has been explored.
 
-> **TODO:** Clarify what Adam's day-to-day role split is between BA (agency) and AutoBoost (SaaS product). Are these treated as separate entities or one org?
+---
+
+### Micah Dilts — Acting COO
+**Slack:** Micah Dilts | **Location:** Palmyra, PA (in-office)
+
+Operational leadership and process oversight. Serves as Product Owner in BA's Scrum/Kanban methodology — owns backlog and sprint priorities. Handles internal HR and vendor/admin matters. Involved in the healthcare premium discussion (exploring 100% minimum tier coverage, Apr 15). Acts as intermediary between leadership decisions and team communication.
 
 ---
 
-### Jon Fonner — Google Ads Lead / Sales
+## Sales & Client Success
 
-Co-anchors the majority of client calls with Conley. Google Ads specialist. Owns and collaborates on deals alongside Conley (commission splits documented in weekly recaps). Attended TEKTONIC Conference with Adam, leaving Conley to solo-cover Thu–Fri client calls (Apr 9–10).
+### Jon Fonner — Google Ads Lead
+**Slack:** Jon Fonner | **Location:** Palmyra, PA (in-office)
 
-**Observed functional authority:** Jon reassigns HubSpot tasks, approves deal-stage moves, and is the primary escalation point for client strategy questions (Salta performance issues, Kidders Repair scheduling, the Turnkey multi-shop lead).
+Leads Google Ads across client accounts. Co-anchors client success and sales with Conley. Wears multiple hats across delivery and strategy. Owns and collaborates on deals alongside Conley (commission splits documented in weekly recaps). Attended TEKTONIC Conference with Adam, leaving Conley to solo-cover Thu–Fri client calls (Apr 9–10).
 
-**Working relationship with Conley:** Peer-level day-to-day. Heavy Slack DM volume. Jon is likely the most frequent working relationship at BA.
-
-> **TODO:** Confirm Jon's formal title. He appears to function as a sales manager or senior account executive but this isn't confirmed.
-
----
-
-### Micah Dilts — Acting COO / Operations
-
-Handles internal operations, HR, and vendor/admin matters. Involved in the healthcare premium discussion (exploring 100% minimum tier coverage, Apr 15). Also included in the AmEx card distribution. Acts as intermediary between leadership decisions and team communication.
-
-Described as "acting COO" based on behavioral pattern — formal title unconfirmed.
-
-> **TODO:** Confirm Micah's actual title and scope. Is he officially COO, or is this an informal designation?
+**Working relationship with Conley:** Peer-level day-to-day. Heavy Slack DM volume. Likely the most frequent working relationship at BA. Jon reassigns HubSpot tasks, approves deal-stage moves, and is the primary escalation point for client strategy questions.
 
 ---
 
-## Delivery / Production
+### Conley Potter — Digital Marketing Project Manager
+**Slack:** Conley Potter | **Location:** Palmyra, PA (in-office)
 
-### Ethan Wauls — Delivery / Websites / Analytics
+De facto Director of Client Success & Strategy — co-anchors client calls and sales with Jon. Manages account strategy, meeting prep, and cross-team coordination. Acts as stakeholder in Sprint Planning. Leads tooling and org structure initiatives. Formal title alignment to the Director role is in progress.
 
-Generates quotes for new deals (CarLink360, Legacy Auto Care — both Apr 8 and 10 in the weekly recap). Maintains analytics and attribution dashboards (fixed Stan's revenue attribution dashboard before the noon meeting, Apr 15). Has handled outreach to client webmasters (Menard Automotive tracking installation). Likely manages website delivery.
-
-> **TODO:** Confirm whether Ethan's role is primarily analytics, web production, or a hybrid. The quote-generation behavior suggests he may also own proposal creation for certain service tiers.
-
----
-
-### Kyle Sarnowski — Role TBD
-
-Appeared in the Apr 15 daily recap when Conley shared the Standard Website tier description with him. Context unclear — could be onboarding to the sales role, handling a specific client communication, or something else.
-
-> **TODO:** Determine Kyle's role. Is he on the sales team, account management, or delivery?
-
-> **AI PROMPT (for Slack access):**
-> *"What is Kyle Sarnowski's role or department at BA? Check his Slack profile and any channel memberships that indicate function."*
+See [[conley-potter]] for full profile.
 
 ---
 
-### Josh — Engineering / Platform Maintenance
+## Paid Media
 
-Organizes and leads the biweekly Gauge maintenance windows (1–5 PM recurring block). Gauge appears to be BA's revenue attribution/analytics platform. Josh likely has a technical or engineering role.
+### Adam Hicks — Paid Media Specialist
+**Slack:** Adam Hicks | **Location:** Palmyra, PA (in-office)
 
-> **TODO:** Confirm Josh's last name and formal title. Is he a software engineer, platform manager, or vendor-side contact?
-
----
-
-## Client Success / Intake
-
-### Courtney Nguyen — Scheduling / Intake
-
-Manages Conley's scheduling link and handles inbound lead routing. On Apr 15, she flagged Brian Peterson (Legacy Auto Care) for a same-day 4:30 PM call, giving Conley enough lead time to prep. Conley updated the scheduling link settings (4 PM cutoff, 1-day minimum notice) in coordination with her.
-
-> **TODO:** Is Courtney's role specifically tied to Conley's calendar, or does she manage intake for the broader team?
+Runs Google Ads and Bing Ads for clients. Leads Meta Ads, Programmatic Ads, and Reddit Ads. Called "Hicks" internally to distinguish from Adam Kushner. Appeared in the Apr 6–12 weekly recap when Conley asked him about Meta brand-awareness ads for technician hiring at STAR Automotive.
 
 ---
 
-### Abby — Client Success / LSA Coordination
+### Abby Steele — Digital Marketing
+**Slack:** Abby Steele | **Location:** Palmyra, PA (in-office)
 
-Appears in LSA account management contexts: coordinating LSA account additions for Mark Watson/TOS with Jordan @ AutoVitals (Apr 9–10 weekly recap). Also handles HubSpot task assignments (Jon reassigned a task from Abby to himself in the Apr 15 recap).
-
-> **TODO:** Confirm Abby's last name and full role scope. She appears to handle LSA account setup and administrative client success tasks.
+Manages Google Ads (traditional + LSA) and Bing Ads. Also handles website content. Split between paid ads and content. Appears in LSA account management contexts: coordinating account additions for Mark Watson/TOS with Jordan @ AutoVitals (Apr 9–10 weekly recap).
 
 ---
 
-## External / Vendor Relationships
+## Content & Creative
 
-### Gauge (Josh)
+### Courtney Nguyen — Content Strategist
+**Slack:** Courtney | **Location:** Remote
 
-Gauge is the revenue attribution and analytics platform BA uses in client reporting. Biweekly maintenance windows are a recurring calendar block. Not a BA employee — but a close enough working relationship to be visible in weekly recaps.
+Leads content production and SEO content strategy. Longest-tenured BA employee. Flagged Brian Peterson (Legacy Auto Care) as a same-day new prospect call on Apr 15 — her role in inbound lead routing reflects broader client coordination, not just content.
 
-> **TODO:** Is Gauge an external vendor product, an internal BA-built tool, or a hybrid? Clarify its relationship to AutoBoost.
+> **Note:** Earlier wiki entries incorrectly described Courtney as "Scheduling / Intake." Her formal role is Content Strategist; the Brian Peterson flag was incidental coordination, not a scheduling-management function.
+
+---
+
+### Van Nguyen — Content / Creative
+**Slack:** Van Nguyen | **Location:** New Orleans, LA (remote, part-time)
+
+Contributes to content and creative production on a part-time basis.
+
+---
+
+### Kyle Sarnowski — Video Production Associate
+**Slack:** Kyle Sarnowski | **Location:** Palmyra, PA (in-office)
+
+Runs all internal video content production. BA is actively working to sell video production as a client-facing service — Kyle has been in this role approximately 6 months with no client video projects sold yet. Conley shared the Standard Website tier description with Kyle on Apr 15 (likely for a client-facing communication or internal reference).
+
+---
+
+## Analytics & Reporting
+
+### Ethan Wauls — Analytics
+**Slack:** Ethan Wauls | **Location:** Palmyra, PA (in-office)
+
+Owns reporting, Agency Analytics data, and performance tracking. Also owns the review platform and call tracking platform. Generates quotes for new deals (CarLink360, Legacy Auto Care — Apr 8 and 10 in the weekly recap). Fixed Stan's revenue attribution dashboard before the noon meeting on Apr 15. Organizes the biweekly Gauge maintenance windows alongside Josh.
+
+---
+
+## Engineering
+
+### Josh Carson — Lead Software Engineer
+**Slack:** Josh Carson | **Location:** Palmyra, PA (in-office)
+
+Lead developer on the AutoBoost platform, internal tools, and reporting pipelines — including the appointment scheduler and revenue attribution system. Oversees Daniel and Jahson. Organizes the biweekly Gauge maintenance windows (1–5 PM recurring block). Gauge is BA's internal revenue attribution/analytics platform, built and maintained by the engineering team.
+
+---
+
+### Daniel Tobias — Junior Software Engineer
+**Slack:** Daniel Tobias | **Location:** Palmyra, PA (in-office)
+
+Junior developer on the AutoBoost platform and internal tooling under Josh.
+
+---
+
+### Jahson Gonzalez-Allie — Junior Software Engineer
+**Slack:** Jahson Gonzalez-Allie | **Location:** Palmyra, PA (in-office)
+
+Junior developer on the AutoBoost platform and internal tooling under Josh.
 
 ---
 
 ## Team Notes
 
-- Total headcount: ~15. The people documented here are those who appear in Conley's daily/weekly workflows. There are likely delivery and production team members not yet captured.
-- The team appears to operate on Slack with a dense channel structure (per-client channels for every account, plus functional channels).
-- Adam and Jon traveling to industry events (TEKTONIC) leaves Conley as the solo client-facing point for those days — suggesting significant trust and operational responsibility.
-
-> **AI PROMPT (for a full team roster):**
-> *"List all active employees or contractors in the BA Slack workspace. Include display name, profile title, and most recently active date. Exclude bots and integrations."*
+- **Total headcount:** 13 active team members (as of Apr 2026 official roster)
+- **Mostly in-office:** 11 of 13 are Palmyra, PA in-office; Courtney is fully remote; Van is remote/part-time
+- **Scrum/Kanban methodology:** Micah owns the backlog as Product Owner; Conley is a stakeholder in Sprint Planning
+- **Dual-Adam naming:** "Adam" in Slack context defaults to Adam Kushner (CEO); Adam Hicks is referred to as "Hicks" internally
+- **Engineering org:** Josh leads a three-person team (himself + Daniel + Jahson) focused on AutoBoost platform and internal tools; Gauge attribution platform is their work product

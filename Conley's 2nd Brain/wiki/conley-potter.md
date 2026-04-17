@@ -2,7 +2,7 @@
 type: identity
 tags: [operator, context, identity]
 created: 2026-04-14
-updated: 2026-04-16
+updated: 2026-04-17
 sources: [Claude Accounts' Saved Memories.md, Personal Portfolio Website Current State 4.14.26.md]
 ---
 
@@ -26,12 +26,19 @@ Conley Potter is the sole operator of ACE. This page consolidates personal and p
 
 **8 years of digital marketing experience** across BA, Stoltzfus Structures, Tenfold, Epic, and others. See [[career-history]] for full timeline.
 
-**Key colleagues:**
-- Adam Kushner — founder
-- Jon Fonner — Google Ads lead, co-anchors client calls
-- Courtney Nguyen — content
-- Ethan Wauls — analytics
-- Micah Dilts — acting COO
+**Key colleagues (13-person team as of Apr 2026):**
+- Adam Kushner — Founder & CEO
+- Jon Fonner — Google Ads Lead, co-anchors client calls
+- Micah Dilts — Acting COO, Product Owner (Scrum/Kanban)
+- Adam Hicks ("Hicks") — Paid Media Specialist (Google/Bing/Meta/Programmatic/Reddit Ads)
+- Abby Steele — Digital Marketing (Google Ads + LSA + Bing + website content)
+- Courtney Nguyen — Content Strategist, longest-tenured BA employee
+- Van Nguyen — Content/Creative (part-time remote, New Orleans)
+- Kyle Sarnowski — Video Production Associate
+- Ethan Wauls — Analytics; owns review platform and call tracking
+- Josh Carson — Lead Software Engineer; leads AutoBoost platform and Gauge attribution tool; oversees Daniel and Jahson
+- Daniel Tobias — Junior Software Engineer (under Josh)
+- Jahson Gonzalez-Allie — Junior Software Engineer (under Josh)
 
 **BA services:** Websites, enhanced SEO, listing management, Google/Bing/programmatic ads, Local Service Ads (Standard and Advanced tiers), call tracking, review platform, social media, video marketing, email marketing, revenue attribution; geographic exclusivity offered to clients.
 

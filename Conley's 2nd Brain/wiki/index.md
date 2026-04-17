@@ -1,7 +1,7 @@
 # Conley Potter's 2nd Brain — Index
 
 **Last updated:** 2026-04-17  
-**Source count:** 14  
+**Source count:** 15  
 **Page count:** 39
 
 This wiki documents Conley Potter's ACE business and broader life context. It began as an ACE-only knowledge base and is expanding into a full second brain covering personal operating philosophy, projects, identity, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
@@ -24,7 +24,7 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | [[ba-overview]] | What Business Actualization is, Conley's role, tooling, team, and its position in the 2026 Operating Doctrine |
 | [[ba-products]] | BA's full service/product catalog — website tiers, Google Ads tiers, LSA tiers, programmatic, review platform, attribution |
 | [[ba-partners]] | AutoVitals and Turnkey Auto Marketing — referral structure, key contacts, commercial relationships |
-| [[ba-team]] | Internal team roles: Adam, Jon, Micah, Ethan, Courtney, Kyle, Abby, Josh |
+| [[ba-team]] | Official 13-person team roster with confirmed titles, Slack names, and locations |
 | [[ba-clients-pipeline]] | Rolling reference for key client accounts and pipeline — context HubSpot doesn't hold |
 | [[adam-shop-incubator]] | Adam's 6-location auto repair shop chain — content engine, incubator, real estate play; GC referral placed Apr 7 |
 
@@ -113,3 +113,4 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | `the-river-room-business-plan-v2.md` | Full V2 business plan for The River Room — three-layer model (Commons, Studio, Workshop), dual physical/digital revenue strategy, 4-year projections, phased launch, funding strategy | 2026-04-16 |
 | `Daily-Recap_2026-04-15.md` | BA workday log — client follow-ups, partner/referral threads, HubSpot calls, FLSA handbook incident, 13 open items | 2026-04-16 |
 | `conley-weekly-summary-apr-6-12-2026.md` | BA week of Apr 6–12 — ~20 meetings, 3 closed-won deals, HubSpot activity, Slack threads, notable wins | 2026-04-16 |
+| `BA Team Roster.md` | Official BA team roster — 13 members with formal titles, Slack names, locations, and role descriptions | 2026-04-17 |
