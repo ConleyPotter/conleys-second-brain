@@ -48,14 +48,6 @@ Accounts are organized by how recently they appeared in Conley's recaps and thei
 
 ---
 
-### Tilson's Auto Repair
-**Contact:** Ben and Joe  
-**Status:** Closed — Prospect Dropped  
-**Recent activity:** Apr 16 — Conley and Jon mutually decided to move on. Conley: "he probably caught bad vibes from me. I thought that whole process was uncool of them in general." Jon agreed, reported the same vibe. Removed from active pipeline.  
-**Context:** Was in "Decision Maker Bought-In" with LSA deal expected to close on AutoVitals paper; never materialized. Steve @ AV had requested the call recording (Apr 10). Both parties chose not to re-engage.
-
----
-
 ### CarLink360
 **Contact:** Chad  
 **Status:** Decision Maker Bought-In  
@@ -97,14 +89,6 @@ Accounts are organized by how recently they appeared in Conley's recaps and thei
 
 ---
 
-### Kidders Repair
-**Contact:** Keith  
-**Status:** Prospect — warm inbound from AutoVitals; introductory call held  
-**Recent activity:** Apr 16 — "Connects with AV/AutoBoost" call attended (~9 min, Conley + Jon + Keith + Stephen Baker/AV). New AV client converting to add BA Google Ads services. Follow-up needed: confirm next steps and service tier with Keith.  
-**Context:** Conley identified this lead on Apr 15 and asked Jon to schedule it for Thursday.
-
----
-
 ### Salta
 **Status:** Active client — performance issues  
 **Recent activity:** Apr 15 — Conley flagged poor performance to Jon. Strategy discussion TBD. No resolution yet.
@@ -118,6 +102,12 @@ These clients are managed jointly with AutoVitals. See [[ba-partners]] for the A
 ### STAR Automotive
 **Status:** Active AutoVitals partner account  
 **Recent activity (Apr 6–12):** Google Ads performance review (Apr 7). Conley asked Adam Hicks (BA's Paid Media Specialist) about Meta brand-awareness ads for technician hiring at STAR (Apr 10).
+
+### Kidders Repair
+**Contact:** Keith  
+**Status:** Prospect — warm inbound from AutoVitals; introductory call held  
+**Recent activity:** Apr 16 — "Connects with AV/AutoBoost" call attended (~9 min, Conley + Jon + Keith + Stephen Baker/AV). New AV client converting to add BA Google Ads services. Follow-up needed: confirm next steps and service tier with Keith.  
+**Context:** Conley identified this lead on Apr 15 and asked Jon to schedule it for Thursday.
 
 ### Los Gatos Auto
 **Contact:** David  
@@ -145,6 +135,13 @@ These clients are managed jointly with AutoVitals. See [[ba-partners]] for the A
 **Status:** Active AutoVitals partner account  
 **Recent activity:** 33-minute monthly review call Apr 15.
 
+### Tilson's Auto Repair
+**Contact:** Ben and Joe  
+**Status:** New Deal: Closed — Prospect Dropped  
+Still a current shared AutoVitals Advanced Google Ads client. May still add LSA.
+**Recent activity:** Apr 16 — Conley and Jon mutually decided to move on. Conley: "he probably caught bad vibes from me. I thought that whole process was uncool of them in general." Jon agreed and reported the same vibe. Removed from active pipeline.  
+**Context:** Was in "Decision Maker Bought-In" with LSA deal expected to close on AutoVitals paper. Steve @ AV had requested the call recording (Apr 10). Both parties chose not to re-engage with the broader deal involving a website and programmatic ads.
+
 ---
 
 ## Recently Closed / Onboarding
@@ -158,11 +155,7 @@ These clients are managed jointly with AutoVitals. See [[ba-partners]] for the A
 **Status:** Onboarding — Jumpstart+ upgrade signed and paid  
 **Recent activity:** Confirmed Jumpstart+ upgrade; signed and paid within the week of Apr 6–7.
 
-### Best One Automotive (Devin)
-**Status:** Onboarding — advanced website package signed and paid  
-**Recent activity:** Signed and paid, handed off to onboarding (Apr 6).
-
-### Chris Knopp & Paul Marsh
+### Harford County Transmissions & Repair: Chris Knopp & Paul Marsh 
 **Status:** Signed, payment pending; onboarding not yet started  
 **Recent activity (Apr 15):** Onboarding email sent. Directed to book kick-off call. Payment still outstanding from earlier in the month.
 
@@ -175,7 +168,7 @@ These clients are managed jointly with AutoVitals. See [[ba-partners]] for the A
 
 ---
 
-### Save More Automotive (Brenner Newman)
+### Sav-Mor Automotive (Brenner Newman)
 **Contact:** Brenner Newman  
 **Status:** Active client — April promotional campaign in motion  
 **Recent activity:** Apr 16 — Brenner called in slow; wants promos on site and Google Ads. Conley + Courtney coordinated campaign: $47 synthetic oil change, free A/C diagnostic + 10% off, April-only specials. Deliverables: website, Google Ads, social, blog (National Car Care Month angle). Jon adjusting Google Ads toward general repair spend.  
@@ -193,25 +186,21 @@ These clients are managed jointly with AutoVitals. See [[ba-partners]] for the A
 
 Accounts in the pipeline with notable size or momentum, tracked here for context:
 
-| Account | Stage | Amount | Note |
-|---|---|---|---|
-| Turbo Tim's Anything Automotive | Decision Maker Bought-In | $31,348 | Largest active pipeline deal |
-| Aspen Auto Clinic | Contract Sent | $23,322 | |
-| Crowne Automotive | Closed Won | $11,574 | Sara's account; Apr 6–7 touch |
-| ValleyPro AutoHouse | Decision Maker Bought-In | $7,587 | |
-| EuroPro Autohaus | Decision Maker Bought-In | $7,587 | |
-| BG Automotive | Prospect | — | Greg's account; Apr 9 call with Joe @ BA |
-| Mechanics of West Allis | Booked | — | Appointment ~2 weeks from Apr 16. Schedule noted as "slammed" |
+| Account                         | Stage                    | Amount  | Note                                                          |
+| ------------------------------- | ------------------------ | ------- | ------------------------------------------------------------- |
+| Turbo Tim's Anything Automotive | Decision Maker Bought-In | $31,348 | Largest active pipeline deal                                  |
+| ValleyPro AutoHouse             | Decision Maker Bought-In | $7,587  |                                                               |
+| EuroPro Autohaus                | Decision Maker Bought-In | $7,587  |                                                               |
+| Mechanics of West Allis         | Booked                   | —       | Appointment ~2 weeks from Apr 16. Schedule noted as "slammed" |
 
 ---
 
 ## Accounts Needing Attention
 
-| Account | Issue | Status |
-|---|---|---|
-| Menard Automotive | Webmaster unreachable; tracking installation blocked | Ethan tried calling; Conley committed to continuing |
-| Salta | Poor ad performance; strategy TBD | Flagged to Jon Apr 15 |
-| Kotowski's Automotive & Repair (TN) | Prospect research logged; no website | In HubSpot, early stage |
+| Account                             | Issue                                                | Status                                              |
+| ----------------------------------- | ---------------------------------------------------- | --------------------------------------------------- |
+| Menard Automotive                   | Webmaster unreachable; tracking installation blocked | Ethan tried calling; Conley committed to continuing |
+| Salta                               | Poor ad performance; strategy TBD                    | Flagged to Jon Apr 15                               |
 
 ---
 
