@@ -1,1 +1,3 @@
 I just added an article to /raw-sources/. Read it, extract the key ideas, write a summary page to /wiki/, update index.md with a link and one-line description, and update any existing concept pages that this article connects to. Log what you changed to log.md. Show me every file you touched.
+
+I just added multiple articles to `Conley's\ 2nd\ Brain/raw-sources/`. Read them, extract their key ideas, write summary pages to `Conley's\ 2nd\ Brain/wiki/`, update index.md with a link and one-line description for each new page, and update any existing concept pages that the new articles connect to. Log what you changed to log.md. Show me every file you touched. 
