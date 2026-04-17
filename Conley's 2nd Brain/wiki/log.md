@@ -473,3 +473,29 @@ Conley reviewed the article and flagged several LLM-tell patterns requiring corr
 - The em dash removal is the most structurally significant edit. Replacing them forced sentence-level rewrites that produced more varied and direct prose throughout the article. The constraint is productive.
 - The Tiago Forte attribution adds appropriate humility and a credible external link. Forte's site (buildingasecondbrain.com) is a high-authority link that supports SEO.
 - The `writing-style.md` page is deliberately distinct from `brand-voice.md`: brand voice is about who Conley is when he writes; writing style is about the craft mechanics that express that identity without LLM contamination.
+
+---
+
+## [2026-04-17] ingest | Daily Recap — April 16, 2026
+
+**Source type:** BA daily work log — split office/travel day; FLACA conference departure, morning client meetings, afternoon covered by Jon and Adam while Conley traveled  
+**Pages created:** 1 (`daily-recap-2026-04-16.md`)  
+**Pages updated:** 3 (`ba-clients-pipeline.md`, `ba-partners.md`, `ba-overview.md`)
+
+### What this source contains
+
+A full workday covering three morning client meetings (Kidders Repair, Twenty First Century Auto, 59 Auto Repair), extensive Jon-coordination DMs across six accounts, the Tilson's Auto Repair disengagement, Mechanics of West Allis finally booking, Metric Motors tier proposals in #internal-sales, and Conley's solo departure to the FLACA conference in Orlando. Day ended with exhibitor setup at the venue through 9:15 PM. 15 open items carrying forward.
+
+### What changed
+
+- `ba-clients-pipeline.md` — Multiple status updates: Tilson's Auto changed to "Closed — Prospect Dropped"; Kidders Repair updated from "pending call" to "call attended, follow-up needed"; Metric Motors updated with three proposed service tiers and sales deck assigned to team; Mechanics of West Allis updated from "Prospect / rescheduling" to "Booked." Three new entries added: A&R Complete Auto (Taina departed, Angie now sole contact), Save More Automotive / Brenner Newman (April promos in motion), Kennedy's (declined call tracking overlay, not offboarding). Sources and updated date refreshed.
+- `ba-partners.md` — AutoVitals contact "Jordan" updated to full name "Jordan Bania" with expanded role note (confirmed on monthly Google Ads review calls). Stephen Baker added as new AV contact (present on Kidders Repair intro call Apr 16). Sources and updated date refreshed.
+- `ba-overview.md` — Two additions: (1) HubSpot AI post-call summaries note under Tooling — Micah confirmed the new capabilities can replace the "assign to client success" workflow; (2) Industry conferences section added under Partner Ecosystem — documents BA's active conference presence (TEKTONIC week of Apr 6–12, FLACA Apr 16–20). Sources and updated date refreshed.
+
+### Notable observations
+
+- Tilson's Auto dropping after sitting in "Decision Maker Bought-In" is a useful data point on the reliability of that HubSpot stage. The AV-paper close mechanism (LSA deals closing on AutoVitals billing cycles) appears to create friction or delay that can kill deals if momentum cools. Worth watching for this pattern in other AV-referred prospects.
+- Conley and Jon's mutual, low-drama decision to drop Tilson's suggests operational maturity about pipeline hygiene — they're not chasing dead weight. The "bad vibes" framing is worth noting as an informal filter Conley applies, and it appears to correlate with deals that were always going to be difficult closes.
+- The Brenner Newman "even he's feeling it now" observation about slow business is the first market-softness signal in the recap series. If similar language appears across multiple clients in April/May, it could signal a seasonal dip affecting BA's upsell and renewal rate. Flag if it recurs.
+- BA is now running two back-to-back industry conferences (TEKTONIC + FLACA) in the same two-week stretch. The team split — Adam/Jon for TEKTONIC, Conley solo for FLACA — suggests BA has enough coverage bandwidth to field multiple events simultaneously. This is worth cross-referencing if FLACA-sourced contacts appear in later pipeline recaps.
+- Jordan Bania's full name confirmed. Prior wiki entries used "Jordan" only. The Two Adams convention (CEO vs. Paid Media Specialist) documented in the BA Team Roster ingest now has a parallel case: two named "Jordan" contacts at different levels could cause confusion in future recaps without full names.

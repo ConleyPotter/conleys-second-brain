@@ -3,8 +3,8 @@ type: operations
 domain: ba
 tags: [ba, day-job, partners, autoVitals, turnkey]
 created: 2026-04-16
-updated: 2026-04-16
-sources: [conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md, Claude Accounts' Saved Memories.md]
+updated: 2026-04-17
+sources: [conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md, Claude Accounts' Saved Memories.md, Daily-Recap_2026-04-16.md]
 ---
 
 # BA Partner Ecosystem
@@ -60,7 +60,8 @@ AutoVitals and BA hold joint client calls where both teams participate. AutoVita
 - **Shelby Maggard** — Account coordination. Manages meeting scheduling for shared clients (e.g., Lael's International Auto Service rescheduling on Apr 15).
 - **Steve** — Relationship-level contact. Conley emailed Steve to request the recording of the Tilson's Auto Repair call (Apr 10 weekly recap).
 - **Adam Hicks** — Account-level contact for STAR Automotive. Conley asked Adam Hicks about Meta brand-awareness ads for technician hiring at STAR (Apr 10 weekly recap, #clients-av-star-automotive channel).
-- **Jordan** — Coordinates LSA account additions. Conley worked with Abby and Jordan @ AutoVitals on adding Mark Watson/TOS to LSA accounts (Apr 9–10 weekly recap).
+- **Jordan Bania** — Coordinates LSA account additions and participates in joint monthly Google Ads reviews. Conley worked with Abby and Jordan on adding Mark Watson/TOS to LSA accounts (Apr 9–10 weekly recap). On Apr 16, Jordan was present on the Twenty First Century Auto monthly Google Ads review call.
+- **Stephen Baker** — AutoVitals contact present on new-prospect intro calls. On Apr 16, attended the Kidders Repair "Connects with AV/AutoBoost" call alongside Conley and Jon.
 
 **Joint clients (active as of Apr 2026):**
 These are clients managed by both BA and AutoVitals to varying degrees. See [[ba-clients-pipeline]] for individual account detail.

@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
 **Last updated:** 2026-04-17  
-**Source count:** 15  
-**Page count:** 39
+**Source count:** 17  
+**Page count:** 40
 
 This wiki documents Conley Potter's ACE business and broader life context. It began as an ACE-only knowledge base and is expanding into a full second brain covering personal operating philosophy, projects, identity, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -83,6 +83,7 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 |---|---|
 | [[weekly-recap-2026-04-06]] | BA week of Apr 6–12: ~20 meetings, $29,610 closed-won, shop incubator GC referral, POS conversion tracking proposal |
 | [[daily-recap-2026-04-15]] | BA workday recap Apr 15: client pipeline, Turnkey/AutoVitals partners, FLSA compliance catch, 13 open items |
+| [[daily-recap-2026-04-16]] | BA workday recap Apr 16: FLACA departure, Tilson's dropped, Mechanics booked, Metric Motors tiers |
 
 ## Meta
 
@@ -114,3 +115,4 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | `Daily-Recap_2026-04-15.md` | BA workday log — client follow-ups, partner/referral threads, HubSpot calls, FLSA handbook incident, 13 open items | 2026-04-16 |
 | `conley-weekly-summary-apr-6-12-2026.md` | BA week of Apr 6–12 — ~20 meetings, 3 closed-won deals, HubSpot activity, Slack threads, notable wins | 2026-04-16 |
 | `BA Team Roster.md` | Official BA team roster — 13 members with formal titles, Slack names, locations, and role descriptions | 2026-04-17 |
+| `Daily-Recap_2026-04-16.md` | BA workday log — split day; FLACA conference departure, client pipeline updates, Tilson's dropped, Mechanics of West Allis booked | 2026-04-17 |
