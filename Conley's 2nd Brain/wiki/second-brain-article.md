@@ -19,9 +19,9 @@ sources: []
 
 I have a problem that I suspect most people building with AI share: the model forgets everything.
 
-Every session starts cold. You brief it, it helps you, and when the window closes, the context evaporates. For one-off tasks, that's fine. For a complex, ongoing project (a business you're building, a career you're managing, a life you're trying to understand), it's a structural limitation. The knowledge lives in your head, or scattered across documents, or buried in chat histories you can't search.
+Every session starts cold. You brief it, it helps you, and when the window closes, the context evaporates. For one-off tasks, that's fine. For a complex, ongoing project (a business you're building, a career you're managing, or a life you're trying to understand), it's a structural limitation. The knowledge lives in your head, or scattered across documents, or buried in chat histories you can't search.
 
-I started thinking about this differently after encountering Andrej Karpathy's approach to `CLAUDE.md`. The idea is simple: use a well-structured instruction file as an operating contract between you and the model. Load it at session start, and the model knows who it's talking to, what it's maintaining, and how to behave. A schema rather than memory, a way of making the model's behavior consistent across sessions even when the model itself has no persistent state.
+I started thinking about this differently after encountering Andrej Karpathy's approach to `CLAUDE.md`. The idea is simple: use a well-structured instruction file as an operating contract between you and the model. Load it at session start, and the model knows who it's talking to, what it's maintaining, and how to behave. A schema rather than memory, a way of making the model's behavior consistent across sessions, even when the model itself has no persistent state.
 
 That was the seed. [Rui Fu](https://www.raycfu.com/) (@raycfu) gave me the initial frame for pairing [Obsidian](https://obsidian.md) with [Claude Code](https://claude.ai/code) and the starter prompts that shaped the first session. The result is a personal implementation of what [Tiago Forte](https://www.buildingasecondbrain.com/) calls the second brain: a persistent, compounding knowledge system, maintained by an AI.
 
@@ -51,13 +51,13 @@ The coverage surprised me. I went in thinking this would be a tool for the busin
 
 ## What makes it work
 
-Every operation gets appended to `log.md`: what was read, what was created, what changed, and why. At the start of each session, Claude reads the last several entries. That log is greppable, structured, honest, and it's what gives sessions their continuity. Without it, each session would start cold even with a schema in place.
+Every operation gets appended to `log.md`: what was read, what was created, what changed, and why. At the start of each session, Claude reads the last several entries. That log is greppable, structured, honest, and it's what gives sessions their continuity. Without it, each session would start cold, even with a schema in place.
 
-The index is the thing I didn't expect to matter as much as it does. A flat list of pages with one-line summaries sounds trivial until the wiki is large enough that you'd otherwise have to search or guess. I know what's in here without reading everything.
+The index is the thing I didn't expect to matter as much as it does. A flat list of pages with one-line summaries sounds trivial until the wiki is large enough that you'd otherwise have to search or guess. I know what's in here without having to read everything.
 
-Ingestion is where the value actually compounds. When a new source comes in, Claude doesn't only summarize it; it reads existing pages and looks for contradictions. If the new source changes what a previous page said, the old page gets updated and the change gets noted. The wiki stays internally consistent across updates without me managing that manually.
+Ingestion is where the value actually compounds. When a new source comes in, Claude summarizes it, reads existing pages, and looks for contradictions. If the new source changes what a previous page said, the old page gets updated and the change gets noted. The wiki stays internally consistent across updates without me having to manage it manually.
 
-And then there's the discipline, which is probably the most important part even though it's the least interesting to describe. Flat pages, consistent frontmatter, rolling versus archival page types, a schema the model follows precisely. None of it is technically sophisticated. Structure is what makes a folder of markdown something you can rely on six months from now.
+And then there's the discipline, which is probably the most important part, even though it's the least interesting to describe. Flat pages, consistent frontmatter, rolling versus archival page types, and a schema that the model follows precisely. None of it is technically sophisticated. Structure is what makes a folder of markdown something you can rely on six months from now.
 
 ---
 
@@ -65,9 +65,11 @@ And then there's the discipline, which is probably the most important part even 
 
 I've been running this as a personal tool, but the pattern doesn't require it to be.
 
-The same mechanics work for a small team: raw sources, wiki pages, schema file, index, log. Swap the personal `CLAUDE.md` for a team schema that defines company-level conventions. Replace Obsidian with any markdown viewer or GitHub's built-in rendering, use Git for version control and GitHub for access management. The AI becomes a shared knowledge maintainer. Multiple contributors add source documents; the model synthesizes, cross-links, and keeps the wiki current.
+The same mechanics work for a small team: raw sources, wiki pages, schema file, index, log. Swap the personal `CLAUDE.md` for a team schema that defines company-level conventions. Replace Obsidian with any markdown viewer or GitHub's built-in rendering, use Git for version control and GitHub for access management. The AI becomes a maintainer of shared knowledge. Multiple contributors add source documents; the model synthesizes, cross-links, and keeps the wiki current.
 
 What changes is the governance layer. The schema needs to define domains more carefully and account for the fact that different people will carry different mental models of the same information. The core loop translates directly: read, synthesize, flag contradictions, update index, append log. That loop doesn't care whether one person is feeding it or ten.
+
+I'm pitching it to a friend of mine to try on a group project now, so I'm excited to see where that goes. I will report back if we make progress.
 
 ---
 
@@ -75,9 +77,9 @@ What changes is the governance layer. The schema needs to define domains more ca
 
 It's been two days. I don't have a verdict on whether this compounds the way I think it will.
 
-What I have: I already know where to look for things. The index is genuinely useful. The log tells me what I was thinking two days ago in a way chat history doesn't. When I open a new Claude Code session on this repository, the model reads three files and is immediately oriented. That handoff works.
+What I have: I already know where to look for things. The index is genuinely useful. The log tells me what I was thinking two days ago in a way chat history doesn't. When I open a new Claude Code session on this repository, the model reads three files and immediately knows me and my life. That handoff works.
 
-The questions that remain: does the wiki stay useful at two hundred pages? Does the schema hold when the domains get messier? Does the ingestion discipline survive weeks where there's no time to be methodical?
+The questions that remain: Does the wiki remain useful at 200 pages? Does the schema hold when the domains get messier? Does the ingestion discipline hold up over weeks when there's no time to be methodical?
 
 I don't know yet. But I'm building this. You're welcome to watch.
 
