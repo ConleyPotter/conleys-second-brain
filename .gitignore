@@ -5,4 +5,10 @@ workspace.json
 .obsidian/workspace.json
 .obsidian/cache/*
 Untitled.base
-/.obsidian/graph.json
+.obsidian/graph.json
+.obsidian/plugins/*
+.obsidian/starred.json
+.obsidian/templates.json
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
