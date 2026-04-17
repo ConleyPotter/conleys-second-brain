@@ -3,8 +3,8 @@ type: operations
 domain: ba
 tags: [ba, day-job, clients, pipeline, hubspot]
 created: 2026-04-16
-updated: 2026-04-16
-sources: [conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md]
+updated: 2026-04-17
+sources: [conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md, Daily-Recap_2026-04-16.md]
 ---
 
 # BA Clients & Pipeline
@@ -50,9 +50,9 @@ Accounts are organized by how recently they appeared in Conley's recaps and thei
 
 ### Tilson's Auto Repair
 **Contact:** Ben and Joe  
-**Status:** Decision Maker Bought-In — LSA deal expected to close on AutoVitals paper (EOM reconciliation)  
-**Deal value:** Not yet posted to HubSpot  
-**Recent activity:** Follow-up call Apr 8 (Ben & Joe). Steve @ AutoVitals requested the recording. LSA deal close expected but won't show in HubSpot until end-of-month AutoVitals paper process.
+**Status:** Closed — Prospect Dropped  
+**Recent activity:** Apr 16 — Conley and Jon mutually decided to move on. Conley: "he probably caught bad vibes from me. I thought that whole process was uncool of them in general." Jon agreed, reported the same vibe. Removed from active pipeline.  
+**Context:** Was in "Decision Maker Bought-In" with LSA deal expected to close on AutoVitals paper; never materialized. Steve @ AV had requested the call recording (Apr 10). Both parties chose not to re-engage.
 
 ---
 
@@ -67,8 +67,8 @@ Accounts are organized by how recently they appeared in Conley's recaps and thei
 
 ### Metric Motors
 **Contact:** Gina  
-**Status:** Prospect — active sales process  
-**Recent activity:** Multi-day scheduling thread; Conley escalated to Adam. Adam-led call on Apr 15 (49 min, Gina + Adam). Conley coordinated setup by forwarding Gina's email to Jon, who flagged Adam should handle it.
+**Status:** Prospect — active sales process; proposal in progress  
+**Recent activity:** Multi-day scheduling thread; Conley escalated to Adam. Adam-led call on Apr 15 (49 min, Gina + Adam). Apr 16 — Adam posted three service tier options in #internal-sales, tagging Jon, Conley, and Ethan to build a sales deck: (1) Standard Website / Google Ads JumpStart+ / Bing; (2) Advanced Website / Google Ads Standard / Bing; (3) Advanced Website / Google Ads Advanced / Bing / Programmatic 2 Medium. Conley assigned programmatic ad placement examples to Ethan, Abby, and Courtney with links to the Google Slides deck and HubSpot template. Sales deck in progress.
 
 ---
 
@@ -98,8 +98,10 @@ Accounts are organized by how recently they appeared in Conley's recaps and thei
 ---
 
 ### Kidders Repair
-**Status:** AutoVitals client ready to buy Google Ads — warm inbound  
-**Recent activity:** Apr 15 — Conley asked Jon whether to book the call Thursday/Friday or next week. This is a new AV client converting to add BA services.
+**Contact:** Keith  
+**Status:** Prospect — warm inbound from AutoVitals; introductory call held  
+**Recent activity:** Apr 16 — "Connects with AV/AutoBoost" call attended (~9 min, Conley + Jon + Keith + Stephen Baker/AV). New AV client converting to add BA Google Ads services. Follow-up needed: confirm next steps and service tier with Keith.  
+**Context:** Conley identified this lead on Apr 15 and asked Jon to schedule it for Thursday.
 
 ---
 
@@ -166,6 +168,27 @@ These clients are managed jointly with AutoVitals. See [[ba-partners]] for the A
 
 ---
 
+### A&R Complete Auto
+**Contact:** Angie (sole contact as of Apr 16); Taina has departed  
+**Status:** Active client — contact change; meeting rescheduling in progress  
+**Recent activity:** Apr 16 — Angie emailed to cancel the 2 PM Zoom, noting Taina is no longer with A&R. Conley forwarded to Jon and took ownership of rescheduling. Angie available Fri 4/17 or Tue 4/22.
+
+---
+
+### Save More Automotive (Brenner Newman)
+**Contact:** Brenner Newman  
+**Status:** Active client — April promotional campaign in motion  
+**Recent activity:** Apr 16 — Brenner called in slow; wants promos on site and Google Ads. Conley + Courtney coordinated campaign: $47 synthetic oil change, free A/C diagnostic + 10% off, April-only specials. Deliverables: website, Google Ads, social, blog (National Car Care Month angle). Jon adjusting Google Ads toward general repair spend.  
+**Signal:** Conley's reaction ("even he's feeling it now") suggests broader seasonal slowdown reaching typically stable clients.
+
+---
+
+### Kennedy's
+**Status:** Active client — call tracking overlay declined  
+**Recent activity:** Apr 16 — Kennedy's declined BA's call tracking overlay; going back to OktoRocket for CRM and related services. Not offboarding from BA services otherwise. Ethan clarified the situation to Conley.
+
+---
+
 ## Pipeline Watch List
 
 Accounts in the pipeline with notable size or momentum, tracked here for context:
@@ -178,7 +201,7 @@ Accounts in the pipeline with notable size or momentum, tracked here for context
 | ValleyPro AutoHouse | Decision Maker Bought-In | $7,587 | |
 | EuroPro Autohaus | Decision Maker Bought-In | $7,587 | |
 | BG Automotive | Prospect | — | Greg's account; Apr 9 call with Joe @ BA |
-| Mechanics of West Allis | Prospect | — | Mike; rescheduling in progress |
+| Mechanics of West Allis | Booked | — | Appointment ~2 weeks from Apr 16. Schedule noted as "slammed" |
 
 ---
 

@@ -4,7 +4,7 @@ domain: ba
 tags: [ba, day-job, agency, autoboost]
 created: 2026-04-16
 updated: 2026-04-17
-sources: [Claude Accounts' Saved Memories.md, Personal Portfolio Website Current State 4.14.26.md, conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md, BA Team Roster.md]
+sources: [Claude Accounts' Saved Memories.md, Personal Portfolio Website Current State 4.14.26.md, conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md, BA Team Roster.md, Daily-Recap_2026-04-16.md]
 ---
 
 # Business Actualization — Day Job Overview
@@ -88,6 +88,8 @@ Two primary referral and co-delivery channels. See [[ba-partners]] for full deta
 - **Turnkey Auto Marketing** — sends BA referrals; BA manages LSA for Turnkey's prospects
 - **AutoVitals** — shared client base; joint calls, co-managed Google Ads and LSA accounts, billing coordination
 
+**Industry conferences:** BA exhibits at automotive industry conferences. Adam and Jon attended TEKTONIC (Houston) the week of Apr 6–12. Conley traveled solo to **FLACA (Florida Automotive Community Association)** in Orlando, Apr 16–20, 2026, for exhibitor booth staffing and networking. These events are an active part of BA's business development motion.
+
 ---
 
 ## Internal Team
@@ -106,6 +108,7 @@ See [[ba-team]] for roles and working relationships.
 - **Gauge** — Analytics/attribution platform. Biweekly maintenance windows (Josh-organized). Revenue attribution dashboard used in client reporting.
 - **CallRail** — Call tracking; GCLID capture for Google Ads conversion tracking.
 - **Google Ads, Performance Max, LSA** — Core paid media stack for clients.
+- **HubSpot AI (post-call summaries)** — Conley confirmed using HubSpot's AI features after calls to auto-generate notes. As of Apr 16, Micah confirmed the new HubSpot beta features (subtasks, improved task objects, enhanced workflows) can replace the existing "assign to client success" workflow entirely. Conley and Micah aligned on its value; Courtney skeptical of UI changes.
 
 > **TODO:** Pull the full BA tech stack used in service delivery (what platforms BA manages on behalf of clients). An AI assistant with access to BA's Slack or internal docs could run:
 > *"List every third-party platform or software tool mentioned in #internal-google-ads, #internal-websites, and #internal-sales over the past 90 days."*
