@@ -499,3 +499,29 @@ A full workday covering three morning client meetings (Kidders Repair, Twenty Fi
 - The Brenner Newman "even he's feeling it now" observation about slow business is the first market-softness signal in the recap series. If similar language appears across multiple clients in April/May, it could signal a seasonal dip affecting BA's upsell and renewal rate. Flag if it recurs.
 - BA is now running two back-to-back industry conferences (TEKTONIC + FLACA) in the same two-week stretch. The team split — Adam/Jon for TEKTONIC, Conley solo for FLACA — suggests BA has enough coverage bandwidth to field multiple events simultaneously. This is worth cross-referencing if FLACA-sourced contacts appear in later pipeline recaps.
 - Jordan Bania's full name confirmed. Prior wiki entries used "Jordan" only. The Two Adams convention (CEO vs. Paid Media Specialist) documented in the BA Team Roster ingest now has a parallel case: two named "Jordan" contacts at different levels could cause confusion in future recaps without full names.
+
+---
+
+## [2026-04-17] ingest | Opus 4.7 Thread by Boris Cherny
+
+**Source type:** External social post (Threads, @boris_cherny) — post #6 in a numbered thread about Claude Opus 4.7 workflow optimization  
+**Pages created:** 2 (`opus-4-7-workflow.md`, `domain-general.md`)  
+**Pages updated:** 2 (`tech-stack.md`, `index.md`)
+
+### What this source contains
+
+A short but high-signal Threads post from Boris Cherny (April 16, 2026) on getting the most out of Claude Opus 4.7. The core argument: give Claude a way to verify its own work, and you 2–3x what you get from it — this was always true, but it matters more as the model gets more agentic. Verification method varies by context: bash/server for backend, the Claude Chromium extension for frontend, computer use for desktop apps. Recommended workflow for long-running tasks: (1) test end to end, (2) run `/simplify`, (3) put up a PR. The broader framing: Opus 4.7 is a meaningful leap once you restructure your workflow to match its longer autonomous runs — not just a drop-in upgrade to old habits.
+
+### What changed
+
+- `opus-4-7-workflow.md` (new) — Synthesis page documenting Cherny's workflow patterns, the verification matrix by context type, the three-step workflow, and the relevance to ACE's HITL co-pilot mode and the 15-hour operator constraint.
+- `domain-general.md` (new) — First General Knowledge domain anchor page, created per CLAUDE.md convention ("when a new domain becomes active, create a domain page"). Defines what the domain covers and links to all pages in it. This is the first external article ingested into the wiki.
+- `tech-stack.md` — Added Claude Opus as a named entry under LLM Calls. Previously, Claude appeared only in the OPEX budget line and the OpenClaw router model strategy blurb, but had no dedicated stack entry. Added Opus 4.7 as the current version with a note on the verification-first workflow pattern. `updated` date bumped to 2026-04-17.
+- `index.md` — Source count 17→18, page count 40→42. New General Knowledge section added with both new pages. New source row added.
+
+### Notable observations
+
+- This is the first "General knowledge" source in the wiki — the expansion path has officially started. The domain is thin (one post) but the anchor is in place. Future articles, podcast notes, and research clippings now have a home.
+- The verification-first workflow pattern from Cherny is directly applicable to how Conley uses Claude Code in this wiki's own maintenance (the `/simplify` skill is already in use). The advice is self-referential.
+- Opus 4.7 running longer and more autonomously changes the economics of the HITL gate in ACE. If the model can self-verify and run extended workstreams, the operator's role compresses further toward final approval rather than active monitoring. This is additive to ACE's core thesis about operator bandwidth.
+- The Chromium extension for frontend verification is a new tool not yet mentioned anywhere else in the wiki. Worth noting if ACE's Phase II (SEO content workflows) eventually involves frontend verification steps.
