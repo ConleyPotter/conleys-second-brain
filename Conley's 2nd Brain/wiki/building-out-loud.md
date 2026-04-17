@@ -1,9 +1,15 @@
 ---
 type: project
-tags: [podcast, public-presence, content, personal]
+tags:
+  - podcast
+  - public-presence
+  - content
+  - personal
 created: 2026-04-14
 updated: 2026-04-14
-sources: [2026 Operating Doctrine.md]
+sources:
+  - 2026 Operating Doctrine.md
+domain: personal
 ---
 
 # Building Out Loud

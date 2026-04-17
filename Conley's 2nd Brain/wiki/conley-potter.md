@@ -1,9 +1,15 @@
 ---
 type: identity
-tags: [operator, context, identity]
+tags:
+  - operator
+  - context
+  - identity
 created: 2026-04-14
 updated: 2026-04-17
-sources: [Claude Accounts' Saved Memories.md, Personal Portfolio Website Current State 4.14.26.md]
+sources:
+  - Claude Accounts' Saved Memories.md
+  - Personal Portfolio Website Current State 4.14.26.md
+domain: personal
 ---
 
 # Conley Potter — Operator Profile

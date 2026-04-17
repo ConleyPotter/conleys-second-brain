@@ -1,9 +1,13 @@
 ---
 type: strategy
-tags: [personal, doctrine, 2026, planning]
+tags:
+  - personal
+  - doctrine
+  - planning
 created: 2026-04-14
 updated: 2026-04-14
-sources: [2026 Operating Doctrine.md]
+sources:
+  - 2026 Operating Doctrine.md
 ---
 
 # 2026 Operating Doctrine

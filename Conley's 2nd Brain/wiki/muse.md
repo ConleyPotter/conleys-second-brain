@@ -1,9 +1,12 @@
 ---
 type: project
-tags: [paused, ai, 2025]
+tags:
+  - paused
+  - ai
 created: 2026-04-14
 updated: 2026-04-14
-sources: [2026 Operating Doctrine.md]
+sources:
+  - 2026 Operating Doctrine.md
 ---
 
 # Muse

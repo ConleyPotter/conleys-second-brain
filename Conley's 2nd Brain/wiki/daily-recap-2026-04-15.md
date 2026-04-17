@@ -1,9 +1,16 @@
 ---
 type: log
-tags: [ba, day-job, client-ops, hr, daily-recap]
+tags:
+  - ba
+  - day-job
+  - client-ops
+  - hr
+  - daily-recap
 created: 2026-04-16
 updated: 2026-04-16
-sources: [Daily-Recap_2026-04-15.md]
+sources:
+  - Daily-Recap_2026-04-15.md
+domain: ba
 ---
 
 # Daily Recap — April 15, 2026

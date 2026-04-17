@@ -1,9 +1,13 @@
 ---
 type: project
-tags: [paused, writing, 2025]
+tags:
+  - paused
+  - writing
 created: 2026-04-14
 updated: 2026-04-14
-sources: [2026 Operating Doctrine.md]
+sources:
+  - 2026 Operating Doctrine.md
+domain: personal
 ---
 
 # Book Project (2025)

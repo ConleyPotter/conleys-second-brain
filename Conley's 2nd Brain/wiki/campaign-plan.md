@@ -1,9 +1,14 @@
 ---
 type: marketing
-tags: [marketing, campaign, phase-1]
+tags:
+  - marketing
+  - campaign
+  - phase-1
 created: 2026-04-14
 updated: 2026-04-16
-sources: [ACE_Phase1_Campaign_Plan.md]
+sources:
+  - ACE_Phase1_Campaign_Plan.md
+domain: personal
 ---
 
 # Phase I Campaign Plan — "First Contract"

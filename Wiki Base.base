@@ -1,0 +1,13 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder == "Conley's 2nd Brain/wiki"
+    order:
+      - file.name
+      - domain
+      - tags
+      - created
+      - updated
+      - type

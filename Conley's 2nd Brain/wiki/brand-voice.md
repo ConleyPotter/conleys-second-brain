@@ -1,9 +1,17 @@
 ---
 type: marketing
-tags: [brand, voice, content, writing]
+tags:
+  - brand
+  - voice
+  - content
+  - writing
 created: 2026-04-14
 updated: 2026-04-16
-sources: [Brand Voice Guide 4.14.md, Claude Accounts' Saved Memories.md, Personal Portfolio Website Current State 4.14.26.md]
+sources:
+  - Brand Voice Guide 4.14.md
+  - Claude Accounts' Saved Memories.md
+  - Personal Portfolio Website Current State 4.14.26.md
+domain: personal
 ---
 
 # Brand Voice

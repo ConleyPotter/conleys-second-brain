@@ -1,9 +1,15 @@
 ---
 type: operations
-tags: [operations, upwork, proposals]
+tags:
+  - operations
+  - upwork
+  - proposals
 created: 2026-04-14
 updated: 2026-04-16
-sources: [ACE Business Plan_ Autonomous Freelance Agent.md, ACE Phase 1 Reference Brief.md]
+sources:
+  - ACE Business Plan_ Autonomous Freelance Agent.md
+  - ACE Phase 1 Reference Brief.md
+domain: ba
 ---
 
 # Client Acquisition Pipeline
