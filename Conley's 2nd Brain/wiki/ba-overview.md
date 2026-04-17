@@ -3,8 +3,8 @@ type: operations
 domain: ba
 tags: [ba, day-job, agency, autoboost]
 created: 2026-04-16
-updated: 2026-04-16
-sources: [Claude Accounts' Saved Memories.md, Personal Portfolio Website Current State 4.14.26.md, conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md]
+updated: 2026-04-17
+sources: [Claude Accounts' Saved Memories.md, Personal Portfolio Website Current State 4.14.26.md, conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md, BA Team Roster.md]
 ---
 
 # Business Actualization — Day Job Overview
@@ -94,7 +94,7 @@ Two primary referral and co-delivery channels. See [[ba-partners]] for full deta
 
 See [[ba-team]] for roles and working relationships.
 
-**Key people:** Adam Kushner (founder), Jon Fonner (sales/Google Ads lead), Micah Dilts (acting COO), Ethan Wauls (delivery/websites), Courtney Nguyen (intake/scheduling), Kyle Sarnowski, Abby, Josh.
+**Key people:** Adam Kushner (Founder & CEO), Jon Fonner (Google Ads Lead), Micah Dilts (Acting COO), Conley Potter (Digital Marketing Project Manager / de facto Director of Client Success & Strategy), Adam Hicks (Paid Media Specialist), Abby Steele (Digital Marketing), Courtney Nguyen (Content Strategist), Van Nguyen (Content/Creative, part-time remote), Kyle Sarnowski (Video Production Associate), Ethan Wauls (Analytics), Josh Carson (Lead Software Engineer), Daniel Tobias (Junior SE), Jahson Gonzalez-Allie (Junior SE).
 
 ---
 
