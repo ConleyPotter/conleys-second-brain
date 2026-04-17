@@ -9,7 +9,7 @@ sources: []
 
 # Building a Second Brain with Claude Code
 
-**Related:** [[building-out-loud]], [[portfolio-website]], [[wiki-structure-planning]], [[brand-voice]]
+**Related:** [[building-out-loud]], [[portfolio-website]], [[wiki-structure-planning]], [[brand-voice]], [[llm-wiki-pattern]]
 
 ---
 
