@@ -403,3 +403,31 @@ A structured weekly summary of Conley's BA workday activity for the week of Apri
 - The AutoVitals partnership is structurally deeper than it initially appeared. Multiple named contacts, joint call cadence, and shared client base suggest it's not a simple referral relationship — it may be closer to a co-delivery arrangement.
 - The POS-based conversion tracking initiative (Gauge/Pilot + GCLID capture) is a differentiation play worth watching — if it ships, it becomes a meaningful selling point for Advanced-tier clients.
 - `ba-clients-pipeline.md` deliberately does not replicate HubSpot data. It holds relational context and strategic notes. This distinction should be maintained — resist the temptation to make it a deal tracker.
+
+---
+
+## [2026-04-16] query | Second brain article — first portfolio writing piece
+
+**What was asked:** Write a substantive essay documenting the creation, development, and use of this second brain system for Conley's personal portfolio website. Cover the architecture (Claude Code + markdown + Obsidian), the team adaptation angle (Git/GitHub + schema changes), and credit Andrej Karpathy (CLAUDE.md inspiration) and Ray C Fu (Obsidian + Claude Code setup and initial prompts). Write to /wiki/, update index.md, update connected concept pages, log to log.md.
+
+**Pages read:** All wiki pages (via Explore agent) + CLAUDE.md + index.md + log.md + portfolio-website.md + building-out-loud.md
+
+**Pages created:** 1 (`second-brain-article.md`)
+**Pages updated:** 3 (`index.md`, `portfolio-website.md`, `building-out-loud.md`)
+
+### What this produces
+
+- **`second-brain-article.md`** (new, type: `asset`, domain: `personal`) — Full portfolio essay, ~1,000 words, written in Conley's brand voice ("calm ambition"). Covers the three-layer architecture (raw sources / wiki / schema), the init story (April 14, 2026), what makes the system work (log as continuity, index as orientation, ingestion as compounding), the team adaptation pattern (shared CLAUDE.md + Git/GitHub), and an honest reflection on where it goes from here. Credits Karpathy and Ray C Fu in the closing line.
+
+### What changed
+
+- **`index.md`** — Page count 37 → 38. `[[second-brain-article]]` added to Meta section with one-line description.
+- **`portfolio-website.md`** — Writing section updated to note that `[[second-brain-article]]` is a complete, portfolio-ready draft — the first substantive published piece available for the Writing section.
+- **`building-out-loud.md`** — Added `[[second-brain-article]]` to Relationship to Other Concepts. The essay ends with the exact *Building Out Loud* stance ("I'm building this. You're welcome to watch.") — it's a natural written companion piece or episode source.
+
+### Notable observations
+
+- The article ends deliberately open — "I don't know yet" — which is consistent with [[brand-voice]] honesty and avoids the temptation to package uncertainty as a lesson. This is the right call for a first piece.
+- The team adaptation section is intentionally brief. It names the pattern without overexplaining it. The audience for a portfolio piece doesn't need the implementation details; they need to understand that the model generalizes.
+- "I'm building this. You're welcome to watch." appears both as the final sentence of the article and as the *Building Out Loud* positioning statement. That's not coincidence — this piece is the first concrete expression of that public stance in writing.
+- The article credits Karpathy by name and Fu by name. Both attributions are appropriate and make the piece feel grounded rather than self-congratulatory.
