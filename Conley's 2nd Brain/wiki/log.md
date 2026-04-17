@@ -431,3 +431,35 @@ A structured weekly summary of Conley's BA workday activity for the week of Apri
 - The team adaptation section is intentionally brief. It names the pattern without overexplaining it. The audience for a portfolio piece doesn't need the implementation details; they need to understand that the model generalizes.
 - "I'm building this. You're welcome to watch." appears both as the final sentence of the article and as the *Building Out Loud* positioning statement. That's not coincidence — this piece is the first concrete expression of that public stance in writing.
 - The article credits Karpathy by name and Fu by name. Both attributions are appropriate and make the piece feel grounded rather than self-congratulatory.
+
+---
+
+## [2026-04-17] update | second-brain-article.md revised + writing-style.md created
+
+**Pages updated:** 2 (`second-brain-article.md`, `index.md`)
+**Pages created:** 1 (`writing-style.md`)
+
+### What changed and why
+
+Conley reviewed the article and flagged several LLM-tell patterns requiring correction, plus attribution errors. Changes made:
+
+1. **`second-brain-article.md`** — Six categories of revision:
+   - Attribution fixed: "Ray C Fu" corrected to "Rui Fu" (@raycfu) with link to raycfu.com throughout; naming claim removed ("something I've been calling the second brain method"); Tiago Forte credited as the originator of the second brain concept with link to buildingasecondbrain.com
+   - All em dashes removed and replaced with commas, colons, semicolons, or periods
+   - "It's not memory — it's a schema" rewritten: "A schema rather than memory, a way of making the model's behavior consistent across sessions"
+   - "It's not just bookkeeping. It's the continuity..." rewritten as single prose sentence
+   - Bold + em dash inline headers in "What it is" section restructured to flowing prose ("The first is... The second is... The third is...")
+   - Bold + period inline headers in "What makes it work" section converted to plain prose paragraphs
+   - Domain list expanded from three to four (ACE, BA, Personal, meta) to break uniform rule-of-three pattern
+   - External links added: Obsidian (obsidian.md), Claude Code (claude.ai/code), Rui Fu (raycfu.com), Tiago Forte (buildingasecondbrain.com)
+   - `updated` frontmatter date: 2026-04-16 → 2026-04-17
+
+2. **`writing-style.md`** (new, type: `asset`, domain: `personal`) — Comprehensive reference documenting Conley's writing mechanics and conventions. Covers: LLM-tells to eliminate (em dashes, "it's not X it's Y" patterns, uniform three-item lists, bold + em dash headers), formatting conventions (bold header rules, sentence fragments), punctuation standards, linking and attribution rules, and positive style targets. References [[brand-voice]] for voice/tone without duplicating it. Designed as a living document.
+
+3. **`index.md`** — Page count 38 → 39. `[[writing-style]]` added to Meta section.
+
+### Notable observations
+
+- The em dash removal is the most structurally significant edit. Replacing them forced sentence-level rewrites that produced more varied and direct prose throughout the article. The constraint is productive.
+- The Tiago Forte attribution adds appropriate humility and a credible external link. Forte's site (buildingasecondbrain.com) is a high-authority link that supports SEO.
+- The `writing-style.md` page is deliberately distinct from `brand-voice.md`: brand voice is about who Conley is when he writes; writing style is about the craft mechanics that express that identity without LLM contamination.
