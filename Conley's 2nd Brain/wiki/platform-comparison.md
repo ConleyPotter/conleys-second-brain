@@ -1,7 +1,13 @@
+---
+type: tool-analysis
+tags: [platforms, upwork, fiverr, market]
+created: 2026-04-14
+updated: 2026-04-16
+sources: [ACE Business Plan_ Autonomous Freelance Agent.md]
+---
+
 # Platform Comparison
 
-**Tags:** platforms, upwork, fiverr, market  
-**Sources:** Business Plan  
 **Related:** [[ace-overview]], [[client-acquisition]], [[financial-projections]]
 
 ---

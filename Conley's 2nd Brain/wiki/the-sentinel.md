@@ -1,7 +1,13 @@
+---
+type: project
+tags: [project, hardware, vision, aspiration]
+created: 2026-04-14
+updated: 2026-04-16
+sources: [Project Brief for The Sentinel.md, Personal Portfolio Website Current State 4.14.26.md]
+---
+
 # The Sentinel
 
-**Tags:** project, hardware, vision, aspiration  
-**Sources:** Project Brief for The Sentinel.md, Personal Portfolio Website Current State 4.14.26.md  
 **Related:** [[ace-overview]], [[conley-potter]], [[portfolio-website]]
 
 ---

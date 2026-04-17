@@ -374,58 +374,34 @@ A structured end-of-day recap of Conley's BA workday on Wednesday, April 15, 202
 
 ---
 
-## [2026-04-16] ingest | conley-weekly-summary-apr-6-12-2026.md + BA domain build-out
+## [2026-04-16] lint | Frontmatter standardization — 17 pages converted to YAML
 
-**Source type:** BA weekly work summary — Google Calendar, Gmail, HubSpot, Slack  
-**Pages created:** 7 (`ba-overview.md`, `ba-products.md`, `ba-partners.md`, `ba-team.md`, `ba-clients-pipeline.md`, `adam-shop-incubator.md`, `weekly-recap-2026-04-06.md`)  
-**Pages updated:** 3 (`index.md`, `CLAUDE.md`, `log.md`)
+**Pages fixed:** 18 (`ace-overview.md`, `conley-potter.md`, `financial-projections.md`, `platform-comparison.md`, `tech-stack.md`, `client-acquisition.md`, `phase-1-lead-enrichment.md`, `data-enrichment-apis.md`, `phase-2-content-vectors.md`, `phase-3-infrastructure.md`, `campaign-plan.md`, `brand-voice.md`, `upwork-portfolio.md`, `career-history.md`, `portfolio-website.md`, `ace-legacy.md`, `the-sentinel.md`, `daily-recap-2026-04-15.md`)  
+**Suggestions made:** 0
 
-### What this source contains
+### Issues found and fixed
 
-A structured weekly summary of Conley's BA workday activity for the week of April 6–12, 2026. ~20 client meetings, 3 deals closed-won (~$29,610 attributed), 3 new HubSpot deals created (CarLink360 $19,884, Tilson's LSA deal, Legacy Auto Care $5,985), and two onboardings advanced signed → paid. Adam and Jon traveled to TEKTONIC Conference Thu–Fri; Conley covered solo. Notable events: auto shop incubator GC referral placed (Jim Walton), POS-based conversion tracking initiative in #internal-google-ads, filming session with Kyle.
+**Frontmatter format inconsistency (17 pages):**  
+The prior lint flagged that most pages used informal `**Tags:**` / `**Sources:**` inline headers instead of the YAML frontmatter defined in CLAUDE.md. All 17 affected pages have been converted to proper YAML format:
 
-### What changed
-
-- **`ba-overview.md`** (new) — Foundation page for the BA day job domain. Covers what BA is, Conley's role, the two-pillar relationship to the 2026 Operating Doctrine, services overview, tooling, partner ecosystem, and revenue/scale signals. Extensive TODOs for BA revenue figures, AutoBoost product description, and flatarchy org proposal status.
-- **`ba-products.md`** (new) — Full BA service catalog built by inference from deal records and sales conversations. Documents website tiers, Google Ads tiers (Jumpstart / Jumpstart+ / Standard / Advanced / Performance Max), LSA tiers (Standard / Advanced), programmatic, review platform, call tracking, social content curation, attribution (Gauge), video, email. Pricing partially filled from observed deal amounts. TODOs for official rate card and the Standard vs. Advanced LSA breakdown Conley sent Jared Baker.
-- **`ba-partners.md`** (new) — Turnkey Auto Marketing (Jared Baker, Suzanne Berger) and AutoVitals (Carly Lama, Carlos Massaquoi, Shelby Maggard, Steve, Adam Hicks, Jordan) documented in full. Commercial structure of both partnerships flagged as a TODO.
-- **`ba-team.md`** (new) — All internal team members documented with roles inferred from behavioral observation. Formal titles flagged for verification. AI prompts included for Slack-connected agents to pull roster and role data.
-- **`ba-clients-pipeline.md`** (new) — Rolling reference for key accounts and pipeline. Seeded from two sources. Organized by: High-Priority Accounts, Active Clients, AutoVitals Co-Managed Accounts, Recently Closed/Onboarding, Pipeline Watch List, Accounts Needing Attention.
-- **`adam-shop-incubator.md`** (new) — Documents Adam's 6-location auto repair shop chain initiative. GC referral (Jim Walton) placed Apr 7; walkthrough completed; bid pending. Notes strategic connection to BA marketing incubator thesis and possible future ACE Phase III relevance.
-- **`weekly-recap-2026-04-06.md`** (new, archival) — Full structured wiki summary of the Apr 6–12 week. Executive summary, notable events, full meeting list by day, HubSpot deal activity, email/follow-up work, Slack threads driven, wins/themes.
-- **`CLAUDE.md`** (updated) — Added `work-log` page type, `domain:` frontmatter field, rolling vs. archival distinction, recurring log source ingest pattern, expanded active domains (ACE / BA / Personal), updated index section list, updated Known Pages Needing Attention with four new items.
-- **`index.md`** (updated) — New "Day Job (BA)" section added with 6 entries. "Operations & Tech" renamed to "ACE Operations & Tech". Day Job Logs section updated with weekly recap entry. Source count 13→14, page count 28→37.
-
-### Notable observations
-
-- The BA day job is now the highest-volume raw source type — daily and weekly recaps will arrive continuously. The `work-log` archival pattern established here is the repeatable framework for all future recaps.
-- `ba-products.md` is the most speculative page in the wiki — built entirely by inference. It should be the first page to validate against official BA documentation.
-- The AutoVitals partnership is structurally deeper than it initially appeared. Multiple named contacts, joint call cadence, and shared client base suggest it's not a simple referral relationship — it may be closer to a co-delivery arrangement.
-- The POS-based conversion tracking initiative (Gauge/Pilot + GCLID capture) is a differentiation play worth watching — if it ships, it becomes a meaningful selling point for Advanced-tier clients.
-- `ba-clients-pipeline.md` deliberately does not replicate HubSpot data. It holds relational context and strategic notes. This distinction should be maintained — resist the temptation to make it a deal tracker.
-
+```yaml
 ---
+type: [page type]
+tags: []
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+sources: []
+---
+```
 
-## [2026-04-16] query | Second brain article — first portfolio writing piece
+The inline `**Tags:**` and `**Sources:**` lines were removed from page bodies. The `**Related:**` lines were preserved in place — `related` is not a frontmatter field in the CLAUDE.md schema.
 
-**What was asked:** Write a substantive essay documenting the creation, development, and use of this second brain system for Conley's personal portfolio website. Cover the architecture (Claude Code + markdown + Obsidian), the team adaptation angle (Git/GitHub + schema changes), and credit Andrej Karpathy (CLAUDE.md inspiration) and Ray C Fu (Obsidian + Claude Code setup and initial prompts). Write to /wiki/, update index.md, update connected concept pages, log to log.md.
+**Source name normalization:** Inline source references that used shorthand (e.g., "Business Plan", "Phase 1 Reference Brief") were expanded to match actual raw-source filenames (e.g., `ACE Business Plan_ Autonomous Freelance Agent.md`, `ACE Phase 1 Reference Brief.md`).
 
-**Pages read:** All wiki pages (via Explore agent) + CLAUDE.md + index.md + log.md + portfolio-website.md + building-out-loud.md
+**Missing `updated:` field (1 page):**  
+`daily-recap-2026-04-15.md` was missing the `updated:` field. Added `updated: 2026-04-16`.
 
-**Pages created:** 1 (`second-brain-article.md`)
-**Pages updated:** 3 (`index.md`, `portfolio-website.md`, `building-out-loud.md`)
-
-### What this produces
-
-- **`second-brain-article.md`** (new, type: `asset`, domain: `personal`) — Full portfolio essay, ~1,000 words, written in Conley's brand voice ("calm ambition"). Covers the three-layer architecture (raw sources / wiki / schema), the init story (April 14, 2026), what makes the system work (log as continuity, index as orientation, ingestion as compounding), the team adaptation pattern (shared CLAUDE.md + Git/GitHub), and an honest reflection on where it goes from here. Credits Karpathy and Ray C Fu in the closing line.
-
-### What changed
-
-- **`index.md`** — Page count 37 → 38. `[[second-brain-article]]` added to Meta section with one-line description.
-- **`portfolio-website.md`** — Writing section updated to note that `[[second-brain-article]]` is a complete, portfolio-ready draft — the first substantive published piece available for the Writing section.
-- **`building-out-loud.md`** — Added `[[second-brain-article]]` to Relationship to Other Concepts. The essay ends with the exact *Building Out Loud* stance ("I'm building this. You're welcome to watch.") — it's a natural written companion piece or episode source.
-
-### Notable observations
+### Remaining known issues (not addressed in this pass)
 
 - The article ends deliberately open — "I don't know yet" — which is consistent with [[brand-voice]] honesty and avoids the temptation to package uncertainty as a lesson. This is the right call for a first piece.
 - The team adaptation section is intentionally brief. It names the pattern without overexplaining it. The audience for a portfolio piece doesn't need the implementation details; they need to understand that the model generalizes.
