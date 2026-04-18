@@ -5,10 +5,13 @@ tags:
   - career
   - context
 created: 2026-04-14
-updated: 2026-04-16
+updated: 2026-04-18
 sources:
   - Personal Portfolio Website Current State 4.14.26.md
   - Claude Accounts' Saved Memories.md
+  - Conley-Potter-Resume-July-2025.md
+  - Conley-Potter-Resume-July-2025-AI.md
+  - Conley-Potter-Resume-July-2025-ADS.md
 domain: personal
 ---
 
@@ -22,7 +25,7 @@ domain: personal
 
 This page consolidates Conley's professional career timeline as it is currently known, drawing from the portfolio website and prior memory sources. The portfolio timeline is the most complete version available. Note that Conley describes the portfolio as "not fully representative" and still being refined — some details (especially titles) may evolve.
 
-**Total documented professional experience:** ~8 years in digital marketing and adjacent roles, plus a stint at Epic Systems.
+**Total documented professional experience:** ~8 years in digital marketing and adjacent roles, including a web development freelance period in Madison, WI, plus a stint at Epic Systems.
 
 ---
 
@@ -40,6 +43,29 @@ This was early in his career and brief — likely an entry-level or internship-a
 
 ---
 
+### App Academy — Coding Bootcamp
+**Dates:** Feb 2019 – Sep 2019  
+**Location:** San Francisco, CA | GPA: 3.83
+
+A highly selective, intensive software engineering bootcamp. Covered full-stack web development: Ruby/Rails, JavaScript, SQL, and React. This was a deliberate pivot from the Epic Systems experience toward software development credentials. It directly preceded the Madison freelance web development period.
+
+---
+
+### Freelance Web Developer and SEO Consultant — Self-Employed
+**Dates:** Aug 2019 – Jan 2021  
+**Location:** Madison, WI
+
+This is a distinct phase that is often collapsed with the later Lancaster freelance period but represents separate work. Following App Academy, Conley freelanced as a web developer and SEO consultant out of Madison.
+
+Key work:
+- End-to-end website development projects; organic search traffic growth
+- SEO strategy implementation; improved online visibility for clients
+- Built customized web solutions using contemporary JavaScript frameworks
+
+This period bridges the coding bootcamp credential and the broader digital marketing freelance career. The move from Madison to Lancaster (around Jan 2021) coincides with the transition from web dev + SEO work to the more strategically-positioned Freelance Digital Marketing Director role.
+
+---
+
 ### Freelance Digital Marketing Director — Self-Employed
 **Dates:** Jan 2021 – Feb 2024 (3+ years)  
 **Location:** Lancaster, PA
@@ -52,7 +78,7 @@ Three years of independent consulting work in digital marketing. Key results doc
 
 This is the direct predecessor to ACE: running deliverable-based digital marketing work independently, managing contractors, and delivering measurable ROI. The freelance period established Conley's pattern of working as an operator/director rather than an individual contributor.
 
-**Timeline note:** This period overlaps with the Tenfold role (Jul 2022 – Oct 2023), suggesting the freelance work continued part-time alongside the Tenfold position.
+**Timeline note:** This period overlaps with the Tenfold role (Jul 2022 – Oct 2023), suggesting the freelance work continued part-time alongside the Tenfold position. Note this Lancaster period is distinct from the earlier Madison-based Freelance Web Developer role (Aug 2019 – Jan 2021), which was web development and SEO focused rather than full-funnel digital marketing.
 
 ---
 

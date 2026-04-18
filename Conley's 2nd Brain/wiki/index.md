@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
-**Last updated:** 2026-04-17  
-**Source count:** 21  
-**Page count:** 45
+**Last updated:** 2026-04-18  
+**Source count:** 25  
+**Page count:** 47
 
 This wiki documents Conley Potter's ACE business and broader life context. It began as an ACE-only knowledge base and is expanding into a full second brain covering personal operating philosophy, projects, identity, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -26,6 +26,7 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | [[llm-wiki-pattern]] | The LLM wiki pattern — persistent compounding knowledge base vs. RAG, three-layer architecture (raw sources / wiki / schema), ingest/query/lint operations |
 | [[openai-codex-app]] | OpenAI Codex April 2026 update — background computer use, in-app browser, 90+ plugins, memory, scheduled autonomous work |
 | [[gstack]] | Garry Tan's Claude Code sprint framework — 23 specialist slash commands, Think→Plan→Build→Review→Test→Ship, OpenClaw integration, parallel sprints |
+| [[markitdown]] | Microsoft open-source Python tool for converting PDFs, Office docs, images, and audio to Markdown — powers raw-sources ingest |
 
 ## Day Job (BA)
 
@@ -62,7 +63,8 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | Page | Summary |
 |---|---|
 | [[conley-potter]] | Operator profile — day job (BA/AutoBoost), personal background, working style, long-range vision projects |
-| [[career-history]] | Full career timeline: Epic → freelance → Tenfold → Stoltzfus → AutoBoost, with key achievements and patterns |
+| [[career-history]] | Full career timeline: Epic → App Academy → Madison freelance → Lancaster freelance → Tenfold → Stoltzfus → AutoBoost |
+| [[resume-variants]] | Three July 2025 resume variants — General (values-aligned), AI (B2B SaaS automation), ADS (paid media/eCommerce) |
 | [[portfolio-website]] | Current state of Conley's personal portfolio — what it says, what's accurate, what needs updating |
 | [[portfolio-update-plan]] | Four coding-agent queries to update the portfolio for ACE Phase 1 launch |
 
@@ -130,3 +132,7 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | `CLAUDE.md from Kaparthy.md` | Pattern document — LLM wiki architecture: three layers, three operations, two navigation files | 2026-04-17 |
 | `Codex for (almost) everything.md` | OpenAI blog post — major Codex desktop update (computer use, browser, memory, plugins) | 2026-04-17 |
 | `garrytangstack Use Garry Tan's exact Claude Code setup 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA.md` | GitHub README — gstack sprint framework; 23 specialist Claude Code slash commands, OpenClaw integration | 2026-04-17 |
+| `Conley-Potter-Resume-July-2025.md` | Resume — General variant targeting values-aligned/mission-driven organizations | 2026-04-18 |
+| `Conley-Potter-Resume-July-2025-AI.md` | Resume — AI/B2B SaaS variant targeting marketing automation and GTM roles | 2026-04-18 |
+| `Conley-Potter-Resume-July-2025-ADS.md` | Resume — Paid media variant targeting eCommerce performance marketing roles | 2026-04-18 |
+| `microsoftmarkitdown Python tool for converting PDF files and office documents to Markdown.md` | GitHub README — microsoft/markitdown; PDF-to-Markdown conversion tool for LLM pipelines | 2026-04-18 |
