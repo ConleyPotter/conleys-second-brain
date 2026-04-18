@@ -641,3 +641,33 @@ This source also confirms that Query 3 of [[portfolio-update-plan]] has been exe
 - The title change from "Lead Initiatives & Systems Architect" (aspirational/descriptive) to "Client Success & Growth Leader" (functional/accurate) reflects a shift in how Conley wants to present the BA role publicly. The new title is more aligned with the actual work — client outcomes, growth, success metrics — rather than the systems architecture framing that belongs more to the ACE persona.
 - The sidebar gap (4 missing career entries) is the same gap identified in the Work page timeline (Query 7), but manifesting in a different component. Tenfold in particular is absent from both the sidebar and the Work page — yet it's the role the About page copy references most explicitly in the "load-bearing context" passage. The copy and the sidebar are currently contradicting each other on this point.
 - The AT corridor is described as "near Harrisburg, PA" in the about page — the wiki had this as "near Lancaster" and "Susquehanna Valley." Harrisburg and Lancaster are both correct (the AT corridor runs northeast of both); "near Harrisburg" is more precise for the specific section Conley hikes. Minor, but accurate.
+
+---
+
+## [2026-04-18] query | Second brain as MCP server — gstack integration synthesis
+
+**Pages created:** 1 (`second-brain-mcp-server.md`)
+**Pages updated:** 1 (`index.md`)
+
+### What was asked
+
+Conley asked: if this second brain project were turned into an MCP server, how could it integrate into a workflow using gstack — with all the personalized knowledge and wiki schema informing that workflow?
+
+### How it was answered
+
+Filed as a synthesis page rather than a chat answer because the question is comparative, architectural, and likely to be revisited. The page covers:
+
+- Why the problem exists (gstack and the second brain currently operate in separate contexts; every Claude Code session starts cold)
+- What MCP tools the server would expose: seven tools covering read, search, list, write, log append, index, and schema retrieval
+- Which gstack skills benefit most and how: `/office-hours` (constraints surfaced before planning), `/autoplan` and `/plan-ceo-review` (strategic context grounds scope), `/design-consultation` and `/design-review` (brand voice loaded automatically), `/retro` (output flows directly to log.md), `/learn` (session learnings write back to wiki instead of local JSONL), `/cso` (tech stack context before threat modeling)
+- The compounding effect: wiki grows from discrete ingest sessions to continuous growth via sprint artifacts
+- Parallel sprint context: all 10–15 Conductor sessions share the same wiki; concurrent write coordination is the main unsolved problem
+- A three-phase implementation path: Phase 1 (read-only, weekend project), Phase 2 (write-back + log integration), Phase 3 (semantic search + `wiki_query` tool)
+- Four open questions: schema enforcement on writes, concurrent write coordination, `/learn` migration strategy, n8n integration loop
+
+### Notable observations
+
+- Phase 1 (read-only MCP server) has a high effort-to-value ratio: even without write-back, every gstack session gaining automatic access to [[operating-doctrine-2026]], [[brand-voice]], and [[ace-overview]] materially improves planning quality.
+- The `/retro` write-back is the highest-leverage integration in Phase 2. It closes the loop between sprint execution and wiki memory without requiring any new behavior from Conley — the retro was already running; now its output lands somewhere permanent.
+- The n8n connection (noted in CLAUDE.md as an automation opportunity for raw-sources ingest) converges with the MCP server build. If n8n watches the wiki directory for writes from the MCP server, the full data flow — source arrives → wiki updated → gstack session aware → sprint output logged — becomes automated end to end.
+- The page explicitly flags that nothing described exists yet. Priority question: does this get built before or after ACE Phase I generates its first client contract?
