@@ -329,15 +329,15 @@ The Work page currently lists five roles (AutoBoost, Stoltzfus, Freelance Market
 
 The correct chronological order (newest to oldest, as the site currently reads):
 
-| Role | Company | Dates | Location |
-|---|---|---|---|
-| Lead Initiatives & Systems Architect | AutoBoost / Business Actualization | Mar 2025 – Present | Palmyra, PA |
-| Director of Marketing Technology | Stoltzfus Structures & Horizon Structures | Feb 2024 – Mar 2025 | Atglen, PA |
-| Freelance Digital Marketing Director | Self-Employed | Jan 2021 – Feb 2024 | Lancaster, PA |
-| Manager of Financial Empowerment Center | Tenfold | Jul 2022 – Oct 2023 | Lancaster, PA |
-| **Freelance Web Developer and SEO Consultant** | **Self-Employed** | **Aug 2019 – Jan 2021** | **Madison, WI** |
-| **App Academy** | **Coding Bootcamp** | **Feb 2019 – Sep 2019** | **San Francisco, CA** |
-| Technical Solutions Engineer | Epic Systems | Jun 2018 – Sep 2018 | Verona, WI |
+| Role                                           | Company                                   | Dates                   | Location              |
+| ---------------------------------------------- | ----------------------------------------- | ----------------------- | --------------------- |
+| Client Success & Growth Leader                 | AutoBoost / Business Actualization        | Mar 2025 – Present      | Palmyra, PA           |
+| Director of Marketing Technology               | Stoltzfus Structures & Horizon Structures | Feb 2024 – Mar 2025     | Atglen, PA            |
+| Freelance Digital Marketing Director           | Self-Employed                             | Jan 2021 – Feb 2024     | Lancaster, PA         |
+| Manager of Financial Empowerment Center        | Tenfold                                   | Jul 2022 – Oct 2023     | Lancaster, PA         |
+| **Freelance Web Developer and SEO Consultant** | **Self-Employed**                         | **Aug 2019 – Jan 2021** | **Madison, WI**       |
+| **App Academy**                                | **Coding Bootcamp**                       | **Feb 2019 – Sep 2019** | **San Francisco, CA** |
+| Technical Solutions Engineer                   | Epic Systems                              | Jun 2018 – Sep 2018     | Verona, WI            |
 
 ### Descriptions to use
 
