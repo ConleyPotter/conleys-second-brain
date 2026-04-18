@@ -559,3 +559,50 @@ A short but high-signal Threads post from Boris Cherny (April 16, 2026) on getti
 - OpenAI Codex's scheduled autonomous work (wake up and continue long-term tasks across days/weeks) is the feature to watch. If it matures, it represents a direct challenge to the HITL co-pilot architecture that ACE is building — a model where the agent doesn't need a human to restart it. Claude Code and OpenClaw don't yet have this natively.
 - All three articles cluster around the same moment in AI tooling: April 2026, when agentic developer tools are rapidly acquiring memory, verification, and extended autonomy. The wiki's General Knowledge domain is becoming a useful lens for tracking this shift as it unfolds.
 - gstack's /retro stats (140K+ lines, 362 commits, ~115K net LOC in one week for one person) are the most concrete published evidence of the "single builder as team" thesis that ACE's arbitrage model is built on. Worth referencing in client acquisition or positioning conversations.
+
+---
+
+## [2026-04-18] ingest | Resume Variants + MarkItDown Tool
+
+**Source type:** Three targeted resume variants (July 2025) + one GitHub README for a PDF-to-Markdown conversion tool  
+**Pages created:** 2 (`resume-variants.md`, `markitdown.md`)  
+**Pages updated:** 3 (`career-history.md`, `llm-wiki-pattern.md`, `index.md`)
+
+### What these sources contain
+
+**Conley-Potter-Resume-July-2025.md / -AI.md / -ADS.md** — Three variants of the same base resume, each with a distinct Summary and Core Competencies section targeting a different audience. The General variant targets mission-driven/values-aligned organizations ("7+ years, sustainability, health equity"). The AI variant targets B2B SaaS and marketing automation roles ("7+ years, AI-powered automation, GTM, revenue enablement"). The ADS variant targets eCommerce and performance marketing roles ("4+ years" of paid media specifically — narrower framing than the other two). All three share the same five jobs, same education (App Academy + UW-Madison), and same base skills list.
+
+**microsoftmarkitdown README** — GitHub README for microsoft/markitdown, the open-source Python utility Conley uses to convert PDFs and Office documents to Markdown before dropping them into `raw-sources/`. Supports PDF, Word, PowerPoint, Excel, images, audio, YouTube, EPubs. Has an MCP server (markitdown-mcp) for Claude Desktop integration, a markitdown-ocr plugin for LLM-vision OCR of embedded images, and an Azure Document Intelligence path for enterprise-grade conversion.
+
+### What changed
+
+- `resume-variants.md` (new) — Documents all three resume variants with target audiences, positioning strategy, skills deltas between versions, the "4+ vs 7+" experience framing explained, and gaps in the current variant set. Cross-links to `career-history`, `portfolio-website`, `conley-potter`.
+- `markitdown.md` (new) — Tool analysis page covering what it is, how Conley uses it in the raw-sources ingest pipeline, all supported formats, CLI and Python API usage, MCP server and OCR plugin, breaking changes from 0.1.0, and how it compares to textract and manual alternatives.
+- `career-history.md` — Added two previously missing entries: App Academy coding bootcamp (Feb–Sep 2019, San Francisco) and Freelance Web Developer and SEO Consultant (Aug 2019 – Jan 2021, Madison, WI). This is a distinct role from the later Lancaster-based Freelance Digital Marketing Director position. The Madison web dev period — missed in prior ingests — is now part of the documented timeline. Source list updated.
+- `llm-wiki-pattern.md` — Added markitdown to the Optional Infrastructure section as the ingest bridge. Cross-link to `[[markitdown]]` added.
+- `index.md` — Source count 21→25, page count 45→47, `resume-variants` added to Identity & Public Presence, `markitdown` added to General Knowledge, four new source rows added. `career-history` summary updated to reflect the now-complete timeline.
+
+### Notable observations
+
+- The resumes reveal a gap in `career-history` that persisted across all prior ingests: the Madison freelance web dev period (Aug 2019 – Jan 2021) is a distinct phase between App Academy and the Lancaster marketing career. Prior sources (portfolio, saved memories) didn't make this explicit. The career timeline is now complete.
+- The ADS resume's "4+ years" claim is intentional and legitimate: it scopes to paid media management specifically, not total marketing tenure. But it's a potential candidate for confusion in a job search context — worth being explicit about if asked directly.
+- Three resume variants exist; none targets director/VP-level strategic leadership or nonprofit community leadership explicitly. The July 2025 dating also means the current AutoBoost role is absent from all three. A refresh incorporating BA and ACE (in appropriate framing) would increase positioning accuracy.
+- markitdown is now the documented entry point for getting non-text documents (PDFs, Word files, etc.) into the raw-sources ingest pipeline. Its MCP server option could eventually allow Claude Desktop to convert and ingest documents in a single step, bypassing the CLI entirely.
+- The three resume variants, markitdown, and the prior gstack/Codex/Karpathy entries collectively signal that Conley is actively instrumenting his personal infrastructure — not just ACE as a product, but his own career operating system.
+
+---
+
+## [2026-04-18] update | Portfolio update plan expanded — Work timeline + Capabilities
+
+**Pages updated:** 3 (`portfolio-update-plan.md`, `portfolio-website.md`, `index.md`)
+
+### What changed
+
+- `portfolio-update-plan.md` — Added Query 7 (Work page career timeline update) to add the missing Madison freelance web developer role (Aug 2019 – Jan 2021) and App Academy (Feb–Sep 2019) to the site's Work section. Expanded Query 6 (Capabilities) with the full skills inventory from the three resume variants: Ruby on Rails, React/Next.js/Tailwind CSS, specific Salesforce suite tools (Marketing Cloud, SF Data Cloud, Marketing Intelligence Cloud), paid media platforms (Meta Ads, TikTok Ads, Google Shopping specifically), ManyChat, and Zapier. Updated the status table to reflect the new Query 7 and renumbered the Upwork URL deferral to Query 8. Corrected the "What NOT to Change" note that incorrectly stated the Work page timeline was accurate as-is. Added QA checklist items for the new Work timeline and expanded Capabilities entries.
+- `portfolio-website.md` — Added ⚠️ flag to the Work page timeline noting the two missing entries. Added two new bullets to the "What Needs Updating" section for the timeline gap and the stale Capabilities section.
+
+### Notable observations
+
+- The portfolio's Work page gap is significant: skipping from Epic (Sep 2018) directly to Freelance Digital Marketing Director (Jan 2021) creates a 2.5-year black hole that now has content. The App Academy → Madison web dev arc is one of the more distinctive things about Conley's career — the self-directed technical pivot is part of what makes the Lit degree + systems architecture story credible.
+- The Capabilities gap is also meaningful: React/Next.js/Tailwind and Ruby/Rails are the foundations of the web dev period and remain current skills. Listing them correctly signals depth that "Python, JavaScript, SQL" alone doesn't convey.
+- These gaps were invisible until the resumes were ingested — which is exactly the kind of cross-source contradiction the wiki is designed to surface.

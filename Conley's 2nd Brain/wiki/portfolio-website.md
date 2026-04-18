@@ -2,7 +2,7 @@
 type: asset
 tags: [identity, personal-brand, public-facing]
 created: 2026-04-14
-updated: 2026-04-16
+updated: 2026-04-18
 sources: [Personal Portfolio Website Current State 4.14.26.md, ACE Pivot Explanation.md]
 ---
 
@@ -80,6 +80,12 @@ Full career history as listed on the portfolio (see [[career-history]] for the d
 | Manager of Financial Empowerment Center | Tenfold | Jul 2022 – Oct 2023 | Lancaster, PA |
 | Technical Solutions Engineer | Epic Systems | Jun 2018 – Sep 2018 | Verona, WI |
 
+⚠️ **Timeline gap:** The portfolio is missing two entries discovered in the July 2025 resume variants:
+- **Freelance Web Developer and SEO Consultant** — Self-Employed, Madison, WI (Aug 2019 – Jan 2021). A distinct web dev + SEO consulting period between App Academy and the Lancaster marketing career.
+- **App Academy** — Coding Bootcamp, San Francisco, CA (Feb–Sep 2019, GPA 3.83). Full-stack bootcamp covering Ruby, JavaScript, SQL, React.
+
+These are addressed in [[portfolio-update-plan]] Query 7.
+
 ### Projects Page
 
 Three projects listed. Two are new to this wiki — see dedicated pages:
@@ -133,6 +139,8 @@ The topics align tightly with Conley's documented brand voice themes (systems, a
 - **Outside of work section:** The site mentions "long walks, good coffee" — feels generic. The actual texture (fibromyalgia, Sami, hiking the AT corridor, the River Room vision, restaurant background) is absent. This is appropriate for a public portfolio but could be more specific to feel real.
 - **Blog posts are stubs:** The three Writing section entries (titles + dates) exist on the site but no post content has been written yet. These are placeholders.
 - **Missing projects:** No mention of the Thought Leader Engine's connection to ACE, or The Sentinel's relation to the broader infrastructure vision.
+- **Work page timeline is incomplete:** Missing the Madison freelance web developer period (Aug 2019 – Jan 2021) and App Academy (Feb–Sep 2019). Cross-reference [[career-history]] for the full timeline; [[portfolio-update-plan]] Query 7 has the fix.
+- **Capabilities section likely stale:** Resume variants reveal a fuller stack than what's currently documented — React/Next.js/Tailwind, Ruby/Rails, specific Salesforce suite tools, paid media platforms (Meta Ads, TikTok Ads, Google Shopping), ManyChat, Zapier. [[portfolio-update-plan]] Query 6 has the update.
 
 ---
 
