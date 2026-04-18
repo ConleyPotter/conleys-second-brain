@@ -28,7 +28,7 @@ Conley Potter is the sole operator of ACE. This page consolidates personal and p
 
 **Company:** Business Actualization (BA), Palmyra, PA — ~15-person digital marketing agency serving automotive repair shops. Founded by Adam Kushner. Also develops the AutoBoost SaaS platform.
 
-**Role:** Project Manager (Digital Marketing), functioning as Director of Client Success & Strategy after absorbing a departed director's duties. A formal title alignment to that Director role is in progress. The portfolio website uses the descriptive title "Lead Initiatives & Systems Architect."
+**Role:** Project Manager (Digital Marketing), functioning as Director of Client Success & Strategy after absorbing a departed director's duties. A formal title alignment to that Director role is in progress. The portfolio website role card uses the title "Client Success & Growth Leader" (updated April 2026; previously "Lead Initiatives & Systems Architect").
 
 **8 years of digital marketing experience** across BA, Stoltzfus Structures, Tenfold, Epic, and others. See [[career-history]] for full timeline.
 

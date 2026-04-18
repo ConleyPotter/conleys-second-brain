@@ -3,7 +3,10 @@ type: asset
 tags: [identity, personal-brand, public-facing]
 created: 2026-04-14
 updated: 2026-04-18
-sources: [Personal Portfolio Website Current State 4.14.26.md, ACE Pivot Explanation.md]
+sources:
+  - Personal Portfolio Website Current State 4.14.26.md
+  - ACE Pivot Explanation.md
+  - portfolio-website-about-page-4-18.md
 ---
 
 # Portfolio Website — Current State
@@ -62,11 +65,11 @@ The site draws a direct line from English Lit + Chinese (UW–Madison) → narra
 
 ### Current Role (as stated on site)
 
-> **Lead Initiatives & Systems Architect**  
+> **Client Success & Growth Leader**  
 > AutoBoost | Business Actualization  
 > Digital Transformation, AI Integration
 
-⚠️ **Note:** The wiki has this role recorded as "Project Manager (Digital Marketing), functioning as Director of Client Success & Strategy." The portfolio uses the more aspirational/descriptive title. The formal title alignment to Director is in progress. See [[conley-potter]].
+**Updated as of April 18, 2026:** The role card title was changed from "Lead Initiatives & Systems Architect" to "Client Success & Growth Leader." This is a more direct and accurate title for the actual scope of the role. The formal HR title remains Project Manager (Digital Marketing), with Director alignment in progress. See [[conley-potter]].
 
 ### Work Page — Career Timeline
 
@@ -135,8 +138,7 @@ The topics align tightly with Conley's documented brand voice themes (systems, a
 
 - **Title:** "Lead Initiatives & Systems Architect" is not the formal title. Director of Client Success & Strategy alignment is in progress.
 - **ACE framing:** The ACE description on the site ("multi-agent learning engine... infrastructure with memory") describes the original ACE that was sunsetted in February 2026 — not the current system. This is the highest-priority update. The current ACE is a HITL-supervised freelance arbitrage system; the public description of it will need to be reconceived from scratch.
-- **Personal voice:** Conley says the copy is "not fully representative." The About page in particular reads more polished and abstract than his documented brand voice (which is grounded, direct, honest about mess). The site has little of the "Honest about the Mess" or "Grounded but Hungry" qualities from [[brand-voice]].
-- **Outside of work section:** The site mentions "long walks, good coffee" — feels generic. The actual texture (fibromyalgia, Sami, hiking the AT corridor, the River Room vision, restaurant background) is absent. This is appropriate for a public portfolio but could be more specific to feel real.
+- ~~**Personal voice:** About page brand voice injection~~ — ✅ **Resolved (April 2026).** The About page is now in its finalized pre-launch state. Specific texture added throughout: "The Scenic Route" section with DePaul → UW-Madison → nonprofit → App Academy arc; "outside of work" section with AT corridor near Harrisburg, restaurant background, fibromyalgia, fiancée Sami, 2026 as build + wedding year; observational closing paragraph. See [[portfolio-update-plan]] Query 3.
 - **Blog posts are stubs:** The three Writing section entries (titles + dates) exist on the site but no post content has been written yet. These are placeholders.
 - **Missing projects:** No mention of the Thought Leader Engine's connection to ACE, or The Sentinel's relation to the broader infrastructure vision.
 - **Work page timeline is incomplete:** Missing the Madison freelance web developer period (Aug 2019 – Jan 2021) and App Academy (Feb–Sep 2019). Cross-reference [[career-history]] for the full timeline; [[portfolio-update-plan]] Query 7 has the fix.
