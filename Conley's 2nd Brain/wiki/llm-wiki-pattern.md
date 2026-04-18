@@ -3,7 +3,7 @@ type: synthesis
 domain: general
 tags: [second-brain, llm-wiki, knowledge-management, pattern, obsidian, rag]
 created: 2026-04-17
-updated: 2026-04-17
+updated: 2026-04-18
 sources: [CLAUDE.md from Kaparthy.md]
 ---
 
@@ -76,6 +76,8 @@ The pattern isn't specific to any domain. It applies wherever knowledge accumula
 ---
 
 ## Optional Infrastructure
+
+**markitdown** — Microsoft open-source Python utility for converting documents (PDF, Word, PowerPoint, Excel, images, audio, YouTube, EPubs) to Markdown for LLM pipelines. The practical ingest bridge: converts non-text source files to `.md` before they land in `raw-sources/`. Also offers an MCP server (markitdown-mcp) for direct Claude Desktop integration. See [[markitdown]].
 
 **qmd** — local search engine for markdown files: hybrid BM25/vector search + LLM re-ranking, all on-device. Has both a CLI and an MCP server. Useful when the wiki grows past index-file scale.
 
