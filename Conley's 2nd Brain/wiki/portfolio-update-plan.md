@@ -28,12 +28,13 @@ This document contains discrete queries for a coding agent. Each query is scoped
 |---|---|---|
 | 1 | ACE entry, Sentinel status, TLE blurb (Projects section) | ✅ Complete |
 | 2 | B2B Lead Enrichment block (Consulting section) | ✅ Complete |
-| 3 | About page brand voice injection | ⏳ Pending |
+| 3 | About page brand voice injection | ✅ Complete |
 | 4 | Minor fixes and housekeeping (titles, meta, contact, nav) | ✅ Complete |
 | 5 | Publish second-brain article to Writing section | ⏳ Pending |
 | 6 | Capabilities section audit and update | ⏳ Pending |
 | 7 | Work page career timeline — add missing roles and App Academy | ⏳ Pending |
-| 8 | Upwork profile URL (once live) | 🔜 Deferred |
+| 8 | About page career history sidebar — add four missing roles | ⏳ Pending |
+| 9 | Upwork profile URL (once live) | 🔜 Deferred |
 
 ---
 
@@ -79,7 +80,21 @@ The plan doesn't restructure the site. It makes targeted edits within the existi
 
 ---
 
-## Query 3 — About Page Brand Voice Injection ⏳ PENDING
+## Query 3 — About Page Brand Voice Injection ✅ COMPLETE
+
+*(Executed and finalized by Conley, April 2026. The about page is in its final pre-launch state as of April 18, 2026.)*
+
+**What was changed:**
+- Lead paragraph updated: "I work at the intersection of marketing operations and systems architecture..." with day job, ACE, and Sentinel described directly. Honest follow-through paragraph included ("The honest version is that I spend a lot of time trying to figure out how to do work that compounds").
+- "The Scenic Route" section added: DePaul CS → UW-Madison English Lit + Chinese → nonprofit sector (12 staff, multi-grant budget, housing counseling) → App Academy retraining arc. Full journey documented.
+- "Philosophy of Work" section: "calm ambition" definition preserved and intact.
+- "Outside of work" section replaced with specific texture: AT corridor near Harrisburg, restaurant background, fibromyalgia, fiancée Sami, June wedding, 2026 as wedding year + build year.
+- Closing paragraph added: observational/invitation energy, no pitch ("If you're here because you want to hire me... the Consulting section is where to go. If you're here because you're building something too... I'm documenting it.").
+- Role card title updated to "Client Success & Growth Leader" (previously "Lead Initiatives & Systems Architect").
+
+---
+
+## Query 3 — About Page Brand Voice Injection (original spec, archived for reference)
 
 **Scope:** About page only. This is the highest-craft query — the goal is to inject voice, not just swap copy.
 
@@ -342,7 +357,53 @@ The existing role descriptions for AutoBoost, Stoltzfus, Freelance Marketing Dir
 
 ---
 
-## Query 8 — Update Upwork Profile Link 🔜 DEFERRED
+## Query 8 — About Page Career History Sidebar: Add Missing Roles ⏳ PENDING
+
+**Scope:** About page sidebar only. Add four missing career entries to the "Previous" section. Visual design, component structure, and all other sidebar sections (Current Role, Side Projects, Interests) should be preserved exactly. Only the data in the Previous list changes.
+
+### Background for the agent
+
+The About page sidebar has a career history panel. The "Previous" section currently shows only two roles. Four entries from Conley's full career timeline are missing — documented in his resume and career history but never added to the sidebar. The gaps are:
+
+- **Manager of Financial Empowerment Center — Tenfold** (Lancaster, PA, Jul 2022–Oct 2023): nonprofit management, 12 staff, complex multi-grant budget. One of the most distinctive parts of the career arc; the About page copy references this period explicitly ("managing real, human problems with constrained resources permanently broke my tolerance for abstract, performative work").
+- **Freelance Web Developer & SEO Consultant — Self-Employed** (Madison, WI, Aug 2019–Jan 2021): a distinct freelance phase following App Academy. Web development and SEO consulting, not the same as the later Lancaster-based full-funnel marketing director period.
+- **App Academy** (San Francisco, CA, Feb–Sep 2019): highly selective full-stack coding bootcamp; GPA 3.83; Ruby on Rails, JavaScript, SQL, React. The technical retraining event the About page references in "The Scenic Route."
+- **Technical Solutions Engineer — Epic Systems** (Verona, WI, Jun–Sep 2018): early-career enterprise data integrity work for a major healthcare software company.
+
+The Stoltzfus dates also display as "2024-2025" when the precise range is Feb 2024 – Mar 2025.
+
+### Current state of the Previous section
+
+1. Director of Marketing Technology | Stoltzfus Structures & Horizon Structures | 2024-2025
+2. Freelance Digital Marketing Director | 2021-2024
+
+### Changes to make
+
+Replace the "Previous" section with all six entries, in reverse chronological order:
+
+| Title | Company / Context | Dates |
+|---|---|---|
+| Director of Marketing Technology | Stoltzfus Structures & Horizon Structures | Feb 2024 – Mar 2025 |
+| Freelance Digital Marketing Director | Self-Employed | Jan 2021 – Feb 2024 |
+| Manager of Financial Empowerment Center | Tenfold | Jul 2022 – Oct 2023 |
+| Freelance Web Developer & SEO Consultant | Self-Employed | Aug 2019 – Jan 2021 |
+| App Academy | Coding Bootcamp | Feb 2019 – Sep 2019 |
+| Technical Solutions Engineer | Epic Systems | Jun 2018 – Sep 2018 |
+
+**Overlap note:** The Freelance Digital Marketing Director period (Jan 2021–Feb 2024) and Tenfold (Jul 2022–Oct 2023) overlap by ~16 months. This is accurate and intentional — Conley held both simultaneously. Render both entries at their correct dates; do not adjust or collapse.
+
+**App Academy classification:** App Academy is a bootcamp, not employment. If the sidebar has a visual distinction between jobs and education (a label, icon, or indent), apply it. If the sidebar renders everything as a flat list, render it identically to the other entries. Do not omit it.
+
+### What NOT to change
+
+- "Current Role" block: Client Success & Growth Leader | AutoBoost | Business Actualization | Digital Transformation, AI Integration — leave exactly as-is
+- "Side Projects" block: ACE: Autonomous Content Engine and The Sentinel: Physical AI Prototype — leave exactly as-is
+- "Interests" tag cloud — leave exactly as-is
+- Visual design, layout, and component structure — update data only, not design
+
+---
+
+## Query 9 — Update Upwork Profile Link 🔜 DEFERRED
 
 **Scope:** Consulting section. One-line change.
 
@@ -373,7 +434,8 @@ Before calling the site live, verify:
 - [ ] ACE description no longer references "multi-agent learning engine" or "infrastructure with memory"
 - [ ] The Sentinel status says "In Design" not "In Development"
 - [ ] B2B lead enrichment appears in the Consulting section with a path to Upwork
-- [ ] Job title reads "Systems Architect & Marketing Technology Leader" on Homepage and About
+- [ ] Page/meta title reads "Systems Architect & Marketing Technology Leader" on Homepage and About
+- [ ] Role card on About page sidebar reads "Client Success & Growth Leader | AutoBoost | Business Actualization"
 - [ ] No automation tools, API names, or pipeline details are visible anywhere in public copy
 - [ ] Upwork profile URL is linked (update once profile is live — see Query 7)
 
@@ -389,6 +451,15 @@ Before calling the site live, verify:
 - [ ] Second-brain article is published as the newest, first *complete* post (above the three stubs)
 - [ ] Three stub posts remain as planned content below it
 - [ ] Article credits (Karpathy, Rui Fu) are intact at the bottom of the post as footnote
+
+**About page career sidebar:**
+- [ ] "Previous" section shows all six entries (Stoltzfus, Lancaster Freelance, Tenfold, Madison Freelance, App Academy, Epic)
+- [ ] Stoltzfus dates show "Feb 2024 – Mar 2025" not "2024-2025"
+- [ ] Tenfold entry present (Jul 2022 – Oct 2023)
+- [ ] Madison freelance entry present (Aug 2019 – Jan 2021) — distinct from Lancaster freelance
+- [ ] App Academy entry present (Feb–Sep 2019)
+- [ ] Epic Systems entry present (Jun–Sep 2018)
+- [ ] Current Role, Side Projects, and Interests blocks are unchanged
 
 **Work page timeline:**
 - [ ] "Freelance Web Developer and SEO Consultant — Self-Employed, Madison, WI (Aug 2019 – Jan 2021)" appears between Tenfold and Epic

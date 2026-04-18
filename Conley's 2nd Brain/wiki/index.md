@@ -1,7 +1,7 @@
 # Conley Potter's 2nd Brain — Index
 
 **Last updated:** 2026-04-18  
-**Source count:** 25  
+**Source count:** 26  
 **Page count:** 47
 
 This wiki documents Conley Potter's ACE business and broader life context. It began as an ACE-only knowledge base and is expanding into a full second brain covering personal operating philosophy, projects, identity, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
@@ -66,7 +66,7 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | [[career-history]] | Full career timeline: Epic → App Academy → Madison freelance → Lancaster freelance → Tenfold → Stoltzfus → AutoBoost |
 | [[resume-variants]] | Three July 2025 resume variants — General (values-aligned), AI (B2B SaaS automation), ADS (paid media/eCommerce) |
 | [[portfolio-website]] | Current state of Conley's personal portfolio — what it says, what's accurate, what needs updating |
-| [[portfolio-update-plan]] | Four coding-agent queries to update the portfolio for ACE Phase 1 launch |
+| [[portfolio-update-plan]] | Nine coding-agent queries to update the portfolio for ACE Phase 1 launch — Queries 1–4 complete, 5–8 pending |
 
 ## Projects
 
@@ -136,3 +136,4 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | `Conley-Potter-Resume-July-2025-AI.md` | Resume — AI/B2B SaaS variant targeting marketing automation and GTM roles | 2026-04-18 |
 | `Conley-Potter-Resume-July-2025-ADS.md` | Resume — Paid media variant targeting eCommerce performance marketing roles | 2026-04-18 |
 | `microsoftmarkitdown Python tool for converting PDF files and office documents to Markdown.md` | GitHub README — microsoft/markitdown; PDF-to-Markdown conversion tool for LLM pipelines | 2026-04-18 |
+| `portfolio-website-about-page-4-18.md` | Finalized About page copy — career narrative, philosophy, outside-of-work section, career history sidebar content | 2026-04-18 |

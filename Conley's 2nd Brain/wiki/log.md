@@ -606,3 +606,38 @@ A short but high-signal Threads post from Boris Cherny (April 16, 2026) on getti
 - The portfolio's Work page gap is significant: skipping from Epic (Sep 2018) directly to Freelance Digital Marketing Director (Jan 2021) creates a 2.5-year black hole that now has content. The App Academy → Madison web dev arc is one of the more distinctive things about Conley's career — the self-directed technical pivot is part of what makes the Lit degree + systems architecture story credible.
 - The Capabilities gap is also meaningful: React/Next.js/Tailwind and Ruby/Rails are the foundations of the web dev period and remain current skills. Listing them correctly signals depth that "Python, JavaScript, SQL" alone doesn't convey.
 - These gaps were invisible until the resumes were ingested — which is exactly the kind of cross-source contradiction the wiki is designed to surface.
+
+---
+
+## [2026-04-18] ingest | portfolio-website-about-page-4-18.md
+
+**Source type:** Finalized About page copy — full text of the About page in its pre-launch state, plus career history sidebar content and Interests tags  
+**Pages created:** 0  
+**Pages updated:** 4 (`portfolio-update-plan.md`, `portfolio-website.md`, `conley-potter.md`, `index.md`)
+
+### What this source contains
+
+The About page copy in its finalized state as of April 18, 2026. Conley describes this as potentially the final version before site launch. The source documents:
+
+- **Lead paragraph and honest follow-through:** "I work at the intersection of marketing operations and systems architecture. Day job: leading client success and growth at AutoBoost..." — direct, non-abstract, with day job / ACE / Sentinel described cleanly.
+- **"The Scenic Route" section:** Full education arc — DePaul CS → UW-Madison English Lit + Chinese → nonprofit sector management (12 staff, multi-grant budget, housing and financial counseling) → retraining at App Academy. The journey that earns the Lit → systems architecture conclusion.
+- **"Philosophy of Work" / calm ambition:** Intact and in Conley's voice.
+- **"Outside of Work":** AT corridor near Harrisburg, restaurant background, fibromyalgia, fiancée Sami, June wedding, 2026 as build + wedding year simultaneously.
+- **Closing paragraph:** Observational/invitation energy — Consulting section for hiring inquiries; documentation for builders watching.
+- **Career history sidebar:** Current role card reads "Client Success & Growth Leader | AutoBoost | Business Actualization | Digital Transformation, AI Integration." Previous section shows only 2 entries (Stoltzfus, Lancaster Freelance) with 4 entries missing: Tenfold, Madison Freelance, App Academy, Epic Systems.
+
+This source also confirms that Query 3 of [[portfolio-update-plan]] has been executed and the About page copy is finalized.
+
+### What changed
+
+- **`portfolio-update-plan.md`** — Query 3 marked ✅ Complete with a summary of what was changed. Original Query 3 spec archived in-document for reference. New Query 8 added for the career history sidebar (adding 4 missing roles: Tenfold, Madison Freelance, App Academy, Epic; correcting Stoltzfus dates). Former Query 8 (Upwork URL) renumbered to Query 9. Status table updated. QA checklist expanded with sidebar verification items and role card title check.
+- **`portfolio-website.md`** — Current Role section updated from "Lead Initiatives & Systems Architect" to "Client Success & Growth Leader" with a note on the April 2026 title change. "Personal voice / About page" item in "What Needs Updating" marked resolved. Source list updated.
+- **`conley-potter.md`** — Portfolio role card title updated from "Lead Initiatives & Systems Architect" to "Client Success & Growth Leader."
+- **`index.md`** — Source count 25→26. `portfolio-update-plan` summary updated to reflect 9 total queries and current completion status. New source row added.
+
+### Notable observations
+
+- The about page finalization is the clearest signal yet that the portfolio is approaching launch readiness. Queries 1–4 are now complete. The remaining pending work (Queries 5–8) is self-contained and can be executed independently.
+- The title change from "Lead Initiatives & Systems Architect" (aspirational/descriptive) to "Client Success & Growth Leader" (functional/accurate) reflects a shift in how Conley wants to present the BA role publicly. The new title is more aligned with the actual work — client outcomes, growth, success metrics — rather than the systems architecture framing that belongs more to the ACE persona.
+- The sidebar gap (4 missing career entries) is the same gap identified in the Work page timeline (Query 7), but manifesting in a different component. Tenfold in particular is absent from both the sidebar and the Work page — yet it's the role the About page copy references most explicitly in the "load-bearing context" passage. The copy and the sidebar are currently contradicting each other on this point.
+- The AT corridor is described as "near Harrisburg, PA" in the about page — the wiki had this as "near Lancaster" and "Susquehanna Valley." Harrisburg and Lancaster are both correct (the AT corridor runs northeast of both); "near Harrisburg" is more precise for the specific section Conley hikes. Minor, but accurate.
