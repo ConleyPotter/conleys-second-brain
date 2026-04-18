@@ -2,8 +2,8 @@
 type: asset
 tags: [portfolio, phase-1, website, coding-queries]
 created: 2026-04-14
-updated: 2026-04-17
-sources: [portfolio-website.md, ace-overview.md, brand-voice.md, phase-1-lead-enrichment.md, campaign-plan.md, conley-potter.md, career-history.md, operating-doctrine-2026.md, second-brain-article.md]
+updated: 2026-04-18
+sources: [portfolio-website.md, ace-overview.md, brand-voice.md, phase-1-lead-enrichment.md, campaign-plan.md, conley-potter.md, career-history.md, operating-doctrine-2026.md, second-brain-article.md, Conley-Potter-Resume-July-2025.md, Conley-Potter-Resume-July-2025-AI.md, Conley-Potter-Resume-July-2025-ADS.md]
 ---
 
 # Portfolio Website Update Plan — Phase 1 ACE Launch
@@ -32,7 +32,8 @@ This document contains discrete queries for a coding agent. Each query is scoped
 | 4 | Minor fixes and housekeeping (titles, meta, contact, nav) | ✅ Complete |
 | 5 | Publish second-brain article to Writing section | ⏳ Pending |
 | 6 | Capabilities section audit and update | ⏳ Pending |
-| 7 | Upwork profile URL (once live) | 🔜 Deferred |
+| 7 | Work page career timeline — add missing roles and App Academy | ⏳ Pending |
+| 8 | Upwork profile URL (once live) | 🔜 Deferred |
 
 ---
 
@@ -254,20 +255,32 @@ I don't know yet. But I'm building this. You're welcome to watch.
 
 The Capabilities section likely reflects a generic or outdated snapshot of Conley's technical skills. The goal is to make it accurate to the current work without revealing the proprietary ACE stack. Whatever layout the section currently uses (logos, badges, list) should be preserved — update the contents, not the structure.
 
+Cross-reference the three resume variants (`Conley-Potter-Resume-July-2025.md`, `-AI.md`, `-ADS.md`) for the authoritative skills inventory. The resumes reveal a broader technical stack than what's currently documented on the site.
+
 ### Changes to make
 
 Audit the current Capabilities section. Update it to reflect the following:
 
-**Include (safe to list publicly):**
+**Marketing & Advertising:**
 - Marketing automation and workflow architecture
 - B2B data infrastructure and lead enrichment
 - AI workflow integration and prompt systems
-- CRM architecture (Salesforce, HubSpot)
+- CRM architecture: Salesforce (Sales Cloud, Marketing Cloud, SF Data Cloud, Marketing Intelligence Cloud), HubSpot
 - Performance marketing and attribution (GA4, multi-channel)
+- Paid media management: Google Ads (Search, Display, Shopping), Meta Ads, TikTok Ads
 - Content systems and SEO infrastructure
-- Python, JavaScript, SQL
+
+**Web & Development:**
+- Python, JavaScript/TypeScript, SQL
+- Ruby on Rails
+- React, Next.js, Tailwind CSS
 - WordPress, Webflow
+- HTML, CSS
+
+**Infrastructure & Tooling:**
 - DNS and hosting infrastructure (Route 53, CloudFront, GoDaddy)
+- Marketing automation platforms (ManyChat, Zapier)
+- Git / GitHub
 - Project management (Scrum, Kanban)
 
 **Remove or do not add:**
@@ -277,9 +290,55 @@ Audit the current Capabilities section. Update it to reflect the following:
 
 **Framing guidance:** Capabilities should read as a practitioner's toolkit, not a certifications list. Prefer category-level labels ("CRM architecture") over product endorsements ("Salesforce certified"). The emphasis is on what Conley can *do*, not what tools he has logged into.
 
+**Note on grouping:** Organize into 2–3 logical groups matching whatever the section currently uses. Suggested groupings: Marketing & Strategy / Development & Engineering / Tooling & Infrastructure. Match the existing visual structure (badges, list, grid) — don't redesign it.
+
 ---
 
-## Query 7 — Update Upwork Profile Link 🔜 DEFERRED
+## Query 7 — Work Page Career Timeline Update ⏳ PENDING
+
+**Scope:** Work section only. The career timeline is currently missing two entries that appeared in the July 2025 resume variants but were absent from the portfolio source document.
+
+### Background for the agent
+
+The Work page currently lists five roles (AutoBoost, Stoltzfus, Freelance Marketing Director, Tenfold, Epic). Cross-referencing the resume variants reveals two gaps:
+
+1. **App Academy** (Feb–Sep 2019, San Francisco, CA) — a highly selective full-stack coding bootcamp. GPA 3.83. Covered Ruby, JavaScript, SQL, and React. This is education rather than employment, but it belongs on the Work page if the site uses a unified timeline, or in a dedicated Education section if one exists. Preserves the DePaul CS → UW English Lit → App Academy arc referenced in the About page update (Query 3).
+
+2. **Freelance Web Developer and SEO Consultant** (Aug 2019 – Jan 2021, Madison, WI) — a distinct freelance web development and SEO consulting period. This is *not* the same as the later Lancaster-based "Freelance Digital Marketing Director" role (Jan 2021 – Feb 2024). Separate location, separate service focus (web dev + SEO vs. full-funnel marketing strategy).
+
+### Where these fit in the timeline
+
+The correct chronological order (newest to oldest, as the site currently reads):
+
+| Role | Company | Dates | Location |
+|---|---|---|---|
+| Lead Initiatives & Systems Architect | AutoBoost / Business Actualization | Mar 2025 – Present | Palmyra, PA |
+| Director of Marketing Technology | Stoltzfus Structures & Horizon Structures | Feb 2024 – Mar 2025 | Atglen, PA |
+| Freelance Digital Marketing Director | Self-Employed | Jan 2021 – Feb 2024 | Lancaster, PA |
+| Manager of Financial Empowerment Center | Tenfold | Jul 2022 – Oct 2023 | Lancaster, PA |
+| **Freelance Web Developer and SEO Consultant** | **Self-Employed** | **Aug 2019 – Jan 2021** | **Madison, WI** |
+| **App Academy** | **Coding Bootcamp** | **Feb 2019 – Sep 2019** | **San Francisco, CA** |
+| Technical Solutions Engineer | Epic Systems | Jun 2018 – Sep 2018 | Verona, WI |
+
+### Descriptions to use
+
+**Freelance Web Developer and SEO Consultant** (add between Tenfold and Epic):
+> End-to-end website development and SEO consulting for small and mid-size clients. Built customized web solutions using contemporary JavaScript frameworks. Implemented SEO strategies that improved organic search visibility and lead generation.
+
+**App Academy** (add as education entry, before or after Epic depending on the site's handling of education vs. employment — match whichever convention the site currently uses):
+> Highly selective full-stack software engineering bootcamp. Covered Ruby on Rails, JavaScript, SQL, and React. GPA: 3.83. The technical foundation built here — full-stack architecture, database design, component-based UI — underlies most of the web development and systems work in the roles that followed.
+
+### Overlap note for the agent
+
+The Freelance Digital Marketing Director period (Jan 2021 – Feb 2024) and the Tenfold role (Jul 2022 – Oct 2023) overlap — this is accurate and intentional. The Freelance Web Developer period (Aug 2019 – Jan 2021) and App Academy (Feb 2019 – Sep 2019) also have a minor overlap, which is accurate (freelance work began while finishing the bootcamp).
+
+### What NOT to change
+
+The existing role descriptions for AutoBoost, Stoltzfus, Freelance Marketing Director, Tenfold, and Epic should remain exactly as they are. This query inserts two new entries only.
+
+---
+
+## Query 8 — Update Upwork Profile Link 🔜 DEFERRED
 
 **Scope:** Consulting section. One-line change.
 
@@ -295,7 +354,7 @@ These things are working and should be preserved exactly:
 
 - Headline: `"I build autonomous systems and refuse to settle until they work."` — accurate and strong
 - "Calm ambition" definition and framing — authentic, keep verbatim
-- The career timeline on the Work page — accurate as-is
+- The existing role descriptions for the five current Work page entries — accurate as-is; Query 7 inserts two new entries without touching them
 - The three stub blog posts in the Writing section — topics and voice are right; keep as planned content
 - Lancaster, PA location and contact info
 - Response time and contact email
@@ -326,6 +385,21 @@ Before calling the site live, verify:
 - [ ] Second-brain article is published as the newest, first *complete* post (above the three stubs)
 - [ ] Three stub posts remain as planned content below it
 - [ ] Article credits (Karpathy, Rui Fu) are intact at the bottom of the post as footnote
+
+**Work page timeline:**
+- [ ] "Freelance Web Developer and SEO Consultant — Self-Employed, Madison, WI (Aug 2019 – Jan 2021)" appears between Tenfold and Epic
+- [ ] App Academy entry (Feb–Sep 2019) appears as either a timeline entry or an education entry
+- [ ] The chronological ordering is correct — Madison web dev is between Tenfold and Epic, not before or after
+- [ ] Existing five role descriptions are unchanged
+- [ ] Tenfold/freelance overlap is still visible and correctly dated
+
+**Capabilities:**
+- [ ] Ruby on Rails is present (establishes full-stack depth from App Academy era)
+- [ ] React, Next.js, Tailwind CSS are present
+- [ ] Paid media channels listed specifically: Google Ads (Search, Display, Shopping), Meta Ads, TikTok Ads
+- [ ] Salesforce suite is specific: Sales Cloud, Marketing Cloud, SF Data Cloud, Marketing Intelligence Cloud (not just "Salesforce")
+- [ ] ManyChat and Zapier are present under automation/tooling
+- [ ] No AI model names, n8n, Apify, or Apollo appear anywhere
 
 **Technical:**
 - [ ] Site loads and nav works on mobile

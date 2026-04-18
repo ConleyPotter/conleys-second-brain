@@ -589,3 +589,20 @@ A short but high-signal Threads post from Boris Cherny (April 16, 2026) on getti
 - Three resume variants exist; none targets director/VP-level strategic leadership or nonprofit community leadership explicitly. The July 2025 dating also means the current AutoBoost role is absent from all three. A refresh incorporating BA and ACE (in appropriate framing) would increase positioning accuracy.
 - markitdown is now the documented entry point for getting non-text documents (PDFs, Word files, etc.) into the raw-sources ingest pipeline. Its MCP server option could eventually allow Claude Desktop to convert and ingest documents in a single step, bypassing the CLI entirely.
 - The three resume variants, markitdown, and the prior gstack/Codex/Karpathy entries collectively signal that Conley is actively instrumenting his personal infrastructure — not just ACE as a product, but his own career operating system.
+
+---
+
+## [2026-04-18] update | Portfolio update plan expanded — Work timeline + Capabilities
+
+**Pages updated:** 3 (`portfolio-update-plan.md`, `portfolio-website.md`, `index.md`)
+
+### What changed
+
+- `portfolio-update-plan.md` — Added Query 7 (Work page career timeline update) to add the missing Madison freelance web developer role (Aug 2019 – Jan 2021) and App Academy (Feb–Sep 2019) to the site's Work section. Expanded Query 6 (Capabilities) with the full skills inventory from the three resume variants: Ruby on Rails, React/Next.js/Tailwind CSS, specific Salesforce suite tools (Marketing Cloud, SF Data Cloud, Marketing Intelligence Cloud), paid media platforms (Meta Ads, TikTok Ads, Google Shopping specifically), ManyChat, and Zapier. Updated the status table to reflect the new Query 7 and renumbered the Upwork URL deferral to Query 8. Corrected the "What NOT to Change" note that incorrectly stated the Work page timeline was accurate as-is. Added QA checklist items for the new Work timeline and expanded Capabilities entries.
+- `portfolio-website.md` — Added ⚠️ flag to the Work page timeline noting the two missing entries. Added two new bullets to the "What Needs Updating" section for the timeline gap and the stale Capabilities section.
+
+### Notable observations
+
+- The portfolio's Work page gap is significant: skipping from Epic (Sep 2018) directly to Freelance Digital Marketing Director (Jan 2021) creates a 2.5-year black hole that now has content. The App Academy → Madison web dev arc is one of the more distinctive things about Conley's career — the self-directed technical pivot is part of what makes the Lit degree + systems architecture story credible.
+- The Capabilities gap is also meaningful: React/Next.js/Tailwind and Ruby/Rails are the foundations of the web dev period and remain current skills. Listing them correctly signals depth that "Python, JavaScript, SQL" alone doesn't convey.
+- These gaps were invisible until the resumes were ingested — which is exactly the kind of cross-source contradiction the wiki is designed to surface.
