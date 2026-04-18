@@ -1,13 +1,13 @@
 ---
 type: operations
 domain: ba
-tags: [ba, day-job, agency, autoboost]
+tags: [ba, autoboost, day-job, agency, rebrand]
 created: 2026-04-16
-updated: 2026-04-17
+updated: 2026-04-18
 sources: [Claude Accounts' Saved Memories.md, Personal Portfolio Website Current State 4.14.26.md, conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md, BA Team Roster.md, Daily-Recap_2026-04-16.md]
 ---
 
-# Business Actualization — Day Job Overview
+# AutoBoost (formerly Business Actualization) — Day Job Overview
 
 **Related:** [[conley-potter]], [[career-history]], [[ba-products]], [[ba-team]], [[ba-partners]], [[ba-clients-pipeline]], [[operating-doctrine-2026]]
 
@@ -15,13 +15,11 @@ sources: [Claude Accounts' Saved Memories.md, Personal Portfolio Website Current
 
 ## What It Is
 
-**Business Actualization (BA)** is a ~15-person digital marketing agency headquartered in Palmyra, PA. It specializes exclusively in automotive repair shops — providing websites, paid ads, LSA management, review platforms, call tracking, and revenue attribution to independent and multi-location shop owners across the US. Founded by Adam Kushner.
+**AutoBoost** (formerly Business Actualization, rebranded recently) is a 13-person digital marketing agency founded in 2001 and headquartered in Palmyra, PA. It specializes exclusively in automotive repair shops — providing websites, paid ads, LSA management, review platforms, call tracking, and revenue attribution to independent and multi-location shop owners across the US. Founded by Adam Kushner.
 
-BA also develops **AutoBoost**, a SaaS platform designed to extend or automate portions of its service delivery. Conley appears heavily in AutoBoost's video content (in-house studio) and has explored a future CEO trajectory with Adam.
+AutoBoost is the company name, not a standalone SaaS product. The suite of client-facing software platforms (review management, call tracking, revenue attribution) are bundled into service delivery — white-labeled tools, not independently sold software. The positioning is marketing agency + platform bundle, not SaaS in the way competitors like Kukui are. Conley appears heavily in AutoBoost's video content (in-house studio) and has explored a future CEO trajectory with Adam.
 
-> **TODO:** Confirm BA's official founding year and exact headcount. Pull from LinkedIn company page or Adam directly.
-
-> **TODO:** Get a one-paragraph description of what AutoBoost does as a product — how it differs from BA's agency services, what the SaaS is meant to automate, and its current development stage.
+**ARR:** ~$2.5M
 
 ---
 
@@ -37,14 +35,15 @@ In practice the role is a hybrid of sales, client success, and internal systems 
 - Building Cowork skill ecosystem for AutoBoost account management workflows
 - DNS/hosting infrastructure projects (Route 53, CloudFront, GoDaddy)
 - n8n automation exploration (HubSpot call → Claude summary → HubSpot note is identified highest near-term priority)
-- Org structure proposal: "flatarchy" — three-person leadership team, cross-functional client pods
 - Director title alignment in progress — the April 2026 FLSA compliance incident (29 C.F.R. § 785.37) is a documented example of the behavior supporting that case
 
-**Compensation context:** Estimated market range for the Director-level role is $85K–$120K base (central PA corridor runs 15–20% below national median for marketing roles).
+**On the flatarchy proposal:** Dropped as a formal initiative, though concepts from the investigation (pod structure, formalized leadership tiers) may resurface as AutoBoost formalizes its org structure over the coming months.
 
-> **TODO:** Ask Conley whether the "flatarchy" org proposal has progressed, stalled, or been dropped. It surfaced in earlier memory but hasn't appeared in recent recaps.
-
-> **TODO:** Pull the formal job description for the Director of Client Success & Strategy role if one exists, or ask Conley to describe the expected scope change from his current PM title.
+**Director role context:** Conley has been performing Director-level duties for 2+ months — absorbing client success and strategy responsibilities on top of the PM role. The formal title change would be recognition and authority, not a function change. Concrete delta from current PM title:
+- Official ownership of client retention, satisfaction, and escalation decisions (currently performed without title authority)
+- Seat at the leadership table alongside Adam and Micah in the three-person leadership structure
+- Internal authority over service delivery standards, pod structure, and client onboarding — currently shaped informally
+- Compensation alignment: market range $85K–$120K base (central PA corridor runs 15–20% below national median for marketing roles)
 
 ---
 
@@ -110,8 +109,23 @@ See [[ba-team]] for roles and working relationships.
 - **Google Ads, Performance Max, LSA** — Core paid media stack for clients.
 - **HubSpot AI (post-call summaries)** — Conley confirmed using HubSpot's AI features after calls to auto-generate notes. As of Apr 16, Micah confirmed the new HubSpot beta features (subtasks, improved task objects, enhanced workflows) can replace the existing "assign to client success" workflow entirely. Conley and Micah aligned on its value; Courtney skeptical of UI changes.
 
-> **TODO:** Pull the full BA tech stack used in service delivery (what platforms BA manages on behalf of clients). An AI assistant with access to BA's Slack or internal docs could run:
-> *"List every third-party platform or software tool mentioned in #internal-google-ads, #internal-websites, and #internal-sales over the past 90 days."*
+**Service delivery platforms (client-facing, managed by BA):**
+- **Google Ads, Performance Max, LSA** — core paid media stack
+- **Meta, Reddit, Bing, Programmatic** — extended ad channels
+- **Duda** — website platform for all client sites
+- **Agency Analytics** — client reporting dashboards
+- **Birdeye** (white-labeled as BA's review platform) — reputation management
+- **CallRail** (white-labeled as BA's call tracking product) — call tracking + GCLID capture for conversion attribution
+- **GoDaddy → AWS Route 53 → CloudFront/ACM** — DNS/hosting/SSL pipeline for client websites
+
+**Internal ops stack:**
+- **HubSpot** — CRM + pipeline (Conley's daily environment); call tracking context
+- **Slack** — primary internal comms
+- **Google Workspace** — docs, drive, email
+- **Hubstaff** — time tracking
+- **n8n** — automation layer (BA use, distinct from ACE)
+- **Anthropic API / Claude / Cowork** — AI-assisted workflows
+- **Notion** — Conley uses it; not standard across the team
 
 ---
 
@@ -123,9 +137,4 @@ From the Apr 6–12 weekly summary:
 - **3 deals closed-won** totaling **~$29,610** in which Conley had commission credit
 - Conley carried Thursday and Friday client calls solo while Adam and Jon were at TEKTONIC Conference in Houston
 
-This suggests BA operates at meaningful scale — enough deal volume that a single week of strong closing ($29K attributable) is notable but not exceptional.
-
-> **TODO:** Get BA's approximate annual revenue or ARR range to calibrate scale. This context matters for understanding commission structure and growth trajectory.
-
-> **AI PROMPT (for an assistant with HubSpot access):**
-> "Summarize Conley Potter's closed-won deal volume and total deal value for the last 90 days, including deals where he is listed as owner and deals where he is listed as collaborator. Break out solo vs. shared deals."
+This suggests BA operates at meaningful scale — enough deal volume that a single week of strong closing ($29K attributable) is notable but not exceptional. At $2.5M ARR, the agency is solidly mid-market for a vertical-specialized shop.

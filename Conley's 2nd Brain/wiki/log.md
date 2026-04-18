@@ -671,3 +671,53 @@ Filed as a synthesis page rather than a chat answer because the question is comp
 - The `/retro` write-back is the highest-leverage integration in Phase 2. It closes the loop between sprint execution and wiki memory without requiring any new behavior from Conley — the retro was already running; now its output lands somewhere permanent.
 - The n8n connection (noted in CLAUDE.md as an automation opportunity for raw-sources ingest) converges with the MCP server build. If n8n watches the wiki directory for writes from the MCP server, the full data flow — source arrives → wiki updated → gstack session aware → sprint output logged — becomes automated end to end.
 - The page explicitly flags that nothing described exists yet. Priority question: does this get built before or after ACE Phase I generates its first client contract?
+
+---
+
+## [2026-04-18] update | ba-overview.md — direct corrections from Conley
+
+**Pages updated:** 1 (`ba-overview.md`)
+
+### What changed
+
+Conley answered six open questions from the wiki TODO audit. All TODOs in `ba-overview.md` are now resolved.
+
+- **Company rebrand:** Business Actualization has rebranded to AutoBoost. Page title and "What It Is" section updated to reflect this. AutoBoost is the company name, not a SaaS product — the SaaS framing was incorrect.
+- **AutoBoost product clarification:** The client-facing software platforms (review, call tracking, revenue attribution) are white-labeled tools bundled into service delivery, not independently sold software. Not analogous to Kukui.
+- **Founding year and headcount:** Founded 2001; current headcount 13 (was listed as ~15 — corrected).
+- **ARR:** ~$2.5M confirmed. Revenue section updated; TODO removed.
+- **Flatarchy proposal:** Dropped. Not being actively pursued. Concepts may resurface as org structure formalizes, but no active initiative.
+- **Director role scope:** Conley has been performing Director-level work for 2+ months. Formal title change would be recognition + authority, not a function change. Concrete delta documented: client retention/escalation ownership, seat at three-person leadership table, authority over service delivery standards and onboarding, compensation alignment ($85K–$120K base range confirmed).
+- **Internal tech stack:** Full service delivery and internal ops stack documented — Duda (websites), Agency Analytics (reporting), Birdeye white-label (review), CallRail white-label (call tracking), GoDaddy → Route 53 → CloudFront/ACM (DNS/hosting), plus Google Ads/Meta/Reddit/Bing/Programmatic/LSA. Internal ops: HubSpot, Slack, Google Workspace, Hubstaff, n8n, Anthropic API/Claude/Cowork, Notion (Conley only).
+
+### Notable observations
+
+- The AutoBoost rebrand is architecturally significant — any wiki page that refers to "Business Actualization" as the current company name needs updating. `ba-overview.md` is updated; other pages (e.g., `conley-potter.md`, `career-history.md`) may still use the old name.
+- The "AutoBoost as SaaS" framing was a persistent misunderstanding in earlier wiki entries. The distinction matters for how Conley positions BA relative to competitors like Kukui when talking to clients or investors.
+- At $2.5M ARR with 13 staff, AutoBoost is solidly mid-market for a vertical-specialized agency. Commission structure and Director compensation make more sense in this context.
+
+---
+
+## [2026-04-18] update | ba-products.md — full rate card and service detail confirmed
+
+**Pages updated:** 1 (`ba-products.md`)
+
+### What changed
+
+Conley provided the full official rate card and resolved all outstanding TODOs on this page. The page has been rewritten from an inferred/approximate state to confirmed documentation.
+
+- **Full pricing table added:** 20 line items with monthly and onboarding fees. All services are à la carte. The only bundled discount is the Advanced Website 20%-off structure.
+- **Standard Website scope confirmed:** Pre-optimized layouts, brand customization, on-page SEO + listing directory management, performance dashboard, managed SEO transition, fast content edits. CMS platform not explicitly stated in client materials (likely Duda).
+- **Jumpstart vs. Jumpstart+ clarified:** Key differentiator is single vs. multiple targeting categories, both Performance Max-style entry-level. Jumpstart targets shops under $300/month ad spend; Jumpstart+ under $500/month. Jumpstart+ formerly called "Local Plus+."
+- **LSA Standard vs. Advanced confirmed:** Standard = verified listing + lead management + basic optimization. Advanced adds active lead rating, call recording review, and call notes to train Google's LSA algorithm.
+- **Programmatic DSP identified:** Simpli.fi. Not disclosed externally. Three tiers: Display / Display+Audio / Display+Audio+Video.
+- **Gauge clarified:** Internal name only. White-labeled foundation with heavy BA-proprietary layers. Client-facing term: "Revenue Attribution Platform."
+- **Email marketing confirmed dormant:** On the rate card at $249/month; not actively sold in ~9 months.
+- **All TODO blocks removed.** Page is now authoritative documentation, not inferred reconstruction.
+
+### Notable observations
+
+- The Advanced Website 20% discount is a meaningful strategic lever — it creates a natural anchor to upsell the full service stack. A client on Advanced Website ($1,499/mo) getting 20% off Google Ads Advanced ($999/mo) saves $200/month, essentially subsidizing the website upgrade.
+- The Simpli.fi non-disclosure is consistent with BA's broader white-label approach (Birdeye, CallRail). BA presents a unified platform to clients rather than a patchwork of third-party vendors.
+- Email marketing being dormant for 9 months suggests the service exists defensively (to match competitor menus) rather than as an active revenue driver.
+- Deal amounts in HubSpot (e.g., Turbo Tim's at $31,348) don't map cleanly to monthly rate × 12, suggesting multi-year pre-payments or multi-location contracts are common at the top of the client base.
