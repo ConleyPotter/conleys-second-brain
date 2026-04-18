@@ -27,7 +27,7 @@ AutoBoost is the company name, not a standalone SaaS product. The suite of clien
 
 **Formal title:** Project Manager (Digital Marketing)  
 **Functional title:** Director of Client Success & Strategy (absorbing a departed director's duties; title alignment in progress)  
-**Portfolio title:** Lead Initiatives & Systems Architect
+**Portfolio title:** Client Success & Growth Leader
 
 In practice the role is a hybrid of sales, client success, and internal systems work. Conley runs and covers client calls, manages a HubSpot pipeline, drives partner relationships (AutoVitals, Turnkey), and coordinates internally across sales, delivery, and ops.
 

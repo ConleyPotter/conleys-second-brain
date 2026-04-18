@@ -17,28 +17,29 @@ All services are sold à la carte. The only bundled discount is the **Advanced W
 
 ## Pricing Reference
 
-| Service | Monthly | Onboarding |
-|---|---|---|
-| Website Standard | $399 | $1,197 (3 months upfront) |
-| Website Advanced | $1,499 | $1,999 |
-| Google Ads Jumpstart | $149 | $149 |
-| Google Ads Jumpstart+ | $299 | $299 |
-| Google Ads Standard | $599 | $499 |
-| Google Ads Advanced | $999 | $499 |
-| Review Platform Base | $249 | — |
-| Enhanced SEO | $599 | $499 |
-| LSA Standard | $199 | $299 |
-| LSA Advanced | $599 | $399 |
-| Programmatic Display | $799 | $699 |
-| Programmatic Display + Audio | $1,098 | $998 |
-| Programmatic Display + Audio + Video | $1,397 | $1,297 |
-| Advanced Social (Organic + Paid) | $648 | $349 |
-| Social Content Curation (Organic only) | $349 | $149 |
-| Bing/Nextdoor Standalone | $649 | $399 |
-| Bing/Nextdoor Add-on (w/ Standard+ Google Ads) | $399 | $299 |
-| Email Marketing (1 campaign/mo) | $249 | $249 |
-| Call Tracking Standalone | $99 | $249 |
-| Video Intro Package | $4,995 | (one-time) |
+| Service                                        | Monthly | Onboarding                |
+| ---------------------------------------------- | ------- | ------------------------- |
+| Website Standard                               | $399    | $1,197 (3 months upfront) |
+| Website Advanced                               | $1,499  | $1,999                    |
+| Google Ads Jumpstart                           | $149    | $149                      |
+| Google Ads Jumpstart+                          | $299    | $299                      |
+| Google Ads Standard                            | $599    | $499                      |
+| Google Ads Advanced                            | $999    | $499                      |
+| Review Platform Base                           | $249    | —                         |
+| Enhanced SEO                                   | $599    | $499                      |
+| LSA Standard                                   | $199    | $299                      |
+| LSA Advanced                                   | $599    | $399                      |
+| Programmatic Display                           | $799    | $699                      |
+| Programmatic Display + Audio                   | $1,098  | $998                      |
+| Programmatic Display + Audio + Video           | $1,397  | $1,297                    |
+| Advanced Social (Organic + Paid)               | $648    | $349                      |
+| Social Content Curation (Organic only)         | $349    | $149                      |
+| Bing/Nextdoor Standalone                       | $649    | $399                      |
+| Bing/Nextdoor Add-on (w/ Standard+ Google Ads) | $399    | $299                      |
+| Email Marketing (1 campaign/mo)                | $249    | $249                      |
+| Call Tracking Standalone                       | $99     | $249                      |
+| Video Intro Package                            | $4,995  | (one-time)                |
+| Landing Page Service                           | $99     | $999                      |
 
 ---
 
@@ -49,40 +50,38 @@ All services are sold à la carte. The only bundled discount is the **Advanced W
 **Standard Website — $399/mo, $1,197 onboarding**
 Pre-optimized layout (choose from proven high-performing designs), customized to brand colors/logo/messaging. Includes built-in on-page local SEO and listing directory management, performance tracking dashboard with SEO metrics, fast turnaround on updates/content edits, and managed SEO transition to preserve existing rankings. Onboarding fee = first 3 months collected upfront.
 
-> **Note:** CMS access and platform (likely Duda — see [[ba-overview]]) not explicitly documented in client-facing materials. No explicit page count defined.
+> **Note:** CMS access and platform (Duda — see [[ba-overview]]) should not be explicitly documented in client-facing materials. 
 
 **Advanced Website — $1,499/mo, $1,999 onboarding**
-Higher-tier website with the 20% discount unlock on all other monthly services. Full scope details not yet documented beyond the discount structure.
+Higher-tier website with the 20% discount unlock on all other monthly services. Includes all Enhanced SEO deliverables, call tracking platform and call tracking for all website sources + GBP, revenue attribution for all call tracking sources.
 
 **Landing Pages**
-A newer, less-commonly-sold service. Appears in context of LSA optimization (e.g., Bogdan @ Scandinavian Imports). Scope and pricing not confirmed from official materials.
+A less-commonly-sold service. Appears in context of Google Ads optimization (e.g., Bogdan @ Scandinavian Imports). $99/mo and $999/onboarding. With the service, we use dynamic pages in Duda and a little bit of custom-built software to create a landing page for every keyword targeted in a client's Google Ads account, so that each time a user lands on one of the pages, it's personalized to them and their search.
 
 ---
 
 ### Google Ads
 
-Geographic exclusivity applies: BA will not sign a competing shop in the same market.
+Geographic exclusivity applies at the advanced level: BA will not sign a competing shop in the same market without first talking to the client with first refusal rights.
 
 **Jumpstart — $149/mo, $149 onboarding**
-Single targeting category. Image, video (if provided), and text ads in the Google Ads network. For shops with ad spend under $300/month. Targeting categories: general repair, European/import, tire, fleet, collision. Performance Max-style; no traditional search campaigns at this tier.
+One Performance Max Campaign. Image, video (if provided), and text ads in the Google Ads network. For shops with ad spend under $300/month. Targeting categories: general repair, European/import, tire, fleet, collision. No traditional search campaigns at this tier.
 
 **Jumpstart+ — $299/mo, $299 onboarding**
-Multiple targeting categories. Same ad types as Jumpstart. For shops with ad spend under $500/month. Adds diesel targeting, expands flexibility. Formerly called "Local Plus+." Also Performance Max-style entry-level.
+One Performance Max Campaign, one Search Campaign. For shops with ad spend under $500/month. Adds diesel targeting, expands flexibility. Includes access to our performance dashboard. Formerly called "Local Plus+." Also entry-level.
 
 **Standard — $599/mo, $499 onboarding**
-Ongoing Google Ads management for shops graduating beyond Jumpstart thresholds. Meaningfully different deliverables from Jumpstart — full scope not yet documented from official materials.
+Ongoing Google Ads management for shops graduating beyond Jumpstart thresholds. 5 search campaigns and a performance max campaign, and meeting at least quarterly.
 
 **Advanced — $999/mo, $499 onboarding**
-Higher-touch Google Ads management. Advanced-tier clients may receive more sophisticated attribution and reporting, including POS-based conversion tracking via Gauge/Pilot integration + GCLID capture through CallRail.
+Higher-touch Google Ads management. Advanced-tier clients receive more sophisticated attribution and reporting, including POS-based conversion tracking via Gauge/Pilot integration (revenue attribution) + GCLID capture, call transcription, recording, and AI intelligence through CallRail.
 
 **Performance Max**
-Not a standalone tier — included within the Google Ads tiers above, with PMax campaigns active for applicable clients.
+Not a standalone tier — included within the Google Ads tiers above, with PMax campaigns active for all Google Ads clients.
 
 ---
 
 ### Local Service Ads (LSA)
-
-Geographic exclusivity applies here too.
 
 **Standard LSA — $199/mo, $299 onboarding**
 Google-verified listing, lead management, basic optimization.
@@ -112,21 +111,21 @@ Reputation management for auto shops. White-labeled Birdeye platform (see [[ba-o
 ### Enhanced SEO
 
 **$599/mo, $499 onboarding**
-Enhanced SEO beyond baseline on-page SEO included in website builds. Includes listing directory management (Google Business Profile, Apple Maps, Yelp, etc.), though exact scope boundary between "standard" website SEO and "enhanced SEO" add-on is not explicitly documented.
+Enhanced SEO is typically implemented on a website built or undermanaged by another digital marketing provider or in-house by the client. Includes listing directory management (Google Business Profile, Apple Maps, Yelp, etc.), active on-site and GBP SEO-optimized content creation, Google Review responses (with keywords included, such as the customer's vehicle make and model), technical site audits and fixes, etc.
 
 ---
 
 ### Call Tracking
 
 **Standalone — $99/mo, $249 onboarding**
-White-labeled CallRail (see [[ba-overview]]). GCLID capture via auto-tagging for Google Ads conversion tracking. Can be bundled with Google Ads for Advanced-tier attribution.
+White-labeled CallRail (see [[ba-overview]]). GCLID capture via auto-tagging for Google Ads conversion tracking. Comes bundled with Google Ads at the Advanced-tier and the Advanced Website (includes call tracking from all web sources + GBP).
 
 ---
 
 ### Social
 
 **Social Content Curation (Organic only) — $349/mo, $149 onboarding**
-Organic social only. Posting cadence, content types, and platforms not explicitly documented from official materials.
+Organic social only. Posting cadence, content types, and platforms are not explicitly documented in official materials.
 
 **Advanced Social (Organic + Paid) — $648/mo, $349 onboarding**
 Adds paid social layer on top of organic content.
@@ -142,7 +141,7 @@ Adds paid social layer on top of organic content.
 
 ### Revenue Attribution (Gauge)
 
-BA's revenue attribution system. "Gauge" is the internal name — client-facing term is "Revenue Attribution" or "Revenue Attribution Platform." Built on a white-labeled foundation with substantial BA-proprietary layers; the original white-label component is not externally recognizable. Ethan maintains revenue attribution dashboards for clients.
+BA's revenue attribution system. "Gauge" is the internal name; the client-facing term is "Revenue Attribution" or "Revenue Attribution Platform." Built on a white-labeled foundation with substantial BA-proprietary layers, the original white-label component is not externally recognizable. Ethan maintains revenue attribution dashboards for clients by ingesting data from Pilot into Agency Analytics (which we refer to as The Performance Dashboard or our Analytics Platform).
 
 The strategic value is showing actual revenue driven by ads (not just calls), especially for Advanced-tier Google Ads clients using POS-based conversion tracking.
 
