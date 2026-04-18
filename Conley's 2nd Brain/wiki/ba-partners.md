@@ -3,8 +3,8 @@ type: operations
 domain: ba
 tags: [ba, day-job, partners, autoVitals, turnkey]
 created: 2026-04-16
-updated: 2026-04-17
-sources: [conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md, Claude Accounts' Saved Memories.md, Daily-Recap_2026-04-16.md]
+updated: 2026-04-18
+sources: [conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md, Claude Accounts' Saved Memories.md, Daily-Recap_2026-04-16.md, Daily-Recap_2026-04-17.md]
 ---
 
 # BA Partner Ecosystem
@@ -29,7 +29,7 @@ Turnkey identifies automotive shop clients who need Google Ads and/or LSA manage
 
 **Key contacts:**
 - **Jared Baker** — Primary contact. Manages LSA-focused referrals. On Apr 15, he emailed asking whether BA does managed/Advanced LSA (suggesting he had an active prospect); Conley sent a detailed Standard vs. Advanced LSA breakdown. Jared confirmed he'd share it with the prospect — described internally as "a huge stinking deal" (multi-shop, wanting Advanced LSA + likely Google Ads + website).
-- **Suzanne Berger** — Also sends referrals. On Apr 10 (weekly recap), Conley handled a tracking-number question from Suzanne for Crabtree Automotive. On Apr 15, Suzanne sent a new client referral that Conley routed to Jon.
+- **Suzanne Berger** — Also sends referrals. On Apr 10 (weekly recap), Conley handled a tracking-number question from Suzanne for Crabtree Automotive. On Apr 15, Suzanne sent a new client referral that Conley routed to Jon. On Apr 17, Suzanne accepted the meeting invitation for Wed Apr 22 at 3:30 PM ET — the multi-shop Advanced LSA + Google Ads + website prospect is now a confirmed call. This is the lead Jared Baker originally surfaced on Apr 15 as "a huge stinking deal."
 
 **Rescheduled / recurring threads:**
 - Jared and Conley had a recurring touch base that was rescheduled to the following Monday at 11 AM (week of Apr 6–12).
