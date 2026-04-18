@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-04-18  
 **Source count:** 26  
-**Page count:** 47
+**Page count:** 48
 
 This wiki documents Conley Potter's ACE business and broader life context. It began as an ACE-only knowledge base and is expanding into a full second brain covering personal operating philosophy, projects, identity, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -27,6 +27,7 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | [[openai-codex-app]] | OpenAI Codex April 2026 update — background computer use, in-app browser, 90+ plugins, memory, scheduled autonomous work |
 | [[gstack]] | Garry Tan's Claude Code sprint framework — 23 specialist slash commands, Think→Plan→Build→Review→Test→Ship, OpenClaw integration, parallel sprints |
 | [[markitdown]] | Microsoft open-source Python tool for converting PDFs, Office docs, images, and audio to Markdown — powers raw-sources ingest |
+| [[second-brain-mcp-server]] | Synthesis: exposing the wiki as an MCP server and wiring it into gstack for persistent personalized context across every sprint |
 
 ## Day Job (BA)
 
