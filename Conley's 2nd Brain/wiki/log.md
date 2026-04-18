@@ -671,3 +671,27 @@ Filed as a synthesis page rather than a chat answer because the question is comp
 - The `/retro` write-back is the highest-leverage integration in Phase 2. It closes the loop between sprint execution and wiki memory without requiring any new behavior from Conley — the retro was already running; now its output lands somewhere permanent.
 - The n8n connection (noted in CLAUDE.md as an automation opportunity for raw-sources ingest) converges with the MCP server build. If n8n watches the wiki directory for writes from the MCP server, the full data flow — source arrives → wiki updated → gstack session aware → sprint output logged — becomes automated end to end.
 - The page explicitly flags that nothing described exists yet. Priority question: does this get built before or after ACE Phase I generates its first client contract?
+
+---
+
+## [2026-04-18] update | ba-overview.md — direct corrections from Conley
+
+**Pages updated:** 1 (`ba-overview.md`)
+
+### What changed
+
+Conley answered six open questions from the wiki TODO audit. All TODOs in `ba-overview.md` are now resolved.
+
+- **Company rebrand:** Business Actualization has rebranded to AutoBoost. Page title and "What It Is" section updated to reflect this. AutoBoost is the company name, not a SaaS product — the SaaS framing was incorrect.
+- **AutoBoost product clarification:** The client-facing software platforms (review, call tracking, revenue attribution) are white-labeled tools bundled into service delivery, not independently sold software. Not analogous to Kukui.
+- **Founding year and headcount:** Founded 2001; current headcount 13 (was listed as ~15 — corrected).
+- **ARR:** ~$2.5M confirmed. Revenue section updated; TODO removed.
+- **Flatarchy proposal:** Dropped. Not being actively pursued. Concepts may resurface as org structure formalizes, but no active initiative.
+- **Director role scope:** Conley has been performing Director-level work for 2+ months. Formal title change would be recognition + authority, not a function change. Concrete delta documented: client retention/escalation ownership, seat at three-person leadership table, authority over service delivery standards and onboarding, compensation alignment ($85K–$120K base range confirmed).
+- **Internal tech stack:** Full service delivery and internal ops stack documented — Duda (websites), Agency Analytics (reporting), Birdeye white-label (review), CallRail white-label (call tracking), GoDaddy → Route 53 → CloudFront/ACM (DNS/hosting), plus Google Ads/Meta/Reddit/Bing/Programmatic/LSA. Internal ops: HubSpot, Slack, Google Workspace, Hubstaff, n8n, Anthropic API/Claude/Cowork, Notion (Conley only).
+
+### Notable observations
+
+- The AutoBoost rebrand is architecturally significant — any wiki page that refers to "Business Actualization" as the current company name needs updating. `ba-overview.md` is updated; other pages (e.g., `conley-potter.md`, `career-history.md`) may still use the old name.
+- The "AutoBoost as SaaS" framing was a persistent misunderstanding in earlier wiki entries. The distinction matters for how Conley positions BA relative to competitors like Kukui when talking to clients or investors.
+- At $2.5M ARR with 13 staff, AutoBoost is solidly mid-market for a vertical-specialized agency. Commission structure and Director compensation make more sense in this context.
