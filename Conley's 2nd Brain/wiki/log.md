@@ -695,3 +695,29 @@ Conley answered six open questions from the wiki TODO audit. All TODOs in `ba-ov
 - The AutoBoost rebrand is architecturally significant — any wiki page that refers to "Business Actualization" as the current company name needs updating. `ba-overview.md` is updated; other pages (e.g., `conley-potter.md`, `career-history.md`) may still use the old name.
 - The "AutoBoost as SaaS" framing was a persistent misunderstanding in earlier wiki entries. The distinction matters for how Conley positions BA relative to competitors like Kukui when talking to clients or investors.
 - At $2.5M ARR with 13 staff, AutoBoost is solidly mid-market for a vertical-specialized agency. Commission structure and Director compensation make more sense in this context.
+
+---
+
+## [2026-04-18] update | ba-products.md — full rate card and service detail confirmed
+
+**Pages updated:** 1 (`ba-products.md`)
+
+### What changed
+
+Conley provided the full official rate card and resolved all outstanding TODOs on this page. The page has been rewritten from an inferred/approximate state to confirmed documentation.
+
+- **Full pricing table added:** 20 line items with monthly and onboarding fees. All services are à la carte. The only bundled discount is the Advanced Website 20%-off structure.
+- **Standard Website scope confirmed:** Pre-optimized layouts, brand customization, on-page SEO + listing directory management, performance dashboard, managed SEO transition, fast content edits. CMS platform not explicitly stated in client materials (likely Duda).
+- **Jumpstart vs. Jumpstart+ clarified:** Key differentiator is single vs. multiple targeting categories, both Performance Max-style entry-level. Jumpstart targets shops under $300/month ad spend; Jumpstart+ under $500/month. Jumpstart+ formerly called "Local Plus+."
+- **LSA Standard vs. Advanced confirmed:** Standard = verified listing + lead management + basic optimization. Advanced adds active lead rating, call recording review, and call notes to train Google's LSA algorithm.
+- **Programmatic DSP identified:** Simpli.fi. Not disclosed externally. Three tiers: Display / Display+Audio / Display+Audio+Video.
+- **Gauge clarified:** Internal name only. White-labeled foundation with heavy BA-proprietary layers. Client-facing term: "Revenue Attribution Platform."
+- **Email marketing confirmed dormant:** On the rate card at $249/month; not actively sold in ~9 months.
+- **All TODO blocks removed.** Page is now authoritative documentation, not inferred reconstruction.
+
+### Notable observations
+
+- The Advanced Website 20% discount is a meaningful strategic lever — it creates a natural anchor to upsell the full service stack. A client on Advanced Website ($1,499/mo) getting 20% off Google Ads Advanced ($999/mo) saves $200/month, essentially subsidizing the website upgrade.
+- The Simpli.fi non-disclosure is consistent with BA's broader white-label approach (Birdeye, CallRail). BA presents a unified platform to clients rather than a patchwork of third-party vendors.
+- Email marketing being dormant for 9 months suggests the service exists defensively (to match competitor menus) rather than as an active revenue driver.
+- Deal amounts in HubSpot (e.g., Turbo Tim's at $31,348) don't map cleanly to monthly rate × 12, suggesting multi-year pre-payments or multi-location contracts are common at the top of the client base.
