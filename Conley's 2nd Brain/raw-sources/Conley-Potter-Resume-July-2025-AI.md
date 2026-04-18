@@ -5,7 +5,7 @@ SUMMARY
 
 Strategic and impact-driven marketing automation leader with 7+ years of experience designing GTM strategies,
 optimizing customer journeys, and deploying AI-powered tools across B2B vertical SaaS and growth-stage
-organizations. Skilled in integrating MarTech systems, lifecycle automation, and predictive analytics to accelerate
+organizations. Skilled in integrating MarTech systems, lifecycle automation, and predictive analytics to accelerate 
 revenue and align tightly with sales and product teams. Adept at translating complexity into clear, scalable
 infrastructure that supports cross-functional execution and drives sustained business growth.
 

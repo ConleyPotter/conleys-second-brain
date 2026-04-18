@@ -46,11 +46,12 @@ Conley Potter is the sole operator of ACE. This page consolidates personal and p
 - Daniel Tobias — Junior Software Engineer (under Josh)
 - Jahson Gonzalez-Allie — Junior Software Engineer (under Josh)
 
-**BA services:** Websites, enhanced SEO, listing management, Google/Bing/programmatic ads, Local Service Ads (Standard and Advanced tiers), call tracking, review platform, social media, video marketing, email marketing, revenue attribution; geographic exclusivity offered to clients.
+**BA services:** Websites, enhanced SEO, listing management, Google/Bing/programmatic ads, Local Service Ads (Standard and Advanced tiers), call tracking, review platform, social media, video marketing, email marketing, revenue attribution; geographic exclusivity offered to clients. See [[ba-products]] for more information.
 
 **Partner ecosystem:** Two primary referral/co-delivery channels:
 - **Turnkey Auto Marketing** (Jared Baker, Suzanne Berger) — sends BA client referrals; BA provides managed LSA services to TK's prospects. A multi-shop Advanced LSA lead (plus Google Ads and website) came through this channel in April 2026.
 - **AutoVitals** — shared client base; Conley coordinates frequently with Carly Lama, Carlos Massaquoi, and Shelby Maggard on billing transitions, search reporting, and meeting scheduling for co-managed clients.
+- See [[ba-partners]] for more information.
 
 **AutoBoost context:** Conley appears heavily in AutoBoost's video content (internal videographer, in-house studio). Potential future CEO trajectory has been explored with Adam.
 
