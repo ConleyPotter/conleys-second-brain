@@ -721,3 +721,46 @@ Conley provided the full official rate card and resolved all outstanding TODOs o
 - The Simpli.fi non-disclosure is consistent with BA's broader white-label approach (Birdeye, CallRail). BA presents a unified platform to clients rather than a patchwork of third-party vendors.
 - Email marketing being dormant for 9 months suggests the service exists defensively (to match competitor menus) rather than as an active revenue driver.
 - Deal amounts in HubSpot (e.g., Turbo Tim's at $31,348) don't map cleanly to monthly rate × 12, suggesting multi-year pre-payments or multi-location contracts are common at the top of the client base.
+
+---
+
+## [2026-04-18] ingest | Daily Recap — April 17, 2026
+
+**Source type:** BA workday log — full FLACA conference day in Orlando; zero outbound emails; one recurring client call; all active work handled by Palmyra team
+**Pages created:** 1 (`daily-recap-2026-04-17.md`)
+**Pages updated:** 3 (`ba-clients-pipeline.md`, `ba-partners.md`, `index.md`)
+
+### What this source contains
+
+A full-day conference log for Friday, April 17 — Day 2 of FLACA (Florida Automotive Community Association) at Wyndham Lake Buena Vista / Disney Springs. Conley attended conference sessions and the expo (5–7 PM solo). The only Conley-owned call was Best One Fleet Google Ads review (~15 min from the hotel). Zero emails sent. The Palmyra team (Jon, Ethan, Courtney) handled all client-facing work.
+
+Notable inbound activity despite Conley's absence:
+- **Telle Tire** — Marco Gonzalez (suspected PE firm Partner) booked a Mon 4/21 meeting via HubSpot. Conley flagged to Jon the PE angle; high deal-size potential.
+- **Turnkey multi-shop lead** — Suzanne Berger confirmed the Wed 4/22 3:30 PM ET meeting — the "huge stinking deal" from Jared Baker's Apr 15 referral is now a live appointment.
+- **Virginia Auto Service** — Matt + accounting contact accepted meeting; Adam took inbound call (~12 min).
+- **John McCormick** — Urgent SMS text blast request; Jon/Ethan planned weekend draft for Monday launch (480-person Shopware list).
+- **Brenner Newman** — Courtney escalated an SEO strategy gap to Conley; she "doesn't know ranking strategy" and is usually the implementer.
+- **9 open items** carrying forward into the coming week.
+
+### What changed
+
+- `daily-recap-2026-04-17.md` — New archival page. Full recap covering conference context, Best One Fleet solo call, 3 pipeline advances (Telle Tire, Turnkey, Virginia Auto Service), 3 urgent client threads handled by the team (McCormick, Newman SEO, TAS/Sonny Letak), and a "What This Reveals" synthesis section with 5 observations.
+- `ba-clients-pipeline.md` — 9 updates total:
+  - **Added:** Telle Tire (High-Priority, PE contact suspected, Mon 4/21 meeting)
+  - **Added:** Virginia Auto Service / Import Car Specialists (Active Clients, inbound, two decision-makers engaged)
+  - **Added:** John McCormick (Active Clients, urgent SMS blast request, 480-person list)
+  - **Added:** Stan's Auto Service (Active Clients, programmatic proposal outstanding, Sheldon)
+  - **Added:** TAS / Sonny Letak (Active Clients, Tesla + A/C content + LSA issue)
+  - **Updated:** Turnkey multi-shop lead — renamed to reflect Suzanne Berger; meeting now confirmed Wed 4/22
+  - **Updated:** Sav-Mor / Brenner Newman — added Courtney's SEO gap escalation
+  - **Updated:** Best One Fleet — added outstanding recording task note
+  - **Updated:** A&R Complete Auto — Angie availability and pending reschedule noted
+- `ba-partners.md` — Suzanne Berger entry expanded: confirmed meeting acceptance for the multi-shop Advanced LSA prospect; turnaround from referral to confirmed call documented as 7 days.
+
+### Notable observations
+
+- Telle Tire's PE angle is the highest-value signal from this day. If Marco Gonzalez is from the PE firm that owns the chain, the deal scope is likely multi-location and high-ticket. Worth doing pre-call research on Telle Tire's ownership structure before 4/21.
+- The Turnkey-to-confirmed-meeting turnaround (Apr 15 referral email → Apr 22 call confirmed) is 7 days. The prior Turnkey lead in the pipeline (still unnamed prospect, Advanced LSA) represents exactly the high-intent referral pattern the [[ba-partners]] page describes. If this closes, it validates the Turnkey channel as a consistently high-velocity source.
+- Courtney's SEO gap is potentially more significant than a single client issue. If SEO ranking strategy lives only with Conley and isn't distributed to the content team, that's a bottleneck — especially as client load grows. The Director title alignment case includes service delivery standards ownership; this kind of gap is exactly what that authority would let Conley address structurally.
+- The team's independent handling of McCormick (SMS urgency), Letak (Tesla content + LSA ticket), and Newman (SEO escalation) while Conley was at conference is operational evidence of a functioning delegation structure. No client issues escalated to Conley from the hotel; all were either handled or queued appropriately.
+- Stan's programmatic proposal has now appeared in recaps for three consecutive days (Apr 15, 17, and presumably will show up on 4/18). This is a pattern of deferrals, not priorities. May be worth a dedicated Monday task before the Telle Tire and Turnkey meetings dominate the week.

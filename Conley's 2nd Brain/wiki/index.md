@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
 **Last updated:** 2026-04-18  
-**Source count:** 26  
-**Page count:** 48
+**Source count:** 27  
+**Page count:** 49
 
 This wiki documents Conley Potter's ACE business and broader life context. It began as an ACE-only knowledge base and is expanding into a full second brain covering personal operating philosophy, projects, identity, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -97,6 +97,7 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | [[weekly-recap-2026-04-06]] | BA week of Apr 6–12: ~20 meetings, $29,610 closed-won, shop incubator GC referral, POS conversion tracking proposal |
 | [[daily-recap-2026-04-15]] | BA workday recap Apr 15: client pipeline, Turnkey/AutoVitals partners, FLSA compliance catch, 13 open items |
 | [[daily-recap-2026-04-16]] | BA workday recap Apr 16: FLACA departure, Tilson's dropped, Mechanics booked, Metric Motors tiers |
+| [[daily-recap-2026-04-17]] | BA workday recap Apr 17: FLACA conference day, Telle Tire meeting booked, Turnkey lead confirmed |
 
 ## Meta
 
@@ -138,3 +139,4 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | `Conley-Potter-Resume-July-2025-ADS.md` | Resume — Paid media variant targeting eCommerce performance marketing roles | 2026-04-18 |
 | `microsoftmarkitdown Python tool for converting PDF files and office documents to Markdown.md` | GitHub README — microsoft/markitdown; PDF-to-Markdown conversion tool for LLM pipelines | 2026-04-18 |
 | `portfolio-website-about-page-4-18.md` | Finalized About page copy — career narrative, philosophy, outside-of-work section, career history sidebar content | 2026-04-18 |
+| `Daily-Recap_2026-04-17.md` | BA workday log — FLACA conference day; Telle Tire booked, Turnkey confirmed, team handled 3 urgent client threads | 2026-04-18 |

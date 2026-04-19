@@ -3,8 +3,8 @@ type: operations
 domain: ba
 tags: [ba, day-job, clients, pipeline, hubspot]
 created: 2026-04-16
-updated: 2026-04-17
-sources: [conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md, Daily-Recap_2026-04-16.md]
+updated: 2026-04-18
+sources: [conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md, Daily-Recap_2026-04-16.md, Daily-Recap_2026-04-17.md]
 ---
 
 # BA Clients & Pipeline
@@ -31,6 +31,14 @@ Accounts are organized by how recently they appeared in Conley's recaps and thei
 ---
 
 ## High-Priority Accounts (Active or Near-Close)
+
+### Telle Tire
+**Contact:** Marco Gonzalez (believed to be Partner / PE firm contact); Jeret Tucker (also accepted invite)
+**Status:** Prospect — meeting booked Mon 4/21, 9 AM ET
+**Recent activity:** Marco booked via HubSpot scheduling link on Apr 17. Both Marco (marco@telletire.com) and Jeret Tucker (jeret.tucker@telletire.com) accepted. Conley researched Marco post-booking and forwarded to Jon (4/18): "I think his title is Partner, which might mean he's from the PE firm. Either way he's high up in the company." Both Conley and Jon are on the 4/21 call.
+**Context:** Inbound prospect; PE involvement likely means multi-location or chain-level buying authority. High potential deal value.
+
+---
 
 ### Heights Expert Automotive
 **Contact:** Heather  
@@ -64,11 +72,12 @@ Accounts are organized by how recently they appeared in Conley's recaps and thei
 
 ---
 
-### Turnkey multi-shop lead (unnamed)
-**Contact:** Via Jared Baker @ Turnkey Auto Marketing  
-**Status:** Inbound referral — Advanced LSA inquiry, not yet in HubSpot  
-**Deal potential:** Multi-shop, Advanced LSA + likely Google Ads + website — flagged to Jon as "a huge stinking deal"  
-**Recent activity:** Jared Baker emailed Apr 15 asking if BA does Advanced LSA. Conley sent Standard vs. Advanced breakdown. Jared confirmed he'd share with the prospect.
+### Turnkey multi-shop lead (Suzanne Berger referral)
+**Contact:** Via Jared Baker and Suzanne Berger @ Turnkey Auto Marketing
+**Status:** Inbound referral — meeting confirmed Wed 4/22, 3:30 PM ET
+**Deal potential:** Multi-shop, Advanced LSA + likely Google Ads + website — flagged internally as "a huge stinking deal"
+**Recent activity:** Jared Baker emailed Apr 15 asking if BA does Advanced LSA. Conley sent Standard vs. Advanced breakdown. Suzanne Berger (Turnkey) accepted the Apr 22 meeting invite on Apr 17. Meeting is confirmed.
+**Context:** See [[ba-partners]] for Turnkey relationship structure. This moved from referral intro to scheduled meeting in 7 days.
 
 ---
 
@@ -92,6 +101,37 @@ Accounts are organized by how recently they appeared in Conley's recaps and thei
 ### Salta
 **Status:** Active client — performance issues  
 **Recent activity:** Apr 15 — Conley flagged poor performance to Jon. Strategy discussion TBD. No resolution yet.
+
+---
+
+### Virginia Auto Service / Import Car Specialists
+**Contact:** Matt (primary); accounting contact (also accepted invite)
+**Status:** Prospect — meeting accepted; inbound lead
+**Recent activity:** Apr 17 — Matt and the accounting contact both accepted a meeting invitation. Adam also took an inbound call from Virginia Auto Service (~12 min, 1:51 PM). Relationship appears tied to the Import Car Specialists brand.
+**Context:** Inbound, two decision-makers already engaged. Deal scope and services not yet documented.
+
+---
+
+### John McCormick
+**Status:** Active client — urgent service expansion request
+**Recent activity:** Original email Apr 16, follow-up Apr 17 — urgently requesting SMS text blast capability to increase car count. Customer list: ~480 people from Shopware export who haven't visited since October. Jon and Ethan handled a brief call (~5 min on Apr 17); agreed to draft promo messages (oil change focus) over the weekend for Monday morning launch.
+**Context:** High urgency framing; team responded same day with a plan. Follow-up: confirm Monday launch went live.
+
+---
+
+### Stan's Auto Service
+**Contact:** Sheldon
+**Status:** Active client — programmatic proposal outstanding
+**Recent activity:** HubSpot task due Apr 17: "Send proposal/pricing for programmatic (see notes)." Sheldon still wants to explore; 6-month brand awareness play confirmed as the right framing. Also flagged on Apr 15: Stan perceives performance as poor; Carly (AutoVitals) contacted about the perception gap.
+**Context:** Programmatic is not yet sold; proposal has been outstanding since at least Apr 15.
+
+---
+
+### TAS — Sonny Letak
+**Contact:** Sonny Letak; Tim (Tesla materials contact)
+**Status:** Active client — content production and LSA active
+**Recent activity:** Apr 17 — Jon called Sonny twice (1:31 PM ~4 min + 1:36 PM ~1 min). Agreed to focus content on Tesla + A/C services; Jon to email Tim for Tesla source materials. Diesel/Eurotech hire postponed to May. Separate issue: LSA account error requires Google support ticket; fix expected by next week.
+**Context:** Multi-service client with both content production and LSA management active simultaneously.
 
 ---
 
@@ -147,9 +187,10 @@ Still a current shared AutoVitals Advanced Google Ads client. May still add LSA.
 ## Recently Closed / Onboarding
 
 ### Best One Fleet Service of Gas City
-**Status:** Closed Won  
-**Deal value:** $19,987 (Conley listed as owner; Jon as collaborator — commission split)  
+**Status:** Closed Won — onboarding active
+**Deal value:** $19,987 (Conley listed as owner; Jon as collaborator — commission split)
 **Closed:** Apr 6
+**Recent activity:** Apr 17 — Conley ran recurring Google Ads review call from FLACA hotel (~15 min). HubSpot task still outstanding (high priority): add the website onboarding call recording to company notes.
 
 ### Rodgers Family Auto Care
 **Status:** Onboarding — Jumpstart+ upgrade signed and paid  
@@ -162,17 +203,17 @@ Still a current shared AutoVitals Advanced Google Ads client. May still add LSA.
 ---
 
 ### A&R Complete Auto
-**Contact:** Angie (sole contact as of Apr 16); Taina has departed  
-**Status:** Active client — contact change; meeting rescheduling in progress  
-**Recent activity:** Apr 16 — Angie emailed to cancel the 2 PM Zoom, noting Taina is no longer with A&R. Conley forwarded to Jon and took ownership of rescheduling. Angie available Fri 4/17 or Tue 4/22.
+**Contact:** Angie (sole contact as of Apr 16); Taina has departed
+**Status:** Active client — contact change; meeting rescheduling in progress
+**Recent activity:** Apr 16 — Angie emailed to cancel the 2 PM Zoom, noting Taina is no longer with A&R. Conley forwarded to Jon and took ownership of rescheduling. Angie offered availability Fri 4/17 or Tue 4/22. Apr 17 — reschedule still pending (Conley was at FLACA; no response sent).
 
 ---
 
 ### Sav-Mor Automotive (Brenner Newman)
-**Contact:** Brenner Newman  
-**Status:** Active client — April promotional campaign in motion  
-**Recent activity:** Apr 16 — Brenner called in slow; wants promos on site and Google Ads. Conley + Courtney coordinated campaign: $47 synthetic oil change, free A/C diagnostic + 10% off, April-only specials. Deliverables: website, Google Ads, social, blog (National Car Care Month angle). Jon adjusting Google Ads toward general repair spend.  
-**Signal:** Conley's reaction ("even he's feeling it now") suggests broader seasonal slowdown reaching typically stable clients.
+**Contact:** Brenner Newman
+**Status:** Active client — April promotional campaign in motion; SEO strategy gap flagged
+**Recent activity:** Apr 16 — Brenner called in slow; wants promos on site and Google Ads. Conley + Courtney coordinated campaign: $47 synthetic oil change, free A/C diagnostic + 10% off, April-only specials. Deliverables: website, Google Ads, social, blog (National Car Care Month angle). Jon adjusting Google Ads toward general repair spend. Apr 17 — Courtney @-mentioned Conley in HubSpot: she "is not familiar with what needs done for a client to rank higher" and is "usually the implementer." SEO strategy input from Conley is outstanding.
+**Signal:** Conley's reaction ("even he's feeling it now") suggests broader seasonal slowdown reaching typically stable clients. Courtney's SEO gap flag is an internal capability issue, not just a Newman issue.
 
 ---
 
