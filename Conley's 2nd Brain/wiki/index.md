@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
-**Last updated:** 2026-04-18  
-**Source count:** 27  
-**Page count:** 49
+**Last updated:** 2026-04-21  
+**Source count:** 29  
+**Page count:** 55
 
 This wiki documents Conley Potter's ACE business and broader life context. It began as an ACE-only knowledge base and is expanding into a full second brain covering personal operating philosophy, projects, identity, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -99,6 +99,17 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | [[daily-recap-2026-04-16]] | BA workday recap Apr 16: FLACA departure, Tilson's dropped, Mechanics booked, Metric Motors tiers |
 | [[daily-recap-2026-04-17]] | BA workday recap Apr 17: FLACA conference day, Telle Tire meeting booked, Turnkey lead confirmed |
 
+## Drone Enterprises
+
+| Page | Summary |
+|---|---|
+| [[domain-drone-enterprises]] | Drone Enterprises domain anchor — founding context, active pages, status |
+| [[drone-enterprises]] | Company overview — founding thesis, cofounders, Conley's CSO role, product vision, TAM |
+| [[drone-market-analysis]] | Doctrine shift, adversary capabilities (China/Russia/Iran), supply chain gaps, TAM math |
+| [[drone-build-strategy]] | Hardware architecture, NDAA-compliant BOM, manufacturing strategy, open standards, IP moats |
+| [[drone-funding-gtm]] | Defense VC landscape, SBIR/OTA pathways, Blue UAS on-ramp, 0–5 year GTM roadmap |
+| [[sam-schutt]] | Sam Schutt — Conley's closest friend, best man, and Drone Enterprises co-founder; stub |
+
 ## Meta
 
 | Page | Summary |
@@ -140,3 +151,5 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | `microsoftmarkitdown Python tool for converting PDF files and office documents to Markdown.md` | GitHub README — microsoft/markitdown; PDF-to-Markdown conversion tool for LLM pipelines | 2026-04-18 |
 | `portfolio-website-about-page-4-18.md` | Finalized About page copy — career narrative, philosophy, outside-of-work section, career history sidebar content | 2026-04-18 |
 | `Daily-Recap_2026-04-17.md` | BA workday log — FLACA conference day; Telle Tire booked, Turnkey confirmed, team handled 3 urgent client threads | 2026-04-18 |
+| `compass_artifact_wf-cf062d2d-8ed4-460c-a460-02e0262b03b7_text_markdown.md` | Founder's playbook — disposable infantry drone opportunity; doctrine, adversary capabilities, supply chain, company-build, funding, GTM | 2026-04-21 |
+| `Questions & Notes on the Disposable Drone Research Document.md` | Conley's Q&A notes on the drone research — glossary questions (RFI, Shahed, Switchblade, NDAA, EW), personal annotations | 2026-04-21 |

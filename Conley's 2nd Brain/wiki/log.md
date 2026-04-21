@@ -763,4 +763,39 @@ Notable inbound activity despite Conley's absence:
 - The Turnkey-to-confirmed-meeting turnaround (Apr 15 referral email → Apr 22 call confirmed) is 7 days. The prior Turnkey lead in the pipeline (still unnamed prospect, Advanced LSA) represents exactly the high-intent referral pattern the [[ba-partners]] page describes. If this closes, it validates the Turnkey channel as a consistently high-velocity source.
 - Courtney's SEO gap is potentially more significant than a single client issue. If SEO ranking strategy lives only with Conley and isn't distributed to the content team, that's a bottleneck — especially as client load grows. The Director title alignment case includes service delivery standards ownership; this kind of gap is exactly what that authority would let Conley address structurally.
 - The team's independent handling of McCormick (SMS urgency), Letak (Tesla content + LSA ticket), and Newman (SEO escalation) while Conley was at conference is operational evidence of a functioning delegation structure. No client issues escalated to Conley from the hotel; all were either handled or queued appropriately.
+
+---
+
+## [2026-04-21] ingest | The disposable drone opportunity — Drone Enterprises founding research
+
+**Source type:** Comprehensive founder's playbook — infantry-scale UAS market analysis, April 2026. Authored as a briefing document synthesizing current doctrine, adversary capabilities, supply-chain gaps, company-build strategy, funding pathways, and GTM sequencing. Accompanied by Conley's Q&A/glossary notes on the document.  
+**Pages created:** 6 (`domain-drone-enterprises.md`, `drone-enterprises.md`, `drone-market-analysis.md`, `drone-build-strategy.md`, `drone-funding-gtm.md`, `sam-schutt.md`)  
+**Pages updated:** 3 (`conley-potter.md`, `index.md`, `CLAUDE.md`)
+
+### What this source contains
+
+A 7-section playbook covering the US military drone industrial gap, adversary capabilities (China/Russia/Iran), supply chain dependencies on Chinese components, the market opportunity for a $500–$2,000 NDAA-compliant Group 1 UAS at 100K+/year volumes, company-build architecture, funding strategy (SBIR/STTR, OTA, defense VC), and a 0–5 year GTM roadmap modeled on Anduril's trajectory. Key data points: Army Secretary Driscoll's 1M-drone-over-3-years target; $1B DDP RFI for 300K units; Skydio X10D at $17,300/unit (March 2026 Army order); Neros Archer ramping toward 10K/month; no US-made $500–$1,500 NDAA-compliant OWA/FPV drone exists at scale. The companion Q&A notes reveal Conley is new to defense-tech vocabulary — wiki pages were written to define key terms (Shahed-class, EW, NDAA compliance, OWA, attritable) in context.
+
+This source establishes a **new domain**: Drone Enterprises. Conley is co-founding with Sam Schutt (closest friend, best man at June 12, 2026 wedding) as Chief Strategy Officer.
+
+### What changed
+
+- `domain-drone-enterprises.md` (new) — Domain anchor page. Founding context, active pages list, status.
+- `drone-enterprises.md` (new) — Company overview. Thesis, founding team, product vision, competitive landscape, revenue model, status and immediate next steps.
+- `drone-market-analysis.md` (new) — Full market analysis. Doctrine shift, five-war case studies, Replicator/DDP context, China/Russia/Iran adversary capabilities, NDAA supply chain gaps with reference compliant-supplier table, TAM math ($450M–$1.25B/year), price benchmark table. Includes plain-language explainers for EW (electronic warfare), Shahed-class drones, and the NDAA compliance gap — added because Conley's Q&A notes flagged these as unfamiliar terms.
+- `drone-build-strategy.md` (new) — Hardware and manufacturing strategy. Architecture decision (Neros-style vertically integrated + Auterion software layer), design non-negotiables (modularity, EW resilience, MOSA, open APIs), full NDAA-compliant BOM with sourcing options, manufacturing hub-and-spoke model, volume unit economics, IP/defensibility analysis, team composition by funding stage.
+- `drone-funding-gtm.md` (new) — Funding and GTM. Defense VC landscape with check-size benchmarks, SBIR ladder (Phase I → Phase III sole-source), OTA mechanics, DIU/Blue UAS on-ramp, target customers by procurement speed, programs of record, allied sales channels, strategic acquirers, full 0–5 year GTM roadmap with raise targets and unit volume milestones.
+- `sam-schutt.md` (new) — Stub profile for Sam Schutt. Personal relationship (best man, closest friend), co-founder role, open questions about his professional background.
+- `conley-potter.md` — Added Drone Enterprises entry under Active Projects. Updated Related links. Updated frontmatter date.
+- `index.md` — Added Drone Enterprises section (6 pages). Source count 27 → 29. Page count 49 → 55. Two new source file rows.
+- `CLAUDE.md` — Added Drone Enterprises to Active Domains list.
+
+### Notable observations
+
+- This is a genuinely new domain — no defense-tech or hardware-startup context existed in the wiki before this ingest. The pages are built from a single comprehensive source; they will need updating as Conley and Sam develop the company and new sources arrive.
+- Conley's Q&A notes reveal he is entering this space as a domain outsider. His strengths (strategy, systems architecture, commercial GTM, public narrative) map well to the CSO role, but the wiki should flag when pages assume defense-domain fluency he doesn't yet have. Plain-language definitions in market-analysis pages are intentional.
+- **Sam Schutt's professional background is completely undocumented.** The `sam-schutt.md` stub is essentially empty. The founding team archetype analysis in `drone-enterprises.md` flags that Drone Enterprises needs three archetypes represented — it's unclear from available sources whether Sam fills the technical or operator archetype, or if a third recruit is needed.
+- The structural gap that Drone Enterprises is targeting (no US-made $500–$1,500 NDAA-compliant OWA at 100K+/month) is real and validated by multiple independent data sources in the research document. Neros is the closest competitor but they are still ramping and their pricing appears to be above target. The window is open now.
+- This is the first "hardware startup co-founding" domain in the wiki, which puts it in an interesting relationship with ACE. ACE is 15 hr/week maximum; Drone Enterprises is a full company-build. The [[operating-doctrine-2026]] decision filter ("say yes only if it strengthens BA or ACE, increases calm/leverage/clarity, or compounds attention") should be revisited — Drone Enterprises doesn't fit that filter as written. Worth flagging to Conley.
+- `Wiki Base.base` in raw-sources is a byte-for-byte duplicate of the compass_artifact markdown file. Not logged as a separate source.
 - Stan's programmatic proposal has now appeared in recaps for three consecutive days (Apr 15, 17, and presumably will show up on 4/18). This is a pattern of deferrals, not priorities. May be worth a dedicated Monday task before the Telle Tire and Turnkey meetings dominate the week.

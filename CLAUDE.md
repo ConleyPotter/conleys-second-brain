@@ -248,6 +248,7 @@ When Conley asks for a health check:
 - **ACE** — strategy, operations, marketing, identity, projects
 - **BA (Day Job)** — professional operations, client pipeline, partners, team
 - **Personal** — doctrine, relationships, body, inner work
+- **Drone Enterprises** — defense hardware co-founding venture with Sam Schutt; infantry-scale attritable UAS; Conley is CSO
 
 **Expansion order** (as new sources arrive):
 
