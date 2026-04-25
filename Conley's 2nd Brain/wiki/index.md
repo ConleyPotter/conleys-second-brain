@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
-**Last updated:** 2026-04-18  
-**Source count:** 27  
-**Page count:** 49
+**Last updated:** 2026-04-24  
+**Source count:** 31  
+**Page count:** 51
 
 This wiki documents Conley Potter's ACE business and broader life context. It began as an ACE-only knowledge base and is expanding into a full second brain covering personal operating philosophy, projects, identity, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -28,6 +28,8 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | [[gstack]] | Garry Tan's Claude Code sprint framework — 23 specialist slash commands, Think→Plan→Build→Review→Test→Ship, OpenClaw integration, parallel sprints |
 | [[markitdown]] | Microsoft open-source Python tool for converting PDFs, Office docs, images, and audio to Markdown — powers raw-sources ingest |
 | [[second-brain-mcp-server]] | Synthesis: exposing the wiki as an MCP server and wiring it into gstack for persistent personalized context across every sprint |
+| [[jarvis-system]] | JARVIS content production system — Obsidian + Claude Code vault for capturing observations, finding connections, and generating content in Conley's exact voice |
+| [[drone-opportunity]] | Disposable infantry UAS startup opportunity — market research, founding thesis, Conley's active exploration with collaborator "Sam" |
 
 ## Day Job (BA)
 
@@ -140,3 +142,7 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | `microsoftmarkitdown Python tool for converting PDF files and office documents to Markdown.md` | GitHub README — microsoft/markitdown; PDF-to-Markdown conversion tool for LLM pipelines | 2026-04-18 |
 | `portfolio-website-about-page-4-18.md` | Finalized About page copy — career narrative, philosophy, outside-of-work section, career history sidebar content | 2026-04-18 |
 | `Daily-Recap_2026-04-17.md` | BA workday log — FLACA conference day; Telle Tire booked, Turnkey confirmed, team handled 3 urgent client threads | 2026-04-18 |
+| `How to Build a JARVIS Inside Obsidian With Claude Code — The Full Setup From Scratch.md` | @cyrilXBT guide — full JARVIS system setup: vault architecture, four core skills, daily ritual, performance feedback loop | 2026-04-24 |
+| `New JARVIS Repo CLAUDE.md File.md` | Generic JARVIS CLAUDE.md template — identity, vault structure, voice, hard rules, primary jobs; Conley-specific version saved as `JARVIS-CLAUDE.md` | 2026-04-24 |
+| `compass_artifact_wf-cf062d2d-8ed4-460c-a460-02e0262b03b7_text_markdown.md` | Defense research brief — disposable infantry drone market opportunity; doctrine, adversary analysis, supply chain, company-build strategy, funding, go-to-market | 2026-04-24 |
+| `Questions & Notes on the Disposable Drone Research Document.md` | Conley's working notes on the drone research — glossary terms, questions for collaborator "Sam" re: ISR/OWA/decoy variants, TAM breakdown | 2026-04-24 |
