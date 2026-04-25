@@ -1,0 +1,1 @@
+I wonder what the JARVIS system could produce just by scanning through the existing wiki. Luckily the [[index]] makes a great place for it to start.
