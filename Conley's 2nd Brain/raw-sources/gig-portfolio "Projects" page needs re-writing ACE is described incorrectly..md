@@ -8,17 +8,19 @@ description: "Conley Potter — systems architect and marketing technology leade
 tags:
   - "clippings"
 ---
-## Autonomous systems built in the open.
+Projects
+
+# Autonomous systems built in the open.
 
 Personal projects focused on AI orchestration, physical computing, and scalable automation infrastructure.
 
 ## ACE — Autonomous Content Engine
 
-Supabase · n8n · Cloudflare Workers · Multi-agent AI
+n8n · Apollo · Claude · Gemini · OpenClaw
 
 Active Development
 
-ACE began as an autonomous content studio — eight agents running a closed creative loop. It was ambitious, and it taught me where real leverage is and where it isn't.
+ACE began as an autonomous content engine — eight agents running a closed creative loop. It was ambitious, and it taught me where real leverage is and where it isn't.
 
 The current version is more deliberate: a supervised pipeline infrastructure for delivering structured professional outputs. Human direction in, verified deliverables out.
 
@@ -28,21 +30,21 @@ This is a working system, not a portfolio concept.
 
 ### How it works
 
-01Research Agent
+Stage 01 —Discovery
 
-Gathers and synthesizes source material from the web and internal knowledge base.
+Monitors gig platforms for qualified opportunities matching target criteria. Surfaces relevant leads to the operator for intake decisions.
 
-02Writing Agent
+Stage 02 —Enrichment
 
-Produces structured drafts based on research output and style guidelines.
+Takes a target domain or company list and runs it through an API waterfall (Apollo → Cleanlist) to produce verified contact records with titles, emails, and firmographic data.
 
-03Editor Agent
+Stage 03 —Review Gate
 
-Reviews output for accuracy, tone, and quality. Flags edge cases for human review.
+All enriched output routes to the operator before delivery. Human eyes on every deliverable — quality enforcement built into the pipeline, not bolted on.
 
-04Distribution Agent
+Stage 04 —Delivery
 
-Schedules and publishes content to configured channels. Logs results for analysis.
+Structured output (CSV, Google Sheet) formatted to spec and delivered to client. Results logged for pipeline analysis.
 
 ### Design Principles
 
@@ -62,6 +64,10 @@ Composable Design
 
 Agents are discrete units. New capabilities can be added without rewriting existing infrastructure.
 
+### Live System Monitor
+
+Real-time pipeline activity log. Each run produces verified, structured output — logged and observable.
+
 ## The Sentinel
 
 On-Device AI · Linux · Docker · Tailscale · Custom Hardware
@@ -71,5 +77,11 @@ In Design
 A physical AI prototype featuring localized AI processing and stylized interactive displays. The Sentinel explores the frontier of embedded, on-device intelligence — bringing agentic capabilities into the physical world without relying on cloud dependency. Built on macOS/Linux server infrastructure with custom SSH management and static IP configuration.
 
 Hardware and software architecture defined. Being funded through ACE revenue before build begins.
+
+## Thought Leader Engine
+
+Growth Tech · Social Automation · Data Analytics · n8n
+
+Active
 
 A scalable AI framework designed to automate organic presence and professional outreach. It systematically analyzes engagement data to iterate on messaging and networking efforts without compromising authenticity. This is the distribution and outreach layer that runs alongside ACE.
