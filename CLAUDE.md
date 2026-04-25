@@ -17,13 +17,25 @@ You (Claude) are the maintainer. Conley is the curator and director. He sources 
 ```
 vault/
 ├── .claude/
+│   └── commands/              ← slash commands (wiki ingest + JARVIS workflows)
 ├── Clippings/
-│   CLAUDE.md                  ← this file (the schema)
-├── Conley's 2nd Brain/ 
-│   ├── wiki/                  ← all LLM-generated markdown pages (flat)
+│   CLAUDE.md                  ← this file (knowledge base schema)
+├── Conley's 2nd Brain/
+│   ├── wiki/                  ← all LLM-generated knowledge pages (flat)
 │   │   ├── index.md           ← catalog of all wiki pages
 │   │   └── log.md             ← append-only chronological record
-│   └── raw-sources/           ← immutable source documents (read, never modify)
+│   ├── raw-sources/           ← immutable source documents (read, never modify)
+│   ├── 00-INBOX/              ← JARVIS: unprocessed captures
+│   ├── 01-CAPTURES/           ← JARVIS: typed observations (5 subfolders)
+│   │   ├── observations/
+│   │   ├── reactions/
+│   │   ├── patterns/
+│   │   ├── questions/
+│   │   └── numbers/
+│   ├── 02-CONNECTIONS/        ← JARVIS: synthesized cross-capture insights
+│   ├── 03-BRIEFS/             ← JARVIS: content ready to write
+│   ├── 04-PUBLISHED/          ← JARVIS: archived posts + engagement data
+│   └── 05-CLAUDE/             ← JARVIS: Claude working dir (CLAUDE.md + skills/)
 ```
 
 **Rules:**
@@ -220,6 +232,20 @@ When Conley asks for a health check:
     - Known gaps in tech-stack or project pages
 3. Suggest 3–5 questions worth investigating or sources worth finding.
 4. Append to `log.md` with operation type `lint`.
+
+---
+
+### 6. Content production workflows (JARVIS)
+
+This vault has a second layer: a content production system for capturing daily observations, finding connections between them, and generating content in Conley's voice.
+
+**Before starting any JARVIS workflow**, read `Conley's 2nd Brain/05-CLAUDE/CLAUDE.md` in full. That file is the operating contract for the content production system. Use the slash commands `/jarvis-process-inbox`, `/jarvis-connections`, `/jarvis-brief`, and `/jarvis-write` to trigger each workflow.
+
+**Cross-system rules:**
+- Captures in `01-CAPTURES/` and briefs in `03-BRIEFS/` may link to wiki pages using `[[wiki-link]]` syntax — this works natively in Obsidian
+- If a capture surfaces a significant new insight about ACE, BA, or personal context, surface it as a candidate for wiki ingest — don't silently discard it
+- `04-PUBLISHED/` engagement data that reveals strong audience signals can update `brand-voice.md` in the wiki — ask Conley first
+- `05-CLAUDE/CLAUDE.md` is the truth on voice rules; `brand-voice.md` in the wiki is the same content in wiki page format
 
 ---
 
