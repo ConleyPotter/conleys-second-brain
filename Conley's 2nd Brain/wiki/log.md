@@ -763,4 +763,41 @@ Notable inbound activity despite Conley's absence:
 - The Turnkey-to-confirmed-meeting turnaround (Apr 15 referral email → Apr 22 call confirmed) is 7 days. The prior Turnkey lead in the pipeline (still unnamed prospect, Advanced LSA) represents exactly the high-intent referral pattern the [[ba-partners]] page describes. If this closes, it validates the Turnkey channel as a consistently high-velocity source.
 - Courtney's SEO gap is potentially more significant than a single client issue. If SEO ranking strategy lives only with Conley and isn't distributed to the content team, that's a bottleneck — especially as client load grows. The Director title alignment case includes service delivery standards ownership; this kind of gap is exactly what that authority would let Conley address structurally.
 - The team's independent handling of McCormick (SMS urgency), Letak (Tesla content + LSA ticket), and Newman (SEO escalation) while Conley was at conference is operational evidence of a functioning delegation structure. No client issues escalated to Conley from the hotel; all were either handled or queued appropriately.
+
+---
+
+## [2026-04-24] update | JARVIS content production system built and integrated
+
+**Operation:** Hybrid integration — JARVIS content production layer added to the second brain vault
+**Pages created:** 1 (`jarvis-system.md`)
+**Pages updated:** 1 (`index.md` — page count + new entry)
+**Structural changes:** 10 new directories, 4 skill files, 4 slash commands, root CLAUDE.md updated
+
+### What this source contains
+
+Not a source ingest — a system build. The JARVIS content production layer (inbox → captures → connections → briefs → published pipeline) was scaffolded directly inside `Conley's 2nd Brain/` alongside the existing wiki and raw-sources. The full folder structure, operating contract (`05-CLAUDE/CLAUDE.md`), four skill files, and four slash commands are now in place on branch `claude/hybrid-jarvis-integration`.
+
+### What changed
+
+- `05-CLAUDE/CLAUDE.md` — New file. Full JARVIS operating contract: identity context, audience definition, voice rules, hard rules (banned phrases, BA/ACE persona separation), deep personal context (BA team, ACE stack, Sentinel, River Room, 2026 doctrine).
+- `05-CLAUDE/skills/process-inbox.md` — New file. Inbox processing skill: sharpen each note to one specific sentence, assign exactly 3 tags, route to correct 01-CAPTURES subfolder, report with patterns and one connection.
+- `05-CLAUDE/skills/weekly-connections.md` — New file. Connection-finding skill: read all captures from last 7 days, find 3–5 Type A/B/C/D non-obvious connections, create connection notes in 02-CONNECTIONS.
+- `05-CLAUDE/skills/generate-brief.md` — New file. Brief generation skill: five-field format (ONE THING, PROOF, READER TRANSFORMATION, THREE HOOKS, THREE CLOSERS); save to 03-BRIEFS tagged #ready-to-write.
+- `05-CLAUDE/skills/write-content.md` — New file. Content writing skill: read brief + sources, apply voice rules, structure hook→proof→body→closer, self-check, save draft tagged #written.
+- `.claude/commands/jarvis-process-inbox.md` — New slash command. Reads 05-CLAUDE/CLAUDE.md, executes process-inbox skill.
+- `.claude/commands/jarvis-connections.md` — New slash command. Reads 05-CLAUDE/CLAUDE.md, executes weekly-connections skill.
+- `.claude/commands/jarvis-brief.md` — New slash command. Reads 05-CLAUDE/CLAUDE.md, executes generate-brief skill.
+- `.claude/commands/jarvis-write.md` — New slash command. Reads 05-CLAUDE/CLAUDE.md, executes write-content skill.
+- `CLAUDE.md` (root) — Two changes: (1) directory diagram expanded to show both wiki and JARVIS layers; (2) new section 6 "Content production workflows (JARVIS)" added after the Lint workflow, cross-linking both systems.
+- `jarvis-system.md` — New wiki page documenting the system: folder structure, slash commands, pipeline, connection types, and wiki integration rules.
+- `index.md` — Page count updated from 49 → 50; `jarvis-system.md` added to Meta section; date updated to 2026-04-24.
+- `00-INBOX/` through `05-CLAUDE/skills/` — 10 new directories scaffolded with `.gitkeep` files.
+
+### Notable observations
+
+- The single-vault architecture (JARVIS inside `Conley's 2nd Brain/` alongside wiki) means captures and briefs can natively link to wiki pages using `[[wiki-link]]` syntax. This is the core advantage over a two-repo approach — no sync, no broken links.
+- The JARVIS system explicitly separates knowledge accumulation (wiki, slow, permanent) from content production (JARVIS, daily, perishable-input → permanent-output). The distinction matters operationally: one compounds, one produces.
+- The voice rules in `05-CLAUDE/CLAUDE.md` and `[[brand-voice]]` cover the same ground. `05-CLAUDE/CLAUDE.md` is the truth source for content production; `[[brand-voice]]` is the wiki-page format. If they diverge, `05-CLAUDE/CLAUDE.md` wins.
+- A manual step is required before zero-friction capture works: install **QuickAdd** from Obsidian Community Plugins (Settings → Community Plugins → Browse → "QuickAdd"). One keyboard shortcut drops a note into `00-INBOX/`. Cannot be automated from Claude Code.
+- The JARVIS folder structure (`00-INBOX` through `05-CLAUDE`) is now visible in Obsidian's left sidebar alongside `wiki/` and `raw-sources/`. Obsidian cross-links between captures and wiki pages are ready to use.
 - Stan's programmatic proposal has now appeared in recaps for three consecutive days (Apr 15, 17, and presumably will show up on 4/18). This is a pattern of deferrals, not priorities. May be worth a dedicated Monday task before the Telle Tire and Turnkey meetings dominate the week.
