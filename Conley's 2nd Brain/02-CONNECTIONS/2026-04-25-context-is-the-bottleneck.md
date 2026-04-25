@@ -1,6 +1,6 @@
 ---
 type: connection
-connection-type: Pattern
+connection-type: C
 sources:
   - llm-wiki-pattern.md
   - second-brain-mcp-server.md

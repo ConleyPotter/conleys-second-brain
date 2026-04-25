@@ -1,6 +1,6 @@
 ---
 type: connection
-connection-type: Observation
+connection-type: A
 sources:
   - phase-1-lead-enrichment.md
   - financial-projections.md

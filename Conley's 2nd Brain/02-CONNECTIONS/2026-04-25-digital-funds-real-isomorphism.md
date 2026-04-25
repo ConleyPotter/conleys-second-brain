@@ -1,6 +1,6 @@
 ---
 type: connection
-connection-type: Observation
+connection-type: A
 sources:
   - ace-overview.md
   - financial-projections.md

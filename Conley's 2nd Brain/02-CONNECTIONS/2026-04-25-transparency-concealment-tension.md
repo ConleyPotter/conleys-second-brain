@@ -1,6 +1,6 @@
 ---
 type: connection
-connection-type: Reactions
+connection-type: B
 sources:
   - operating-doctrine-2026.md
   - ace-overview.md
