@@ -98,26 +98,26 @@ Related exports: **Shahed-129, Mohajer-6/10, Karrar, Arash-2**. Recipients: Russ
 
 Adversaries lead on **cost, volume, and component access**: Chinese dual-use exports face few restrictions, Russian/Iranian production has proven resilient to sanctions through grey-market component flows, and domestic Chinese PLA UAS benefits from the world's largest drone industrial base and near-monopoly on critical minerals. The US retains advantages in **precision (JDAM-class and laser-guided effects), electronic warfare sophistication, software/autonomy stack quality (Anduril Lattice, Shield AI Hivemind, Auterion Skynode + Nemyx swarming), sensor fusion, space-based ISR cueing, and coalition integration.**
 
-| Platform | Type | Unit cost (USD) | Notes |
-|---|---|---|---|
-| Ukrainian FPV (small) | One-way attack | $400–$500 | BOM; 100K+/mo production |
-| Ukrainian FPV (with seeker/AI) | Terminal-guided OWA | $1,000–$5,000 | Auterion strike kits: $50M for 33K units (~$1,500/unit) |
-| Ukrainian interceptor (Wild Hornets STING etc.) | Counter-Shahed | $1,000–$5,000 | ~$5K typical |
-| DJI Mavic 3 | COTS quadcopter | $2,000–$5,000 | Weaponized in Ukraine with grenade drops |
-| US Switchblade 300 | Loitering munition | $6,000 (open-source old) / $60K–$80K (actual procurement) | Discrepancy reflects early vs. post-2022 pricing |
-| US Skydio X10D | Group 1 ISR | ~$17,300 | March 2026 Army order |
-| Russian Lancet-3 | Loitering munition | $20,000–$35,000 | 77.7% hit rate (Kalashnikov data) |
-| Iranian Shahed-136 (in-Iran production) | One-way attack | $20,000–$50,000 | ~$7K absolute floor (Batmanghelidj) |
-| Russian Shahed/Geran-2 (Alabuga) | One-way attack | $35,000–$70,000 | ISW/CSIS 2025 |
-| US LUCAS (SpektreWorks, reverse-engineered) | One-way attack | ~$35,000–$50,000 (est.) | Deployed Dec 2025 |
-| US Switchblade 600 | Loitering munition | $90,000–$175,000 | Anti-armor |
-| Ukrainian deep-strike fixed-wing | OWA long-range | $110,000–$300,000 | |
-| Magura V5 USV | Naval strike | ~$300,000 | |
-| Anduril Altius-700 | Attritable OWA | $500K–$1M (est.) | |
-| Shield AI V-BAT | Group 3 VTOL | ~$1.2M | |
-| Turkish Bayraktar TB2 | MALE UCAV | ~$5M | |
-| General Atomics MQ-9 | MALE UCAV | ~$30M | |
-| Anduril YFQ-44A Fury CCA | Loyal wingman | $25M–$30M (target) | First flight Oct 2025 |
+| Platform                                        | Type                | Unit cost (USD)                                           | Notes                                                   |
+| ----------------------------------------------- | ------------------- | --------------------------------------------------------- | ------------------------------------------------------- |
+| Ukrainian FPV (small)                           | One-way attack      | $400–$500                                                 | BOM; 100K+/mo production                                |
+| Ukrainian FPV (with seeker/AI)                  | Terminal-guided OWA | $1,000–$5,000                                             | Auterion strike kits: $50M for 33K units (~$1,500/unit) |
+| Ukrainian interceptor (Wild Hornets STING etc.) | Counter-Shahed      | $1,000–$5,000                                             | ~$5K typical                                            |
+| DJI Mavic 3                                     | COTS quadcopter     | $2,000–$5,000                                             | Weaponized in Ukraine with grenade drops                |
+| US Switchblade 300                              | Loitering munition  | $6,000 (open-source old) / $60K–$80K (actual procurement) | Discrepancy reflects early vs. post-2022 pricing        |
+| US Skydio X10D                                  | Group 1 ISR         | ~$17,300                                                  | March 2026 Army order                                   |
+| Russian Lancet-3                                | Loitering munition  | $20,000–$35,000                                           | 77.7% hit rate (Kalashnikov data)                       |
+| Iranian Shahed-136 (in-Iran production)         | One-way attack      | $20,000–$50,000                                           | ~$7K absolute floor (Batmanghelidj)                     |
+| Russian Shahed/Geran-2 (Alabuga)                | One-way attack      | $35,000–$70,000                                           | ISW/CSIS 2025                                           |
+| US LUCAS (SpektreWorks, reverse-engineered)     | One-way attack      | ~$35,000–$50,000 (est.)                                   | Deployed Dec 2025                                       |
+| US Switchblade 600                              | Loitering munition  | $90,000–$175,000                                          | Anti-armor                                              |
+| Ukrainian deep-strike fixed-wing                | OWA long-range      | $110,000–$300,000                                         |                                                         |
+| Magura V5 USV                                   | Naval strike        | ~$300,000                                                 |                                                         |
+| Anduril Altius-700                              | Attritable OWA      | $500K–$1M (est.)                                          |                                                         |
+| Shield AI V-BAT                                 | Group 3 VTOL        | ~$1.2M                                                    |                                                         |
+| Turkish Bayraktar TB2                           | MALE UCAV           | ~$5M                                                      |                                                         |
+| General Atomics MQ-9                            | MALE UCAV           | ~$30M                                                     |                                                         |
+| Anduril YFQ-44A Fury CCA                        | Loyal wingman       | $25M–$30M (target)                                        | First flight Oct 2025                                   |
 
 ---
 

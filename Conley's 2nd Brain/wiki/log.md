@@ -801,3 +801,37 @@ Not a source ingest — a system build. The JARVIS content production layer (inb
 - A manual step is required before zero-friction capture works: install **QuickAdd** from Obsidian Community Plugins (Settings → Community Plugins → Browse → "QuickAdd"). One keyboard shortcut drops a note into `00-INBOX/`. Cannot be automated from Claude Code.
 - The JARVIS folder structure (`00-INBOX` through `05-CLAUDE`) is now visible in Obsidian's left sidebar alongside `wiki/` and `raw-sources/`. Obsidian cross-links between captures and wiki pages are ready to use.
 - Stan's programmatic proposal has now appeared in recaps for three consecutive days (Apr 15, 17, and presumably will show up on 4/18). This is a pattern of deferrals, not priorities. May be worth a dedicated Monday task before the Telle Tire and Turnkey meetings dominate the week.
+
+---
+
+## [2026-04-24] ingest | JARVIS System Guide + Drone Opportunity Research
+
+**Source type:** Two external resources (JARVIS setup guide + defense market research brief) + one set of working notes  
+**Pages created:** 2 (`jarvis-system.md`, `drone-opportunity.md`)  
+**Pages updated:** 2 (`index.md`, `log.md`)  
+**Files produced outside wiki:** `JARVIS-CLAUDE.md` (saved at vault root — Conley-specific JARVIS CLAUDE.md, ready to drop into new JARVIS vault)
+
+### What these sources contain
+
+**How to Build a JARVIS Inside Obsidian With Claude Code (cyrilXBT, April 23, 2026) + New JARVIS Repo CLAUDE.md File.md** — A complete guide and template for building a JARVIS content production system: Obsidian vault with a specific folder architecture (00-INBOX / 01-CAPTURES / 02-CONNECTIONS / 03-BRIEFS / 04-PUBLISHED / 05-CLAUDE), four core skills (Process Inbox, Weekly Connections, Generate Brief, Write Content), a daily 20-minute ritual, and a performance feedback loop. The template CLAUDE.md is a skeleton requiring operator-specific fill-in. Distinct from the existing second brain wiki: the wiki accumulates knowledge; JARVIS produces content.
+
+**compass_artifact... (Disposable Drone Research Document, April 2026)** — A comprehensive (~15,000 word) strategic brief on founding a disposable infantry UAS company in the current US defense market. Covers: doctrine shift post-Ukraine, US supply chain gaps (Group 1 FPV/OWA production 10–20× below Hegseth targets), adversary benchmarking (China/Russia/Iran cost comparisons), full market opportunity analysis, company build strategy, funding landscape ($500K pre-seed to $4B+ Series C benchmarks), and 5-year GTM roadmap. Key data: $450M–$1.25B/year TAM, $800–$1,800 ASP target for NDAA-compliant FPV-class drones, comparable companies (Neros, PDW, Skydio, Anduril).
+
+**Questions & Notes on the Disposable Drone Research Document** — Conley's active working notes on the above. Most significant: a direct message to a collaborator named "Sam" — "I think that the plans you sent me only included an ISR variant. Will our first model offer OWA & decoy nose-cap variants?" This confirms active co-founder-level exploration, not passive research interest. Sam has apparently shared design plans. Also includes a glossary of new defense terms (sUAS, OWA, ISR, BOM, NDAA, TAM), and conceptual questions about electronic warfare, terminal guidance, and defense pricing models.
+
+### What changed
+
+- **`jarvis-system.md`** (new) — Synthesis page documenting what JARVIS is, how its architecture differs from the existing second brain, the four core skills, the daily ritual, the performance compounding loop, and the planned integration path between the two systems. Includes a comparison table distinguishing the wiki (knowledge accumulation) from JARVIS (content production).
+
+- **`drone-opportunity.md`** (new) — Project page documenting the founding thesis, market context, Conley's active collaboration with "Sam," the proposed product architecture (ISR + OWA + decoy nosecap variants sharing a common airframe), NDAA-compliant reference BOM, funding landscape, and the critical 5-question diagnostic about the Sam collaboration. Includes an explicit flag: this project is outside the 2026 operating doctrine's "consolidate on ACE and BA" mandate and requires a formal go/no-go decision before further time investment.
+
+- **`JARVIS-CLAUDE.md`** (new, vault root) — The JARVIS CLAUDE.md written specifically for Conley. Not a template — fully filled in with: complete identity section (what he does, who he's building it for, three content pillars); deep ACE context (phase I lead enrichment, tech stack, 3-phase roadmap, The Proactive Ghost, covert client rules); BA context (team roster, partner ecosystem, identity separation rules); The Sentinel and River Room; personal context (Marietta PA, UW-Madison English Lit + Chinese, App Academy, restaurant background, fibromyalgia, June 12 wedding, AT hiking, Mandarin fluency); 2026 operating doctrine; exact voice rules with word-choice specifics and failure modes; full hard rules (forbidden phrases, persona separation rules); and five detailed primary job definitions. Ready to drop into `05-CLAUDE/CLAUDE.md` in the new JARVIS vault.
+
+- **`index.md`** — Source count 27→31, page count 49→51. Two new rows added to General Knowledge section. Four new source rows added.
+
+### Notable observations
+
+- The drone opportunity is the most unexpected revelation in this source batch. Conley is not passively reading a research document — he has a collaborator named "Sam" who has already sent design plans. This is a co-founder-stage conversation happening outside the documented wiki. Given the 2026 doctrine's explicit "consolidate" mandate, this is a significant tension worth surfacing directly.
+- JARVIS and the existing second brain are architecturally complementary, not redundant. The existing wiki is the context source; JARVIS is the output engine. The second-brain-mcp-server synthesis already identified the integration path: the wiki as MCP server feeding JARVIS connection sessions. If both systems are running simultaneously, they complete a full loop: real-world input → wiki knowledge → JARVIS connections → published signal → feedback data → wiki updated.
+- The JARVIS CLAUDE.md written today is the richest single-file context document about Conley that exists in this system. It synthesizes everything ingested since April 14 into one operator file. This document will be read at the start of every JARVIS session — it is the highest-leverage writing produced in this wiki so far.
+- Sam's design plans (ISR variant, with Conley asking about OWA + decoy nosecap) suggest the collaboration is past ideation and into early product design. The fact that Conley is asking a clarifying question rather than responding to an open-ended brainstorm suggests Sam is the technical/hardware lead and Conley is playing the commercial/strategic role — exactly the founding team composition the research document says a drone startup needs.
