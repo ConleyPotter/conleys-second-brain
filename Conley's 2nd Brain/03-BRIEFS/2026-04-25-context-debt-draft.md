@@ -30,6 +30,8 @@ That's what retiring context debt looks like.
 
 The lead enrichment side works the same way. My pipeline checks a Supabase table before calling any external API. If I've already enriched a company in Lancaster County, that record costs nothing on the second pull. After three months working the same geography, margins hit 92%. Not because the API got cheaper. Because the context accumulated.
 
+Same structure both times. Spend time once building the thing that knows your world. Every run after that is cheaper than the one before.
+
 ---
 
 RAG systems retrieve on demand. They go back to the source every time. Nothing compounds. A real, maintained wiki — where knowledge is compiled once and updated as new material arrives — is structurally different. The second query on a topic is cheaper than the first. The tenth is nearly free.
@@ -38,7 +40,9 @@ Context debt is the gap between what your AI could do if it knew your world and 
 
 The fix is not a new model. It's a CLAUDE.md. A Supabase table. A scoring rubric. A structured wiki the model can operate from without you re-explaining the same thing for the fourteenth time.
 
-It's a construction problem. One weekend of building. Zero interest after.
+You don't need a custom pipeline to start. You need one document that answers one question: what does this model need to know every time I open a session? Write that down. File it somewhere the model can reach it. That's the build.
+
+It's a construction problem. One weekend. Zero interest after.
 
 The model is not the bottleneck. You are — every time you start from scratch.
 

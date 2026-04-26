@@ -801,3 +801,34 @@ Not a source ingest — a system build. The JARVIS content production layer (inb
 - A manual step is required before zero-friction capture works: install **QuickAdd** from Obsidian Community Plugins (Settings → Community Plugins → Browse → "QuickAdd"). One keyboard shortcut drops a note into `00-INBOX/`. Cannot be automated from Claude Code.
 - The JARVIS folder structure (`00-INBOX` through `05-CLAUDE`) is now visible in Obsidian's left sidebar alongside `wiki/` and `raw-sources/`. Obsidian cross-links between captures and wiki pages are ready to use.
 - Stan's programmatic proposal has now appeared in recaps for three consecutive days (Apr 15, 17, and presumably will show up on 4/18). This is a pattern of deferrals, not priorities. May be worth a dedicated Monday task before the Telle Tire and Turnkey meetings dominate the week.
+
+---
+
+## [2026-04-26] update | Portfolio fully updated — all known issues resolved
+
+**Pages updated:** 2 (`portfolio-website.md`, `CLAUDE.md`)
+**Inbox notes affected:** 1 deleted by Conley (`obs-portfolio-describes-dead-system`)
+
+### What happened
+
+Conley completed a full portfolio update over the weekend of April 25–26, 2026. All previously tracked issues are resolved. The wiki was updated to reflect this.
+
+### What changed
+
+- **`portfolio-website.md`** — Major restructure:
+  - Overview rewritten to reflect site is now current and accurate
+  - "ACE Description Problem" section archived with ✅ resolved status (no longer an active issue)
+  - Projects Page description updated: all three projects (ACE, The Sentinel, TLE) reflect post-update copy
+  - "What Needs Updating" section replaced with "Open Items (Post-Update)" — only two remaining items: blog post stubs (unconfirmed) and wiki sync (ingest a new site snapshot)
+  - Strategic Notes updated: site is now "launch-ready from a content accuracy standpoint"
+  - Frontmatter `updated` date: 2026-04-18 → 2026-04-26
+- **`CLAUDE.md` (root)** — Known pages needing attention:
+  - Removed: `[[portfolio-website]]` ACE description / About page fix (resolved)
+  - Removed: `[[the-sentinel]]` portfolio status discrepancy (resolved — site now accurate)
+  - Added: low-priority note that wiki's "What the Site Currently Says" section is pre-update state pending a new snapshot ingest
+
+### Notable observations
+
+- The portfolio update closes the longest-standing accuracy gap in the wiki — ACE's public description had been describing a sunsetted system since February 2026. The site is now aligned with the operating reality.
+- The one remaining structural gap: the wiki's "What the Site Currently Says" section documents the April 14 state. A new raw-source screenshot/capture would let that section accurately reflect the current copy. Low urgency but worth doing before the next portfolio-linked wiki query.
+- Inbox note `obs-portfolio-describes-dead-system.md` was deleted by Conley — appropriate, since the observation is no longer true.
