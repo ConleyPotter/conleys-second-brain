@@ -766,6 +766,38 @@ Notable inbound activity despite Conley's absence:
 
 ---
 
+## [2026-04-21] ingest | The disposable drone opportunity — Drone Enterprises founding research
+
+**Source type:** Comprehensive founder's playbook — infantry-scale UAS market analysis, April 2026. Authored as a briefing document synthesizing current doctrine, adversary capabilities, supply-chain gaps, company-build strategy, funding pathways, and GTM sequencing. Accompanied by Conley's Q&A/glossary notes on the document.  
+**Pages created:** 6 (`domain-drone-enterprises.md`, `drone-enterprises.md`, `drone-market-analysis.md`, `drone-build-strategy.md`, `drone-funding-gtm.md`, `sam-schutt.md`)  
+**Pages updated:** 3 (`conley-potter.md`, `index.md`, `CLAUDE.md`)
+
+### What this source contains
+
+A 7-section playbook covering the US military drone industrial gap, adversary capabilities (China/Russia/Iran), supply chain dependencies on Chinese components, the market opportunity for a $500–$2,000 NDAA-compliant Group 1 UAS at 100K+/year volumes, company-build architecture, funding strategy (SBIR/STTR, OTA, defense VC), and a 0–5 year GTM roadmap modeled on Anduril's trajectory. Key data points: Army Secretary Driscoll's 1M-drone-over-3-years target; $1B DDP RFI for 300K units; Skydio X10D at $17,300/unit (March 2026 Army order); Neros Archer ramping toward 10K/month; no US-made $500–$1,500 NDAA-compliant OWA/FPV drone exists at scale. The companion Q&A notes reveal Conley is new to defense-tech vocabulary — wiki pages were written to define key terms (Shahed-class, EW, NDAA compliance, OWA, attritable) in context.
+
+This source establishes a **new domain**: Drone Enterprises. Conley is co-founding with Sam Schutt (closest friend, best man at June 12, 2026 wedding) as Chief Strategy Officer.
+
+### What changed
+
+- `domain-drone-enterprises.md` (new) — Domain anchor page. Founding context, active pages list, status.
+- `drone-enterprises.md` (new) — Company overview. Thesis, founding team, product vision, competitive landscape, revenue model, status and immediate next steps.
+- `drone-market-analysis.md` (new) — Full market analysis. Doctrine shift, five-war case studies, Replicator/DDP context, China/Russia/Iran adversary capabilities, NDAA supply chain gaps with reference compliant-supplier table, TAM math ($450M–$1.25B/year), price benchmark table. Includes plain-language explainers for EW (electronic warfare), Shahed-class drones, and the NDAA compliance gap — added because Conley's Q&A notes flagged these as unfamiliar terms.
+- `drone-build-strategy.md` (new) — Hardware and manufacturing strategy. Architecture decision (Neros-style vertically integrated + Auterion software layer), design non-negotiables (modularity, EW resilience, MOSA, open APIs), full NDAA-compliant BOM with sourcing options, manufacturing hub-and-spoke model, volume unit economics, IP/defensibility analysis, team composition by funding stage.
+- `drone-funding-gtm.md` (new) — Funding and GTM. Defense VC landscape with check-size benchmarks, SBIR ladder (Phase I → Phase III sole-source), OTA mechanics, DIU/Blue UAS on-ramp, target customers by procurement speed, programs of record, allied sales channels, strategic acquirers, full 0–5 year GTM roadmap with raise targets and unit volume milestones.
+- `sam-schutt.md` (new) — Stub profile for Sam Schutt. Personal relationship (best man, closest friend), co-founder role, open questions about his professional background.
+- `conley-potter.md` — Added Drone Enterprises entry under Active Projects. Updated Related links. Updated frontmatter date.
+- `index.md` — Added Drone Enterprises section (6 pages). Source count 27 → 29. Page count 49 → 55. Two new source file rows.
+- `CLAUDE.md` — Added Drone Enterprises to Active Domains list.
+
+### Notable observations
+
+- This is a genuinely new domain — no defense-tech or hardware-startup context existed in the wiki before this ingest. The pages are built from a single comprehensive source; they will need updating as Conley and Sam develop the company and new sources arrive.
+- Conley's Q&A notes reveal he is entering this space as a domain outsider. His strengths (strategy, systems architecture, commercial GTM, public narrative) map well to the CSO role, but the wiki should flag when pages assume defense-domain fluency he doesn't yet have. Plain-language definitions in market-analysis pages are intentional.
+- **Sam Schutt's professional background is completely undocumented.** The `sam-schutt.md` stub is essentially empty. The founding team archetype analysis in `drone-enterprises.md` flags that Drone Enterprises needs three archetypes represented — it's unclear from available sources whether Sam fills the technical or operator archetype, or if a third recruit is needed.
+- The structural gap that Drone Enterprises is targeting (no US-made $500–$1,500 NDAA-compliant OWA at 100K+/month) is real and validated by multiple independent data sources in the research document. Neros is the closest competitor but they are still ramping and their pricing appears to be above target. The window is open now.
+- This is the first "hardware startup co-founding" domain in the wiki, which puts it in an interesting relationship with ACE. ACE is 15 hr/week maximum; Drone Enterprises is a full company-build. The [[operating-doctrine-2026]] decision filter ("say yes only if it strengthens BA or ACE, increases calm/leverage/clarity, or compounds attention") should be revisited — Drone Enterprises doesn't fit that filter as written. Worth flagging to Conley.
+- `Wiki Base.base` in raw-sources is a byte-for-byte duplicate of the compass_artifact markdown file. Not logged as a separate source.
 ## [2026-04-24] update | JARVIS content production system built and integrated
 
 **Operation:** Hybrid integration — JARVIS content production layer added to the second brain vault
@@ -801,6 +833,40 @@ Not a source ingest — a system build. The JARVIS content production layer (inb
 - A manual step is required before zero-friction capture works: install **QuickAdd** from Obsidian Community Plugins (Settings → Community Plugins → Browse → "QuickAdd"). One keyboard shortcut drops a note into `00-INBOX/`. Cannot be automated from Claude Code.
 - The JARVIS folder structure (`00-INBOX` through `05-CLAUDE`) is now visible in Obsidian's left sidebar alongside `wiki/` and `raw-sources/`. Obsidian cross-links between captures and wiki pages are ready to use.
 - Stan's programmatic proposal has now appeared in recaps for three consecutive days (Apr 15, 17, and presumably will show up on 4/18). This is a pattern of deferrals, not priorities. May be worth a dedicated Monday task before the Telle Tire and Turnkey meetings dominate the week.
+
+---
+
+## [2026-04-24] ingest | JARVIS System Guide + Drone Opportunity Research
+
+**Source type:** Two external resources (JARVIS setup guide + defense market research brief) + one set of working notes  
+**Pages created:** 2 (`jarvis-system.md`, `drone-opportunity.md`)  
+**Pages updated:** 2 (`index.md`, `log.md`)  
+**Files produced outside wiki:** `JARVIS-CLAUDE.md` (saved at vault root — Conley-specific JARVIS CLAUDE.md, ready to drop into new JARVIS vault)
+
+### What these sources contain
+
+**How to Build a JARVIS Inside Obsidian With Claude Code (cyrilXBT, April 23, 2026) + New JARVIS Repo CLAUDE.md File.md** — A complete guide and template for building a JARVIS content production system: Obsidian vault with a specific folder architecture (00-INBOX / 01-CAPTURES / 02-CONNECTIONS / 03-BRIEFS / 04-PUBLISHED / 05-CLAUDE), four core skills (Process Inbox, Weekly Connections, Generate Brief, Write Content), a daily 20-minute ritual, and a performance feedback loop. The template CLAUDE.md is a skeleton requiring operator-specific fill-in. Distinct from the existing second brain wiki: the wiki accumulates knowledge; JARVIS produces content.
+
+**compass_artifact... (Disposable Drone Research Document, April 2026)** — A comprehensive (~15,000 word) strategic brief on founding a disposable infantry UAS company in the current US defense market. Covers: doctrine shift post-Ukraine, US supply chain gaps (Group 1 FPV/OWA production 10–20× below Hegseth targets), adversary benchmarking (China/Russia/Iran cost comparisons), full market opportunity analysis, company build strategy, funding landscape ($500K pre-seed to $4B+ Series C benchmarks), and 5-year GTM roadmap. Key data: $450M–$1.25B/year TAM, $800–$1,800 ASP target for NDAA-compliant FPV-class drones, comparable companies (Neros, PDW, Skydio, Anduril).
+
+**Questions & Notes on the Disposable Drone Research Document** — Conley's active working notes on the above. Most significant: a direct message to a collaborator named "Sam" — "I think that the plans you sent me only included an ISR variant. Will our first model offer OWA & decoy nose-cap variants?" This confirms active co-founder-level exploration, not passive research interest. Sam has apparently shared design plans. Also includes a glossary of new defense terms (sUAS, OWA, ISR, BOM, NDAA, TAM), and conceptual questions about electronic warfare, terminal guidance, and defense pricing models.
+
+### What changed
+
+- **`jarvis-system.md`** (new) — Synthesis page documenting what JARVIS is, how its architecture differs from the existing second brain, the four core skills, the daily ritual, the performance compounding loop, and the planned integration path between the two systems. Includes a comparison table distinguishing the wiki (knowledge accumulation) from JARVIS (content production).
+
+- **`drone-opportunity.md`** (new) — Project page documenting the founding thesis, market context, Conley's active collaboration with "Sam," the proposed product architecture (ISR + OWA + decoy nosecap variants sharing a common airframe), NDAA-compliant reference BOM, funding landscape, and the critical 5-question diagnostic about the Sam collaboration. Includes an explicit flag: this project is outside the 2026 operating doctrine's "consolidate on ACE and BA" mandate and requires a formal go/no-go decision before further time investment.
+
+- **`JARVIS-CLAUDE.md`** (new, vault root) — The JARVIS CLAUDE.md written specifically for Conley. Not a template — fully filled in with: complete identity section (what he does, who he's building it for, three content pillars); deep ACE context (phase I lead enrichment, tech stack, 3-phase roadmap, The Proactive Ghost, covert client rules); BA context (team roster, partner ecosystem, identity separation rules); The Sentinel and River Room; personal context (Marietta PA, UW-Madison English Lit + Chinese, App Academy, restaurant background, fibromyalgia, June 12 wedding, AT hiking, Mandarin fluency); 2026 operating doctrine; exact voice rules with word-choice specifics and failure modes; full hard rules (forbidden phrases, persona separation rules); and five detailed primary job definitions. Ready to drop into `05-CLAUDE/CLAUDE.md` in the new JARVIS vault.
+
+- **`index.md`** — Source count 27→31, page count 49→51. Two new rows added to General Knowledge section. Four new source rows added.
+
+### Notable observations
+
+- The drone opportunity is the most unexpected revelation in this source batch. Conley is not passively reading a research document — he has a collaborator named "Sam" who has already sent design plans. This is a co-founder-stage conversation happening outside the documented wiki. Given the 2026 doctrine's explicit "consolidate" mandate, this is a significant tension worth surfacing directly.
+- JARVIS and the existing second brain are architecturally complementary, not redundant. The existing wiki is the context source; JARVIS is the output engine. The second-brain-mcp-server synthesis already identified the integration path: the wiki as MCP server feeding JARVIS connection sessions. If both systems are running simultaneously, they complete a full loop: real-world input → wiki knowledge → JARVIS connections → published signal → feedback data → wiki updated.
+- The JARVIS CLAUDE.md written today is the richest single-file context document about Conley that exists in this system. It synthesizes everything ingested since April 14 into one operator file. This document will be read at the start of every JARVIS session — it is the highest-leverage writing produced in this wiki so far.
+- Sam's design plans (ISR variant, with Conley asking about OWA + decoy nosecap) suggest the collaboration is past ideation and into early product design. The fact that Conley is asking a clarifying question rather than responding to an open-ended brainstorm suggests Sam is the technical/hardware lead and Conley is playing the commercial/strategic role — exactly the founding team composition the research document says a drone startup needs.
 
 ---
 

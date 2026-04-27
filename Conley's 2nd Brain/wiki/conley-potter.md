@@ -5,7 +5,7 @@ tags:
   - context
   - identity
 created: 2026-04-14
-updated: 2026-04-17
+updated: 2026-04-21
 sources:
   - Claude Accounts' Saved Memories.md
   - Personal Portfolio Website Current State 4.14.26.md
@@ -14,7 +14,7 @@ domain: personal
 
 # Conley Potter — Operator Profile
 
-**Related:** [[ace-overview]], [[brand-voice]], [[campaign-plan]], [[tech-stack]], [[career-history]], [[portfolio-website]], [[the-sentinel]], [[thought-leader-engine]], [[the-river-room]]
+**Related:** [[ace-overview]], [[brand-voice]], [[campaign-plan]], [[tech-stack]], [[career-history]], [[portfolio-website]], [[the-sentinel]], [[thought-leader-engine]], [[the-river-room]], [[drone-enterprises]], [[sam-schutt]]
 
 ---
 
@@ -97,6 +97,9 @@ See [[campaign-plan]] — Audience Separation Protocol.
 ---
 
 ## Active Projects (Beyond ACE)
+
+### Drone Enterprises
+A defense hardware co-founding venture with [[sam-schutt]] — Conley's closest friend and best man at the June 12, 2026 wedding. They are building **Drone Enterprises**, a company producing modular, attritable, NDAA-compliant infantry drones at consumer-electronics price points ($800–$1,500/unit at scale). The founding thesis: the US military has committed to equipping every Army squad with a drone by end of FY26 but has no domestic industrial base to produce them. Conley is **Chief Strategy Officer**. Status as of April 2026: pre-incorporation, research phase complete. See [[drone-enterprises]] for full overview; see [[drone-market-analysis]], [[drone-build-strategy]], [[drone-funding-gtm]] for supporting analysis.
 
 ### The Sentinel
 A holographic AI companion built in a walnut and brass tower. Uses a Pepper's Ghost optical illusion (beamsplitter glass + HyperPixel display on a Raspberry Pi 5) to make an animated, hand-drawn face appear to float in mid-air. Responds to voice in real-time via OpenAI Realtime API. Currently aspirational — ACE revenue is the intended seed capital. See [[the-sentinel]].
