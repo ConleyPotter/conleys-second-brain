@@ -2,7 +2,7 @@
 type: asset
 tags: [identity, personal-brand, public-facing]
 created: 2026-04-14
-updated: 2026-04-18
+updated: 2026-04-26
 sources:
   - Personal Portfolio Website Current State 4.14.26.md
   - ACE Pivot Explanation.md
@@ -17,7 +17,27 @@ sources:
 
 ## Overview
 
-This page summarizes the current state of Conley's personal portfolio website as of April 14, 2026. The site was largely written by Claude Code and is Conley's own assessment: **not yet fully representative of him**. It needs to be updated and refined. This page captures what the site currently says, where it diverges from reality, and what it gets right.
+As of April 26, 2026, Conley completed a full portfolio update over the weekend. The site is now current and representative. All previously tracked issues (ACE description mismatch, Sentinel and TLE copy, work timeline gaps, capabilities staleness) have been resolved.
+
+> **Note:** The wiki's "What the Site Currently Says" section below reflects the pre-update state from April 14–18. A fresh raw-source capture of the current site should be ingested to update that section with the actual post-update copy. Until then, treat it as historical.
+
+---
+
+## ✅ Update History
+
+All open items from the original tracking section are now resolved as of April 26, 2026:
+
+- ✅ **ACE framing** — The legacy "multi-agent learning engine" description has been replaced with copy that accurately reflects the current HITL-supervised B2B lead enrichment pipeline. See [[ace-overview]] for the source of truth.
+- ✅ **The Sentinel section** — Updated to reflect the Pepper's Ghost holographic concept (Raspberry Pi 5, HyperPixel display, beamsplitter glass, walnut/brass tower). Tags corrected. See [[the-sentinel]].
+- ✅ **Thought Leader Engine section** — Updated from the vague "personal social automation tool" framing to the commercial Proactive Ghost product (OpenClaw Heartbeat mechanic, SOUL.md, content waterfall). See [[thought-leader-engine]].
+- ✅ **About page brand voice** — Finalized in April 2026 with "The Scenic Route" section, outside-of-work specifics (fibromyalgia, Sami, AT corridor, restaurant background). Resolved April 18, 2026.
+- ✅ **Role title** — Updated from "Lead Initiatives & Systems Architect" to "Client Success & Growth Leader."
+- ✅ **Work timeline** — App Academy (Feb–Sep 2019) and Madison freelance web dev/SEO period (Aug 2019 – Jan 2021) confirmed addressed.
+- ✅ **Capabilities section** — Stale stack updated.
+
+Items remaining open (not portfolio-related):
+- **Blog posts** — The three Writing section entries may still be placeholder stubs (no content confirmed published). Verify.
+- **[[conley-potter]]** — Update "engaged to Sami" to "married" post-June 12, 2026.
 
 ---
 
@@ -35,15 +55,15 @@ Seven sections:
 
 ---
 
-## The ACE Description Problem
+## The ACE Description Problem (Resolved April 2026)
 
-The portfolio website describes ACE as:
+> ✅ **This issue is resolved.** The section below is preserved as a historical record.
+
+The portfolio previously described ACE as:
 
 > "ACE is a multi-agent learning engine, not a prompt stack. It runs like a small studio made of software: research, scripting, editing, publishing, and analysis working in loops. It is infrastructure with memory — every output is an experiment, and the system adapts based on evidence over time."
 
-This is an accurate description of the **original ACE** — the 8-agent autonomous content studio that was built and then sunsetted between fall 2025 and February 2026. The portfolio copy was never updated after the pivot. The current ACE is a freelance arbitrage operation with HITL review gates, not a self-improving content loop.
-
-This is the clearest single thing that needs to change in the portfolio. See [[ace-legacy]] for what the copy describes; see [[ace-overview]] for what ACE actually is now.
+This described the **original ACE** — the 8-agent autonomous content studio sunsetted in February 2026. The copy was not updated after the pivot. As of April 26, 2026, this has been corrected. The Projects page now reflects the current HITL-supervised B2B lead enrichment pipeline. See [[ace-legacy]] for the legacy description; see [[ace-overview]] for what ACE is now.
 
 ---
 
@@ -91,11 +111,11 @@ These are addressed in [[portfolio-update-plan]] Query 7.
 
 ### Projects Page
 
-Three projects listed. Two are new to this wiki — see dedicated pages:
+Three projects listed. All descriptions updated April 26, 2026:
 
-- **[[ace-overview]] / ACE — Autonomous Content Engine** — Public description: "a multi-agent learning engine, not a prompt stack. It runs like a small studio made of software." More evocative than the internal arbitrage framing.
-- **[[the-sentinel]]** — Physical AI prototype with on-device AI, Linux, Docker, Tailscale, custom hardware.
-- **[[thought-leader-engine]]** — Scalable AI framework for automated organic presence and professional outreach.
+- **[[ace-overview]] / ACE — Autonomous Content Engine** — Updated to reflect the current B2B lead enrichment pipeline with HITL review gates. Legacy "multi-agent learning engine" framing removed.
+- **[[the-sentinel]]** — Updated to reflect the Pepper's Ghost optical illusion concept (Raspberry Pi 5 + HyperPixel display + beamsplitter glass + walnut/brass tower). Tags corrected from "Linux · Docker · Tailscale" to hardware-accurate tags.
+- **[[thought-leader-engine]]** — Updated from personal automation framing to the Proactive Ghost commercial product (OpenClaw Heartbeat, SOUL.md system, content waterfall pipeline).
 
 ### Writing / Blog
 
@@ -132,17 +152,12 @@ The topics align tightly with Conley's documented brand voice themes (systems, a
 
 ---
 
-## What Needs Updating / Tensions with Reality
+## Open Items (Post-Update)
 
-> **Note:** As of April 14, 2026, the queries in [[portfolio-update-plan]] have **not yet been executed**. The items below reflect the site's current state. Once updates are applied, revisit this page and mark resolved items accordingly.
+The full update is complete as of April 26, 2026. Two items remain:
 
-- **Title:** "Lead Initiatives & Systems Architect" is not the formal title. Director of Client Success & Strategy alignment is in progress.
-- **ACE framing:** The ACE description on the site ("multi-agent learning engine... infrastructure with memory") describes the original ACE that was sunsetted in February 2026 — not the current system. This is the highest-priority update. The current ACE is a HITL-supervised freelance arbitrage system; the public description of it will need to be reconceived from scratch.
-- ~~**Personal voice:** About page brand voice injection~~ — ✅ **Resolved (April 2026).** The About page is now in its finalized pre-launch state. Specific texture added throughout: "The Scenic Route" section with DePaul → UW-Madison → nonprofit → App Academy arc; "outside of work" section with AT corridor near Harrisburg, restaurant background, fibromyalgia, fiancée Sami, 2026 as build + wedding year; observational closing paragraph. See [[portfolio-update-plan]] Query 3.
-- **Blog posts are stubs:** The three Writing section entries (titles + dates) exist on the site but no post content has been written yet. These are placeholders.
-- **Missing projects:** No mention of the Thought Leader Engine's connection to ACE, or The Sentinel's relation to the broader infrastructure vision.
-- **Work page timeline is incomplete:** Missing the Madison freelance web developer period (Aug 2019 – Jan 2021) and App Academy (Feb–Sep 2019). Cross-reference [[career-history]] for the full timeline; [[portfolio-update-plan]] Query 7 has the fix.
-- **Capabilities section likely stale:** Resume variants reveal a fuller stack than what's currently documented — React/Next.js/Tailwind, Ruby/Rails, specific Salesforce suite tools, paid media platforms (Meta Ads, TikTok Ads, Google Shopping), ManyChat, Zapier. [[portfolio-update-plan]] Query 6 has the update.
+- **Blog posts** — The three Writing section entries (titles + dates) may still be placeholder stubs. No post content confirmed published. [[second-brain-article]] is a candidate for the Writing section as the first substantive piece when ready to publish.
+- **Wiki sync** — The "What the Site Currently Says" section above reflects the pre-update state. Ingest a new raw-source snapshot when convenient to bring the wiki's copy into alignment with the live site.
 
 ---
 
@@ -150,4 +165,4 @@ The topics align tightly with Conley's documented brand voice themes (systems, a
 
 The portfolio serves the ACE persona (not the AutoBoost LinkedIn identity). It is the credibility layer for consulting engagements and inbound outreach — the "high-leverage engagements, available on a strictly limited basis" framing on the Consulting section is consistent with Phase III positioning from [[phase-3-infrastructure]].
 
-The three blog posts are the best asset on the site for demonstrating voice. If the site is to be updated, starting with the About page to inject more specificity and authentic voice (per [[brand-voice]]) would have the highest impact.
+As of April 2026, all three project sections accurately represent current work. The site is launch-ready from a content accuracy standpoint.

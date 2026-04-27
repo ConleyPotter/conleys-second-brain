@@ -291,12 +291,11 @@ When a new domain becomes active, create a `domain` page for it and add a new se
 Track pages with open issues here so they aren't forgotten between sessions:
 
 - `[[tech-stack]]` — missing OpenClaw and LangGraph (added in ACE pivot; not yet reflected)
-- `[[portfolio-website]]` — About page flagged as needing human revision; ACE description is highest-priority fix
-- `[[the-sentinel]]` — status confirmed "aspirational / not yet built"; portfolio copy says "In Development" (inaccurate)
 - `[[ba-products]]` — built by inference; needs validation against BA's actual rate card
 - `[[ba-team]]` — roles inferred from behavioral observation; formal titles need verification
 - `[[ba-clients-pipeline]]` — seeded from two sources only; full client base not yet represented
-- `[[conley-potter]]` — wedding date June 12, 2026 (now 57 days out); update "engaged to Sami" to "married" post-June 12
+- `[[conley-potter]]` — wedding date June 12, 2026; update "engaged to Sami" to "married" post-June 12
+- `[[portfolio-website]]` — wiki's "What the Site Currently Says" section is pre-update (April 14 state); ingest a new site snapshot to sync the copy
 
 Clear items from this list when resolved; add new ones as they're discovered.
 

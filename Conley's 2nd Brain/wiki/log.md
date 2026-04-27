@@ -867,3 +867,34 @@ Not a source ingest — a system build. The JARVIS content production layer (inb
 - JARVIS and the existing second brain are architecturally complementary, not redundant. The existing wiki is the context source; JARVIS is the output engine. The second-brain-mcp-server synthesis already identified the integration path: the wiki as MCP server feeding JARVIS connection sessions. If both systems are running simultaneously, they complete a full loop: real-world input → wiki knowledge → JARVIS connections → published signal → feedback data → wiki updated.
 - The JARVIS CLAUDE.md written today is the richest single-file context document about Conley that exists in this system. It synthesizes everything ingested since April 14 into one operator file. This document will be read at the start of every JARVIS session — it is the highest-leverage writing produced in this wiki so far.
 - Sam's design plans (ISR variant, with Conley asking about OWA + decoy nosecap) suggest the collaboration is past ideation and into early product design. The fact that Conley is asking a clarifying question rather than responding to an open-ended brainstorm suggests Sam is the technical/hardware lead and Conley is playing the commercial/strategic role — exactly the founding team composition the research document says a drone startup needs.
+
+---
+
+## [2026-04-26] update | Portfolio fully updated — all known issues resolved
+
+**Pages updated:** 2 (`portfolio-website.md`, `CLAUDE.md`)
+**Inbox notes affected:** 1 deleted by Conley (`obs-portfolio-describes-dead-system`)
+
+### What happened
+
+Conley completed a full portfolio update over the weekend of April 25–26, 2026. All previously tracked issues are resolved. The wiki was updated to reflect this.
+
+### What changed
+
+- **`portfolio-website.md`** — Major restructure:
+  - Overview rewritten to reflect site is now current and accurate
+  - "ACE Description Problem" section archived with ✅ resolved status (no longer an active issue)
+  - Projects Page description updated: all three projects (ACE, The Sentinel, TLE) reflect post-update copy
+  - "What Needs Updating" section replaced with "Open Items (Post-Update)" — only two remaining items: blog post stubs (unconfirmed) and wiki sync (ingest a new site snapshot)
+  - Strategic Notes updated: site is now "launch-ready from a content accuracy standpoint"
+  - Frontmatter `updated` date: 2026-04-18 → 2026-04-26
+- **`CLAUDE.md` (root)** — Known pages needing attention:
+  - Removed: `[[portfolio-website]]` ACE description / About page fix (resolved)
+  - Removed: `[[the-sentinel]]` portfolio status discrepancy (resolved — site now accurate)
+  - Added: low-priority note that wiki's "What the Site Currently Says" section is pre-update state pending a new snapshot ingest
+
+### Notable observations
+
+- The portfolio update closes the longest-standing accuracy gap in the wiki — ACE's public description had been describing a sunsetted system since February 2026. The site is now aligned with the operating reality.
+- The one remaining structural gap: the wiki's "What the Site Currently Says" section documents the April 14 state. A new raw-source screenshot/capture would let that section accurately reflect the current copy. Low urgency but worth doing before the next portfolio-linked wiki query.
+- Inbox note `obs-portfolio-describes-dead-system.md` was deleted by Conley — appropriate, since the observation is no longer true.
