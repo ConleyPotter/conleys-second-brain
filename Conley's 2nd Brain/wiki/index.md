@@ -1,14 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
-<<<<<<< claude/process-articles-update-wiki-VePUF
-**Last updated:** 2026-04-21  
+**Last updated:** 2026-05-03  
 **Source count:** 29  
-**Page count:** 55
-=======
-**Last updated:** 2026-04-24  
-**Source count:** 29  
-**Page count:** 50
->>>>>>> main
+**Page count:** 52
 
 This wiki documents Conley Potter's ACE business and broader life context. It began as an ACE-only knowledge base and is expanding into a full second brain covering personal operating philosophy, projects, identity, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -76,6 +70,8 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | [[resume-variants]] | Three July 2025 resume variants — General (values-aligned), AI (B2B SaaS automation), ADS (paid media/eCommerce) |
 | [[portfolio-website]] | Current state of Conley's personal portfolio — what it says, what's accurate, what needs updating |
 | [[portfolio-update-plan]] | Nine coding-agent queries to update the portfolio for ACE Phase 1 launch — Queries 1–4 complete, 5–8 pending |
+| [[career-transition-strategy]] | Full strategy for transitioning to a high-compensation corporate role — role targets, company list, SaaS market concerns, 6–12 month plan |
+| [[resume-cs-ai-leadership-2026]] | Updated resume targeting AI strategy and client success leadership roles — includes BA role, AI systems section, 2026 positioning |
 
 ## Projects
 
@@ -160,12 +156,7 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | `microsoftmarkitdown Python tool for converting PDF files and office documents to Markdown.md` | GitHub README — microsoft/markitdown; PDF-to-Markdown conversion tool for LLM pipelines | 2026-04-18 |
 | `portfolio-website-about-page-4-18.md` | Finalized About page copy — career narrative, philosophy, outside-of-work section, career history sidebar content | 2026-04-18 |
 | `Daily-Recap_2026-04-17.md` | BA workday log — FLACA conference day; Telle Tire booked, Turnkey confirmed, team handled 3 urgent client threads | 2026-04-18 |
-<<<<<<< claude/process-articles-update-wiki-VePUF
-| `compass_artifact_wf-cf062d2d-8ed4-460c-a460-02e0262b03b7_text_markdown.md` | Founder's playbook — disposable infantry drone opportunity; doctrine, adversary capabilities, supply chain, company-build, funding, GTM | 2026-04-21 |
-| `Questions & Notes on the Disposable Drone Research Document.md` | Conley's Q&A notes on the drone research — glossary questions (RFI, Shahed, Switchblade, NDAA, EW), personal annotations | 2026-04-21 |
-=======
 | `How to Build a JARVIS Inside Obsidian With Claude Code — The Full Setup From Scratch.md` | @cyrilXBT guide — full JARVIS system setup: vault architecture, four core skills, daily ritual, performance feedback loop | 2026-04-24 |
 | `New JARVIS Repo CLAUDE.md File.md` | Generic JARVIS CLAUDE.md template — identity, vault structure, voice, hard rules, primary jobs; Conley-specific version saved as `JARVIS-CLAUDE.md` | 2026-04-24 |
 | `compass_artifact_wf-cf062d2d-8ed4-460c-a460-02e0262b03b7_text_markdown.md` | Defense research brief — disposable infantry drone market opportunity; doctrine, adversary analysis, supply chain, company-build strategy, funding, go-to-market | 2026-04-24 |
 | `Questions & Notes on the Disposable Drone Research Document.md` | Conley's working notes on the drone research — glossary terms, questions for collaborator "Sam" re: ISR/OWA/decoy variants, TAM breakdown | 2026-04-24 |
->>>>>>> main
