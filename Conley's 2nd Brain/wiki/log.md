@@ -897,4 +897,35 @@ Conley completed a full portfolio update over the weekend of April 25–26, 2026
 
 - The portfolio update closes the longest-standing accuracy gap in the wiki — ACE's public description had been describing a sunsetted system since February 2026. The site is now aligned with the operating reality.
 - The one remaining structural gap: the wiki's "What the Site Currently Says" section documents the April 14 state. A new raw-source screenshot/capture would let that section accurately reflect the current copy. Low urgency but worth doing before the next portfolio-linked wiki query.
+
+---
+
+## [2026-05-03] query | Career transition strategy — new role, positioning, and job search plan
+
+**What was asked:** How Conley could use ACE and the Thought Leader Engine to position himself for a high-compensation corporate role in the next 6–12 months; what role would be the best fit; how to maximize earnings at a world-class company; what companies to target in Philadelphia or remote.
+
+**How it was answered:** Full synthesis across [[conley-potter]], [[career-history]], [[resume-variants]], [[operating-doctrine-2026]], [[thought-leader-engine]], [[ace-overview]], and a live web search on B2B SaaS market disruption in 2025–2026. Three direct questions answered inline: security clearance eligibility, SaaS market conditions, and realistic assessment of Palantir candidacy.
+
+**Pages created:** 2 (`career-transition-strategy.md`, `resume-cs-ai-leadership-2026.md`)  
+**Pages updated:** 1 (`index.md` — page count 50→52, two new entries in Identity & Public Presence, merge conflicts resolved)
+
+### What this source contains
+
+A comprehensive career pivot strategy triggered by Conley's stated goal of leaving BA for a higher-compensation corporate role within 6–12 months, rising once or twice, then exiting to start his own venture. The strategy incorporates live market research confirming that traditional B2B SaaS is undergoing a structural correction (the "SaaSpocalypse" — $2T in market cap erased, 40% of IT budgets shifting to agentic platforms), which materially changes the target company list.
+
+Key findings: Conley's primary differentiator is genuine AI system-building experience (not just AI tool use), combined with client success and CRM leadership. Security clearance is complicated by his Chinese language/culture academic background (Foreign Influence category). Palantir "Head of AI" was aspirational framing — realistic Palantir target is Deployment Strategist (commercial, no clearance required).
+
+### What changed
+
+- **`career-transition-strategy.md` (created)** — Full strategy page covering: goal and constraints, why traditional SaaS is de-prioritized, role recommendation (AI strategy/CS leadership at AI-native or defense-adjacent companies), target company tables (Philadelphia hybrid + remote), 6–12 month execution plan, what the corporate stint should build toward the venture, doctrine tension note, and open questions.
+- **`resume-cs-ai-leadership-2026.md` (created)** — New resume variant targeting AI strategy and CS leadership roles. Key additions over July 2025 variants: Business Actualization / AutoBoost role as "Director of Client Success & Strategy" (March 2025–present), AI Systems & Independent Projects section surfacing multi-agent work, updated skills with n8n/LangGraph/OpenClaw/Claude API/Gemini, updated summary threading AI implementation with CS leadership.
+- **`index.md` (updated)** — Page count 50→52, two new rows in Identity & Public Presence section, merge conflicts resolved (two conflicts present from prior branch divergence).
+
+### Notable observations
+
+- The SaaS market concern Conley raised is well-founded and confirmed by current data. The traditional "Director of CS at a SaaS company" role is itself a disruption target — AI agents are replacing the CS workflows that justified per-seat pricing. This is a significant strategic signal for the job search.
+- The defense-adjacent path (Palantir commercial, Booz Allen commercial) is strategically compelling because it directly feeds Drone Enterprises — learning DoD procurement, SBIR/OTA, and building the network that makes Drone Enterprises fundable. The security clearance concern is real but doesn't block commercial roles.
+- The Thought Leader Engine is an underutilized asset for the job search. Pointing it at LinkedIn (AI in enterprise, CS operations, real implementation stories) for 6 months pre-application creates genuine inbound that most job seekers can't manufacture.
+- The "Director of Client Success & Strategy" title is now confirmed usable externally (per Adam and Micah). This changes the resume and LinkedIn positioning meaningfully — he no longer needs to navigate the PM vs. Director ambiguity.
+- Open strategic question: whether Drone Enterprises is near-term enough to optimize the job search around defense specifically. That decision should be made explicitly, not by default.
 - Inbox note `obs-portfolio-describes-dead-system.md` was deleted by Conley — appropriate, since the observation is no longer true.
