@@ -1,0 +1,105 @@
+filters:
+  and:
+    - file.inFolder("Conley's 2nd Brain/wiki")
+    - or:
+        - type == "strategy"
+        - type == "operations"
+        - type == "tool-analysis"
+        - type == "marketing"
+        - type == "identity"
+        - type == "project"
+        - type == "asset"
+        - type == "synthesis"
+        - type == "work-log"
+formulas:
+  days_stale: if(updated, (today() - date(updated)).days, 999)
+  type_icon: if(type == "strategy", "🎯", if(type == "operations", "⚙️", if(type == "tool-analysis", "🔧", if(type == "marketing", "📣", if(type == "identity", "👤", if(type == "project", "🚀", if(type == "asset", "📄", if(type == "synthesis", "🔬", if(type == "work-log", "📅", "📋")))))))))
+  domain_label: if(domain == "ace", "ACE", if(domain == "ba", "Day Job", if(domain == "drone-enterprises", "Drone Co.", if(domain == "personal", "Personal", if(domain == "general", "General", "—")))))
+properties:
+  type:
+    displayName: Type
+  domain:
+    displayName: Domain
+  updated:
+    displayName: Updated
+  formula.days_stale:
+    displayName: Days Since Update
+  formula.domain_label:
+    displayName: Domain
+views:
+  - type: table
+    name: All Knowledge Pages
+    filters:
+      not:
+        - type == "work-log"
+    groupBy:
+      property: domain
+      direction: ASC
+    order:
+      - formula.type_icon
+      - file.name
+      - formula.domain_label
+      - type
+      - updated
+      - formula.days_stale
+  - type: table
+    name: Stale Pages
+    filters:
+      and:
+        - type != "work-log"
+        - formula.days_stale > 14
+    order:
+      - file.name
+      - formula.domain_label
+      - updated
+      - formula.days_stale
+    summaries:
+      formula.days_stale: Average
+  - type: table
+    name: Work Logs
+    filters:
+      and:
+        - type == "work-log"
+    order:
+      - file.name
+      - updated
+  - type: cards
+    name: ACE
+    filters:
+      and:
+        - domain == "ace"
+        - type != "work-log"
+    order:
+      - file.name
+      - type
+      - updated
+  - type: cards
+    name: Day Job (BA)
+    filters:
+      and:
+        - domain == "ba"
+        - type != "work-log"
+    order:
+      - file.name
+      - type
+      - updated
+  - type: cards
+    name: Drone Enterprises
+    filters:
+      and:
+        - domain == "drone-enterprises"
+        - type != "work-log"
+    order:
+      - file.name
+      - type
+      - updated
+  - type: cards
+    name: Personal
+    filters:
+      and:
+        - domain == "personal"
+        - type != "work-log"
+    order:
+      - file.name
+      - type
+      - updated

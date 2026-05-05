@@ -1,5 +1,6 @@
 ---
 type: project
+domain: personal
 tags: [project, hardware, vision, aspiration]
 created: 2026-04-14
 updated: 2026-04-16

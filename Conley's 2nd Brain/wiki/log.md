@@ -981,3 +981,50 @@ The highest-volume single day in the recap series so far: 8 scheduled events, fi
 - Claude Teams hitting its usage cap on April 21 is a signal worth flagging: a 13-person automotive marketing agency burning through its Claude Teams monthly limit means AI is genuinely embedded, not experimental. This is relevant to Conley's ACE pitch — BA itself is a case study for AI adoption at the SMB agency level.
 - The FLACA accountability conversation (April 20) and Conley's return to a smooth, high-output office day (April 21) suggest the conversation closed the loop without ongoing friction. Leadership culture at AutoBoost appears to value accountability over performance-management escalation.
 - Index.md merge conflict (between `claude/process-articles-update-wiki-VePUF` and `main` branches) was resolved as part of this ingest session. Combined source count post-merge: 31 unique sources. Two new sources added here: 33 total.
+
+---
+
+## [2026-05-05] ingest | Blog Article Brief — AI-Native Operational Vault
+
+**Source type:** Agent prompt / writing brief — self-contained instructions for producing a 1,200–1,800 word blog article about building an operational second brain for AI agents in an agency context
+**Pages created:** 0 (source is a production brief, not wiki content — no new wiki pages warranted)
+**Pages updated:** 0
+**Draft produced:** `03-BRIEFS/2026-05-05-ai-operational-vault-draft.md`
+
+### What this source contains
+
+A detailed blog article brief authored for a content-writing agent. Covers the full architecture of an "operational vault" — a structured Markdown-based knowledge system designed to give AI agents persistent context before they act. Includes article structure guidance (8-part narrative arc), tone/voice direction (confident, concrete, no hype), SEO target phrases (AI knowledge base for agencies, operational second brain, LLM context management, agentic AI workflows), and the complete vault architecture as background material. Working title: "Your AI Assistant Keeps Forgetting Everything — Here's How We Fixed It."
+
+### What changed
+
+- Draft article produced and saved to `03-BRIEFS/2026-05-05-ai-operational-vault-draft.md`. Proposed alternative title: "Your AI Keeps Starting From Zero. Here's the Architecture That Fixed It." Article runs ~1,400 words in Conley's voice, structured around the eight-part narrative arc specified in the brief.
+- `index.md` updated — source count 33 → 34, new source row added to Source Files table.
+
+### Notable observations
+
+- This brief describes what sounds like the BA operational vault — a knowledge system Conley built for the agency's AI agent workflows. The article is positioned for a "digital marketing agency's blog," which maps to either BA's own thought leadership content or Conley's portfolio.
+- The architecture described (CLAUDE.md as agent operating manual, INDEX.md as catalog, LOG.md as audit trail, client subfolders with persistent profiles) is structurally analogous to this second brain — the same pattern applied at the team/agency level rather than the personal level. The two articles (this new draft and `second-brain-article.md` in the wiki) are complementary: one covers personal use, the other covers agency/operational use.
+- The brief's SEO targets (AI knowledge base for agencies, LLM context management, agentic AI workflows) are a stronger fit for BA's blog or LinkedIn thought leadership than for Conley's personal Threads presence. If this article goes live on a BA or AutoBoost blog, it could drive qualified inbound for the agency — a content marketing asset rather than personal brand content.
+- The brief explicitly prohibits revealing specific client names, internal API configurations, or proprietary prompt engineering details — which makes the article publishable on a public blog without confidentiality concerns.
+
+---
+
+## [2026-05-05] update | Obsidian vault improvement — base file, dashboard, frontmatter audit
+
+**Pages created:** 2 (`Wiki Database.base`, `Dashboard.md`)
+**Pages updated:** 21 (domain frontmatter added/corrected across wiki pages; one type fix)
+
+### What changed
+
+- **`domain` frontmatter added** to 19 wiki pages that were missing it — `ace-overview.md`, `ace-legacy.md`, `financial-projections.md`, `domain-personal.md`, `data-enrichment-apis.md`, `phase-2-content-vectors.md`, `portfolio-website.md`, `platform-comparison.md`, `operating-doctrine-2026.md`, `muse.md`, `phase-3-infrastructure.md`, `phase-1-lead-enrichment.md`, `the-sentinel.md`, `tech-stack.md`, `upwork-portfolio.md`, `portfolio-update-plan.md`, `the-river-room.md`, `thought-leader-engine.md`, `campaign-plan.md`
+- **`client-acquisition.md` domain corrected** from `ba` to `ace` — this page covers Upwork/ACE bidding pipeline, not BA operations
+- **`daily-recap-2026-04-15.md` type corrected** from `log` to `work-log` — now consistent with all other recap pages
+- **`Wiki Database.base` created** at `wiki/Wiki Database.base` — Obsidian Bases file with 7 views: All Knowledge Pages (table, grouped by domain), Stale Pages (table, pages not updated in 14+ days), Work Logs (table), and domain-specific card views for ACE, Day Job (BA), Drone Enterprises, and Personal. Includes formulas for staleness calculation and type icon display.
+- **`Dashboard.md` created** at `Conley's 2nd Brain/Dashboard.md` — vault home page with quick navigation table and embedded base views for each domain. Intended as the default opening note in Obsidian.
+
+### Notable observations
+
+- After domain field audit, the wiki now has fully queryable frontmatter: every page with a `type` field also has a `domain` field, enabling filtering in Bases without fallback logic.
+- The Obsidian base renders correctly with 52 knowledge pages grouped by domain. The "Stale Pages" view surfaces pages not updated in 14+ days — useful for tracking which wiki sections are drifting out of sync with reality.
+- `the-sentinel.md` was assigned `domain: personal` (not `ace`) — The Sentinel is a personal vision project funded by ACE revenue, but it is not an ACE product or service. The distinction matters for Base filtering.
+- The Dashboard `![[Wiki Database.base#View Name]]` embed pattern allows per-domain card views to coexist on a single home page, giving the full knowledge graph at a glance.

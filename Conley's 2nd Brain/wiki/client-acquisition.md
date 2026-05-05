@@ -9,7 +9,7 @@ updated: 2026-04-16
 sources:
   - ACE Business Plan_ Autonomous Freelance Agent.md
   - ACE Phase 1 Reference Brief.md
-domain: ba
+domain: ace
 ---
 
 # Client Acquisition Pipeline

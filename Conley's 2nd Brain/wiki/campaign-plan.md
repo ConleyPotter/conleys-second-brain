@@ -1,5 +1,6 @@
 ---
 type: marketing
+domain: ace
 tags:
   - marketing
   - campaign
