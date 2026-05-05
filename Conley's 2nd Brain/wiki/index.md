@@ -70,6 +70,8 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | [[resume-variants]] | Three July 2025 resume variants — General (values-aligned), AI (B2B SaaS automation), ADS (paid media/eCommerce) |
 | [[portfolio-website]] | Current state of Conley's personal portfolio — what it says, what's accurate, what needs updating |
 | [[portfolio-update-plan]] | Nine coding-agent queries to update the portfolio for ACE Phase 1 launch — Queries 1–4 complete, 5–8 pending |
+| [[career-transition-strategy]] | Full strategy for transitioning to a high-compensation corporate role — role targets, company list, SaaS market concerns, 6–12 month plan |
+| [[resume-cs-ai-leadership-2026]] | Updated resume targeting AI strategy and client success leadership roles — includes BA role, AI systems section, 2026 positioning |
 
 ## Projects
 
