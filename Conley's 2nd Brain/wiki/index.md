@@ -1,14 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
-<<<<<<< claude/process-articles-update-wiki-VePUF
-**Last updated:** 2026-04-21  
-**Source count:** 29  
-**Page count:** 55
-=======
-**Last updated:** 2026-04-24  
-**Source count:** 29  
-**Page count:** 50
->>>>>>> main
+**Last updated:** 2026-04-27
+**Source count:** 33
+**Page count:** 57
 
 This wiki documents Conley Potter's ACE business and broader life context. It began as an ACE-only knowledge base and is expanding into a full second brain covering personal operating philosophy, projects, identity, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -106,6 +100,8 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | [[daily-recap-2026-04-15]] | BA workday recap Apr 15: client pipeline, Turnkey/AutoVitals partners, FLSA compliance catch, 13 open items |
 | [[daily-recap-2026-04-16]] | BA workday recap Apr 16: FLACA departure, Tilson's dropped, Mechanics booked, Metric Motors tiers |
 | [[daily-recap-2026-04-17]] | BA workday recap Apr 17: FLACA conference day, Telle Tire meeting booked, Turnkey lead confirmed |
+| [[daily-recap-2026-04-20]] | BA workday recap Apr 20: first day back from FLACA, Menard breakthrough, South Lake Euro billing, HR interview, four client calls |
+| [[daily-recap-2026-04-21]] | BA workday recap Apr 21: Telle Tire PE call, Import Car go-live, Viktor first use, Sage Creek record performance, DSA deprecation |
 
 ## Drone Enterprises
 
@@ -160,12 +156,9 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | `microsoftmarkitdown Python tool for converting PDF files and office documents to Markdown.md` | GitHub README — microsoft/markitdown; PDF-to-Markdown conversion tool for LLM pipelines | 2026-04-18 |
 | `portfolio-website-about-page-4-18.md` | Finalized About page copy — career narrative, philosophy, outside-of-work section, career history sidebar content | 2026-04-18 |
 | `Daily-Recap_2026-04-17.md` | BA workday log — FLACA conference day; Telle Tire booked, Turnkey confirmed, team handled 3 urgent client threads | 2026-04-18 |
-<<<<<<< claude/process-articles-update-wiki-VePUF
-| `compass_artifact_wf-cf062d2d-8ed4-460c-a460-02e0262b03b7_text_markdown.md` | Founder's playbook — disposable infantry drone opportunity; doctrine, adversary capabilities, supply chain, company-build, funding, GTM | 2026-04-21 |
-| `Questions & Notes on the Disposable Drone Research Document.md` | Conley's Q&A notes on the drone research — glossary questions (RFI, Shahed, Switchblade, NDAA, EW), personal annotations | 2026-04-21 |
-=======
 | `How to Build a JARVIS Inside Obsidian With Claude Code — The Full Setup From Scratch.md` | @cyrilXBT guide — full JARVIS system setup: vault architecture, four core skills, daily ritual, performance feedback loop | 2026-04-24 |
 | `New JARVIS Repo CLAUDE.md File.md` | Generic JARVIS CLAUDE.md template — identity, vault structure, voice, hard rules, primary jobs; Conley-specific version saved as `JARVIS-CLAUDE.md` | 2026-04-24 |
 | `compass_artifact_wf-cf062d2d-8ed4-460c-a460-02e0262b03b7_text_markdown.md` | Defense research brief — disposable infantry drone market opportunity; doctrine, adversary analysis, supply chain, company-build strategy, funding, go-to-market | 2026-04-24 |
 | `Questions & Notes on the Disposable Drone Research Document.md` | Conley's working notes on the drone research — glossary terms, questions for collaborator "Sam" re: ISR/OWA/decoy variants, TAM breakdown | 2026-04-24 |
->>>>>>> main
+| `Daily-Recap_2026-04-20.md` | BA workday log — first day back from FLACA; Menard webmaster breakthrough, South Lake Euro billing transition, four client calls, FLACA accountability conversation | 2026-04-27 |
+| `Daily-Recap_2026-04-21.md` | BA workday log — packed 8-event day; Telle Tire PE lead, Import Car go-live, Viktor first use, Sage Creek record performance, DSA deprecation, Claude Teams cap | 2026-04-27 |
