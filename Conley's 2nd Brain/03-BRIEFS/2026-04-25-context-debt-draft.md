@@ -5,7 +5,7 @@ brief: [[2026-04-25-context-debt]]
 created: 2026-04-25
 tags: [written, ace, ai-workflow, context, second-brain]
 ---
- s
+
 # You Don't Have a Model Problem. You Have Context Debt.
 
 You don't have a model problem. You have context debt.
