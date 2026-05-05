@@ -3,8 +3,8 @@ type: operations
 domain: ba
 tags: [ba, day-job, partners, autoVitals, turnkey]
 created: 2026-04-16
-updated: 2026-04-18
-sources: [conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md, Claude Accounts' Saved Memories.md, Daily-Recap_2026-04-16.md, Daily-Recap_2026-04-17.md]
+updated: 2026-04-21
+sources: [conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md, Claude Accounts' Saved Memories.md, Daily-Recap_2026-04-16.md, Daily-Recap_2026-04-17.md, Daily-Recap_2026-04-20.md, Daily-Recap_2026-04-21.md]
 ---
 
 # BA Partner Ecosystem
@@ -55,13 +55,13 @@ Turnkey referrals are high-intent — these are prospects already in a buying co
 AutoVitals and BA hold joint client calls where both teams participate. AutoVitals refers Google Ads and LSA clients to BA when shops on their platform want to add paid advertising. BA coordinates with AutoVitals on billing transitions, search reporting, and account access for co-managed clients. The partnership appears to run at a high frequency — Conley is in regular contact with multiple AutoVitals contacts weekly.
 
 **Key contacts:**
-- **Carly Lama** — Primary day-to-day contact. Coordinates billing transfers (Google Ads account handoffs when client contracts end), reviews client performance data together with Conley, and manages shared client scheduling. In the Apr 15 recap: coordinating Google Ads billing transfer for a client with expiring contract; discussing Stan's performance perception gap.
-- **Carlos Massaquoi** — Technical/reporting contact. Handles search terms and search themes reports for clients. Conley clarified the distinction between *search terms* (Search campaigns) vs. *search themes* (Performance Max) for Carlos on Apr 15.
-- **Shelby Maggard** — Account coordination. Manages meeting scheduling for shared clients (e.g., Lael's International Auto Service rescheduling on Apr 15).
-- **Steve** — Relationship-level contact. Conley emailed Steve to request the recording of the Tilson's Auto Repair call (Apr 10 weekly recap).
-- **Adam Hicks** — Account-level contact for STAR Automotive. Conley asked Adam Hicks about Meta brand-awareness ads for technician hiring at STAR (Apr 10 weekly recap, #clients-av-star-automotive channel).
-- **Jordan Bania** — Coordinates LSA account additions and participates in joint monthly Google Ads reviews. Conley worked with Abby and Jordan on adding Mark Watson/TOS to LSA accounts (Apr 9–10 weekly recap). On Apr 16, Jordan was present on the Twenty First Century Auto monthly Google Ads review call.
-- **Stephen Baker** — AutoVitals contact present on new-prospect intro calls. On Apr 16, attended the Kidders Repair "Connects with AV/AutoBoost" call alongside Conley and Jon.
+- **Carly Lama** — Primary day-to-day contact. Coordinates billing transfers, reviews client performance data, and manages shared client scheduling. Apr 15: billing transfer coordination; Stan performance perception gap. Apr 21: Sage Creek deferred service email campaign (Carly drafting; Brett supplying zip codes).
+- **Carlos Massaquoi** — Technical/reporting contact. Handles search terms/themes reports. Apr 15: Conley clarified Search campaigns vs. Performance Max reporting for Carlos.
+- **Shelby Maggard** — Account coordination. Manages meeting scheduling for shared clients (e.g., Lael's, Omid @ Downey Car Care check-in booked for May 5).
+- **Steve** — Relationship-level contact. Conley emailed Steve to request the Tilson's call recording (Apr 10).
+- **Jordan Bania** — Coordinates LSA account additions and participates in joint monthly Google Ads reviews. Apr 16: present on Twenty First Century Auto review. Apr 21: Following up with Rantz Automotive to try keeping GA budget higher alongside new LSA.
+- **Stephen Baker** — Present on new-prospect intro calls. Apr 16: attended Kidders Repair intro call.
+- **Sydney Dorsey** — Books AV-organized Google Ads review meetings. Apr 21: booked Dennis Auto Repair Google Ads Review for Tue Apr 28, 10:30 AM. New contact name appearing in recaps.
 
 **Joint clients (active as of Apr 2026):**
 These are clients managed by both BA and AutoVitals to varying degrees. See [[ba-clients-pipeline]] for individual account detail.
