@@ -77,6 +77,47 @@ If Drone Enterprises is a serious near-term priority, a Palantir commercial role
 
 ---
 
+## Role Fit: Marketing Technology & AI Over Client Success
+
+After further analysis, the primary role target has been refined away from CS leadership. CS was initially flagged because it maps to Conley's current BA function — but it underweights his genuine differentiator and puts him in competition with candidates who have stronger dedicated CS credentials.
+
+**The better framing: lead with MarTech + AI implementation. CS is a secondary framing, not the primary one.**
+
+Why this matters:
+- CS leadership at SaaS companies is benchmarked against candidates with 5+ years managing ARR quotas, named book of business, and formal Gainsight/Salesforce CS tool expertise. Conley has one year of CS-adjacent work at an agency. That's not a winning hand in that specific competition.
+- MarTech leadership is where he has 8 years of genuine depth: CRM architecture, multi-channel campaign execution, attribution modeling, and now production AI agent system builds. Most "MarTech" candidates can talk about platforms. He can implement them — and build the automation layer on top.
+- The AI proof-of-work from ACE is rare. Most candidates for AI strategy roles have *used* AI tools. Conley has *built* production multi-agent pipelines (see [[ace-overview]]). That gap is significant and growing more significant.
+
+**Revised target titles** (replacing the earlier CS-forward list):
+- **Director of Revenue Operations (RevOps)** at a B2B tech or AI-native company
+- **Director of Marketing Technology** at an enterprise or AI-adjacent company
+- **AI GTM Lead / Head of AI for Marketing** at a non-tech enterprise
+- **Director of Marketing Operations** at an AI-native company (the Anthropic/Cohere in-road)
+- **Senior Solutions Consultant** at a MarTech platform (HubSpot, Salesforce)
+
+### Why each pays and why it fits
+
+**RevOps Director — $145–185K base**
+RevOps owns data infrastructure, tooling, and process alignment across marketing, sales, and CS. Conley's CRM architecture, attribution modeling, data pipeline design, and technical implementation ability cover the full scope. Most RevOps directors are strong in one area; he's credible across all of them. Also durable against AI disruption: as AI agents replace individual human workflows, someone has to architect how those agents plug into the GTM stack — and that person needs both strategy and technical depth.
+
+**AI GTM / Head of AI for Marketing at non-tech enterprise — $150–220K**
+The highest-upside, most underserved role category in 2026. Large enterprises (pharma, financial services, healthcare, defense) are building AI into their marketing functions and cannot find people who have actually done it. Having built production multi-agent systems is the credential. Not "at a Fortune 500" — just having done it. Best geographic overlap: Philly pharma corridor (GSK, AstraZeneca, J&J), Vanguard/SEI in financial services.
+
+**Director of Marketing Technology at enterprise — $135–170K**
+His most direct title match — "Director of Marketing Technology" is literally his Stoltzfus role. At a large enterprise, this manages a $500K–$2M annual tooling budget and a team of analysts and ops specialists. The AI layer makes the role more valuable than it was two years ago and harder to fill with conventional candidates.
+
+**Marketing Operations Director at AI-native company — $140–175K + equity**
+The on-ramp toward the Anthropic/OpenAI $200–300K compensation tier. AI companies need someone who can build the marketing operations stack (CRM, attribution, automation, outbound) AND understand the product deeply. Conley uses these APIs to build systems — that's credibility most candidates can't produce. This role at an AI-native company is 18–24 months of strong performance away from a VP title and a total comp package in the $200K+ range.
+
+**Senior Solutions Consultant at HubSpot or Salesforce — $130–165K base, $150–190K OTE**
+The fastest path to a high-quality logo on the resume. Solutions Consultants run technical demos and scope implementations — deep platform expertise plus client communication is the whole job. Either brand on the resume then opens almost every subsequent door for a Director-level move.
+
+### On Anthropic / OpenAI specifically ($200–300K)
+
+Those figures are real but are VP-level total comp packages (base $160–200K + equity + bonus). The direct jump from BA is a stretch: product marketing at those companies requires 5+ years of SaaS product launches and competitive positioning; demand gen requires experience marketing to enterprise CTOs and ML researchers; even MarOps roles favor candidates from recognized SaaS orgs. The realistic path: land a Director-level MarOps or RevOps role at a well-funded AI company ($140–165K), rise to VP in 18–24 months, then the Anthropic/OpenAI door is open. That's a 2–3 year arc to the $200–300K number.
+
+---
+
 ## Target Companies
 
 ### Philadelphia Hybrid
@@ -107,9 +148,9 @@ If Drone Enterprises is a serious near-term priority, a Palantir commercial role
 
 ### Months 1–3: Foundation
 
-1. **Rebuild LinkedIn** — reposition as "AI implementation and client success leader." New headline, new about section, new featured section. Surface the AI systems work without revealing ACE details: *"Building multi-agent automation systems independently alongside my day job."* This is true and impressive.
+1. **Rebuild LinkedIn** — reposition as "Marketing technology and AI implementation leader." New headline, new about section, new featured section. Surface the AI systems work without revealing ACE details: *"Building multi-agent automation systems independently alongside my day job."* This is true and impressive.
 2. **Activate the Thought Leader Engine for LinkedIn** — 3–4 posts per week on AI in enterprise, real implementation stories, CS operations and AI, defense technology. This is not a vanity exercise — it creates inbound from recruiters at target companies and warms up hiring managers before applications land.
-3. **New resume variant** — the CS + AI leadership variant (see [[resume-cs-ai-leadership-2026]]). Includes BA role with correct title, ACE-adjacent AI systems work, updated skills.
+3. **New resume variant** — see [[resume-cs-ai-leadership-2026]]. Leads with MarTech + AI framing; CS is secondary. Includes BA role with confirmed title ("Director of Client Success & Strategy"), accurate description of ACE-adjacent AI systems work, updated skills.
 4. **Build target list** — 20 companies, named hiring manager or VP at each. Begin connecting on LinkedIn.
 
 ### Months 2–5: Pipeline
@@ -159,3 +200,4 @@ The 2026 Operating Doctrine says "No plan to exit BA in 2026 (or likely 2027)." 
 - What's the current realistic ACE monthly income? If it reaches $2K+/month during the search, that increases negotiating leverage significantly.
 - Philadelphia hybrid or fully remote? Fully remote opens the entire market and avoids the commute cost. Worth committing to one.
 - Equity strategy: at what company size / funding stage is equity actually worth weighting heavily?
+- Of the five revised role targets (RevOps, MarTech Director, AI GTM, MarOps at AI company, Solutions Consultant), which one aligns best with the eventual venture? If Drone Enterprises is the exit, the defense-adjacent GTM path is most valuable. If ACE/Proactive Ghost is the exit, MarOps at an AI company is the direct on-ramp. This decision should be made explicitly — it changes which companies to prioritize.

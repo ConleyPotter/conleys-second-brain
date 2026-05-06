@@ -900,6 +900,26 @@ Conley completed a full portfolio update over the weekend of April 25–26, 2026
 
 ---
 
+## [2026-05-06] update | Career strategy refined; ACE build status corrected; LinkedIn title updated
+
+**Pages updated:** 5 (`career-transition-strategy.md`, `resume-cs-ai-leadership-2026.md`, `tech-stack.md`, `ace-overview.md`, `conley-potter.md`)
+
+### What changed
+
+- **`career-transition-strategy.md`** — Added new "Role Fit: Marketing Technology & AI Over Client Success" section. Revised primary role targets from CS-forward to MarTech/AI-forward (RevOps Director, MarTech Director at enterprise, AI GTM Lead, MarOps at AI-native company, Solutions Consultant). Added detailed comp analysis and reasoning for each. Added honest Anthropic/OpenAI $200–300K path analysis (2–3 year arc, not direct jump). Updated Months 1–3 step 1 LinkedIn positioning to "MarTech and AI implementation leader." Updated step 3 resume note to reflect MarTech framing. Added fifth open question on aligning role choice to eventual venture.
+- **`resume-cs-ai-leadership-2026.md`** — Fixed three inaccuracies: (1) target roles header updated to MarTech/AI framing; (2) summary rewritten to lead with MarTech + AI implementation rather than CS leadership; (3) AI Systems section corrected — removed false Apollo + Cleanlist claim, replaced with accurate description of the deployed Upwork job discovery pipeline (Apify → score → proposal draft → n8n architecture doc → Slack delivery).
+- **`tech-stack.md`** — Added deployment status warning to Overview. Added new "Deployed Workflows" section documenting the Upwork job discovery pipeline end-to-end. Added "not yet deployed" callout to Data Enrichment section (Apollo, Cleanlist, Supabase). Updated OPEX table to distinguish planned vs. active costs; noted actual current spend is ~$97/month.
+- **`ace-overview.md`** — Added build status callout to Phase I section: enrichment pipeline not yet built; only deployed workflow is the Upwork job discovery pipeline.
+- **`conley-potter.md`** — Updated role/title section to reflect three concurrent external titles now in use: LinkedIn (Director of Digital Marketing, updated May 2026), resume/job search (Director of Client Success & Strategy), and portfolio website (Client Success & Growth Leader). Noted that Adam and Micah confirmed public title flexibility.
+
+### Notable observations
+
+- The Apollo/Cleanlist overclaim was present in the resume and implicitly in tech-stack.md since initial wiki creation — the business plan described it as the Phase I stack, but it was never flagged as unbuilt. This kind of gap (plan vs. reality) is worth auditing across ACE pages; other planned tools may be documented as if deployed.
+- The role pivot from CS to MarTech/AI is more than positioning — it changes which companies to prioritize and which proof points to lead with. The Upwork pipeline is the right anchor story for the resume, not a generic "data enrichment waterfall."
+- LinkedIn title "Director of Digital Marketing" is a reasonable public-facing framing that's accurate to what he actually does at BA, marketable for the job search, and doesn't overclaim on the CS side.
+
+---
+
 ## [2026-05-03] query | Career transition strategy — new role, positioning, and job search plan
 
 **What was asked:** How Conley could use ACE and the Thought Leader Engine to position himself for a high-compensation corporate role in the next 6–12 months; what role would be the best fit; how to maximize earnings at a world-class company; what companies to target in Philadelphia or remote.

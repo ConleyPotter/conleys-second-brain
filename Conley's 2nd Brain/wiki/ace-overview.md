@@ -75,6 +75,8 @@ Target niche: manufacturing and industrial firms in Lancaster County, PA. See [[
 
 **Phase I objective:** Generate 6–12 months of operating runway before expanding.
 
+> **⚠ Current build status (May 2026):** The Phase I lead enrichment pipeline (Apollo + Cleanlist + Supabase) has not yet been built. The one deployed ACE workflow is the **Upwork job discovery pipeline** — a separate system that finds, scores, and writes proposals for Upwork gigs (see [[tech-stack]] "Deployed Workflows"). Phase I enrichment is the next build milestone. Apollo and Cleanlist subscriptions are not yet active.
+
 ### Phase II — Covert Output Arbitrage
 
 Once capital runway is secured, ACE expands into three content vectors:

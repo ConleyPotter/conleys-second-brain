@@ -13,7 +13,7 @@ sources:
 
 **Related:** [[resume-variants]], [[career-history]], [[conley-potter]], [[career-transition-strategy]]
 
-**Target roles:** Director/VP of Customer Success at AI-native companies · AI Strategy / Head of AI at enterprise · Deployment Strategist (Palantir commercial) · AI Transformation Consultant (Big 4) · Senior AI Solutions roles
+**Target roles:** Director of Revenue Operations · Director of Marketing Technology at enterprise · AI GTM / Head of AI for Marketing · Director of Marketing Operations at AI-native company · Senior Solutions Consultant (HubSpot/Salesforce) · AI Transformation Consultant (Big 4)
 
 **Key changes from July 2025 variants:**
 - Adds Business Actualization / AutoBoost role (March 2025 – present) with "Director of Client Success & Strategy" title
@@ -31,13 +31,13 @@ Lancaster, PA | conley.potter@gmail.com | 608-622-2858 | linkedin.com/in/conley-
 
 SUMMARY
 
-AI strategy and client success leader with 8+ years building marketing technology systems,
-leading client portfolios, and deploying AI-powered automation at scale. Hands-on experience
-designing multi-agent orchestration pipelines, CRM architecture, and revenue attribution
-infrastructure — paired with a track record of translating complex technical capability into
-measurable business outcomes for clients. Equally comfortable in the architecture and in the
-boardroom. Seeking a senior role at an AI-native company, enterprise AI practice, or
-defense-adjacent technology firm where implementation depth and client leadership compound.
+Marketing technology and AI implementation leader with 8+ years building CRM architecture,
+multi-channel campaign infrastructure, and revenue attribution systems — now deploying production
+AI agent pipelines on top of that foundation. Hands-on experience across the full MarTech stack
+(HubSpot, Salesforce Marketing Cloud, GA4, n8n automation) combined with the technical depth to
+implement rather than just specify. Rare combination: a marketing strategist who writes code,
+architects data pipelines, and has built multi-agent AI systems in production. Seeking a senior
+role where marketing technology leadership and AI implementation depth compound together.
 
 
 CORE COMPETENCIES
@@ -146,12 +146,14 @@ Epic Systems | Verona, WI | June 2018 – September 2018
 
 AI SYSTEMS & INDEPENDENT PROJECTS
 
-  Multi-Agent Automation Platform (Independent, 2025–Present)
-  Designed, built, and operate a production multi-agent automation business on n8n, LangGraph, and
-  OpenClaw — including HITL review pipelines, B2B data enrichment waterfalls (Apollo + Cleanlist API
-  orchestration), and an AI-powered content production system. All systems run with near-zero
-  ongoing operator overhead. API orchestration across Claude (Anthropic), Gemini, and GPT model
-  families. Slack/Telegram webhook-based review routing.
+  AI Automation Platform (Independent, 2025–Present)
+  Designing and operating a production AI automation business on n8n and Apify. Deployed workflow:
+  a Upwork job discovery pipeline that scrapes and parses live job listings via Apify, scores each
+  gig against a fit model (Gemini), filters to top candidates, drafts proposals in a constrained
+  voice-style protocol, and generates internal n8n workflow architecture documentation (fulfillment
+  plan) for each gig — all routed to a private Slack channel for async operator review before manual
+  submission. Additional pipelines (B2B lead enrichment, content automation) are in design and active
+  development. Stack: n8n, Apify, Gemini API, Anthropic Claude API, Slack webhooks.
 
 
 EDUCATION
