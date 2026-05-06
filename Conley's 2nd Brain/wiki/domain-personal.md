@@ -1,5 +1,6 @@
 ---
 type: strategy
+domain: personal
 tags: [domain, personal, meta]
 created: 2026-04-14
 updated: 2026-04-14

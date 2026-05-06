@@ -1,5 +1,5 @@
 ---
-type: log
+type: work-log
 tags:
   - ba
   - day-job

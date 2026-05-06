@@ -1,5 +1,6 @@
 ---
 type: strategy
+domain: personal
 tags:
   - personal
   - doctrine

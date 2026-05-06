@@ -987,3 +987,102 @@ Key findings: Conley's primary differentiator is genuine AI system-building expe
 - The "Director of Client Success & Strategy" title is now confirmed usable externally (per Adam and Micah). This changes the resume and LinkedIn positioning meaningfully — he no longer needs to navigate the PM vs. Director ambiguity.
 - Open strategic question: whether Drone Enterprises is near-term enough to optimize the job search around defense specifically. That decision should be made explicitly, not by default.
 - Inbox note `obs-portfolio-describes-dead-system.md` was deleted by Conley — appropriate, since the observation is no longer true.
+
+---
+
+## [2026-04-27] ingest | Daily Recap — April 20, 2026
+
+**Source type:** BA workday log — first day back from FLACA; Production Meeting, HR interview, four client calls, Menard webmaster breakthrough, South Lake Euro billing transition, FLACA accountability conversation
+**Pages created:** 1 (`daily-recap-2026-04-20.md`)
+**Pages updated:** 4 (`ba-clients-pipeline.md`, `ba-overview.md`, `ba-team.md`, `ba-partners.md`)
+
+### What this source contains
+
+A high-volume return-to-office day after four days at FLACA in Orlando. Conley attended the full Production Meeting (all 13 staff), co-interviewed HR candidate Hilary Masland, ran four client calls (Rodgers Family Auto monthly review; Import Car/Virginia Auto combined review; OBS Solutions monthly; Lee Myles Autocare multi-location), and reached the Menard webmaster for the first time after weeks of failed contact. Significant internal thread: Micah and Adam raised Hubstaff time data showing Conley missed FLACA conference sessions; Conley took accountability and committed to full attendance at future shows. South Lake European billing transfer to BA initiated in #internal-sales ($799 Google Ads Advanced Legacy, start 4/27).
+
+### What changed
+
+- `ba-clients-pipeline.md` — Multiple status updates: Telle Tire updated (meeting held Apr 21, details added); Bernhard Auto Works updated to "Proposal Declined"; Virginia Auto Service updated (website go-live scheduled Apr 21); Rodgers Family Auto Care updated (active monthly review); Salta updated (formal review held Apr 21); John McCormick updated (BirdEye SMS block documented); A&R Complete Auto updated (meeting held Apr 21); Harford County Transmissions updated (second follow-up sent); Menard Automotive updated in Accounts Needing Attention (breakthrough — path now clear). New entries added: South Lake European, OBS Solutions, Lee Myles Autocare SE PA, Bailey Holston (Auto Repair Mom), Sage Creek Repair, Rantz Automotive, Plover & 6th Street, JulieAnna Howes, Automedics 406, Dennis Auto Repair.
+- `ba-overview.md` — FLACA concluded (Conley back Apr 20); Viktor AI assistant added to internal ops stack; Claude Teams usage cap note added; DSA deprecation added to Platform Changes section; TOOLS 2026 conference added.
+- `ba-team.md` — Viktor AI assistant noted; hiring section added (Hilary Masland HR interview + marketing generalist candidate review with Micah).
+- `ba-partners.md` — Sydney Dorsey added as AutoVitals contact; Jordan Bania follow-up on Rantz noted; Carly Lama Sage Creek campaign note added. Source list and updated dates refreshed across all pages.
+
+### Notable observations
+
+- The Menard breakthrough is the highest-signal operational moment in this recap. A weeks-long tracking installation blocker was resolved in a 2-minute phone call. The human unlock was always available; no one had reached the right person.
+- South Lake European's billing transition from AutoVitals to BA is a recurring structural theme: clients can sit on AV billing even when BA is delivering the service. When BA takes direct billing, it increases revenue visibility and control — this transition is worth watching as a model for other AV-billing clients.
+- Lee Myles ($24,776 GA spend) is the largest single-advertiser account documented in the recap series so far. Multi-location automotive accounts with active attribution work are BA's highest-complexity tier.
+- The Bailey Holston car count gap (strong ads, weak car count) is a structurally important pattern: when call volume is high but booking is low, the constraint is shop-side (staffing, booking window), not marketing. BA can't fix that with ad optimization. Worth flagging in future recaps if this pattern repeats across accounts.
+- The FLACA accountability conversation resolves cleanly based on available data but suggests conference management protocols could be clearer (full schedule distributed on arrival, session attendance explicitly expected vs. expo focus). The conversation was honest and constructive on both sides.
+
+---
+
+## [2026-04-27] ingest | Daily Recap — April 21, 2026
+
+**Source type:** BA workday log — packed 8-event meeting day; Telle Tire PE call, Import Car go-live, Viktor first use, Sage Creek record performance, DSA deprecation announced, Claude Teams usage cap
+**Pages created:** 1 (`daily-recap-2026-04-21.md`)
+**Pages updated:** 0 (rolling pages already updated during April 20 ingest above)
+
+### What this source contains
+
+The highest-volume single day in the recap series so far: 8 scheduled events, five client calls Conley led or co-led, three AV reviews, one internal go-live, and one cancelled meeting. Key signals: Telle Tire discovery call with suspected PE firm contact (Marco Gonzalez, high potential deal); Import Car Specialists website went live; first active use of Viktor AI assistant for live Google Ads metrics in pre-call prep; Sage Creek Repair trending toward record April and appearing in ChatGPT + Gemini search results. Google officially announced DSA deprecation (→ AI Max migration). BA's Claude Teams org hit its monthly usage cap. Hiring progress: resume reviewed for marketing generalist candidate.
+
+### What changed
+
+- `daily-recap-2026-04-21.md` (new) — Full archival page covering all 8 scheduled events, 5 emails, HubSpot calls, Slack activity, 14 open items, and a 6-observation "What This Reveals" section.
+
+### Notable observations
+
+- Viktor's first-day results are operationally significant. Pulling accurate MCC-level metrics for a multi-location client before a live review call is exactly the use case that compresses Conley's pre-call prep time. If Viktor scales across BA's account base, it changes the economics of account management — more accounts per rep with the same quality of preparation.
+- Sage Creek Repair appearing in ChatGPT and Gemini search results with 16 documented AI-platform users is the first case of AI search visibility appearing as a client-level metric at BA. This is a selling point that will likely become standard in BA's reporting — AutoBoost clients are visible in AI search. Worth surfacing to the team and in prospect conversations.
+- The DSA → AI Max deprecation is a platform-level change affecting every BA client with DSA campaigns. This is a proactive opportunity for BA to consult clients before Google forces migration. Conley surfaced it to Jon immediately — if the team moves fast, this could be a trust-building moment across multiple accounts simultaneously.
+- Claude Teams hitting its usage cap on April 21 is a signal worth flagging: a 13-person automotive marketing agency burning through its Claude Teams monthly limit means AI is genuinely embedded, not experimental. This is relevant to Conley's ACE pitch — BA itself is a case study for AI adoption at the SMB agency level.
+- The FLACA accountability conversation (April 20) and Conley's return to a smooth, high-output office day (April 21) suggest the conversation closed the loop without ongoing friction. Leadership culture at AutoBoost appears to value accountability over performance-management escalation.
+- Index.md merge conflict (between `claude/process-articles-update-wiki-VePUF` and `main` branches) was resolved as part of this ingest session. Combined source count post-merge: 31 unique sources. Two new sources added here: 33 total.
+
+---
+
+## [2026-05-05] ingest | Blog Article Brief — AI-Native Operational Vault
+
+**Source type:** Agent prompt / writing brief — self-contained instructions for producing a 1,200–1,800 word blog article about building an operational second brain for AI agents in an agency context
+**Pages created:** 0 (source is a production brief, not wiki content — no new wiki pages warranted)
+**Pages updated:** 0
+**Draft produced:** `03-BRIEFS/2026-05-05-ai-operational-vault-draft.md`
+
+### What this source contains
+
+A detailed blog article brief authored for a content-writing agent. Covers the full architecture of an "operational vault" — a structured Markdown-based knowledge system designed to give AI agents persistent context before they act. Includes article structure guidance (8-part narrative arc), tone/voice direction (confident, concrete, no hype), SEO target phrases (AI knowledge base for agencies, operational second brain, LLM context management, agentic AI workflows), and the complete vault architecture as background material. Working title: "Your AI Assistant Keeps Forgetting Everything — Here's How We Fixed It."
+
+### What changed
+
+- Draft article produced and saved to `03-BRIEFS/2026-05-05-ai-operational-vault-draft.md`. Proposed alternative title: "Your AI Keeps Starting From Zero. Here's the Architecture That Fixed It." Article runs ~1,400 words in Conley's voice, structured around the eight-part narrative arc specified in the brief.
+- `index.md` updated — source count 33 → 34, new source row added to Source Files table.
+
+### Notable observations
+
+- This brief describes what sounds like the BA operational vault — a knowledge system Conley built for the agency's AI agent workflows. The article is positioned for a "digital marketing agency's blog," which maps to either BA's own thought leadership content or Conley's portfolio.
+- The architecture described (CLAUDE.md as agent operating manual, INDEX.md as catalog, LOG.md as audit trail, client subfolders with persistent profiles) is structurally analogous to this second brain — the same pattern applied at the team/agency level rather than the personal level. The two articles (this new draft and `second-brain-article.md` in the wiki) are complementary: one covers personal use, the other covers agency/operational use.
+- The brief's SEO targets (AI knowledge base for agencies, LLM context management, agentic AI workflows) are a stronger fit for BA's blog or LinkedIn thought leadership than for Conley's personal Threads presence. If this article goes live on a BA or AutoBoost blog, it could drive qualified inbound for the agency — a content marketing asset rather than personal brand content.
+- The brief explicitly prohibits revealing specific client names, internal API configurations, or proprietary prompt engineering details — which makes the article publishable on a public blog without confidentiality concerns.
+
+---
+
+## [2026-05-05] update | Obsidian vault improvement — base file, dashboard, frontmatter audit
+
+**Pages created:** 2 (`Wiki Database.base`, `Dashboard.md`)
+**Pages updated:** 21 (domain frontmatter added/corrected across wiki pages; one type fix)
+
+### What changed
+
+- **`domain` frontmatter added** to 19 wiki pages that were missing it — `ace-overview.md`, `ace-legacy.md`, `financial-projections.md`, `domain-personal.md`, `data-enrichment-apis.md`, `phase-2-content-vectors.md`, `portfolio-website.md`, `platform-comparison.md`, `operating-doctrine-2026.md`, `muse.md`, `phase-3-infrastructure.md`, `phase-1-lead-enrichment.md`, `the-sentinel.md`, `tech-stack.md`, `upwork-portfolio.md`, `portfolio-update-plan.md`, `the-river-room.md`, `thought-leader-engine.md`, `campaign-plan.md`
+- **`client-acquisition.md` domain corrected** from `ba` to `ace` — this page covers Upwork/ACE bidding pipeline, not BA operations
+- **`daily-recap-2026-04-15.md` type corrected** from `log` to `work-log` — now consistent with all other recap pages
+- **`Wiki Database.base` created** at `wiki/Wiki Database.base` — Obsidian Bases file with 7 views: All Knowledge Pages (table, grouped by domain), Stale Pages (table, pages not updated in 14+ days), Work Logs (table), and domain-specific card views for ACE, Day Job (BA), Drone Enterprises, and Personal. Includes formulas for staleness calculation and type icon display.
+- **`Dashboard.md` created** at `Conley's 2nd Brain/Dashboard.md` — vault home page with quick navigation table and embedded base views for each domain. Intended as the default opening note in Obsidian.
+
+### Notable observations
+
+- After domain field audit, the wiki now has fully queryable frontmatter: every page with a `type` field also has a `domain` field, enabling filtering in Bases without fallback logic.
+- The Obsidian base renders correctly with 52 knowledge pages grouped by domain. The "Stale Pages" view surfaces pages not updated in 14+ days — useful for tracking which wiki sections are drifting out of sync with reality.
+- `the-sentinel.md` was assigned `domain: personal` (not `ace`) — The Sentinel is a personal vision project funded by ACE revenue, but it is not an ACE product or service. The distinction matters for Base filtering.
+- The Dashboard `![[Wiki Database.base#View Name]]` embed pattern allows per-domain card views to coexist on a single home page, giving the full knowledge graph at a glance.

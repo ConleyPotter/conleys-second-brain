@@ -10,7 +10,7 @@ status: archived
 sources:
   - ACE Business Plan_ Autonomous Freelance Agent.md
   - ACE Phase 1 Reference Brief.md
-domain: ba
+domain: ace
 ---
 
 > **⚠ ARCHIVED — May 2026.** This page documented the ACE client acquisition pipeline — Upwork proposal automation, Spartan Tone Protocol, and HITL compliance. The Upwork pipeline is being repurposed as an open source portfolio project. See [[portfolio-projects]] and [[personal-brand-engine]].

@@ -1,5 +1,6 @@
 ---
 type: project
+domain: personal
 tags: [river-room, long-range, community, physical-space, marietta, digital-workshop]
 created: 2026-04-16
 updated: 2026-04-16

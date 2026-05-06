@@ -3,8 +3,8 @@ type: identity
 domain: ba
 tags: [ba, day-job, team, people]
 created: 2026-04-16
-updated: 2026-04-17
-sources: [Claude Accounts' Saved Memories.md, conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md, BA Team Roster.md]
+updated: 2026-04-21
+sources: [Claude Accounts' Saved Memories.md, conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md, BA Team Roster.md, Daily-Recap_2026-04-20.md, Daily-Recap_2026-04-21.md]
 ---
 
 # BA Team
@@ -137,3 +137,7 @@ Junior developer on the AutoBoost platform and internal tooling under Josh.
 - **Scrum/Kanban methodology:** Micah owns the backlog as Product Owner; Conley is a stakeholder in Sprint Planning
 - **Dual-Adam naming:** "Adam" in Slack context defaults to Adam Kushner (CEO); Adam Hicks is referred to as "Hicks" internally
 - **Engineering org:** Josh leads a three-person team (himself + Daniel + Jahson) focused on AutoBoost platform and internal tools; Gauge attribution platform is their work product
+- **Viktor (AI assistant):** New AI tool deployed at AutoBoost, April 2026. Not a team member — a shared AI assistant Conley first used on Apr 21 for Google Ads metrics pulls from the MCC. Adam and the team are being onboarded. Integrated via Pipedream.
+- **Active hiring (Apr 2026):**
+  - *HR role:* Hilary Masland interviewed Apr 20 (with Micah). Sent positive thank-you email post-interview. Hire status TBD.
+  - *Marketing generalist:* Resume reviewed by Conley + Micah on Apr 21. Conley noted the candidate has well-rounded internship experience but emphasized being outgoing is necessary for client success. Next step: meet in person.

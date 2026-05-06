@@ -1,5 +1,6 @@
 ---
 type: strategy
+domain: ace
 tags: [finance, unit-economics]
 created: 2026-04-14
 updated: 2026-05-06

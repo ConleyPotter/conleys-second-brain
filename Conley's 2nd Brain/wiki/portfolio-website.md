@@ -1,5 +1,6 @@
 ---
 type: asset
+domain: personal
 tags: [identity, personal-brand, public-facing]
 created: 2026-04-14
 updated: 2026-04-26

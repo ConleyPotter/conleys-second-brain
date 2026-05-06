@@ -3,8 +3,8 @@ type: operations
 domain: ba
 tags: [ba, autoboost, day-job, agency, rebrand]
 created: 2026-04-16
-updated: 2026-04-18
-sources: [Claude Accounts' Saved Memories.md, Personal Portfolio Website Current State 4.14.26.md, conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md, BA Team Roster.md, Daily-Recap_2026-04-16.md]
+updated: 2026-04-21
+sources: [Claude Accounts' Saved Memories.md, Personal Portfolio Website Current State 4.14.26.md, conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md, BA Team Roster.md, Daily-Recap_2026-04-16.md, Daily-Recap_2026-04-20.md, Daily-Recap_2026-04-21.md]
 ---
 
 # AutoBoost (formerly Business Actualization) — Day Job Overview
@@ -87,7 +87,7 @@ Two primary referral and co-delivery channels. See [[ba-partners]] for full deta
 - **Turnkey Auto Marketing** — sends BA referrals; BA manages LSA for Turnkey's prospects
 - **AutoVitals** — shared client base; joint calls, co-managed Google Ads and LSA accounts, billing coordination
 
-**Industry conferences:** BA exhibits at automotive industry conferences. Adam and Jon attended TEKTONIC (Houston) the week of Apr 6–12. Conley traveled solo to **FLACA (Florida Automotive Community Association)** in Orlando, Apr 16–20, 2026, for exhibitor booth staffing and networking. These events are an active part of BA's business development motion.
+**Industry conferences:** BA exhibits at automotive industry conferences. Adam and Jon attended TEKTONIC (Houston) the week of Apr 6–12. Conley traveled solo to **FLACA (Florida Automotive Community Association)** in Orlando, Apr 16–19, 2026, for exhibitor booth staffing and networking. Conley returned to the Palmyra office Monday Apr 20. Next: TOOLS 2026 (Conley attending; booth space TBD with Adam). These events are an active part of BA's business development motion.
 
 ---
 
@@ -124,8 +124,12 @@ See [[ba-team]] for roles and working relationships.
 - **Google Workspace** — docs, drive, email
 - **Hubstaff** — time tracking
 - **n8n** — automation layer (BA use, distinct from ACE)
-- **Anthropic API / Claude / Cowork** — AI-assisted workflows
+- **Anthropic API / Claude / Cowork** — AI-assisted workflows. BA org hit its monthly Claude Teams usage cap on Apr 21, 2026 — a signal of heavy team adoption.
+- **Viktor** — new AI assistant deployed at AutoBoost (as of Apr 2026). Conley first used Apr 21 to pull Google Ads metrics from the MCC (hundreds of accounts) ahead of client calls. Integrated via Pipedream (Zoom app request pending Adam's approval). The team's assessment: "pretty dang smart for a clanker."
 - **Notion** — Conley uses it; not standard across the team
+
+**Platform changes to watch:**
+- **DSA deprecation (Apr 21, 2026):** Google officially announced that Dynamic Search Ads (DSA) legacy capabilities are being deprecated, with all functionality migrating into AI Max for Search campaigns. Affects client campaigns currently using DSA setups.
 
 ---
 

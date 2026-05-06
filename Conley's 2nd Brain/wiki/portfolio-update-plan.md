@@ -1,5 +1,6 @@
 ---
 type: asset
+domain: personal
 tags: [portfolio, phase-1, website, coding-queries]
 created: 2026-04-14
 updated: 2026-04-18

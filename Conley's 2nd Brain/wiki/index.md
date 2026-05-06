@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
 **Last updated:** 2026-05-06  
-**Source count:** 29  
-**Page count:** 56
+**Source count:** 37
+**Page count:** 61
 
 This wiki documents Conley Potter's life, projects, and career. It began as an ACE-only knowledge base and has expanded into a full second brain covering the Personal Brand Engine (successor to ACE), career transition strategy, BA day job, personal operating doctrine, Drone Enterprises, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -109,6 +109,8 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | [[daily-recap-2026-04-15]] | BA workday recap Apr 15: client pipeline, Turnkey/AutoVitals partners, FLSA compliance catch, 13 open items |
 | [[daily-recap-2026-04-16]] | BA workday recap Apr 16: FLACA departure, Tilson's dropped, Mechanics booked, Metric Motors tiers |
 | [[daily-recap-2026-04-17]] | BA workday recap Apr 17: FLACA conference day, Telle Tire meeting booked, Turnkey lead confirmed |
+| [[daily-recap-2026-04-20]] | BA workday recap Apr 20: first day back from FLACA, Menard breakthrough, South Lake Euro billing, HR interview, four client calls |
+| [[daily-recap-2026-04-21]] | BA workday recap Apr 21: Telle Tire PE call, Import Car go-live, Viktor first use, Sage Creek record performance, DSA deprecation |
 
 ## Drone Enterprises
 
@@ -123,12 +125,13 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 
 ## Meta
 
-| Page | Summary |
+| Page                        | Summary |
 |---|---|
 | [[wiki-structure-planning]] | Structural recommendations for expanding the wiki beyond ACE — flat vs. segmented, new BA domain pages, CLAUDE.md changes |
-| [[second-brain-article]] | Portfolio writing piece — the creation and development of this second brain system, and how it adapts for teams |
-| [[writing-style]] | Writing mechanics reference: LLM-tells to avoid, formatting conventions, linking standards, punctuation rules |
-| [[jarvis-system]] | JARVIS content production layer — folder structure, slash commands, pipeline from inbox to published, wiki integration rules |
+| [[second-brain-article]]    | Portfolio writing piece — the creation and development of this second brain system, and how it adapts for teams |
+| [[writing-style]]           | Writing mechanics reference: LLM-tells to avoid, formatting conventions, linking standards, punctuation rules |
+| [[jarvis-system]]           | JARVIS content production layer — folder structure, slash commands, pipeline from inbox to published, wiki integration rules |
+| [[Wiki Database.base]]      | Obsidian Bases file — 7-view database of all wiki pages: by domain, by type, staleness tracker, and domain-specific card views |
 
 ---
 
@@ -167,3 +170,6 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | `New JARVIS Repo CLAUDE.md File.md` | Generic JARVIS CLAUDE.md template — identity, vault structure, voice, hard rules, primary jobs; Conley-specific version saved as `JARVIS-CLAUDE.md` | 2026-04-24 |
 | `compass_artifact_wf-cf062d2d-8ed4-460c-a460-02e0262b03b7_text_markdown.md` | Defense research brief — disposable infantry drone market opportunity; doctrine, adversary analysis, supply chain, company-build strategy, funding, go-to-market | 2026-04-24 |
 | `Questions & Notes on the Disposable Drone Research Document.md` | Conley's working notes on the drone research — glossary terms, questions for collaborator "Sam" re: ISR/OWA/decoy variants, TAM breakdown | 2026-04-24 |
+| `Daily-Recap_2026-04-20.md` | BA workday log — first day back from FLACA; Menard webmaster breakthrough, South Lake Euro billing transition, four client calls, FLACA accountability conversation | 2026-04-27 |
+| `Daily-Recap_2026-04-21.md` | BA workday log — packed 8-event day; Telle Tire PE lead, Import Car go-live, Viktor first use, Sage Creek record performance, DSA deprecation, Claude Teams cap | 2026-04-27 |
+| `blog-article-vault-explainer.md` | Blog article brief — detailed agent prompt for writing a 1,200–1,800 word article on building an AI-native operational vault for agency operations; produced draft `2026-05-05-ai-operational-vault-draft.md` | 2026-05-05 |

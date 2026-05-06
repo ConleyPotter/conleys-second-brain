@@ -1,5 +1,6 @@
 ---
 type: project
+domain: personal
 tags:
   - paused
   - ai
