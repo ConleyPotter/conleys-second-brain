@@ -1,5 +1,6 @@
 ---
 type: strategy
+domain: ace
 tags: [strategy, core-concept]
 created: 2026-04-14
 updated: 2026-04-16
