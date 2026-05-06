@@ -1,10 +1,10 @@
 # Conley Potter's 2nd Brain — Index
 
-**Last updated:** 2026-05-05
-**Source count:** 34
-**Page count:** 59
+**Last updated:** 2026-05-06  
+**Source count:** 37
+**Page count:** 61
 
-This wiki documents Conley Potter's ACE business and broader life context. It began as an ACE-only knowledge base and is expanding into a full second brain covering personal operating philosophy, projects, identity, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
+This wiki documents Conley Potter's life, projects, and career. It began as an ACE-only knowledge base and has expanded into a full second brain covering the Personal Brand Engine (successor to ACE), career transition strategy, BA day job, personal operating doctrine, Drone Enterprises, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
 ---
 
@@ -12,10 +12,11 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 
 | Page | Summary |
 |---|---|
-| [[ace-overview]] | What ACE is — the arbitrage thesis, the three-phase roadmap, and the 15-hr/week constraint |
+| [[personal-brand-engine]] | The unified ACE + TLE successor — AI-powered system for building public presence and career capital; the three pillars and full architecture |
+| [[ace-overview]] | ACE history (3 pivots), what survived, what was archived, current stack |
 | [[conley-potter]] | Operator profile — day job (BA/AutoBoost), personal background, working style, long-range vision projects |
-| [[financial-projections]] | Unit economics, monthly OPEX (~$190), and the revenue ramp from $350 net (Month 1) to $4,025+ net (Month 6) |
-| [[platform-comparison]] | Upwork vs. Fiverr vs. Freelancer.com vs. Jobbers.io — fees, positioning, and strategic fit for ACE |
+| [[financial-projections]] | ⚠ Archived — Upwork-based revenue projections (superseded by PBE strategy) |
+| [[platform-comparison]] | ⚠ Archived — Upwork vs. Fiverr platform comparison (freelance strategy deprioritized) |
 
 ## General Knowledge
 
@@ -42,24 +43,29 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 | [[ba-clients-pipeline]] | Rolling reference for key client accounts and pipeline — context HubSpot doesn't hold |
 | [[adam-shop-incubator]] | Adam's 6-location auto repair shop chain — content engine, incubator, real estate play; GC referral placed Apr 7 |
 
-## ACE Operations & Tech
+## Personal Brand Engine & Tech
 
-| Page                        | Summary                                                                                                                     |
-| --------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| [[tech-stack]]              | Full tool inventory: n8n, Apify, Gemini, Claude, ChatGPT, Apollo, Cleanlist, Supabase, OpenClaw, Slack, Google Drive        |
-| [[client-acquisition]]      | The automated bidding pipeline, Spartan Tone Protocol, HITL gate, and Upwork ToS compliance                                 |
-| [[phase-1-lead-enrichment]] | B2B lead enrichment — the Phase I service, Lancaster County micro-niche, fulfillment pipeline, and API waterfall            |
-| [[data-enrichment-apis]]    | API vendor analysis: Apollo, Cleanlist/Prospeo, Clay, Lusha, SyncGTM — costs, accuracy, and ACE's custom waterfall decision |
-| [[phase-2-content-vectors]] | Expansion into SEO content, YouTube scripts, and e-commerce image generation                                                |
-| [[phase-3-infrastructure]]  | High-ticket infrastructure cloning ($5k–$15k) and RevOps retainers ($2k–$8k/mo)                                             |
+| Page | Summary |
+|---|---|
+| [[personal-brand-engine]] | PBE architecture — input/output model, three pillars, ACE+TLE merger, success metrics |
+| [[content-strategy]] | Channel-by-channel content guide — LinkedIn, X, Substack, blog, audio/speaking, GitHub cadence |
+| [[portfolio-projects]] | Five open source portfolio projects — build order, specs, content output for each |
+| [[github-strategy]] | GitHub profile setup, activity cadence, repo standards, OSS contribution strategy |
+| [[thought-leader-engine]] | TLE as Conley's personal content automation layer — SOUL.md, processing pipeline, archived Proactive Ghost docs |
+| [[tech-stack]] | Full tool inventory with deployment status — active vs. planned-not-yet-built |
+| [[data-enrichment-apis]] | API vendor analysis: Apollo, Cleanlist/Prospeo, Clay, Lusha, SyncGTM — reference for if/when Phase I enrichment is built |
+| [[client-acquisition]] | ⚠ Archived — Upwork proposal pipeline and Spartan Tone Protocol |
+| [[phase-1-lead-enrichment]] | ⚠ Archived — B2B lead enrichment pipeline design (never built) |
+| [[phase-2-content-vectors]] | ⚠ Archived — SEO/YouTube/e-commerce content vectors (never built) |
+| [[phase-3-infrastructure]] | ⚠ Archived — High-ticket infrastructure cloning and RevOps retainers (never pursued) |
 
 ## Marketing & Brand
 
 | Page | Summary |
 |---|---|
-| [[campaign-plan]] | Phase I "First Contract" campaign — 90-day plan (Apr 14–Jul 13, 2026), channels, content calendar, KPIs |
 | [[brand-voice]] | Conley's complete brand voice guide — tone attributes, language patterns, what to avoid, content type variations |
-| [[upwork-portfolio]] | Four portfolio projects — spec project (Lancaster County list), ABM research, CRM enrichment, AutoBoost ICP |
+| [[campaign-plan]] | ⚠ Archived — Phase I "First Contract" Upwork campaign (replaced by [[content-strategy]]) |
+| [[upwork-portfolio]] | ⚠ Archived — Upwork freelance portfolio copy (freelance pursuit deprioritized) |
 
 ## Identity & Public Presence
 
@@ -77,15 +83,16 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 
 | Page | Summary |
 |---|---|
-| [[ace-overview]] | Current ACE — HITL co-pilot + freelance arbitrage; the pivot story; two operating modes |
-| [[ace-legacy]] | The original ACE (fall 2025–Feb 2026) — 8-agent autonomous content studio, sunsetted; what the portfolio still describes |
-| [[the-sentinel]] | Holographic AI companion (Pepper's Ghost + Raspberry Pi + walnut/brass); aspirational, funded by ACE revenue |
-| [[thought-leader-engine]] | Social/outreach automation framework built on n8n. Active. |
-| [[building-out-loud]] | Solo podcast; primary public channel for 2026; audio-first, source of truth for all public output |
-| [[the-river-room]] | Long-range creative commons and digital workshop in Marietta, PA — café/bookshop, creative studio, AI skills co-op; full V2 business plan with dual physical/digital revenue model |
-| [[muse]] | Paused AI project from 2025 — stub, needs expansion |
-| [[companion]] | Paused AI project from 2025 — stub, needs expansion |
-| [[book-project-2025]] | Paused book project from 2025 — stub, needs expansion |
+| [[ace-overview]] | ACE history (3 pivots) — from autonomous studio to freelance arbitrage to Personal Brand Engine |
+| [[ace-legacy]] | The original ACE (fall 2025–Feb 2026) — 8-agent autonomous content studio, sunsetted |
+| [[portfolio-projects]] | Five open source portfolio projects — Upwork AI Job Scout, HubSpot templates, campaign analyzer, MarTech audit tool, OSS contributions |
+| [[the-sentinel]] | Holographic AI companion (Pepper's Ghost + Raspberry Pi + walnut/brass); aspirational |
+| [[thought-leader-engine]] | TLE as Conley's personal content automation layer (personal use; Proactive Ghost commercial product archived) |
+| [[building-out-loud]] | Audio/speaking channel — format TBD; speaking on par with written content; format options evaluated |
+| [[the-river-room]] | Long-range creative commons and digital workshop in Marietta, PA — full V2 business plan |
+| [[muse]] | Paused AI project from 2025 — stub |
+| [[companion]] | Paused AI project from 2025 — stub |
+| [[book-project-2025]] | Paused book project from 2025 — stub |
 
 ## Personal
 

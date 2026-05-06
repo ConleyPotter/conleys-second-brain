@@ -3,9 +3,12 @@ type: asset
 domain: ace
 tags: [upwork, portfolio, credibility]
 created: 2026-04-14
-updated: 2026-04-16
+updated: 2026-05-06
+status: archived
 sources: [Upwork_Portfolio_Projects.md]
 ---
+
+> **⚠ ARCHIVED — May 2026.** This page documented Upwork portfolio project copy for the ACE freelance persona. The Upwork freelance pursuit has been deprioritized. The Upwork job discovery pipeline is being repurposed as an open source portfolio project — see [[portfolio-projects]].
 
 # Upwork Portfolio Projects
 

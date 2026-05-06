@@ -6,7 +6,7 @@ This file is the operating contract between you (Claude) and this knowledge base
 
 ## What this is
 
-This is Conley Potter's personal second brain — a persistent, compounding wiki that currently documents the Autonomous Content Engine (ACE) and the surrounding context of Conley's identity, career, and projects. As the wiki matures, it will expand to cover all domains: personal growth, research, reading, and life broadly.
+This is Conley Potter's personal second brain — a persistent, compounding wiki covering the Personal Brand Engine (PBE), career transition strategy, BA day job, Drone Enterprises, and personal operating doctrine. It began as an ACE-only knowledge base (the ACE freelance arbitrage system has since been pivoted to the PBE). As the wiki matures, it will expand to cover all domains: personal growth, research, reading, and life broadly.
 
 You (Claude) are the maintainer. Conley is the curator and director. He sources material, asks questions, and guides emphasis. You do the reading, writing, cross-referencing, and bookkeeping. Nothing valuable should disappear into chat history — good answers get filed back as pages.
 
@@ -271,7 +271,8 @@ This vault has a second layer: a content production system for capturing daily o
 ## Current scope and expansion path
 
 **Active domains:**
-- **ACE** — strategy, operations, marketing, identity, projects
+- **Personal Brand Engine (PBE)** — the unified ACE + TLE successor; public presence building, open source portfolio, content automation, career transition
+- **Career Transition** — strategy, target companies, resume, LinkedIn positioning
 - **BA (Day Job)** — professional operations, client pipeline, partners, team
 - **Personal** — doctrine, relationships, body, inner work
 - **Drone Enterprises** — defense hardware co-founding venture with Sam Schutt; infantry-scale attritable UAS; Conley is CSO
@@ -290,12 +291,12 @@ When a new domain becomes active, create a `domain` page for it and add a new se
 
 Track pages with open issues here so they aren't forgotten between sessions:
 
-- `[[tech-stack]]` — missing OpenClaw and LangGraph (added in ACE pivot; not yet reflected)
 - `[[ba-products]]` — built by inference; needs validation against BA's actual rate card
 - `[[ba-team]]` — roles inferred from behavioral observation; formal titles need verification
 - `[[ba-clients-pipeline]]` — seeded from two sources only; full client base not yet represented
 - `[[conley-potter]]` — wedding date June 12, 2026; update "engaged to Sami" to "married" post-June 12
 - `[[portfolio-website]]` — wiki's "What the Site Currently Says" section is pre-update (April 14 state); ingest a new site snapshot to sync the copy
+- `[[portfolio-update-plan]]` — was scoped around the old ACE/freelance persona; review whether the pending queries (5–8) still apply after the PBE pivot
 
 Clear items from this list when resolved; add new ones as they're discovered.
 

@@ -3,9 +3,12 @@ type: operations
 domain: ace
 tags: [phase-2, expansion, content]
 created: 2026-04-14
-updated: 2026-04-16
+updated: 2026-05-06
+status: archived
 sources: [ACE Business Plan_ Autonomous Freelance Agent.md, ACE Phase 1 Reference Brief.md]
 ---
+
+> **⚠ ARCHIVED — May 2026.** This page documented Phase II content expansion vectors (SEO content, YouTube scripts, e-commerce assets). These were planned but never built. ACE has been pivoted to the Personal Brand Engine — see [[personal-brand-engine]].
 
 # Phase II — Content Vectors
 

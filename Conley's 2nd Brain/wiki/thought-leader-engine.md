@@ -13,13 +13,46 @@ sources: ["Personal Portfolio Website Current State 4.14.26.md", "Thought Leader
 
 ---
 
-## What It Is
+## What It Is (Current — May 2026)
 
-The Thought Leader Engine is a commercial product built under the ACE x OpenClaw umbrella. Its product name is **The Proactive Ghost** — a tech-enabled ghostwriting agency-in-a-box.
+The Thought Leader Engine is the content automation layer of the [[personal-brand-engine]] — it processes Conley's raw captures, observations, and build stories into platform-specific content across LinkedIn, X, Substack, and the portfolio blog. It is now focused entirely on Conley's own brand, not external clients.
 
-The core insight: a high-end human ghostwriter for a CEO costs $5,000–$10,000/month. By automating 90% of production, the service prices at a "no-brainer" level: $997 setup + $497/month. Most of the overhead is front-loaded into the initial SOUL.md build; ongoing cost per client is near-zero.
+**The Proactive Ghost commercial product** (the original TLE vision — a ghostwriting-as-a-service product for external clients at $997 setup + $497/month) has been archived. The architecture remains valid and may be revisited in future years when capacity exists, but it is not being pursued now. The archived commercial product documentation is preserved below this section for reference.
 
-**Status:** Active development (product design stage; implementation checklist in progress)
+**Status:** Active — powering the PBE content pipeline
+
+---
+
+## Personal TLE Architecture
+
+### Input Sources
+- **JARVIS captures** from `01-CAPTURES/` — daily observations, reactions, patterns
+- **Voice notes or short texts** — real-time takes on AI news, build experiments, BA work stories (sanitized)
+- **GitHub activity** — what was shipped; feeds "built this week" content
+- **Podcast/audio recordings** (when speaking is the source, transcripts feed written content)
+
+### Processing Layer
+n8n + Claude pipeline:
+1. Raw input ingested (voice → transcript → clean text, or text directly)
+2. SOUL.md injected as system context — ensures voice consistency with [[brand-voice]]
+3. Platform-adapted drafts generated per channel (LinkedIn, X, Substack, blog)
+4. Drafts routed to Slack/Telegram for async review before publishing
+
+### Memory System
+**`SOUL.md` (Conley's voice identity):** The machine-readable version of [[brand-voice]]. Captures tone spectrum, signature language patterns, what to avoid, platform-specific adaptations. Must stay in sync with the brand-voice wiki page.
+
+**`STRATEGY.md` (performance log):** Tracks which posts perform, which get edited heavily, which fall flat. Monthly auto-diff suggestions for SOUL.md refinement.
+
+### Output Channels
+See [[content-strategy]] for full channel breakdown and cadence.
+
+---
+
+## Archived: The Proactive Ghost Commercial Product
+
+> The following section documents the original TLE commercial product design. It is preserved as historical record and a potential future concept, not an active plan.
+
+### Original Commercial Concept
 
 ---
 

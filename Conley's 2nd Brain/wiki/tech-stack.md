@@ -19,6 +19,25 @@ ACE runs on a self-hosted VPS with n8n as the central orchestration layer. Phase
 
 **Post-pivot additions (as of Feb 2026):** The ACE pivot introduced LangGraph alongside OpenClaw as an orchestration option for more complex agentic workflows. HITL routing now explicitly includes Telegram as an alternative to Slack. See [[ace-overview]] for the pivot context.
 
+**⚠ Deployment status note (as of May 2026):** Only one ACE workflow is currently built and deployed — the Upwork job discovery pipeline (see "Deployed Workflows" section below). The data enrichment stack (Apollo, Cleanlist, Supabase) and all Phase II/III tooling are planned and budgeted but not yet built. The OPEX table below reflects the full Phase I planned cost structure, not current spend.
+
+---
+
+## Deployed Workflows
+
+### Upwork Job Discovery Pipeline (Active)
+
+The only ACE workflow currently in production. End-to-end flow:
+
+1. **Apify** (jupri/upwork actor) — scrapes live Upwork job listings on a schedule
+2. **n8n DataTables** — deduplicates by job ID; skips previously seen listings
+3. **Gemini** — scores each gig on a 1–10 fit model; filters below threshold
+4. **Gemini / Claude** — drafts Upwork proposal in Spartan Tone Protocol for each top gig
+5. **Gemini / Claude** — generates internal n8n workflow architecture document for each gig (fulfillment plan: what the n8n workflow to complete this gig would look like)
+6. **Slack** (#new-upwork-gigs) — delivers top gigs, each with proposal draft + implementation plan, for async operator review before manual Upwork submission
+
+This pipeline automates the research, scoring, proposal writing, and technical scoping that would otherwise require 2–3 hours per day of manual work.
+
 ---
 
 ## Full Stack by Layer
@@ -78,20 +97,22 @@ ACE runs on a self-hosted VPS with n8n as the central orchestration layer. Phase
 
 ### Data Enrichment
 
-**Apollo.io** ($49/month, Basic tier)
+> **Not yet deployed.** Apollo, Cleanlist, and Supabase are designed and budgeted for Phase I lead enrichment but have not been built or subscribed to as of May 2026. The pipeline below is the design spec, not a description of a live system.
+
+**Apollo.io** ($49/month, Basic tier — planned)
 - Primary lead database: 275M+ contacts
 - Returns: email, title, LinkedIn, company size, phone
 - Rate limits: 50–200 calls/minute depending on tier
 - Batch size: 10–20 records; Wait node: 10–15 seconds between batches
 
-**Cleanlist / Prospeo** ($29/month)
+**Cleanlist / Prospeo** ($29/month — planned)
 - Secondary verification layer: 98% email deliverability accuracy
 - Cascades only when Apollo returns low-confidence or blank result
 - Together with Apollo, replicates Clay's waterfall at ~$78/month vs. $185–$349/month
 
 ### Cache / Database
 
-**Supabase** (PostgreSQL)
+**Supabase** (PostgreSQL — planned)
 - 90-day enrichment cache: before any Apollo API call, check if domain was enriched in last 90 days
 - Cache hit = free data pull; cache miss = Apollo call + write back to Supabase
 - Builds a proprietary, zero-cost data lake over time
@@ -121,15 +142,19 @@ ACE runs on a self-hosted VPS with n8n as the central orchestration layer. Phase
 
 ## Monthly OPEX Summary
 
-| Item | Cost/Month |
-|---|---|
-| VPS (n8n + Apify) | ~$12 |
-| Apollo.io Basic | $49 |
-| Cleanlist / Prospeo | $29 |
-| Upwork Connects | ~$50 |
-| Gemini / Anthropic API tokens | ~$35 |
-| Other (misc tools) | ~$15 |
-| **Total** | **~$190** |
+The table below is the **planned Phase I budget** — not current spend. As of May 2026, only the Upwork job discovery pipeline is deployed; Apollo, Cleanlist, and Supabase are not yet active.
+
+**Current actual OPEX (May 2026):** ~$97/month (VPS + Upwork Connects + API tokens only)
+
+| Item | Planned Cost/Month | Status |
+|---|---|---|
+| VPS (n8n + Apify) | ~$12 | Active |
+| Apollo.io Basic | $49 | Not yet subscribed |
+| Cleanlist / Prospeo | $29 | Not yet subscribed |
+| Upwork Connects | ~$50 | Active |
+| Gemini / Anthropic API tokens | ~$35 | Active |
+| Other (misc tools) | ~$15 | Partial |
+| **Planned Total** | **~$190** | |
 
 ---
 

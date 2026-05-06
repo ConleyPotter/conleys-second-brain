@@ -3,9 +3,12 @@ type: operations
 domain: ace
 tags: [phase-3, high-ticket, retainers]
 created: 2026-04-14
-updated: 2026-04-16
+updated: 2026-05-06
+status: archived
 sources: [ACE Business Plan_ Autonomous Freelance Agent.md, ACE Phase 1 Reference Brief.md]
 ---
+
+> **⚠ ARCHIVED — May 2026.** This page documented Phase III high-ticket infrastructure deployment and RevOps retainers — the long-range ACE commercial model. Never executed. ACE has been pivoted to the Personal Brand Engine — see [[personal-brand-engine]].
 
 # Phase III — Infrastructure Deployment
 
