@@ -900,6 +900,44 @@ Conley completed a full portfolio update over the weekend of April 25–26, 2026
 
 ---
 
+## [2026-05-06] update | Major vault overhaul — ACE/TLE pivoted to Personal Brand Engine
+
+**Pages created:** 4 (`personal-brand-engine.md`, `content-strategy.md`, `portfolio-projects.md`, `github-strategy.md`)  
+**Pages rewritten:** 5 (`ace-overview.md`, `thought-leader-engine.md`, `campaign-plan.md`, `building-out-loud.md`, `operating-doctrine-2026.md`)  
+**Pages archived:** 7 (`phase-1-lead-enrichment.md`, `phase-2-content-vectors.md`, `phase-3-infrastructure.md`, `financial-projections.md`, `client-acquisition.md`, `upwork-portfolio.md`, `platform-comparison.md`)  
+**Pages updated:** 3 (`index.md` — page count 52→56, section restructure; `CLAUDE.md` — description and active domains; `log.md`)
+
+### What this source contains
+
+A major strategic pivot triggered by Conley's honest assessment: the ACE freelance arbitrage business plans were never executed due to time constraints (BA workload + wedding preparation), and likely won't be in the foreseeable future. The more strategic use of the same AI infrastructure is to build public presence and career capital — the Personal Brand Engine. ACE (Autonomous Content Engine) and the Thought Leader Engine (TLE) have been merged into the PBE, with the commercial framing of both archived.
+
+Conley's stated goals for the PBE: build awesome portfolio projects, contribute to open source, publish heavily on GitHub/X/Substack/portfolio blog, become a known presence in the AI/MarTech space, and use the systems to amplify output beyond what's possible manually. The career transition is the primary objective; the PBE is the primary mechanism.
+
+### What changed
+
+- **`personal-brand-engine.md` (created)** — The primary reference page for the merged system. Covers the three pillars (Content, Code, Community), full input/output architecture, the Upwork pipeline as Portfolio Project #1, the ACE+TLE merger story, 12-month success metrics, and relationship to the career transition.
+- **`content-strategy.md` (created)** — Channel-by-channel publishing guide replacing [[campaign-plan]]. Covers LinkedIn, X, Substack, portfolio blog, audio/speaking, and GitHub. Includes the LinkedIn audience separation update (strict ACE/LinkedIn separation is retired — MarTech/AI content belongs on LinkedIn now). Weekly rhythm target (~5–7 hrs/week).
+- **`portfolio-projects.md` (created)** — Five open source projects with specs, build order, and content output for each: Upwork AI Job Scout (packaging existing workflow), n8n×HubSpot template library, AI campaign performance analyzer, MarTech audit tool (flagship), and external OSS contributions.
+- **`github-strategy.md` (created)** — GitHub profile setup, activity cadence, repo standards, OSS contribution strategy, and the GitHub→content pipeline (each shipped project triggers specific content across all channels).
+- **`ace-overview.md` (rewritten)** — Restructured around the three-pivot history. Removed all commercial framing (Phase I–III, The Proactive Ghost). Now describes what survived the pivot (Upwork pipeline, tech infrastructure, brand voice work) and what was archived. Current stack accurately documented.
+- **`thought-leader-engine.md` (rewritten)** — Lead section replaced with personal TLE architecture (Conley's own content automation, not client ghostwriting). Original Proactive Ghost commercial product documentation preserved in an "Archived" section for reference.
+- **`campaign-plan.md` (archived)** — Added archive notice; points to [[content-strategy]] as replacement.
+- **`building-out-loud.md` (rewritten)** — Updated from "solo podcast, audio-first, source of truth" to "audio/speaking channel, format TBD, on par with written content." Added format evaluation table (guest appearances, LinkedIn Audio, solo, interview, short-form video). Recommended starting approach: guest appearances first.
+- **`operating-doctrine-2026.md` (updated)** — Updated "Singular Owned Asset" section from ACE to PBE. Updated "Public Output" from audio-first/everything-is-derivative to multi-channel with TLE enabling consistent output within bandwidth constraints.
+- **7 pages archived** — All with archive notice + pointer to PBE.
+- **`index.md` (restructured)** — Renamed "ACE Operations & Tech" to "Personal Brand Engine & Tech." Added 4 new pages. Updated summaries for rewritten pages. Marked archived pages with ⚠. Updated header.
+- **`CLAUDE.md` (updated)** — Updated "What this is" description. Updated active domains (ACE → PBE as primary domain). Cleared resolved tech-stack item. Added portfolio-update-plan as needing review.
+
+### Notable observations
+
+- The honest through-line of this pivot: the elaborate plans (Phase I–III, Proactive Ghost, "First Contract" campaign) were architecturally sound but required execution time that never materialized. The PBE is a more realistic use of the actual available bandwidth (5–10 hrs/week, inconsistent, often low). This is worth flagging explicitly in future sessions — don't build plans that require consistent blocks of side-hustle time.
+- The Upwork job discovery pipeline is one of the more impressive things in the portfolio already, and it's been invisible. Open-sourcing and writing about it is low effort and high signal.
+- The LinkedIn audience separation protocol (strict ACE/LinkedIn firewall) being retired is a meaningful change. LinkedIn now needs to be treated as a primary career channel, not a separate identity silo.
+- The audio/speaking format question is genuinely open and worth revisiting when there's bandwidth to experiment. Guest podcast appearances are the right low-risk starting point.
+- Seven pages now have `status: archived` in frontmatter. A future lint pass should verify that no active pages are still linking to archived pages without context.
+
+---
+
 ## [2026-05-06] update | Career strategy refined; ACE build status corrected; LinkedIn title updated
 
 **Pages updated:** 5 (`career-transition-strategy.md`, `resume-cs-ai-leadership-2026.md`, `tech-stack.md`, `ace-overview.md`, `conley-potter.md`)

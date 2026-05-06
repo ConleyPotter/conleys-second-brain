@@ -47,11 +47,12 @@ Stability is not the goal. Stability is the *platform*.
 
 All public work must remain clearly non-competitive with BA.
 
-### B. Singular Owned Asset — ACE
+### B. Singular Owned Asset — Personal Brand Engine (PBE)
 
-- The primary project to pour significant energy into
-- Treated as a system, a machine, a long-term experiment in leverage
-- Success measured by system coherence and income contribution — not hype
+- The successor to ACE and TLE, merged into a unified system in May 2026
+- Purpose shifted from freelance revenue generation to career capital generation: public presence, open source portfolio projects, and content authority that powers the career transition
+- Success measured by: LinkedIn/GitHub/Substack growth, portfolio projects shipped, inbound recruiter quality, and ultimately landing the target role
+- See [[personal-brand-engine]] for full architecture
 
 **Explicitly paused** (2025 projects on hold): [[muse]], [[companion]], [[book-project-2025]]
 
@@ -88,12 +89,12 @@ No obligation to ship traditional creative artifacts. If creativity ships, it mu
 
 ### Public Output
 
-**One sustainable cadence. Audio-first.**
+**Multi-channel. Speaking on par with written. Automated where possible.**
 
-- [[building-out-loud]] (solo podcast) is the primary channel
-- Long-form audio is the source of truth
-- Written content and social excerpts are derivative and optional
-- No content is created from scratch except audio
+- LinkedIn, X, Substack, and portfolio blog are all active channels — not derivatives of each other
+- Audio/speaking is a primary channel, on par with writing — format TBD (see [[building-out-loud]])
+- The Thought Leader Engine (see [[thought-leader-engine]]) processes raw captures into platform-adapted drafts, making consistent multi-channel output achievable within the available bandwidth constraint
+- See [[content-strategy]] for channel breakdown and cadence
 
 ---
 

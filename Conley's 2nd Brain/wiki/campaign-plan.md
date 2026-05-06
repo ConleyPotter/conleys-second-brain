@@ -5,11 +5,14 @@ tags:
   - campaign
   - phase-1
 created: 2026-04-14
-updated: 2026-04-16
+updated: 2026-05-06
+status: archived
 sources:
   - ACE_Phase1_Campaign_Plan.md
 domain: personal
 ---
+
+> **⚠ ARCHIVED — May 2026.** This was the "First Contract" 90-day campaign plan targeting Upwork B2B lead enrichment contracts. The Upwork freelance strategy has been deprioritized. The active content and channel strategy now lives in [[content-strategy]]. The active overall strategy lives in [[personal-brand-engine]].
 
 # Phase I Campaign Plan — "First Contract"
 

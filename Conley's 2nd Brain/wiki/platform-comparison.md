@@ -2,9 +2,12 @@
 type: tool-analysis
 tags: [platforms, upwork, fiverr, market]
 created: 2026-04-14
-updated: 2026-04-16
+updated: 2026-05-06
+status: archived
 sources: [ACE Business Plan_ Autonomous Freelance Agent.md]
 ---
+
+> **⚠ ARCHIVED — May 2026.** This page documented platform comparison analysis (Upwork vs. Fiverr vs. Freelancer.com). The freelance platform strategy has been deprioritized in favor of the Personal Brand Engine — see [[personal-brand-engine]].
 
 # Platform Comparison
 

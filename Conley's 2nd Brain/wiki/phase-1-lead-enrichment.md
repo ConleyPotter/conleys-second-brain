@@ -2,9 +2,12 @@
 type: operations
 tags: [phase-1, operations, fulfillment]
 created: 2026-04-14
-updated: 2026-04-16
+updated: 2026-05-06
+status: archived
 sources: [ACE Business Plan_ Autonomous Freelance Agent.md, ACE Phase 1 Reference Brief.md]
 ---
+
+> **⚠ ARCHIVED — May 2026.** This page documented the Phase I B2B lead enrichment pipeline (Apollo + Cleanlist + Supabase), which was designed but never built. ACE has been pivoted to the Personal Brand Engine — see [[personal-brand-engine]].
 
 # Phase I — B2B Lead Enrichment
 

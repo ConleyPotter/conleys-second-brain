@@ -5,58 +5,67 @@ tags:
   - public-presence
   - content
   - personal
+  - speaking
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-05-06
 sources:
   - 2026 Operating Doctrine.md
 domain: personal
 ---
 
-# Building Out Loud
+# Building Out Loud — Audio / Speaking Channel
 
-**Related:** [[operating-doctrine-2026]], [[brand-voice]], [[conley-potter]], [[domain-personal]]
+**Related:** [[personal-brand-engine]], [[content-strategy]], [[operating-doctrine-2026]], [[brand-voice]], [[conley-potter]]
 
 ---
 
 ## What it is
 
-*Building Out Loud* is Conley's solo podcast — the primary public channel for 2026. It documents real, in-progress work without packaging it as lessons or advice.
+The audio and speaking channel of the [[personal-brand-engine]]. The name *Building Out Loud* may or may not be the final name — it's a working title. The format is TBD. What is decided: speaking is a primary channel on par with written content, not a derivative of it.
 
----
-
-## Role in the 2026 stack
-
-Per the [[operating-doctrine-2026]]:
-
-- Long-form audio is the **source of truth** for all public output
-- Written content (posts, excerpts) is derivative and optional — not created from scratch
-- One sustainable cadence: audio-first, everything else follows
-
-The podcast is not a marketing vehicle. It's a signal — a consistent, trustworthy record of real work being done.
-
----
-
-## Positioning
-
-Consistent with the public persona defined in the doctrine:
+The stance remains the same regardless of format:
 
 > "I'm building this. You're welcome to watch."
 
-- No services, coaching, or consulting sold through this channel
-- No funnels
-- No positioning as an agency alternative
-- Stance: observational, reflective, experiential
+---
 
-Authority is present. Authority is not sold.
+## Role in the PBE
+
+Speaking is a distinct content format, not audio-first as the source of truth for everything else. Per the updated [[operating-doctrine-2026]]:
+
+- LinkedIn, X, Substack, and audio are all primary — they feed each other
+- Audio recordings can seed written content (transcript → post → article), but posts can equally seed a speaking topic
+- The Thought Leader Engine processes audio transcripts the same way it processes text captures
 
 ---
 
-## Relationship to other concepts
+## Format Options (Under Evaluation)
 
-- **River & Root** — a broader, distinct long-range project that shares some thematic DNA with *Building Out Loud* but is separate. Sources forthcoming. Do not conflate the two.
-- **Brand voice** — the podcast should embody [[brand-voice]] in audio form: grounded, honest about the mess, technical but accessible, not performative.
-- **Second brain article** — [[second-brain-article]] is a portfolio essay documenting the creation and development of this wiki system. It ends with "I'm building this. You're welcome to watch." — the exact *Building Out Loud* stance. It's a natural candidate for a written companion piece or episode source.
+The format is a real decision — not all formats require the same time investment or produce the same ROI for the career transition.
+
+| Format | Overhead | Network value | Audience-building speed | Career signal |
+|---|---|---|---|---|
+| Guest appearances on existing podcasts | Very low | High (host's audience) | Fast | Strong |
+| LinkedIn Audio events | Low (no editing) | Medium | Medium | Medium |
+| Solo podcast | High (editing, consistency) | Low initially | Slow | Strong over time |
+| Interview/conversation format | Medium | High (each guest = relationship) | Medium | Strong |
+| Short-form video (LinkedIn/YouTube/X) | Medium–High | Medium | Fast | Strong |
+
+**Recommended starting approach:** Guest appearances first — zero production overhead, immediate access to existing audiences, and each appearance is a relationship built. Use LinkedIn Audio events to test the solo format with low friction. Decide between solo and interview format after a few reps, when it's clear which feels sustainable.
 
 ---
 
-> **Note:** This page is a stub. No episodes, format details, or production specs have been documented yet. Expand when source material is available.
+## Positioning (Consistent Across Formats)
+
+- Observational and reflective — documents real work, not packaged lessons
+- No services, coaching, consulting, or funnels sold through this channel
+- Technical but accessible — consistent with [[brand-voice]]
+- Honest about the mess; intensity present but not loud
+
+---
+
+## Relationship to Other Concepts
+
+- **River & Root** — a distinct long-range project with thematic DNA overlap but not the same thing. Do not conflate.
+- **Second brain article** — [[second-brain-article]] ends with "I'm building this. You're welcome to watch." — natural candidate for a first episode or talking point.
+- **Portfolio projects** — each shipped project (see [[portfolio-projects]]) is a natural audio topic: what I built, why, what broke, what I learned.
