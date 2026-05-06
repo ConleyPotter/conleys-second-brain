@@ -118,13 +118,13 @@ This wiki documents Conley Potter's ACE business and broader life context. It be
 
 ## Meta
 
-| Page | Summary |
+| Page                        | Summary |
 |---|---|
 | [[wiki-structure-planning]] | Structural recommendations for expanding the wiki beyond ACE — flat vs. segmented, new BA domain pages, CLAUDE.md changes |
-| [[second-brain-article]] | Portfolio writing piece — the creation and development of this second brain system, and how it adapts for teams |
-| [[writing-style]] | Writing mechanics reference: LLM-tells to avoid, formatting conventions, linking standards, punctuation rules |
-| [[jarvis-system]] | JARVIS content production layer — folder structure, slash commands, pipeline from inbox to published, wiki integration rules |
-| [[Wiki Database]] | Obsidian Bases file — 7-view database of all wiki pages: by domain, by type, staleness tracker, and domain-specific card views |
+| [[second-brain-article]]    | Portfolio writing piece — the creation and development of this second brain system, and how it adapts for teams |
+| [[writing-style]]           | Writing mechanics reference: LLM-tells to avoid, formatting conventions, linking standards, punctuation rules |
+| [[jarvis-system]]           | JARVIS content production layer — folder structure, slash commands, pipeline from inbox to published, wiki integration rules |
+| [[Wiki Database.base]]      | Obsidian Bases file — 7-view database of all wiki pages: by domain, by type, staleness tracker, and domain-specific card views |
 
 ---
 
