@@ -1086,3 +1086,26 @@ A detailed blog article brief authored for a content-writing agent. Covers the f
 - The Obsidian base renders correctly with 52 knowledge pages grouped by domain. The "Stale Pages" view surfaces pages not updated in 14+ days — useful for tracking which wiki sections are drifting out of sync with reality.
 - `the-sentinel.md` was assigned `domain: personal` (not `ace`) — The Sentinel is a personal vision project funded by ACE revenue, but it is not an ACE product or service. The distinction matters for Base filtering.
 - The Dashboard `![[Wiki Database.base#View Name]]` embed pattern allows per-domain card views to coexist on a single home page, giving the full knowledge graph at a glance.
+
+---
+
+## [2026-05-12] ingest | Conley Potter Resume 2026 — CV.md created
+
+**Source type:** Current resume (docx) — May 2026 version, supersedes all July 2025 variants
+**Pages created:** 1 (`cv.md`)
+**Pages updated:** 0
+
+### What this source contains
+
+Conley's most up-to-date resume as of May 2026. Key structural changes from the July 2025 variants: adds the Director of Client Success & Strategy role at Business Actualization / AutoBoost (March 2025–present) with full bullet detail; adds a dedicated AI Systems & Independent Projects section covering the Upwork automation pipeline; updates the summary to foreground AI implementation depth alongside MarTech leadership; expands the skills section to include n8n, LangGraph, Claude API, Gemini API, multi-agent architecture, and HITL pipeline design. Core Competencies are now in a two-column table in the docx — both columns captured in the CV. Skills are split across two tables in the docx; fully reconstructed in the CV.
+
+### What changed
+
+- **`cv.md` created** — canonical CV in clean markdown format, following the example CV format (no code block wrapper, H2/H3 header hierarchy, bullet lists, plain skills section). Includes full contact header, professional summary, all six work experience entries with complete bullet points, AI Systems & Independent Projects, education with honors, and categorized skills. Wiki frontmatter preserved for Obsidian compatibility.
+- **`index.md` updated** — source count 37 → 38, page count 61 → 62, `cv.md` added to Identity & Public Presence section, new source row added.
+
+### Notable observations
+
+- The July 2025 resume variants (`resume-variants.md`) are now superseded by this source. `resume-cs-ai-leadership-2026.md` is similarly superseded — `cv.md` is the new canonical document. Neither old page should be deleted (they have historical value and context), but future resume-related queries should draw from `cv.md` first.
+- The BA role bullet points in this docx are more expansive than in `resume-cs-ai-leadership-2026.md` — includes Viktor/Boostbot details, the AutoBoost-Vault build, and the GBP/programmatic channels mention that the earlier wiki version omitted. `cv.md` reflects these additions.
+- The "Manager of Financial Empowerment Center" at Tenfold overlaps in time with the "Freelance Digital Marketing Director" period (July 2022–October 2023 inside January 2021–February 2024). The resume presents them as sequential under different headers, which is standard practice for concurrent roles — not an error.

@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
-**Last updated:** 2026-05-06  
-**Source count:** 37
-**Page count:** 61
+**Last updated:** 2026-05-12  
+**Source count:** 38
+**Page count:** 62
 
 This wiki documents Conley Potter's life, projects, and career. It began as an ACE-only knowledge base and has expanded into a full second brain covering the Personal Brand Engine (successor to ACE), career transition strategy, BA day job, personal operating doctrine, Drone Enterprises, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -78,6 +78,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | [[portfolio-update-plan]] | Nine coding-agent queries to update the portfolio for ACE Phase 1 launch — Queries 1–4 complete, 5–8 pending |
 | [[career-transition-strategy]] | Full strategy for transitioning to a high-compensation corporate role — role targets, company list, SaaS market concerns, 6–12 month plan |
 | [[resume-cs-ai-leadership-2026]] | Updated resume targeting AI strategy and client success leadership roles — includes BA role, AI systems section, 2026 positioning |
+| [[cv]] | CV in clean markdown format — canonical 2026 version superseding all July 2025 variants; source of truth for work history, skills, and positioning |
 
 ## Projects
 
@@ -173,3 +174,4 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | `Daily-Recap_2026-04-20.md` | BA workday log — first day back from FLACA; Menard webmaster breakthrough, South Lake Euro billing transition, four client calls, FLACA accountability conversation | 2026-04-27 |
 | `Daily-Recap_2026-04-21.md` | BA workday log — packed 8-event day; Telle Tire PE lead, Import Car go-live, Viktor first use, Sage Creek record performance, DSA deprecation, Claude Teams cap | 2026-04-27 |
 | `blog-article-vault-explainer.md` | Blog article brief — detailed agent prompt for writing a 1,200–1,800 word article on building an AI-native operational vault for agency operations; produced draft `2026-05-05-ai-operational-vault-draft.md` | 2026-05-05 |
+| `50272789-conleypotterresume2026.docx` | Conley's most current resume (May 2026) — supersedes all July 2025 variants; source for `cv.md` | 2026-05-12 |
