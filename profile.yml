@@ -56,18 +56,12 @@ narrative:
     - name: "AutoBoost-Vault — AI-native operational second brain"
       url: ""   # internal system; no public URL
       hero_metric: "Designed and built structured knowledge management system governing agent behavior and workflow outputs across 150–200 account portfolio"
-    - name: "n8n Call Summarization Pipeline"
+    - name: "Personal AI Second Brain + Operational Vault"
+      url: ""   # article published or pending; no public URL yet
+      hero_metric: "Designed and built a CLAUDE.md-driven persistent knowledge system on Obsidian + Claude Code — 62-page wiki across 5 domains, 38 source files ingested, append-only log for session continuity; recognized the same architecture solved the agency-scale context problem and applied it to the AutoBoost operational vault serving the 150–200 account portfolio"
+    - name: "Salesforce Stack Build — Stoltzfus Structures & Horizon Structures"
       url: ""   # internal; no public URL
-      hero_metric: "Call recording → Claude AI summarization → HubSpot note pipeline eliminating manual notetaking across account management workflow"
-    - name: "AI Automation Platform (Independent)"
-      url: ""   # no public URL yet
-      hero_metric: "Production Upwork job discovery pipeline: Apify scraping → Gemini 2.5 Flash scoring → proposal drafting → Slack routing"
-    - name: "Interior Design Firm Campaign Rebuild"
-      url: ""   # client work; no public URL
-      hero_metric: "15x ROI through full-funnel campaign rebuild"
-    - name: "Freelance Client Portfolio"
-      url: ""
-      hero_metric: "Average 35% increase in conversion rates across independent client portfolio"
+      hero_metric: "Built Salesforce Marketing Cloud, SF Data Cloud, and SF Marketing Intelligence integration pipelines from scratch across two sister companies — created a unified data layer for campaign attribution and customer lifecycle analysis where none previously existed"
 
 compensation:
   target_range: "$130K-175K"     # Base salary target at entry
