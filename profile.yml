@@ -1,0 +1,86 @@
+# Career-Ops Profile Configuration
+# This is the single source of truth for your personal data across all modes.
+
+candidate:
+  full_name: "Conley Potter"
+  email: "conley.potter@gmail.com"
+  phone: "+1-608-622-2858"
+  location: "Marietta, PA"
+  linkedin: "linkedin.com/in/conley-potter"
+  portfolio_url: "https://conleypotter.dev"
+  github: "github.com/conleypotter"
+  twitter: "https://x.com/itsmeconleyp"
+
+target_roles:
+  # Your North Star roles — what you're optimizing for
+  primary:
+    - "Senior AI Strategist"
+    - "Director of AI Strategy"
+    - "Head of AI / AI Transformation Lead"
+    - "Deployment Strategist"
+  # Archetypes help the evaluation system score fit
+  archetypes:
+    - name: "AI Implementation / Strategy"
+      level: "Senior/Director"
+      fit: "primary"        # primary = dream role, secondary = good fit, adjacent = stretch
+    - name: "Director of Marketing Technology"
+      level: "Director"
+      fit: "primary"
+    - name: "Director of Revenue Operations"
+      level: "Director"
+      fit: "secondary"
+    - name: "Director of Client Success"
+      level: "Director"
+      fit: "secondary"
+    - name: "Big 4 AI Practice (Manager/Senior Manager)"
+      level: "Manager"
+      fit: "adjacent"
+
+narrative:
+  # Your professional headline (1 line)
+  headline: "Marketing technology and AI implementation leader who actually builds the systems"
+  # Your differentiated story — what makes you unique
+  exit_story: "8+ years building CRM architecture and campaign infrastructure. Now deploying multi-agent AI pipelines on top of that foundation. Rare combination: a marketing strategist who writes code, built production AI systems (n8n, LangGraph, Claude API), and manages a 150-200 account portfolio — all at once."
+  # Your top 3-5 superpowers
+  superpowers:
+    - "Production AI systems — multi-agent orchestration, HITL pipelines, prompt architecture (not just ChatGPT prompting)"
+    - "Full MarTech stack: HubSpot, Salesforce Marketing Cloud, SF Data Cloud, GA4, n8n"
+    - "Client portfolio leadership at scale (150–200 accounts, 6–7 meetings/day)"
+    - "Technical implementation depth — writes code, architects data pipelines, bridges strategy and engineering"
+    - "Executive communication — translates technical complexity for non-technical stakeholders"
+  # Proof points — projects, articles, case studies with measurable impact
+  proof_points:
+    - name: "Viktor / Boostbot — Slack-native AI assistant"
+      url: ""   # internal tool; no public URL
+      hero_metric: "Co-built BA's AI assistant integrating HubSpot, Google Ads, Gmail, Zoom, Slack — designed prompt architecture and persistent skill file memory model"
+    - name: "AutoBoost-Vault — AI-native operational second brain"
+      url: ""   # internal system; no public URL
+      hero_metric: "Designed and built structured knowledge management system governing agent behavior and workflow outputs across 150–200 account portfolio"
+    - name: "Personal AI Second Brain + Operational Vault"
+      url: ""   # article published or pending; no public URL yet
+      hero_metric: "Designed and built a CLAUDE.md-driven persistent knowledge system on Obsidian + Claude Code — 62-page wiki across 5 domains, 38 source files ingested, append-only log for session continuity; recognized the same architecture solved the agency-scale context problem and applied it to the AutoBoost operational vault serving the 150–200 account portfolio"
+    - name: "Salesforce Stack Build — Stoltzfus Structures & Horizon Structures"
+      url: ""   # internal; no public URL
+      hero_metric: "Built Salesforce Marketing Cloud, SF Data Cloud, and SF Marketing Intelligence integration pipelines from scratch across two sister companies — created a unified data layer for campaign attribution and customer lifecycle analysis where none previously existed"
+
+compensation:
+  target_range: "$130K-175K"     # Base salary target at entry
+  currency: "USD"
+  minimum: "$120K"               # Walk-away number
+  upside_target: "$150K-200K+"   # After first promotion / total comp ceiling
+  location_flexibility: "Remote preferred; open to hybrid Philadelphia or Lancaster/York PA corridor"
+
+location:
+  country: "United States"
+  city: "Marietta"
+  state: "PA"
+  timezone: "EST"
+  visa_status: "No sponsorship needed"
+  onsite_availability: "Hybrid Philadelphia feasible; fully remote preferred"
+  clearance_note: "Secret eligibility possible; TS/SCI unlikely (Foreign Influence factors — Mandarin fluency, Gilman Scholarship to China). Target roles that do not require clearance."
+
+cv:
+  output_format: "html" # "html" (default) or "latex"
+  # (Optional) Canva resume design ID for visual CV generation via /career-ops pdf.
+  # Find it in your Canva design URL: https://www.canva.com/design/DAxxxxxxx/...
+  # canva_resume_design_id: "DAxxxxxxxxx"
