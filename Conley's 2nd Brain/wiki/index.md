@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
-**Last updated:** 2026-05-12  
-**Source count:** 38
-**Page count:** 62
+**Last updated:** 2026-05-16  
+**Source count:** 39
+**Page count:** 63
 
 This wiki documents Conley Potter's life, projects, and career. It began as an ACE-only knowledge base and has expanded into a full second brain covering the Personal Brand Engine (successor to ACE), career transition strategy, BA day job, personal operating doctrine, Drone Enterprises, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -31,6 +31,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | [[second-brain-mcp-server]] | Synthesis: exposing the wiki as an MCP server and wiring it into gstack for persistent personalized context across every sprint |
 | [[jarvis-system]] | JARVIS content production system — Obsidian + Claude Code vault for capturing observations, finding connections, and generating content in Conley's exact voice |
 | [[drone-opportunity]] | Disposable infantry UAS startup opportunity — market research, founding thesis, Conley's active exploration with collaborator "Sam" |
+| [[multi-agent-orchestration]] | Multi-agent AI patterns — Pipeline, Fan-Out, Specialist Team; Anthropic Managed Agents, Dreaming, Outcomes; production examples from Netflix, Harvey, Shopify |
 
 ## Day Job (BA)
 
@@ -175,3 +176,4 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | `Daily-Recap_2026-04-21.md` | BA workday log — packed 8-event day; Telle Tire PE lead, Import Car go-live, Viktor first use, Sage Creek record performance, DSA deprecation, Claude Teams cap | 2026-04-27 |
 | `blog-article-vault-explainer.md` | Blog article brief — detailed agent prompt for writing a 1,200–1,800 word article on building an AI-native operational vault for agency operations; produced draft `2026-05-05-ai-operational-vault-draft.md` | 2026-05-05 |
 | `50272789-conleypotterresume2026.docx` | Conley's most current resume (May 2026) — supersedes all July 2025 variants; source for `cv.md` | 2026-05-12 |
+| `how-to-build-a-team-of-ai-agents-that-actually-work-together.md` | X thread — multi-agent orchestration course; three patterns, seven-step build process, production examples | 2026-05-16 |

@@ -1109,3 +1109,28 @@ Conley's most up-to-date resume as of May 2026. Key structural changes from the 
 - The July 2025 resume variants (`resume-variants.md`) are now superseded by this source. `resume-cs-ai-leadership-2026.md` is similarly superseded — `cv.md` is the new canonical document. Neither old page should be deleted (they have historical value and context), but future resume-related queries should draw from `cv.md` first.
 - The BA role bullet points in this docx are more expansive than in `resume-cs-ai-leadership-2026.md` — includes Viktor/Boostbot details, the AutoBoost-Vault build, and the GBP/programmatic channels mention that the earlier wiki version omitted. `cv.md` reflects these additions.
 - The "Manager of Financial Empowerment Center" at Tenfold overlaps in time with the "Freelance Digital Marketing Director" period (July 2022–October 2023 inside January 2021–February 2024). The resume presents them as sequential under different headers, which is standard practice for concurrent roles — not an error.
+
+---
+
+## [2026-05-16] ingest | How to Build a Team of AI Agents That Actually Work Together
+
+**Source type:** X thread by @eng_khairallah1 — comprehensive guide/course on multi-agent AI orchestration patterns, based on Anthropic's Claude Managed Agents announcement (May 6, 2026)
+**Pages created:** 1 (`multi-agent-orchestration.md`)
+**Pages updated:** 0
+
+### What this source contains
+
+A ~2,500-word X thread presenting a full course on building multi-agent AI systems. Covers three proven orchestration patterns (Pipeline, Fan-Out, Specialist Team), a seven-step build process, two new Anthropic features (Dreaming for agent memory and Outcomes for rubric-based self-evaluation), and production examples from Netflix, Harvey, Shopify, and Mercado Libre. Also notes Apple's announcement of Claude integration into iOS 27.
+
+### What changed
+
+- `multi-agent-orchestration.md` (new) — synthesis page covering the three orchestration patterns, seven-step build process, production example (Weekly Market Intelligence Report), common mistakes, and cross-references to existing wiki pages (JARVIS, gstack, TLE, Opus 4.7 workflow).
+- `index.md` updated — source count 38 → 39, page count 62 → 63, new page added to General Knowledge section, new source row added to Source Files.
+
+### Notable observations
+
+- The three patterns (Pipeline, Fan-Out, Specialist Team) map directly to systems Conley is already building. JARVIS is essentially Pattern 1 (pipeline). The Second Brain Ingest Agent built today in Hyperagent is a simpler version of Pattern 2 (fan-out) — a commander (the agent) distributing work across tools.
+- Dreaming as a concept — scheduled background review of past sessions to extract patterns and curate memory — is structurally identical to what this wiki does manually. If Anthropic's Managed Agents can automate this, it could complement or partially replace the manual ingest workflow.
+- Harvey's claimed 6x completion rate improvement from Dreaming alone is a striking data point. If accurate, it suggests persistent memory is the highest-leverage improvement for any agent system — more impactful than model upgrades or prompt engineering.
+- This is the first source captured and ingested entirely through the new Hyperagent Second Brain Ingest Agent — fetched from an X.com URL via browser automation, converted to markdown, and committed to the repo without touching Claude Code locally.
+- The Apple/iOS 27 Claude integration mention is a significant industry signal worth tracking — Claude becoming a system-level service on Apple devices changes distribution dynamics for anyone building Claude-based tools.
