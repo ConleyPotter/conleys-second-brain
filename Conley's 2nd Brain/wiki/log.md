@@ -1134,3 +1134,24 @@ A ~2,500-word X thread presenting a full course on building multi-agent AI syste
 - Harvey's claimed 6x completion rate improvement from Dreaming alone is a striking data point. If accurate, it suggests persistent memory is the highest-leverage improvement for any agent system — more impactful than model upgrades or prompt engineering.
 - This is the first source captured and ingested entirely through the new Hyperagent Second Brain Ingest Agent — fetched from an X.com URL via browser automation, converted to markdown, and committed to the repo without touching Claude Code locally.
 - The Apple/iOS 27 Claude integration mention is a significant industry signal worth tracking — Claude becoming a system-level service on Apple devices changes distribution dynamics for anyone building Claude-based tools.
+
+
+---
+
+## [2026-05-17] split | portfolio-update-plan.md — archive completed queries
+
+**Trigger:** Issue #38 — page at 34KB mixes completed historical queries with still-actionable pending work
+**Pages created:** 1 (`portfolio-update-history.md`)
+**Pages updated:** 1 (`portfolio-update-plan.md`)
+
+### What changed
+
+- **`portfolio-update-history.md` created** (type: work-log, domain: personal) — archives completed coding-agent queries 1–4 from the Portfolio Website Update Plan. Includes the executed changes summary for each query and the full original spec for Query 3 (about page brand voice injection).
+- **`portfolio-update-plan.md` slimmed** — replaced inline Query 1–4 content with a summary table and pointer to `portfolio-update-history.md`. Pending queries 5–9, the QA checklist, and all shared context sections retained. Reduced from 33,947 bytes to ~27,100 bytes.
+- **`index.md` updated** — page count 65 → 66, `portfolio-update-plan` description updated, `portfolio-update-history` entry added to Identity & Public Presence section.
+
+### Notable observations
+
+- The remaining plan page is still ~27KB because Queries 5–9 are individually large (Query 5 contains a full article body, Queries 7–8 contain detailed career timeline specs). A further split is not warranted — the remaining content is all actionable pending work with a coherent purpose.
+- Queries 5–8 remain applicable post-PBE pivot: they address the portfolio website's career history, capabilities, and writing section, none of which are ACE-specific.
+- Query 9 (Upwork profile URL) may be stale given the freelance strategy deprioritization, but it's deferred and trivial — left as-is.
