@@ -249,6 +249,72 @@ This vault has a second layer: a content production system for capturing daily o
 
 ---
 
+## Multi-agent coordination
+
+The vault has three Hyperagent agents working in concert. Each owns a specific role; they coordinate via GitHub labels, branch namespacing, and a fixed schedule.
+
+### Agents and roles
+
+- **Second Brain Ingest** — captures raw sources via Gmail polling (subject prefix `2b:`, every 30 minutes), produces wiki pages, and updates `index.md` and `log.md`. Multi-device input via direct email or the iCloud "Second Brain" Apple Shortcut.
+- **Vault Steward** (📚) — daily light sweep at 7am ET and weekly deep audit at Sun 6am ET. Audits catalog integrity, completeness, splits, and domain emergence. Files issues labeled `vault-steward`. Direct-commit authority for log/index drift, broken-link fixes, frontmatter corrections, and source attribution. Files PRs (capped at 10 per weekly audit) for new wikis, splits, gap-fills, and domain changes.
+- **Vault Remediator** (🔧) — daily at 12pm ET, staggered five hours after the Steward's daily sweep so the Steward's filing has settled before remediation begins. Resolves open `vault-steward`-labeled issues as commits, PRs, or Slack-approved changes based on a content-aware confidence rubric (solvability, safety, rules compliance, truth and fidelity). High-confidence fixes auto-merge through GitHub branch protection; medium-confidence fixes open PRs for review; low-confidence fixes go through Slack approval in the `#vault-steward` channel of the ACE workspace.
+
+### Coordination labels
+
+Labels are the contract between the agents. Both must respect them.
+
+**Issue labels:**
+
+| Label | Meaning | Owner |
+|---|---|---|
+| `vault-steward` | Issue filed by the Steward awaiting Remediator processing | Steward (file), Remediator (consume) |
+| `remediator-claimed` | Remediator has resolved the issue (PR merged or commit landed; if still open, the linked PR is awaiting merge) | Remediator |
+| `remediator-skipped` | Remediator examined and refused — hard-constraint hit or unparseable request even after a clarification round | Remediator |
+| `claude-md-blocked` | Issue is blocked on a pending `claude-md-suggestion` PR | Remediator |
+| `ingest-handoff` | Steward signal: Ingest agent failed (raw source committed without corresponding wiki within 2 hours) | Steward |
+| `remediator-handoff` | Steward signal: Remediator failed (open `vault-steward` issue sat more than 24 hours after a Remediator sweep should have run) | Steward |
+
+**PR labels:**
+
+| Label | Meaning | Auto-merge eligible? |
+|---|---|---|
+| `vault-steward` | Steward-filed PR (new wikis, splits, gap-fills, domain changes) | Never — Conley merges |
+| `remediator-review` | Medium-confidence Remediator PR awaiting Conley's review | Never — Conley merges |
+| `remediator-needs-approval` | Low-confidence Remediator PR awaiting Slack approval | Never — Conley merges after Slack ack |
+| `claude-md-suggestion` | Doctrine proposal touching only `CLAUDE.md` | Never — Conley merges manually |
+
+High-confidence Remediator PRs (≥ 0.90) are not labeled — they go straight to auto-merge once required GitHub checks pass.
+
+### Branch namespace
+
+| Prefix | Owner | Pattern |
+|---|---|---|
+| `remediator/issue-<num>-<slug>` | Remediator | Regular fix branch |
+| `remediator/claude-md-<slug>` | Remediator | Doctrine suggestion branch |
+| `steward/...` | Steward | Steward-owned PR branches |
+
+Treat any `remediator/`-prefixed or `steward/`-prefixed branch as expected in-flight agent work. Do not file noise issues about them, do not modify them, and do not treat their presence as a vault inconsistency.
+
+### Re-filing protocol (Steward → Remediator)
+
+Before the Steward files a new issue from its audit, it searches open issues for a match (by file path, content area, or its existing title patterns). If found with any of `remediator-claimed`, `remediator-skipped`, or `claude-md-blocked`, the Steward does NOT re-file. For a `remediator-skipped` match, if conditions have genuinely changed (refined scope, new evidence), the Steward may file a fresh new issue — never reopen the skipped one.
+
+### Coordination failure detection
+
+If the Steward observes an open `vault-steward` issue (no Remediator labels) that has sat for more than 24 hours after a Remediator sweep should have run, it files a `remediator-handoff` issue (label `vault-steward`) describing what it observed. This mirrors the existing `ingest-handoff` pattern that signals an Ingest agent failure.
+
+### CLAUDE.md change policy
+
+This file is the operating contract. Direct edits to `CLAUDE.md` as part of a per-issue fix are forbidden for the Remediator. The Remediator may PROPOSE changes via `claude-md-suggestion` draft PRs — but ONLY when the source issue explicitly proposes the change, or when drafting the fix exposes a real doctrine gap that blocks resolving the source issue. Such PRs:
+
+- Contain ONLY the proposed `CLAUDE.md` edit; no other files.
+- Are always draft PRs labeled `claude-md-suggestion`.
+- Are always announced in Slack (`#vault-steward` in the ACE workspace) with the issue link, PR link, rationale, and proposed change.
+- NEVER auto-merge regardless of confidence. Conley reviews and merges manually.
+- Are capped at one open at a time. If one exists, the Remediator labels the source issue `claude-md-blocked` and waits.
+
+---
+
 ## Cross-linking conventions
 
 - Use Obsidian wiki-link format: `[[page-name]]`
