@@ -1,5 +1,6 @@
 ---
 type: synthesis
+domain: general
 tags: [meta, planning, structure, wiki]
 created: 2026-04-16
 updated: 2026-04-16
