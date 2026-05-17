@@ -3,9 +3,11 @@ type: project
 domain: drone-enterprises
 tags: [drone-enterprises, defense-tech, UAS, hardware-startup, founding-team]
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-05-17
 sources:
-  - compass_artifact_wf-cf062d2d-8ed4-460c-a460-02e0262b03b7_text_markdown.md
+  - The disposable drone opportunity - a founder's playbook for infantry-scale UAS.md
+  - Questions & Notes on the Disposable Drone Research Document.md
+  - Notes on Meeting with Sam Schutt - DENT.md
 ---
 
 # Drone Enterprises — Company Overview
