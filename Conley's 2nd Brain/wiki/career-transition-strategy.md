@@ -3,8 +3,12 @@ type: strategy
 domain: personal
 tags: [career, job-search, transition, identity]
 created: 2026-05-03
-updated: 2026-05-03
-sources: []
+updated: 2026-05-17
+sources:
+  - operating-doctrine-2026.md
+  - career-history.md
+  - resume-variants.md
+  - conley-potter.md
 ---
 
 # Career Transition Strategy
