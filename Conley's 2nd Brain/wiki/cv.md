@@ -3,12 +3,14 @@ type: asset
 domain: personal
 tags: [resume, cv, identity, job-search, career]
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-17
 sources:
   - 50272789-conleypotterresume2026.docx
 ---
 
 # CV -- Conley Potter
+
+**Related:** [[conley-potter]], [[career-history]], [[career-transition-strategy]], [[resume-variants]]
 
 **Location:** Lancaster, PA
 **Email:** conley.potter@gmail.com
@@ -21,7 +23,7 @@ Marketing technology and AI implementation leader with 8+ years building CRM arc
 
 ## Work Experience
 
-### Business Actualization / AutoBoost -- Palmyra, PA
+### [[ba-overview|Business Actualization / AutoBoost]] -- Palmyra, PA
 **Director of Client Success & Strategy**
 March 2025 – Present
 
