@@ -7,6 +7,9 @@ Two checks:
    must have YAML frontmatter with required fields and valid enum values.
 2. log.md append-only — changes to log.md must only add lines at the end,
    never modify or remove existing lines.
+
+Note: VALID_DOMAINS and VALID_TYPES must stay in sync with the enums defined
+in CLAUDE.md.  When a new domain or type is added to doctrine, update here too.
 """
 
 import glob
@@ -26,7 +29,7 @@ SPECIAL_FILES = {"index.md", "log.md"}
 
 REQUIRED_FIELDS = {"type", "domain", "created", "updated"}
 
-VALID_DOMAINS = {"ace", "ba", "personal", "research", "general"}
+VALID_DOMAINS = {"ace", "ba", "personal", "research", "general", "drone-enterprises"}
 
 VALID_TYPES = {
     "strategy",
@@ -122,24 +125,48 @@ def check_frontmatter() -> list[str]:
 # ---------------------------------------------------------------------------
 
 
+def _get_diff_base() -> str:
+    """Return the appropriate git ref to diff against.
+
+    For pull requests (GITHUB_BASE_REF is set), use the merge-base with the
+    target branch so the check covers all commits in the PR — not just the
+    latest one.  For pushes, fall back to HEAD~1.
+    """
+    base_ref = os.environ.get("GITHUB_BASE_REF")
+    if base_ref:
+        try:
+            result = subprocess.run(
+                ["git", "merge-base", f"origin/{base_ref}", "HEAD"],
+                capture_output=True,
+                text=True,
+                check=True,
+            )
+            return result.stdout.strip()
+        except subprocess.CalledProcessError:
+            pass
+    return "HEAD~1"
+
+
 def check_log_append_only() -> list[str]:
     """Ensure log.md changes only append lines at the end."""
     errors: list[str] = []
 
     log_path = os.path.join(WIKI_DIR, "log.md")
 
-    # Only check if log.md was modified in this commit/PR.
-    # Use git diff to see if log.md changed between HEAD~1 and HEAD.
+    # Determine the correct diff base (merge-base for PRs, HEAD~1 for pushes).
+    diff_base = _get_diff_base()
+
+    # Only check if log.md was modified in this diff range.
     try:
         result = subprocess.run(
-            ["git", "diff", "--name-only", "HEAD~1", "HEAD"],
+            ["git", "diff", "--name-only", diff_base, "HEAD"],
             capture_output=True,
             text=True,
             check=True,
         )
         changed_files = result.stdout.strip().split("\n")
     except subprocess.CalledProcessError:
-        # If there's no HEAD~1 (initial commit), skip this check.
+        # If there's no valid base (initial commit), skip this check.
         return errors
 
     if log_path not in changed_files:
@@ -148,7 +175,7 @@ def check_log_append_only() -> list[str]:
     # Get the diff for log.md specifically.
     try:
         result = subprocess.run(
-            ["git", "diff", "HEAD~1", "HEAD", "--", log_path],
+            ["git", "diff", diff_base, "HEAD", "--", log_path],
             capture_output=True,
             text=True,
             check=True,
@@ -160,24 +187,47 @@ def check_log_append_only() -> list[str]:
     if not diff_output:
         return errors
 
-    # Parse the unified diff. Lines starting with '-' (but not '---') are
-    # removals. Lines starting with '+' (but not '+++') are additions.
-    # For append-only, there should be NO removed lines (no lines starting
-    # with '-' that aren't the file header).
+    # Parse the unified diff for two violations:
+    #
+    # 1. Removed lines — any line starting with '-' (but not '---') that
+    #    has non-whitespace content indicates a deletion or modification.
+    #
+    # 2. Non-tail insertions — if added lines ('+') are followed by
+    #    context lines (' ') within the same hunk, the additions are in
+    #    the middle of the file rather than appended at the end.
+
+    saw_addition_in_hunk = False
+
     for line in diff_output.split("\n"):
+        # Hunk header resets per-hunk state.
+        if line.startswith("@@"):
+            saw_addition_in_hunk = False
+            continue
+
+        # Check 1: removed lines.
         if line.startswith("-") and not line.startswith("---"):
             removed_content = line[1:].strip()
-            # Ignore empty-line removals (whitespace normalization)
+            # Ignore empty-line removals (whitespace normalization).
             if removed_content:
+                suffix = "..." if len(removed_content) > 80 else ""
                 errors.append(
                     f"{log_path}: Non-append edit detected. "
-                    f"Removed line: '{removed_content[:80]}...'"
-                    if len(removed_content) > 80
-                    else f"{log_path}: Non-append edit detected. "
-                    f"Removed line: '{removed_content}'"
+                    f"Removed line: '{removed_content[:80]}{suffix}'"
                 )
-                # One error is enough to flag the violation.
                 break
+
+        # Check 2: non-tail insertions.
+        if line.startswith("+") and not line.startswith("+++"):
+            saw_addition_in_hunk = True
+        elif line.startswith(" ") and saw_addition_in_hunk:
+            # A context line (unchanged) after an addition means content
+            # exists below the insertion point — this is a mid-file insert.
+            errors.append(
+                f"{log_path}: Non-tail insertion detected. "
+                f"Lines were added before existing content, not appended "
+                f"at the end."
+            )
+            break
 
     return errors
 
