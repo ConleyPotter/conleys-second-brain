@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-05-17  
 **Source count:** 40
-**Page count:** 65
+**Page count:** 67
 
 This wiki documents Conley Potter's life, projects, and career. It began as an ACE-only knowledge base and has expanded into a full second brain covering the Personal Brand Engine (successor to ACE), career transition strategy, BA day job, personal operating doctrine, Drone Enterprises, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -32,6 +32,8 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | [[jarvis-system]] | JARVIS content production system — Obsidian + Claude Code vault for capturing observations, finding connections, and generating content in Conley's exact voice |
 | [[drone-opportunity]] | Disposable infantry UAS startup opportunity — market research, founding thesis, Conley's active exploration with collaborator "Sam" |
 | [[multi-agent-orchestration]] | Multi-agent AI patterns — Pipeline, Fan-Out, Specialist Team; Anthropic Managed Agents, Dreaming, Outcomes; production examples from Netflix, Harvey, Shopify |
+| [[perplexity-agent-skills]] | Perplexity's guide to designing, refining, and maintaining agent skills — directory structure, progressive disclosure, routing triggers, eval suites |
+| [[ai-psychosis-hashimoto]] | Mitchell Hashimoto on "AI psychosis" — MTBF vs. MTTR parallels between cloud infrastructure and AI-assisted development |
 
 ## Day Job (BA)
 
@@ -180,3 +182,5 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | `Wedding Prayer.md` | Personal ceremonial text | 2026-04-25 |
 | `gig-portfolio "Projects" page needs re-writing ACE is described incorrectly..md` | Portfolio revision notes — ACE project description feedback | 2026-04-25 |
 | `Notes on Meeting with Sam Schutt - DENT.md` | Meeting notes — Drone Enterprises cofounding discussion | 2026-04-26 |
+| `designing-refining-and-maintaining-agent-skills-at-perplexity.md` | Perplexity engineering guide — agent skill design patterns, progressive disclosure, eval suites | 2026-05-17 |
+| `mitchellh-ai-psychosis-software-development.md` | X thread — Mitchell Hashimoto on AI psychosis in software development, MTBF vs. MTTR parallels | 2026-05-17 |
