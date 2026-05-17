@@ -69,7 +69,7 @@ Every page uses a `type` frontmatter field. Current types in use:
 ```yaml
 ---
 type: strategy
-domain: ace          # ace | ba | personal | research | general
+domain: ace          # ace | ba | personal | research | general | drone-enterprises
 tags: []
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
@@ -110,13 +110,15 @@ The index uses a header block followed by **section tables**. Match this structu
 **Section organization** (current):
 
 - Core Strategy
-- ACE Operations & Tech
+- General Knowledge
+- Day Job (BA)
+- Personal Brand Engine & Tech
 - Marketing & Brand
 - Identity & Public Presence
-- Day Job (BA)
 - Projects
 - Personal
 - Day Job Logs
+- Drone Enterprises
 - Meta
 - Source Files
 
@@ -357,8 +359,6 @@ When a new domain becomes active, create a `domain` page for it and add a new se
 
 Track pages with open issues here so they aren't forgotten between sessions:
 
-- `[[ba-products]]` — built by inference; needs validation against BA's actual rate card
-- `[[ba-team]]` — roles inferred from behavioral observation; formal titles need verification
 - `[[ba-clients-pipeline]]` — seeded from two sources only; full client base not yet represented
 - `[[conley-potter]]` — wedding date June 12, 2026; update "engaged to Sami" to "married" post-June 12
 - `[[portfolio-website]]` — wiki's "What the Site Currently Says" section is pre-update (April 14 state); ingest a new site snapshot to sync the copy
