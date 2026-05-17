@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
-**Last updated:** 2026-05-16  
-**Source count:** 39
-**Page count:** 63
+**Last updated:** 2026-05-17  
+**Source count:** 40
+**Page count:** 65
 
 This wiki documents Conley Potter's life, projects, and career. It began as an ACE-only knowledge base and has expanded into a full second brain covering the Personal Brand Engine (successor to ACE), career transition strategy, BA day job, personal operating doctrine, Drone Enterprises, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -170,10 +170,13 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | `Daily-Recap_2026-04-17.md` | BA workday log — FLACA conference day; Telle Tire booked, Turnkey confirmed, team handled 3 urgent client threads | 2026-04-18 |
 | `How to Build a JARVIS Inside Obsidian With Claude Code — The Full Setup From Scratch.md` | @cyrilXBT guide — full JARVIS system setup: vault architecture, four core skills, daily ritual, performance feedback loop | 2026-04-24 |
 | `New JARVIS Repo CLAUDE.md File.md` | Generic JARVIS CLAUDE.md template — identity, vault structure, voice, hard rules, primary jobs; Conley-specific version saved as `JARVIS-CLAUDE.md` | 2026-04-24 |
-| `compass_artifact_wf-cf062d2d-8ed4-460c-a460-02e0262b03b7_text_markdown.md` | Defense research brief — disposable infantry drone market opportunity; doctrine, adversary analysis, supply chain, company-build strategy, funding, go-to-market | 2026-04-24 |
+| `The disposable drone opportunity - a founder's playbook for infantry-scale UAS.md` | Defense research brief — disposable infantry drone market opportunity; doctrine, adversary analysis, supply chain, company-build strategy, funding, go-to-market | 2026-04-24 |
 | `Questions & Notes on the Disposable Drone Research Document.md` | Conley's working notes on the drone research — glossary terms, questions for collaborator "Sam" re: ISR/OWA/decoy variants, TAM breakdown | 2026-04-24 |
 | `Daily-Recap_2026-04-20.md` | BA workday log — first day back from FLACA; Menard webmaster breakthrough, South Lake Euro billing transition, four client calls, FLACA accountability conversation | 2026-04-27 |
 | `Daily-Recap_2026-04-21.md` | BA workday log — packed 8-event day; Telle Tire PE lead, Import Car go-live, Viktor first use, Sage Creek record performance, DSA deprecation, Claude Teams cap | 2026-04-27 |
 | `blog-article-vault-explainer.md` | Blog article brief — detailed agent prompt for writing a 1,200–1,800 word article on building an AI-native operational vault for agency operations; produced draft `2026-05-05-ai-operational-vault-draft.md` | 2026-05-05 |
 | `50272789-conleypotterresume2026.docx` | Conley's most current resume (May 2026) — supersedes all July 2025 variants; source for `cv.md` | 2026-05-12 |
 | `how-to-build-a-team-of-ai-agents-that-actually-work-together.md` | X thread — multi-agent orchestration course; three patterns, seven-step build process, production examples | 2026-05-16 |
+| `Wedding Prayer.md` | Personal ceremonial text | 2026-04-25 |
+| `gig-portfolio "Projects" page needs re-writing ACE is described incorrectly..md` | Portfolio revision notes — ACE project description feedback | 2026-04-25 |
+| `Notes on Meeting with Sam Schutt - DENT.md` | Meeting notes — Drone Enterprises cofounding discussion | 2026-04-26 |
