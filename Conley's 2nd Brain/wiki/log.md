@@ -1134,3 +1134,29 @@ A ~2,500-word X thread presenting a full course on building multi-agent AI syste
 - Harvey's claimed 6x completion rate improvement from Dreaming alone is a striking data point. If accurate, it suggests persistent memory is the highest-leverage improvement for any agent system — more impactful than model upgrades or prompt engineering.
 - This is the first source captured and ingested entirely through the new Hyperagent Second Brain Ingest Agent — fetched from an X.com URL via browser automation, converted to markdown, and committed to the repo without touching Claude Code locally.
 - The Apple/iOS 27 Claude integration mention is a significant industry signal worth tracking — Claude becoming a system-level service on Apple devices changes distribution dynamics for anyone building Claude-based tools.
+
+
+---
+
+## [2026-05-18] ingest | Orphan raw-source wiki coverage — Wedding Prayer, Sam Schutt notes, gig-portfolio
+
+**Source type:** Three orphan raw-sources identified by Vault Steward (issue #42)
+**Pages created:** 1 (`wedding-prayer.md`)
+**Pages updated:** 2 (`sam-schutt.md`, `portfolio-website.md`)
+
+### What these sources contain
+
+Three raw-source files lacked wiki coverage: (1) Wedding Prayer.md — Conley's ceremony prayer by Olivia and his dinner speech/prayer for the June 12, 2026 wedding; (2) Notes on Meeting with Sam Schutt - DENT.md — technical drone notes on Faraday cage EMF protection, nickel coating, PETG shell materials; (3) gig-portfolio snapshot of the portfolio Projects page showing the updated ACE/Sentinel/TLE descriptions.
+
+### What changed
+
+- Created `wedding-prayer.md` (Personal domain) with structured summary of both prayers
+- Enriched `sam-schutt.md` with a new "Technical contributions" section containing EMF protection and materials science details from the DENT meeting notes; added source citation
+- Added `gig-portfolio...md` as a source citation in `portfolio-website.md` (content was already absorbed)
+- Updated `index.md` page count and added wedding-prayer entry to the Personal section
+
+### Notable observations
+
+- The Wedding Prayer raw-source was intentionally captured to the second brain, confirming personal/life content is in scope
+- Sam Schutt's meeting notes contain specific materials science knowledge (Faraday cage, nickel coating, PETG) that enriches the drone engineering picture beyond what's in drone-enterprises.md
+- The gig-portfolio snapshot was captured after the April 2026 portfolio update — it shows the corrected ACE description, not the old one. No new wiki content was needed
