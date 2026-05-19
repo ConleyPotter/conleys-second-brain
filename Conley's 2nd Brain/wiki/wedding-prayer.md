@@ -46,4 +46,4 @@ Key themes:
 
 ## Context
 
-The wedding is scheduled for June 12, 2026. Conley's best man is [[sam-schutt]]. The raw source was captured to the second brain as personal/life content, confirming that ceremonial and identity-level material is in scope for this vault.
+The wedding is scheduled for June 12, 2026. The raw source was captured to the second brain as personal/life content, confirming that ceremonial and identity-level material is in scope for this vault.
