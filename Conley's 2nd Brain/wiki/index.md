@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
-**Last updated:** 2026-05-18  
-**Source count:** 40
-**Page count:** 66
+**Last updated:** 2026-05-20  
+**Source count:** 42
+**Page count:** 68
 
 This wiki documents Conley Potter's life, projects, and career. It began as an ACE-only knowledge base and has expanded into a full second brain covering the Personal Brand Engine (successor to ACE), career transition strategy, BA day job, personal operating doctrine, Drone Enterprises, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -43,6 +43,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | [[ba-team]] | Official 13-person team roster with confirmed titles, Slack names, and locations |
 | [[ba-clients-pipeline]] | Rolling reference for key client accounts and pipeline — context HubSpot doesn't hold |
 | [[adam-shop-incubator]] | Adam's 6-location auto repair shop chain — content engine, incubator, real estate play; GC referral placed Apr 7 |
+| [[autoboost-vault-skills]] | AutoBoost Vault skills development — slash commands → skills migration, team-wide AI tooling rollout plans |
 
 ## Personal Brand Engine & Tech
 
@@ -103,6 +104,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | [[domain-personal]] | Personal domain anchor — what this domain covers and current year at a glance |
 | [[operating-doctrine-2026]] | Full 2026 operating doctrine — year theme, leverage stack, decision filter, end conditions |
 | [[wedding-prayer]] | Ceremony prayer (Olivia) and dinner speech/prayer (Conley) for the June 12, 2026 wedding to Sami |
+| [[housing-offer-lebanon]] | Mom's multi-gen housing offer — 1403 Douglas Fir Dr, Lebanon PA; ~$1,100/mo all-inclusive; June 30 closing |
 
 ## Day Job Logs
 
@@ -180,3 +182,5 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | `Wedding Prayer.md` | Personal ceremonial text | 2026-04-25 |
 | `gig-portfolio "Projects" page needs re-writing ACE is described incorrectly..md` | Portfolio revision notes — ACE project description feedback | 2026-04-25 |
 | `Notes on Meeting with Sam Schutt - DENT.md` | Meeting notes — Drone Enterprises cofounding discussion | 2026-04-26 |
+| `autoboost-vault-skills-development-reflection-2026-05-19.md` | Personal reflection — AutoBoost Vault skills development and team rollout | 2026-05-19 |
+| `mom-housing-offer-lebanon-pa-2026-05-19.md` | Personal voice note — multi-gen housing offer in Lebanon, PA | 2026-05-19 |
