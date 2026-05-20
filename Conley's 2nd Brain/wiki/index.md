@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
-**Last updated:** 2026-05-17  
+**Last updated:** 2026-05-18  
 **Source count:** 40
-**Page count:** 65
+**Page count:** 66
 
 This wiki documents Conley Potter's life, projects, and career. It began as an ACE-only knowledge base and has expanded into a full second brain covering the Personal Brand Engine (successor to ACE), career transition strategy, BA day job, personal operating doctrine, Drone Enterprises, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -102,6 +102,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 |---|---|
 | [[domain-personal]] | Personal domain anchor — what this domain covers and current year at a glance |
 | [[operating-doctrine-2026]] | Full 2026 operating doctrine — year theme, leverage stack, decision filter, end conditions |
+| [[wedding-prayer]] | Ceremony prayer (Olivia) and dinner speech/prayer (Conley) for the June 12, 2026 wedding to Sami |
 
 ## Day Job Logs
 

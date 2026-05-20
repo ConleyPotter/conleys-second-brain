@@ -8,6 +8,7 @@ sources:
   - Personal Portfolio Website Current State 4.14.26.md
   - ACE Pivot Explanation.md
   - portfolio-website-about-page-4-18.md
+  - gig-portfolio "Projects" page needs re-writing ACE is described incorrectly..md
 ---
 
 # Portfolio Website — Current State
