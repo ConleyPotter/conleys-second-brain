@@ -1180,3 +1180,28 @@ Mitchell Hashimoto (@mitchellh, co-founder of HashiCorp) posted a widely-shared 
 - Connects to [[operating-doctrine-2026]]'s emphasis on using AI without losing comprehension
 - The MTBF/MTTR framing is a concise way to explain this risk in content and conversations
 - At 1M+ views this is a culturally significant signal in the engineering community worth tracking
+
+---
+
+## [2026-05-18] ingest | Orphan raw-source wiki coverage — Wedding Prayer, Sam Schutt notes, gig-portfolio
+
+**Source type:** Three orphan raw-sources identified by Vault Steward (issue #42)
+**Pages created:** 1 (`wedding-prayer.md`)
+**Pages updated:** 2 (`sam-schutt.md`, `portfolio-website.md`)
+
+### What these sources contain
+
+Three raw-source files lacked wiki coverage: (1) Wedding Prayer.md — Conley's ceremony prayer by Olivia and his dinner speech/prayer for the June 12, 2026 wedding; (2) Notes on Meeting with Sam Schutt - DENT.md — technical drone notes on Faraday cage EMF protection, nickel coating, PETG shell materials; (3) gig-portfolio snapshot of the portfolio Projects page showing the updated ACE/Sentinel/TLE descriptions.
+
+### What changed
+
+- Created `wedding-prayer.md` (Personal domain) with structured summary of both prayers
+- Enriched `sam-schutt.md` with a new "Technical contributions" section containing EMF protection and materials science details from the DENT meeting notes; added source citation
+- Added `gig-portfolio...md` as a source citation in `portfolio-website.md` (content was already absorbed)
+- Updated `index.md` page count and added wedding-prayer entry to the Personal section
+
+### Notable observations
+
+- The Wedding Prayer raw-source was intentionally captured to the second brain, confirming personal/life content is in scope
+- Sam Schutt's meeting notes contain specific materials science knowledge (Faraday cage, nickel coating, PETG) that enriches the drone engineering picture beyond what's in drone-enterprises.md
+- The gig-portfolio snapshot was captured after the April 2026 portfolio update — it shows the corrected ACE description, not the old one. No new wiki content was needed

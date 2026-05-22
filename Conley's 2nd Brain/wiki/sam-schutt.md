@@ -3,8 +3,9 @@ type: identity
 domain: drone-enterprises
 tags: [drone-enterprises, cofounder, personal]
 created: 2026-04-21
-updated: 2026-04-21
-sources: []
+updated: 2026-05-18
+sources:
+  - Notes on Meeting with Sam Schutt - DENT.md
 ---
 
 # Sam Schutt
@@ -36,6 +37,21 @@ The ideal co-founding profile for Drone Enterprises (per the founding-team arche
 - OR commercial/CEO with defense acquisition fluency (ex-DIU, ex-SOCOM, or operator background)
 
 Sam's specific fit within this framework should be documented as the founding team crystallizes.
+
+---
+
+## Technical contributions
+
+From a meeting between Conley and Sam (documented in the DENT meeting notes), Sam surfaced several specific concepts relevant to Drone Enterprises' build strategy:
+
+### Faraday cage / EMF protection
+- A Faraday cage enables drones to withstand EMF attacks and provides stealth by eliminating their thermal resonance, preventing locking mechanisms on weapons systems from locking onto them
+- Also discussed a "ray gun" that shoots EMF rays to disable drones' connections to the tether
+
+### Materials and coatings
+- **Nickel coating paint** — makes the drone weather and RF resistant
+- **PETG outer shell** — used for the drone's exterior body
+- **Carbon coating paint** — applied on the outside of the interior
 
 ---
 

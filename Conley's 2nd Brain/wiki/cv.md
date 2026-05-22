@@ -4,13 +4,14 @@ domain: personal
 tags: [resume, cv, identity, job-search, career]
 created: 2026-05-12
 updated: 2026-05-17
-sources:
-  - 50272789-conleypotterresume2026.docx
+sources: []
 ---
 
 # CV -- Conley Potter
 
 **Related:** [[conley-potter]], [[career-history]], [[career-transition-strategy]], [[resume-variants]]
+
+> **Source note:** This CV was built from `50272789-conleypotterresume2026.docx`, which was uploaded directly and not committed to `raw-sources/`.
 
 **Location:** Lancaster, PA
 **Email:** conley.potter@gmail.com
