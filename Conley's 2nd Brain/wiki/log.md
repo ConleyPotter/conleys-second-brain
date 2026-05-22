@@ -1135,6 +1135,51 @@ A ~2,500-word X thread presenting a full course on building multi-agent AI syste
 - This is the first source captured and ingested entirely through the new Hyperagent Second Brain Ingest Agent — fetched from an X.com URL via browser automation, converted to markdown, and committed to the repo without touching Claude Code locally.
 - The Apple/iOS 27 Claude integration mention is a significant industry signal worth tracking — Claude becoming a system-level service on Apple devices changes distribution dynamics for anyone building Claude-based tools.
 
+## [2026-05-17] ingest | Perplexity Agent Skills Guide
+
+**Source type:** Engineering blog post — internal guide to designing agent skills at Perplexity
+**Pages created:** 1 (`perplexity-agent-skills.md`)
+**Pages updated:** 0
+
+### What this source contains
+
+Perplexity's Agents team published their internal playbook for building, reviewing, and maintaining Agent Skills — the modular knowledge packages powering Perplexity Computer. The guide systematically inverts conventional software engineering intuitions: skills are directories not files, descriptions are routing triggers not documentation, gotchas are the highest-value content, and anything the model already knows should be deleted. It covers the three-tier progressive disclosure cost model, a four-step build process (description → body → hierarchy → iterate), and a rigorous eval framework (precision, recall, forbidden loads, file reads, end-to-end quality).
+
+### What changed
+
+- Created `perplexity-agent-skills.md` in General Knowledge with full structured summary
+- Added page to index.md General Knowledge section
+- Added raw source to index.md Source Files table
+
+### Notable observations
+
+- The "description as routing trigger" principle directly applies to Hyperagent skill design and the vault's own agent architecture
+- Progressive disclosure (100 tokens index → full SKILL.md → conditional references) mirrors how this vault's agents selectively load context
+- The emphasis on evals before skills is a pattern worth adopting for the second brain agent pipeline
+- Connects to [[gstack]], [[llm-wiki-pattern]], and [[second-brain-mcp-server]]
+
+## [2026-05-17] ingest | Mitchell Hashimoto on AI Psychosis
+
+**Source type:** X thread — opinion piece on AI-assisted development risks
+**Pages created:** 1 (`ai-psychosis-hashimoto.md`)
+**Pages updated:** 0
+
+### What this source contains
+
+Mitchell Hashimoto (@mitchellh, co-founder of HashiCorp) posted a widely-shared thread warning about "AI psychosis" in software development. He draws a direct parallel to the MTBF vs. MTTR reckoning during the cloud infrastructure transition: organizations are adopting an uncritical "agents will fix the bugs" mentality, and surface-level metrics (test coverage up, bug reports down) mask systemic architectural decay. The thread resonated broadly (12K+ likes, 1M+ views).
+
+### What changed
+
+- Created `ai-psychosis-hashimoto.md` in General Knowledge with structured summary
+- Added page to index.md General Knowledge section
+- Added raw source to index.md Source Files table
+
+### Notable observations
+
+- Useful counterbalance to the vault's generally pro-AI-leverage stance — acknowledges the real risk of over-delegation
+- Connects to [[operating-doctrine-2026]]'s emphasis on using AI without losing comprehension
+- The MTBF/MTTR framing is a concise way to explain this risk in content and conversations
+- At 1M+ views this is a culturally significant signal in the engineering community worth tracking
 
 ---
 
