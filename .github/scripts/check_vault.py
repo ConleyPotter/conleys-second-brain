@@ -29,7 +29,7 @@ SPECIAL_FILES = {"index.md", "log.md"}
 
 REQUIRED_FIELDS = {"type", "domain", "created", "updated"}
 
-VALID_DOMAINS = {"ace", "ba", "personal", "research", "general", "drone-enterprises"}
+VALID_DOMAINS = {"ace", "ba", "personal", "research", "general", "drone-enterprises", "long-game-studios"}
 
 VALID_TYPES = {
     "strategy",
