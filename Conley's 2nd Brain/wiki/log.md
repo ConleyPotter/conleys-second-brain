@@ -1135,6 +1135,25 @@ A ~2,500-word X thread presenting a full course on building multi-agent AI syste
 - This is the first source captured and ingested entirely through the new Hyperagent Second Brain Ingest Agent — fetched from an X.com URL via browser automation, converted to markdown, and committed to the repo without touching Claude Code locally.
 - The Apple/iOS 27 Claude integration mention is a significant industry signal worth tracking — Claude becoming a system-level service on Apple devices changes distribution dynamics for anyone building Claude-based tools.
 
+---
+
+## [2026-05-17] split | portfolio-update-plan.md — archive completed queries
+
+**Trigger:** Issue #38 — page at 34KB mixes completed historical queries with still-actionable pending work
+**Pages created:** 1 (`portfolio-update-history.md`)
+**Pages updated:** 1 (`portfolio-update-plan.md`)
+
+### What changed
+
+- **`portfolio-update-history.md` created** (type: work-log, domain: personal) — archives completed coding-agent queries 1–4 from the Portfolio Website Update Plan. Includes the executed changes summary for each query and the full original spec for Query 3 (about page brand voice injection).
+- **`portfolio-update-plan.md` slimmed** — replaced inline Query 1–4 content with a summary table and pointer to `portfolio-update-history.md`. Pending queries 5–9, the QA checklist, and all shared context sections retained. Reduced from 33,947 bytes to ~27,100 bytes.
+- **`index.md` updated** — page count 65 → 66, `portfolio-update-plan` description updated, `portfolio-update-history` entry added to Identity & Public Presence section.
+
+### Notable observations
+
+- The remaining plan page is still ~27KB because Queries 5–9 are individually large (Query 5 contains a full article body, Queries 7–8 contain detailed career timeline specs). A further split is not warranted — the remaining content is all actionable pending work with a coherent purpose.
+- Queries 5–8 remain applicable post-PBE pivot: they address the portfolio website's career history, capabilities, and writing section, none of which are ACE-specific.
+- Query 9 (Upwork profile URL) may be stale given the freelance strategy deprioritization, but it's deferred and trivial — left as-is.
 ## [2026-05-17] ingest | Perplexity Agent Skills Guide
 
 **Source type:** Engineering blog post — internal guide to designing agent skills at Perplexity
@@ -1206,6 +1225,50 @@ Three raw-source files lacked wiki coverage: (1) Wedding Prayer.md — Conley's 
 - Sam Schutt's meeting notes contain specific materials science knowledge (Faraday cage, nickel coating, PETG) that enriches the drone engineering picture beyond what's in drone-enterprises.md
 - The gig-portfolio snapshot was captured after the April 2026 portfolio update — it shows the corrected ACE description, not the old one. No new wiki content was needed
 
+## [2026-05-20] ingest | AutoBoost Vault — Skills Development Reflection
+
+**Source type:** Personal voice-note reflection on internal AI tooling development
+**Pages created:** 1 (`autoboost-vault-skills.md`)
+**Pages updated:** 0
+
+### What this source contains
+
+Conley's reflection on a productive day spent transitioning personal slash commands into reusable skills and routines for the AutoBoost Vault project. He is preparing the system for team-wide rollout at BA, which requires making the tooling accessible to non-technical team members. He also notes the Hyperagent skills model — skills as folders of scripts — as a significant capability upgrade.
+
+### What changed
+
+- Created `autoboost-vault-skills.md` (type: operations, domain: ba) documenting the slash-commands-to-skills migration, team rollout plans, and Hyperagent skills architecture insights
+- Added page to Day Job (BA) section of `index.md`; page count 66 → 67
+- Added source to Source Files table; source count 40 → 41
+
+### Notable observations
+
+- This is the first signal that BA's internal AI tooling is expanding beyond Conley's personal use to a team-wide rollout — significant for `ba-overview.md`
+- The skills-as-folders model Conley describes aligns with the architecture he's building in Hyperagent for his personal second brain agents
+- The "make it friendly for the whole team" challenge echoes the UX simplification theme in `tech-stack.md` and could generate future wiki pages on internal tooling adoption
+
+## [2026-05-20] ingest | Mom's Housing Offer — Lebanon PA Multi-Gen Property
+
+**Source type:** Personal voice-note capturing a family housing proposal
+**Pages created:** 1 (`housing-offer-lebanon.md`)
+**Pages updated:** 0
+
+### What this source contains
+
+Conley's mom and Jim have invited Conley and Sami to move into a six-bedroom multi-generation property at 1403 Douglas Fir Drive, Lebanon, PA (Cornwall School District). The lower floor offers ~2,000 sq ft of independent living space with its own entrance, driveway, and patio. Rent would be ~$1,100 including all utilities. Closing is June 30, 2026 — 18 days after the wedding. Mom's motivation: help Sami stop working to start a family, provide childcare, and help them save for a first home.
+
+### What changed
+
+- Created `housing-offer-lebanon.md` (type: identity, domain: personal) documenting the property details, timeline, financial terms, and family context
+- Added page to Personal section of `index.md`; page count 67 → 68
+- Added source to Source Files table; source count 41 → 42
+
+### Notable observations
+
+- The June 30 closing compresses two major life transitions (wedding + move) into a single month — worth flagging in `conley-potter.md` when the time comes
+- The ~$1,100/month all-inclusive rent represents a dramatic cost reduction that directly supports the 2026 operating doctrine's financial goals
+- Mom's offer to help with childcare signals a near-term family planning timeline — `conley-potter.md` should be updated post-wedding with these life developments
+- The property includes a workshop/art studio building that could be relevant to The River Room or future creative projects
 ---
 
 ## [2026-05-31] lint | Weekly deep audit — Vault Keeper consolidated run
