@@ -78,7 +78,8 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | [[career-history]] | Full career timeline: Epic → App Academy → Madison freelance → Lancaster freelance → Tenfold → Stoltzfus → AutoBoost |
 | [[resume-variants]] | Three July 2025 resume variants — General (values-aligned), AI (B2B SaaS automation), ADS (paid media/eCommerce) |
 | [[portfolio-website]] | Current state of Conley's personal portfolio — what it says, what's accurate, what needs updating |
-| [[portfolio-update-plan]] | Nine coding-agent queries to update the portfolio for ACE Phase 1 launch — Queries 1–4 complete, 5–8 pending |
+| [[portfolio-update-plan]] | Five pending coding-agent queries (5–9) to finish portfolio updates — completed queries archived in portfolio-update-history |
+| [[portfolio-update-history]] | Archived record of completed portfolio update queries 1–4 (April 2026) — ACE entry, consulting section, about page voice, housekeeping |
 | [[career-transition-strategy]] | Full strategy for transitioning to a high-compensation corporate role — role targets, company list, SaaS market concerns, 6–12 month plan |
 | [[resume-cs-ai-leadership-2026]] | Updated resume targeting AI strategy and client success leadership roles — includes BA role, AI systems section, 2026 positioning |
 | [[cv]] | CV in clean markdown format — canonical 2026 version superseding all July 2025 variants; source of truth for work history, skills, and positioning |
