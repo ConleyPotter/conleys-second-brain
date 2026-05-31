@@ -1225,6 +1225,50 @@ Three raw-source files lacked wiki coverage: (1) Wedding Prayer.md — Conley's 
 - Sam Schutt's meeting notes contain specific materials science knowledge (Faraday cage, nickel coating, PETG) that enriches the drone engineering picture beyond what's in drone-enterprises.md
 - The gig-portfolio snapshot was captured after the April 2026 portfolio update — it shows the corrected ACE description, not the old one. No new wiki content was needed
 
+## [2026-05-20] ingest | AutoBoost Vault — Skills Development Reflection
+
+**Source type:** Personal voice-note reflection on internal AI tooling development
+**Pages created:** 1 (`autoboost-vault-skills.md`)
+**Pages updated:** 0
+
+### What this source contains
+
+Conley's reflection on a productive day spent transitioning personal slash commands into reusable skills and routines for the AutoBoost Vault project. He is preparing the system for team-wide rollout at BA, which requires making the tooling accessible to non-technical team members. He also notes the Hyperagent skills model — skills as folders of scripts — as a significant capability upgrade.
+
+### What changed
+
+- Created `autoboost-vault-skills.md` (type: operations, domain: ba) documenting the slash-commands-to-skills migration, team rollout plans, and Hyperagent skills architecture insights
+- Added page to Day Job (BA) section of `index.md`; page count 66 → 67
+- Added source to Source Files table; source count 40 → 41
+
+### Notable observations
+
+- This is the first signal that BA's internal AI tooling is expanding beyond Conley's personal use to a team-wide rollout — significant for `ba-overview.md`
+- The skills-as-folders model Conley describes aligns with the architecture he's building in Hyperagent for his personal second brain agents
+- The "make it friendly for the whole team" challenge echoes the UX simplification theme in `tech-stack.md` and could generate future wiki pages on internal tooling adoption
+
+## [2026-05-20] ingest | Mom's Housing Offer — Lebanon PA Multi-Gen Property
+
+**Source type:** Personal voice-note capturing a family housing proposal
+**Pages created:** 1 (`housing-offer-lebanon.md`)
+**Pages updated:** 0
+
+### What this source contains
+
+Conley's mom and Jim have invited Conley and Sami to move into a six-bedroom multi-generation property at 1403 Douglas Fir Drive, Lebanon, PA (Cornwall School District). The lower floor offers ~2,000 sq ft of independent living space with its own entrance, driveway, and patio. Rent would be ~$1,100 including all utilities. Closing is June 30, 2026 — 18 days after the wedding. Mom's motivation: help Sami stop working to start a family, provide childcare, and help them save for a first home.
+
+### What changed
+
+- Created `housing-offer-lebanon.md` (type: identity, domain: personal) documenting the property details, timeline, financial terms, and family context
+- Added page to Personal section of `index.md`; page count 67 → 68
+- Added source to Source Files table; source count 41 → 42
+
+### Notable observations
+
+- The June 30 closing compresses two major life transitions (wedding + move) into a single month — worth flagging in `conley-potter.md` when the time comes
+- The ~$1,100/month all-inclusive rent represents a dramatic cost reduction that directly supports the 2026 operating doctrine's financial goals
+- Mom's offer to help with childcare signals a near-term family planning timeline — `conley-potter.md` should be updated post-wedding with these life developments
+- The property includes a workshop/art studio building that could be relevant to The River Room or future creative projects
 ---
 
 ## [2026-05-31] lint | Weekly deep audit — Vault Keeper consolidated run
