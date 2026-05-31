@@ -1,6 +1,6 @@
 # Conley Potter's 2nd Brain — Index
 
-**Last updated:** 2026-05-20  
+**Last updated:** 2026-05-31  
 **Source count:** 42
 **Page count:** 68
 
@@ -32,6 +32,8 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | [[jarvis-system]] | JARVIS content production system — Obsidian + Claude Code vault for capturing observations, finding connections, and generating content in Conley's exact voice |
 | [[drone-opportunity]] | Disposable infantry UAS startup opportunity — market research, founding thesis, Conley's active exploration with collaborator "Sam" |
 | [[multi-agent-orchestration]] | Multi-agent AI patterns — Pipeline, Fan-Out, Specialist Team; Anthropic Managed Agents, Dreaming, Outcomes; production examples from Netflix, Harvey, Shopify |
+| [[perplexity-agent-skills]] | Perplexity's guide to designing, refining, and maintaining agent skills — directory structure, progressive disclosure, routing triggers, eval suites |
+| [[ai-psychosis-hashimoto]] | Mitchell Hashimoto on "AI psychosis" — MTBF vs. MTTR parallels between cloud infrastructure and AI-assisted development |
 
 ## Day Job (BA)
 
@@ -77,7 +79,8 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | [[career-history]] | Full career timeline: Epic → App Academy → Madison freelance → Lancaster freelance → Tenfold → Stoltzfus → AutoBoost |
 | [[resume-variants]] | Three July 2025 resume variants — General (values-aligned), AI (B2B SaaS automation), ADS (paid media/eCommerce) |
 | [[portfolio-website]] | Current state of Conley's personal portfolio — what it says, what's accurate, what needs updating |
-| [[portfolio-update-plan]] | Nine coding-agent queries to update the portfolio for ACE Phase 1 launch — Queries 1–4 complete, 5–8 pending |
+| [[portfolio-update-plan]] | Five pending coding-agent queries (5–9) to finish portfolio updates — completed queries archived in portfolio-update-history |
+| [[portfolio-update-history]] | Archived record of completed portfolio update queries 1–4 (April 2026) — ACE entry, consulting section, about page voice, housekeeping |
 | [[career-transition-strategy]] | Full strategy for transitioning to a high-compensation corporate role — role targets, company list, SaaS market concerns, 6–12 month plan |
 | [[resume-cs-ai-leadership-2026]] | Updated resume targeting AI strategy and client success leadership roles — includes BA role, AI systems section, 2026 positioning |
 | [[cv]] | CV in clean markdown format — canonical 2026 version superseding all July 2025 variants; source of truth for work history, skills, and positioning |
@@ -128,6 +131,18 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | [[drone-funding-gtm]] | Defense VC landscape, SBIR/OTA pathways, Blue UAS on-ramp, 0–5 year GTM roadmap |
 | [[sam-schutt]] | Sam Schutt — Conley's closest friend, best man, and Drone Enterprises co-founder; stub |
 
+## Long Game Studios
+
+| Page | Summary |
+|---|---|
+| | *No pages yet — domain infrastructure added 2026-05-30. Dev-log capture will populate this section.* |
+
+## Long Game Studios Dev Logs
+
+| Page | Summary |
+|---|---|
+| | *No pages yet — first dev-log capture pending.* |
+
 ## Meta
 
 | Page                        | Summary |
@@ -148,7 +163,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | `ACE Phase 1 Reference Brief.md`                   | Operational reference / quick brief | 2026-04-14 |
 | `ACE_Phase1_Campaign_Plan.md`                      | Marketing campaign plan             | 2026-04-14 |
 | `Brand Voice Guide 4.14.md`                        | Brand voice documentation           | 2026-04-14 |
-| `Upwork_Portfolio_Projects.md`                     | Portfolio copy + instructions       | 2026-04-14 |
+| `Upwork_Portfolio_Projects.md`                      | Portfolio copy + instructions       | 2026-04-14 |
 | `Claude Accounts' Saved Memories.md`              | Multi-account operator memory consolidation | 2026-04-14 |
 | `Personal Portfolio Website Current State 4.14.26.md` | Current portfolio copy — career history, projects, philosophy, writing topics | 2026-04-14 |
 | `ACE Pivot Explanation.md` | Why and how ACE transitioned from autonomous content studio to HITL arbitrage system | 2026-04-14 |
@@ -182,5 +197,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | `Wedding Prayer.md` | Personal ceremonial text | 2026-04-25 |
 | `gig-portfolio "Projects" page needs re-writing ACE is described incorrectly..md` | Portfolio revision notes — ACE project description feedback | 2026-04-25 |
 | `Notes on Meeting with Sam Schutt - DENT.md` | Meeting notes — Drone Enterprises cofounding discussion | 2026-04-26 |
+| `designing-refining-and-maintaining-agent-skills-at-perplexity.md` | Perplexity engineering guide — agent skill design patterns, progressive disclosure, eval suites | 2026-05-17 |
+| `mitchellh-ai-psychosis-software-development.md` | X thread — Mitchell Hashimoto on AI psychosis in software development, MTBF vs. MTTR parallels | 2026-05-17 |
 | `autoboost-vault-skills-development-reflection-2026-05-19.md` | Personal reflection — AutoBoost Vault skills development and team rollout | 2026-05-19 |
 | `mom-housing-offer-lebanon-pa-2026-05-19.md` | Personal voice note — multi-gen housing offer in Lebanon, PA | 2026-05-19 |

@@ -3,8 +3,13 @@ type: strategy
 domain: personal
 tags: [pbe, personal-brand, career, content, portfolio, ace, tle]
 created: 2026-05-06
-updated: 2026-05-06
-sources: []
+updated: 2026-05-17
+sources:
+  - ace-overview.md
+  - thought-leader-engine.md
+  - content-strategy.md
+  - brand-voice.md
+  - career-transition-strategy.md
 ---
 
 # Personal Brand Engine (PBE)
