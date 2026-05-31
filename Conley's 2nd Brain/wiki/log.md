@@ -1135,7 +1135,6 @@ A ~2,500-word X thread presenting a full course on building multi-agent AI syste
 - This is the first source captured and ingested entirely through the new Hyperagent Second Brain Ingest Agent — fetched from an X.com URL via browser automation, converted to markdown, and committed to the repo without touching Claude Code locally.
 - The Apple/iOS 27 Claude integration mention is a significant industry signal worth tracking — Claude becoming a system-level service on Apple devices changes distribution dynamics for anyone building Claude-based tools.
 
-
 ---
 
 ## [2026-05-17] split | portfolio-update-plan.md — archive completed queries
@@ -1155,3 +1154,108 @@ A ~2,500-word X thread presenting a full course on building multi-agent AI syste
 - The remaining plan page is still ~27KB because Queries 5–9 are individually large (Query 5 contains a full article body, Queries 7–8 contain detailed career timeline specs). A further split is not warranted — the remaining content is all actionable pending work with a coherent purpose.
 - Queries 5–8 remain applicable post-PBE pivot: they address the portfolio website's career history, capabilities, and writing section, none of which are ACE-specific.
 - Query 9 (Upwork profile URL) may be stale given the freelance strategy deprioritization, but it's deferred and trivial — left as-is.
+## [2026-05-17] ingest | Perplexity Agent Skills Guide
+
+**Source type:** Engineering blog post — internal guide to designing agent skills at Perplexity
+**Pages created:** 1 (`perplexity-agent-skills.md`)
+**Pages updated:** 0
+
+### What this source contains
+
+Perplexity's Agents team published their internal playbook for building, reviewing, and maintaining Agent Skills — the modular knowledge packages powering Perplexity Computer. The guide systematically inverts conventional software engineering intuitions: skills are directories not files, descriptions are routing triggers not documentation, gotchas are the highest-value content, and anything the model already knows should be deleted. It covers the three-tier progressive disclosure cost model, a four-step build process (description → body → hierarchy → iterate), and a rigorous eval framework (precision, recall, forbidden loads, file reads, end-to-end quality).
+
+### What changed
+
+- Created `perplexity-agent-skills.md` in General Knowledge with full structured summary
+- Added page to index.md General Knowledge section
+- Added raw source to index.md Source Files table
+
+### Notable observations
+
+- The "description as routing trigger" principle directly applies to Hyperagent skill design and the vault's own agent architecture
+- Progressive disclosure (100 tokens index → full SKILL.md → conditional references) mirrors how this vault's agents selectively load context
+- The emphasis on evals before skills is a pattern worth adopting for the second brain agent pipeline
+- Connects to [[gstack]], [[llm-wiki-pattern]], and [[second-brain-mcp-server]]
+
+## [2026-05-17] ingest | Mitchell Hashimoto on AI Psychosis
+
+**Source type:** X thread — opinion piece on AI-assisted development risks
+**Pages created:** 1 (`ai-psychosis-hashimoto.md`)
+**Pages updated:** 0
+
+### What this source contains
+
+Mitchell Hashimoto (@mitchellh, co-founder of HashiCorp) posted a widely-shared thread warning about "AI psychosis" in software development. He draws a direct parallel to the MTBF vs. MTTR reckoning during the cloud infrastructure transition: organizations are adopting an uncritical "agents will fix the bugs" mentality, and surface-level metrics (test coverage up, bug reports down) mask systemic architectural decay. The thread resonated broadly (12K+ likes, 1M+ views).
+
+### What changed
+
+- Created `ai-psychosis-hashimoto.md` in General Knowledge with structured summary
+- Added page to index.md General Knowledge section
+- Added raw source to index.md Source Files table
+
+### Notable observations
+
+- Useful counterbalance to the vault's generally pro-AI-leverage stance — acknowledges the real risk of over-delegation
+- Connects to [[operating-doctrine-2026]]'s emphasis on using AI without losing comprehension
+- The MTBF/MTTR framing is a concise way to explain this risk in content and conversations
+- At 1M+ views this is a culturally significant signal in the engineering community worth tracking
+
+---
+
+## [2026-05-18] ingest | Orphan raw-source wiki coverage — Wedding Prayer, Sam Schutt notes, gig-portfolio
+
+**Source type:** Three orphan raw-sources identified by Vault Steward (issue #42)
+**Pages created:** 1 (`wedding-prayer.md`)
+**Pages updated:** 2 (`sam-schutt.md`, `portfolio-website.md`)
+
+### What these sources contain
+
+Three raw-source files lacked wiki coverage: (1) Wedding Prayer.md — Conley's ceremony prayer by Olivia and his dinner speech/prayer for the June 12, 2026 wedding; (2) Notes on Meeting with Sam Schutt - DENT.md — technical drone notes on Faraday cage EMF protection, nickel coating, PETG shell materials; (3) gig-portfolio snapshot of the portfolio Projects page showing the updated ACE/Sentinel/TLE descriptions.
+
+### What changed
+
+- Created `wedding-prayer.md` (Personal domain) with structured summary of both prayers
+- Enriched `sam-schutt.md` with a new "Technical contributions" section containing EMF protection and materials science details from the DENT meeting notes; added source citation
+- Added `gig-portfolio...md` as a source citation in `portfolio-website.md` (content was already absorbed)
+- Updated `index.md` page count and added wedding-prayer entry to the Personal section
+
+### Notable observations
+
+- The Wedding Prayer raw-source was intentionally captured to the second brain, confirming personal/life content is in scope
+- Sam Schutt's meeting notes contain specific materials science knowledge (Faraday cage, nickel coating, PETG) that enriches the drone engineering picture beyond what's in drone-enterprises.md
+- The gig-portfolio snapshot was captured after the April 2026 portfolio update — it shows the corrected ACE description, not the old one. No new wiki content was needed
+
+---
+
+## [2026-05-31] lint | Weekly deep audit — Vault Keeper consolidated run
+
+**Audit scope:** Full catalog integrity, orphans, contradictions, stale pages, split candidates, domain emergence
+**Direct fixes:** 2 (index.md header drift, index.md missing LGS sections)
+**PRs opened:** 1 (CI VALID_DOMAINS update)
+**Issues filed:** 1 (stale PR review queue)
+**Issues closed:** 2 (#34, #36 — resolved by PR #53)
+
+### Vault state at audit time
+
+- 68 wiki pages on disk, 42 raw-source files
+- index.md header: page count corrected 67→68, last updated corrected to 2026-05-31
+- Source count: 40 in index (2 orphan sources covered by open PR #60)
+- 7 open issues (2 now closed), 3 open PRs awaiting Conley's review
+- CLAUDE.md: Vault Keeper consolidation merged (PR #63, 2026-05-30) — three-agent architecture replaced by single agent with four modes; long-game-studios domain added to doctrine
+
+### What changed
+
+- **index.md header fixed** — page count 67→68 (was undercounting by 1 since PR #53 merge), last updated date 2026-05-17→2026-05-31
+- **index.md sections added** — empty "Long Game Studios" and "Long Game Studios Dev Logs" sections inserted between Drone Enterprises and Meta, matching the section organization specified in CLAUDE.md after the Vault Keeper consolidation
+- **CI validation PR filed** — `long-game-studios` must be added to `VALID_DOMAINS` in `.github/scripts/check_vault.py` so future wiki pages with that domain pass the validate check
+- **Issues #34 and #36 closed** — orphan raw-sources (Perplexity agent skills, Hashimoto AI psychosis) were resolved by PR #53 (merged 2026-05-22) but issues remained open because the commit used "Addresses" instead of "Closes"
+- **Stale PR review queue flagged** — PRs #54, #56, #60 have been awaiting Conley's review for 11–14 days; filed issue to surface the backlog
+
+### Notable observations
+
+- The Vault Keeper consolidation (PR #63) merged the CLAUDE.md doctrine update on 2026-05-30, formally replacing the three-agent architecture with a single agent operating in four modes. This is the first weekly audit run under the new consolidated identity.
+- No new raw-source captures since 2026-05-19 (12 days). The capture pipeline has been idle — likely reflecting Conley's focus on the LGS product build and Vault Keeper consolidation rather than knowledge ingest.
+- Three open PRs (#54, #56, #60) from the Remediator are aging. All are labeled `remediator-review` and require Conley's merge. PR #60 in particular has merge conflicts with current main (its base predates PR #53's merge). These will need rebasing before they can merge cleanly.
+- The wedding on June 12 is 12 days away. `conley-potter.md` currently says "engaged to Sami" — the "Known pages needing attention" section in CLAUDE.md tracks this update for post-wedding. No action needed yet.
+- Issue #41 (log ordering violations) is marked `remediator-claimed`. The forward-looking fix is working — all entries since May 12 are in strict chronological order. The historical disorder remains as-is per the append-only rule.
+- The `long-game-studios` domain is now in CLAUDE.md doctrine but NOT in the CI validation script. Until the CI PR merges, any wiki page with `domain: long-game-studios` will fail the validate check. This is a soft blocker for the first Dev-Log Capture mode run.

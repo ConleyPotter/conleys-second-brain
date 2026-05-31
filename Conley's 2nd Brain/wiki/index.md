@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
-**Last updated:** 2026-05-17  
+**Last updated:** 2026-05-31  
 **Source count:** 40
-**Page count:** 66
+**Page count:** 68
 
 This wiki documents Conley Potter's life, projects, and career. It began as an ACE-only knowledge base and has expanded into a full second brain covering the Personal Brand Engine (successor to ACE), career transition strategy, BA day job, personal operating doctrine, Drone Enterprises, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -32,6 +32,8 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | [[jarvis-system]] | JARVIS content production system — Obsidian + Claude Code vault for capturing observations, finding connections, and generating content in Conley's exact voice |
 | [[drone-opportunity]] | Disposable infantry UAS startup opportunity — market research, founding thesis, Conley's active exploration with collaborator "Sam" |
 | [[multi-agent-orchestration]] | Multi-agent AI patterns — Pipeline, Fan-Out, Specialist Team; Anthropic Managed Agents, Dreaming, Outcomes; production examples from Netflix, Harvey, Shopify |
+| [[perplexity-agent-skills]] | Perplexity's guide to designing, refining, and maintaining agent skills — directory structure, progressive disclosure, routing triggers, eval suites |
+| [[ai-psychosis-hashimoto]] | Mitchell Hashimoto on "AI psychosis" — MTBF vs. MTTR parallels between cloud infrastructure and AI-assisted development |
 
 ## Day Job (BA)
 
@@ -103,6 +105,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 |---|---|
 | [[domain-personal]] | Personal domain anchor — what this domain covers and current year at a glance |
 | [[operating-doctrine-2026]] | Full 2026 operating doctrine — year theme, leverage stack, decision filter, end conditions |
+| [[wedding-prayer]] | Ceremony prayer (Olivia) and dinner speech/prayer (Conley) for the June 12, 2026 wedding to Sami |
 
 ## Day Job Logs
 
@@ -126,6 +129,18 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | [[drone-funding-gtm]] | Defense VC landscape, SBIR/OTA pathways, Blue UAS on-ramp, 0–5 year GTM roadmap |
 | [[sam-schutt]] | Sam Schutt — Conley's closest friend, best man, and Drone Enterprises co-founder; stub |
 
+## Long Game Studios
+
+| Page | Summary |
+|---|---|
+| | *No pages yet — domain infrastructure added 2026-05-30. Dev-log capture will populate this section.* |
+
+## Long Game Studios Dev Logs
+
+| Page | Summary |
+|---|---|
+| | *No pages yet — first dev-log capture pending.* |
+
 ## Meta
 
 | Page                        | Summary |
@@ -146,7 +161,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | `ACE Phase 1 Reference Brief.md`                   | Operational reference / quick brief | 2026-04-14 |
 | `ACE_Phase1_Campaign_Plan.md`                      | Marketing campaign plan             | 2026-04-14 |
 | `Brand Voice Guide 4.14.md`                        | Brand voice documentation           | 2026-04-14 |
-| `Upwork_Portfolio_Projects.md`                     | Portfolio copy + instructions       | 2026-04-14 |
+| `Upwork_Portfolio_Projects.md`                      | Portfolio copy + instructions       | 2026-04-14 |
 | `Claude Accounts' Saved Memories.md`              | Multi-account operator memory consolidation | 2026-04-14 |
 | `Personal Portfolio Website Current State 4.14.26.md` | Current portfolio copy — career history, projects, philosophy, writing topics | 2026-04-14 |
 | `ACE Pivot Explanation.md` | Why and how ACE transitioned from autonomous content studio to HITL arbitrage system | 2026-04-14 |
@@ -176,8 +191,9 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | `Daily-Recap_2026-04-20.md` | BA workday log — first day back from FLACA; Menard webmaster breakthrough, South Lake Euro billing transition, four client calls, FLACA accountability conversation | 2026-04-27 |
 | `Daily-Recap_2026-04-21.md` | BA workday log — packed 8-event day; Telle Tire PE lead, Import Car go-live, Viktor first use, Sage Creek record performance, DSA deprecation, Claude Teams cap | 2026-04-27 |
 | `blog-article-vault-explainer.md` | Blog article brief — detailed agent prompt for writing a 1,200–1,800 word article on building an AI-native operational vault for agency operations; produced draft `2026-05-05-ai-operational-vault-draft.md` | 2026-05-05 |
-| `50272789-conleypotterresume2026.docx` | Conley's most current resume (May 2026) — supersedes all July 2025 variants; source for `cv.md` | 2026-05-12 |
 | `how-to-build-a-team-of-ai-agents-that-actually-work-together.md` | X thread — multi-agent orchestration course; three patterns, seven-step build process, production examples | 2026-05-16 |
 | `Wedding Prayer.md` | Personal ceremonial text | 2026-04-25 |
 | `gig-portfolio "Projects" page needs re-writing ACE is described incorrectly..md` | Portfolio revision notes — ACE project description feedback | 2026-04-25 |
 | `Notes on Meeting with Sam Schutt - DENT.md` | Meeting notes — Drone Enterprises cofounding discussion | 2026-04-26 |
+| `designing-refining-and-maintaining-agent-skills-at-perplexity.md` | Perplexity engineering guide — agent skill design patterns, progressive disclosure, eval suites | 2026-05-17 |
+| `mitchellh-ai-psychosis-software-development.md` | X thread — Mitchell Hashimoto on AI psychosis in software development, MTBF vs. MTTR parallels | 2026-05-17 |
