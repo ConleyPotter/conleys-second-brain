@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
-**Last updated:** 2026-05-17  
+**Last updated:** 2026-05-31  
 **Source count:** 40
-**Page count:** 67
+**Page count:** 68
 
 This wiki documents Conley Potter's life, projects, and career. It began as an ACE-only knowledge base and has expanded into a full second brain covering the Personal Brand Engine (successor to ACE), career transition strategy, BA day job, personal operating doctrine, Drone Enterprises, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -128,6 +128,18 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | [[drone-funding-gtm]] | Defense VC landscape, SBIR/OTA pathways, Blue UAS on-ramp, 0–5 year GTM roadmap |
 | [[sam-schutt]] | Sam Schutt — Conley's closest friend, best man, and Drone Enterprises co-founder; stub |
 
+## Long Game Studios
+
+| Page | Summary |
+|---|---|
+| | *No pages yet — domain infrastructure added 2026-05-30. Dev-log capture will populate this section.* |
+
+## Long Game Studios Dev Logs
+
+| Page | Summary |
+|---|---|
+| | *No pages yet — first dev-log capture pending.* |
+
 ## Meta
 
 | Page                        | Summary |
@@ -148,7 +160,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | `ACE Phase 1 Reference Brief.md`                   | Operational reference / quick brief | 2026-04-14 |
 | `ACE_Phase1_Campaign_Plan.md`                      | Marketing campaign plan             | 2026-04-14 |
 | `Brand Voice Guide 4.14.md`                        | Brand voice documentation           | 2026-04-14 |
-| `Upwork_Portfolio_Projects.md`                     | Portfolio copy + instructions       | 2026-04-14 |
+| `Upwork_Portfolio_Projects.md`                      | Portfolio copy + instructions       | 2026-04-14 |
 | `Claude Accounts' Saved Memories.md`              | Multi-account operator memory consolidation | 2026-04-14 |
 | `Personal Portfolio Website Current State 4.14.26.md` | Current portfolio copy — career history, projects, philosophy, writing topics | 2026-04-14 |
 | `ACE Pivot Explanation.md` | Why and how ACE transitioned from autonomous content studio to HITL arbitrage system | 2026-04-14 |
