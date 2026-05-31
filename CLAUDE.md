@@ -6,7 +6,7 @@ This file is the operating contract between you (Claude) and this knowledge base
 
 ## What this is
 
-This is Conley Potter's personal second brain — a persistent, compounding wiki covering the Personal Brand Engine (PBE), career transition strategy, BA day job, Drone Enterprises, and personal operating doctrine. It began as an ACE-only knowledge base (the ACE freelance arbitrage system has since been pivoted to the PBE). As the wiki matures, it will expand to cover all domains: personal growth, research, reading, and life broadly.
+This is Conley Potter's personal second brain — a persistent, compounding wiki covering the Personal Brand Engine (PBE), career transition strategy, BA day job, Drone Enterprises, Long Game Studios, and personal operating doctrine. It began as an ACE-only knowledge base (the ACE freelance arbitrage system has since been pivoted to the PBE). As the wiki matures, it will expand to cover all domains: personal growth, research, reading, and life broadly.
 
 You (Claude) are the maintainer. Conley is the curator and director. He sources material, asks questions, and guides emphasis. You do the reading, writing, cross-referencing, and bookkeeping. Nothing valuable should disappear into chat history — good answers get filed back as pages.
 
@@ -69,7 +69,7 @@ Every page uses a `type` frontmatter field. Current types in use:
 ```yaml
 ---
 type: strategy
-domain: ace          # ace | ba | personal | research | general | drone-enterprises
+domain: ace          # ace | ba | personal | research | general | drone-enterprises | long-game-studios
 tags: []
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
@@ -119,6 +119,8 @@ The index uses a header block followed by **section tables**. Match this structu
 - Personal
 - Day Job Logs
 - Drone Enterprises
+- Long Game Studios
+- Long Game Studios Dev Logs
 - Meta
 - Source Files
 
@@ -251,69 +253,85 @@ This vault has a second layer: a content production system for capturing daily o
 
 ---
 
-## Multi-agent coordination
+## Vault Keeper — automated maintenance
 
-The vault has three Hyperagent agents working in concert. Each owns a specific role; they coordinate via GitHub labels, branch namespacing, and a fixed schedule.
+The vault is maintained by a single Hyperagent agent called **Vault Keeper** (🗄️), which operates in four modes dispatched by trigger type. All modes share the same identity, knowledge, and hard constraints; only the job differs.
 
-### Agents and roles
+### Modes
 
-- **Second Brain Ingest** — captures raw sources via Gmail polling (subject prefix `2b:`, every 30 minutes), produces wiki pages, and updates `index.md` and `log.md`. Multi-device input via direct email or the iCloud "Second Brain" Apple Shortcut.
-- **Vault Steward** (📚) — daily light sweep at 7am ET and weekly deep audit at Sun 6am ET. Audits catalog integrity, completeness, splits, and domain emergence. Files issues labeled `vault-steward`. Direct-commit authority for log/index drift, broken-link fixes, frontmatter corrections, and source attribution. Files PRs (capped at 10 per weekly audit) for new wikis, splits, gap-fills, and domain changes.
-- **Vault Remediator** (🔧) — daily at 12pm ET, staggered five hours after the Steward's daily sweep so the Steward's filing has settled before remediation begins. Resolves open `vault-steward`-labeled issues as commits, PRs, or Slack-approved changes based on a content-aware confidence rubric (solvability, safety, rules compliance, truth and fidelity). High-confidence fixes auto-merge through GitHub branch protection; medium-confidence fixes open PRs for review; low-confidence fixes go through Slack approval in the `#vault-steward` channel of the ACE workspace.
+| Mode | Trigger | What it does |
+|---|---|---|
+| **Capture** | Inbound email from Conley (link/note) | Fetches the link, saves a raw source, creates/updates wiki pages, updates `index.md` and `log.md`, opens a PR. Auto-merges clean ingests; leaves judgment calls for review. Replies to Conley with the page name and PR link. |
+| **Dev-Log Capture** | Weekly schedule (Fri 5pm ET) or `[dev]`-tagged email | Synthesizes a changelog + build log from merged PRs, commits, releases, and CI runs across `daily-chew-ai` and `lgs-the-grind`. Writes an archival `work-log` page, updates rolling product overview pages, and ingests new ADRs. All under the `long-game-studios` domain. |
+| **Audit** | Daily schedule (7am ET) + weekly deep audit (Sun 6am ET) | Daily: auto-fixes trivial drift (log/index sync, broken links, frontmatter, source attribution) via direct commit. Weekly: full catalog review — files `vault-steward`-labeled issues for judgment calls and up to 10 PRs (never auto-merged) for new wikis, splits, gap-fills, and domain changes. |
+| **Remediate** | Daily schedule (12pm ET, staggered 5h after audit) | Processes open `vault-steward`-labeled issues using a content-aware confidence rubric (solvability, safety, rules compliance, truth/fidelity). Routes fixes to auto-merge (≥0.90), PR-for-review (0.70–0.89), or Slack approval in `#vault-steward` (<0.70). |
+
+Multi-device input for Capture mode: direct email to the agent's inbound address, or the iCloud "Second Brain" Apple Shortcut (share sheet → email).
+
+### Dev-log capture details
+
+Long Game Studios is a studio brand, not a separate repo. Its two product repos are captured per-product under the `long-game-studios` domain:
+
+- **`ConleyPotter/daily-chew-ai`** — DailyChew.AI, an AI-personalized daily news podcast. Active development; Conventional Commits; CI via lint + Playwright; Vercel auto-deploy on merge to main. ADRs in `docs/adr/`.
+- **`ConleyPotter/lgs-the-grind`** — The Grind, a Phaser 3 browser game. Early-stage scaffolding. ADRs in `docs/adr/` (currently empty).
+
+Neither repo cuts GitHub Releases yet — the agent synthesizes changelogs from merged PRs + commits. If Releases are adopted later, prefer release notes as the primary changelog source.
 
 ### Coordination labels
 
-Labels are the contract between the agents. Both must respect them.
+Labels coordinate across Vault Keeper's own runs. All runs must respect them.
 
 **Issue labels:**
 
-| Label | Meaning | Owner |
+| Label | Meaning | Set by |
 |---|---|---|
-| `vault-steward` | Issue filed by the Steward awaiting Remediator processing | Steward (file), Remediator (consume) |
-| `remediator-claimed` | Remediator has resolved the issue (PR merged or commit landed; if still open, the linked PR is awaiting merge) | Remediator |
-| `remediator-skipped` | Remediator examined and refused — hard-constraint hit or unparseable request even after a clarification round | Remediator |
-| `claude-md-blocked` | Issue is blocked on a pending `claude-md-suggestion` PR | Remediator |
-| `ingest-handoff` | Steward signal: Ingest agent failed (raw source committed without corresponding wiki within 2 hours) | Steward |
-| `remediator-handoff` | Steward signal: Remediator failed (open `vault-steward` issue sat more than 24 hours after a Remediator sweep should have run) | Steward |
+| `vault-steward` | Issue filed during an Audit run, awaiting Remediate processing | Audit mode |
+| `remediator-claimed` | Remediate mode has resolved the issue (PR merged or commit landed; if still open, the linked PR is awaiting merge) | Remediate mode |
+| `remediator-skipped` | Remediate mode examined and refused — hard-constraint hit or unparseable request even after a clarification round | Remediate mode |
+| `claude-md-blocked` | Issue is blocked on a pending `claude-md-suggestion` PR | Remediate mode |
+| `ingest-handoff` | Audit signal: Capture mode failed (raw source committed without corresponding wiki within 2 hours) | Audit mode |
+| `remediator-handoff` | Audit signal: Remediate mode failed (open `vault-steward` issue sat more than 24 hours after a Remediate run should have executed) | Audit mode |
 
 **PR labels:**
 
 | Label | Meaning | Auto-merge eligible? |
 |---|---|---|
-| `vault-steward` | Steward-filed PR (new wikis, splits, gap-fills, domain changes) | Never — Conley merges |
-| `remediator-review` | Medium-confidence Remediator PR awaiting Conley's review | Never — Conley merges |
-| `remediator-needs-approval` | Low-confidence Remediator PR awaiting Slack approval | Never — Conley merges after Slack ack |
+| `vault-steward` | Audit-filed PR (new wikis, splits, gap-fills, domain changes) | Never — Conley merges |
+| `remediator-review` | Medium-confidence Remediate PR awaiting Conley's review | Never — Conley merges |
+| `remediator-needs-approval` | Low-confidence Remediate PR awaiting Slack approval | Never — Conley merges after Slack ack |
 | `claude-md-suggestion` | Doctrine proposal touching only `CLAUDE.md` | Never — Conley merges manually |
 
-High-confidence Remediator PRs (≥ 0.90) are not labeled — they go straight to auto-merge once required GitHub checks pass.
+High-confidence Remediate PRs (≥ 0.90) are not labeled — they go straight to auto-merge once required GitHub checks pass.
 
 ### Branch namespace
 
-| Prefix | Owner | Pattern |
+| Prefix | Mode | Pattern |
 |---|---|---|
-| `remediator/issue-<num>-<slug>` | Remediator | Regular fix branch |
-| `remediator/claude-md-<slug>` | Remediator | Doctrine suggestion branch |
-| `steward/...` | Steward | Steward-owned PR branches |
+| `ingest/<slug>-<yyyymmdd>` | Capture | Content ingest branch |
+| `devlog/<slug>-<yyyymmdd>` | Dev-Log Capture | Dev-log recap branch |
+| `steward/...` | Audit | Audit-owned PR branches |
+| `remediator/issue-<num>-<slug>` | Remediate | Regular fix branch |
+| `remediator/claude-md-<slug>` | Remediate | Doctrine suggestion branch |
 
-Treat any `remediator/`-prefixed or `steward/`-prefixed branch as expected in-flight agent work. Do not file noise issues about them, do not modify them, and do not treat their presence as a vault inconsistency.
+Treat any of these prefixed branches as expected in-flight agent work. Do not file noise issues about them, do not modify them, and do not treat their presence as a vault inconsistency.
 
-### Re-filing protocol (Steward → Remediator)
+### Re-filing protocol (Audit → Remediate)
 
-Before the Steward files a new issue from its audit, it searches open issues for a match (by file path, content area, or its existing title patterns). If found with any of `remediator-claimed`, `remediator-skipped`, or `claude-md-blocked`, the Steward does NOT re-file. For a `remediator-skipped` match, if conditions have genuinely changed (refined scope, new evidence), the Steward may file a fresh new issue — never reopen the skipped one.
+Before the Audit mode files a new issue, it searches open issues for a match (by file path, content area, or its existing title patterns). If found with any of `remediator-claimed`, `remediator-skipped`, or `claude-md-blocked`, Audit does NOT re-file. For a `remediator-skipped` match, if conditions have genuinely changed (refined scope, new evidence), Audit may file a fresh new issue — never reopen the skipped one.
 
 ### Coordination failure detection
 
-If the Steward observes an open `vault-steward` issue (no Remediator labels) that has sat for more than 24 hours after a Remediator sweep should have run, it files a `remediator-handoff` issue (label `vault-steward`) describing what it observed. This mirrors the existing `ingest-handoff` pattern that signals an Ingest agent failure.
+If the Audit mode observes an open `vault-steward` issue (no Remediate labels) that has sat for more than 24 hours after a Remediate run should have executed, it files a `remediator-handoff` issue (label `vault-steward`) describing what it observed. This mirrors the existing `ingest-handoff` pattern that signals a Capture mode failure.
 
 ### CLAUDE.md change policy
 
-This file is the operating contract. Direct edits to `CLAUDE.md` as part of a per-issue fix are forbidden for the Remediator. The Remediator may PROPOSE changes via `claude-md-suggestion` draft PRs — but ONLY when the source issue explicitly proposes the change, or when drafting the fix exposes a real doctrine gap that blocks resolving the source issue. Such PRs:
+This file is the operating contract. Direct edits to `CLAUDE.md` as part of a per-issue fix are forbidden in Remediate mode. Remediate mode may PROPOSE changes via `claude-md-suggestion` draft PRs — but ONLY when the source issue explicitly proposes the change, or when drafting the fix exposes a real doctrine gap that blocks resolving the source issue. Such PRs:
 
 - Contain ONLY the proposed `CLAUDE.md` edit; no other files.
 - Are always draft PRs labeled `claude-md-suggestion`.
 - Are always announced in Slack (`#vault-steward` in the ACE workspace) with the issue link, PR link, rationale, and proposed change.
 - NEVER auto-merge regardless of confidence. Conley reviews and merges manually.
-- Are capped at one open at a time. If one exists, the Remediator labels the source issue `claude-md-blocked` and waits.
+- Are capped at one open at a time. If one exists, Remediate mode labels the source issue `claude-md-blocked` and waits.
 
 ---
 
@@ -344,6 +362,7 @@ This file is the operating contract. Direct edits to `CLAUDE.md` as part of a pe
 - **BA (Day Job)** — professional operations, client pipeline, partners, team
 - **Personal** — doctrine, relationships, body, inner work
 - **Drone Enterprises** — defense hardware co-founding venture with Sam Schutt; infantry-scale attritable UAS; Conley is CSO
+- **Long Game Studios** — parent studio brand; products: DailyChew.AI (AI-personalized daily news podcast) and The Grind (browser game). Dev progress captured as `work-log` pages under this domain.
 
 **Expansion order** (as new sources arrive):
 
