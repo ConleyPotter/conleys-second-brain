@@ -1303,3 +1303,32 @@ Conley's mom and Jim have invited Conley and Sami to move into a six-bedroom mul
 - The wedding on June 12 is 12 days away. `conley-potter.md` currently says "engaged to Sami" — the "Known pages needing attention" section in CLAUDE.md tracks this update for post-wedding. No action needed yet.
 - Issue #41 (log ordering violations) is marked `remediator-claimed`. The forward-looking fix is working — all entries since May 12 are in strict chronological order. The historical disorder remains as-is per the append-only rule.
 - The `long-game-studios` domain is now in CLAUDE.md doctrine but NOT in the CI validation script. Until the CI PR merges, any wiki page with `domain: long-game-studios` will fail the validate check. This is a soft blocker for the first Dev-Log Capture mode run.
+
+
+---
+
+## [2026-06-01] lint | Daily light sweep
+
+**Audit scope:** Trivial drift — index header counts, last-updated date
+**Direct fixes:** 1 (index.md page count 68→71, last updated 2026-05-31→2026-06-01)
+**PRs opened:** 0
+**Issues filed:** 0
+
+### Vault state at sweep time
+
+- 71 wiki pages on disk, 42 raw-source files
+- 0 open PRs, 0 open issues — all prior remediator work merged
+- CLAUDE.md Vault Keeper consolidation live; `long-game-studios` domain in both doctrine and CI validation
+- Capture pipeline idle since 2026-05-19 (13 days)
+- Wedding in 11 days (June 12)
+
+### What changed
+
+- **index.md header fixed** — page count 68→71. Three pages landed via PR merges on 2026-05-31 afternoon (after the weekly audit's header correction at 10:11 UTC): `portfolio-update-history.md` (PR #54), `autoboost-vault-skills.md` and `housing-offer-lebanon.md` (PR #60). All three pages were already listed in the section tables by those same PRs — only the header counter was stale.
+- **index.md last updated** — 2026-05-31→2026-06-01.
+
+### Notable observations
+
+- Cleanest vault state to date: zero open PRs, zero open issues. The entire backlog of remediator work (PRs #54, #56, #60, #64) was merged by Conley on May 31.
+- The `long-game-studios` CI validation fix (PR #64) is now live — Dev-Log Capture mode is unblocked for its first run.
+- No new raw-source captures in 13 days. Expected given the wedding and LGS product build focus.

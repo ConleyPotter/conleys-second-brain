@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
-**Last updated:** 2026-05-31  
+**Last updated:** 2026-06-01  
 **Source count:** 42
-**Page count:** 68
+**Page count:** 71
 
 This wiki documents Conley Potter's life, projects, and career. It began as an ACE-only knowledge base and has expanded into a full second brain covering the Personal Brand Engine (successor to ACE), career transition strategy, BA day job, personal operating doctrine, Drone Enterprises, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
