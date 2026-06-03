@@ -1332,3 +1332,36 @@ Conley's mom and Jim have invited Conley and Sami to move into a six-bedroom mul
 - Cleanest vault state to date: zero open PRs, zero open issues. The entire backlog of remediator work (PRs #54, #56, #60, #64) was merged by Conley on May 31.
 - The `long-game-studios` CI validation fix (PR #64) is now live — Dev-Log Capture mode is unblocked for its first run.
 - No new raw-source captures in 13 days. Expected given the wedding and LGS product build focus.
+
+
+---
+
+## [2026-06-03] lint | Daily light sweep
+
+**Audit scope:** Trivial drift — index header counts, last-updated date, frontmatter, source attribution, orphan detection
+**Direct fixes:** 0
+**PRs opened:** 0
+**Issues filed:** 0
+
+### Vault state at sweep time
+
+- 71 wiki pages on disk, 42 raw-source files
+- 0 open PRs, 0 open issues — cleanest state maintained for a third consecutive day
+- CLAUDE.md Vault Keeper consolidation live; `long-game-studios` domain in both doctrine and CI validation
+- Capture pipeline idle since 2026-05-19 (15 days)
+- Wedding in 9 days (June 12)
+
+### What was checked
+
+- **index.md header:** page count 71 matches actual wiki directory (71 .md files minus index.md and log.md). Source count 42 matches Source Files table rows and raw-sources/ directory listing. Last updated 2026-06-01 is correct (no index modifications since then).
+- **Frontmatter spot-check:** 3 pages sampled (`autoboost-vault-skills.md`, `housing-offer-lebanon.md`, `portfolio-update-history.md`) — all have valid type, domain, tags, created/updated dates, and source attribution.
+- **Raw-sources orphan check:** all 42 files in raw-sources/ have corresponding wiki pages and Source Files table entries. No orphans.
+- **log.md compliance:** append-only, newest at bottom, no ordering violations.
+- **Open PRs/issues:** none. No coordination labels to reconcile.
+
+### Notable observations
+
+- Third consecutive clean sweep. The full remediator backlog clearance on May 31 left the vault in stable equilibrium.
+- Capture pipeline has been idle for 15 days (since May 19). Expected — Conley's focus has been on the LGS product build and wedding preparation.
+- Wedding is June 12, 9 days away. `conley-potter.md` currently says "engaged to Sami" — tracked in CLAUDE.md "Known pages needing attention" for a post-wedding update.
+- The Long Game Studios sections in index.md are still empty. Dev-Log Capture mode is unblocked (CI validation includes `long-game-studios`) but has not yet run its first capture.
