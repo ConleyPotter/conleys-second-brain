@@ -1403,3 +1403,19 @@ Conley's mom and Jim have invited Conley and Sami to move into a six-bedroom mul
 - Wedding is June 12, 8 days away. `conley-potter.md` currently says "engaged to Sami" — tracked in CLAUDE.md "Known pages needing attention" for a post-wedding update.
 - Long Game Studios sections in index.md remain empty. Dev-Log Capture mode is unblocked but has not yet run its first capture.
 - The `domain-general.md` stale-anchor finding is the first new issue surfaced since the June 1 sweep cleared all outstanding work. It confirms that domain anchor pages need periodic refresh as the wiki grows — other anchors (`domain-drone-enterprises.md`, `domain-personal.md`) may warrant similar review during the next weekly deep audit.
+
+---
+
+## [2026-06-04] update | Refresh domain-general.md anchor table
+
+**Source type:** Vault Keeper Remediate pass — Issue #66 (domain-general.md anchor table stale)
+
+### What changed
+
+- **domain-general.md** — Added 7 missing pages to the "Pages in this domain" table, bringing the total from 4 to 11. All 7 pages confirmed as `domain: general` via frontmatter inspection: `markitdown`, `second-brain-mcp-server`, `jarvis-system`, `drone-opportunity`, `multi-agent-orchestration`, `perplexity-agent-skills`, `ai-psychosis-hashimoto`. Updated `updated` frontmatter date from 2026-04-17 to 2026-06-04.
+
+### Notable observations
+
+- All 7 candidate pages listed in Issue #66 confirmed as `domain: general` — no false positives from the index.md section-based heuristic.
+- `drone-opportunity.md` has `domain: general` despite being thematically related to the Drone Enterprises project (which has its own domain and anchor page). This may warrant reclassification to `domain: drone-enterprises` in a future audit, but the current frontmatter is authoritative.
+- This is the first domain anchor page to need a refresh. Other anchors (`domain-drone-enterprises.md`, `domain-personal.md`) should be checked during the next weekly deep audit to prevent similar drift.
