@@ -246,6 +246,7 @@ This vault has a second layer: a content production system for capturing daily o
 **Before starting any JARVIS workflow**, read `Conley's 2nd Brain/05-CLAUDE/CLAUDE.md` in full. That file is the operating contract for the content production system. Use the slash commands `/jarvis-process-inbox`, `/jarvis-connections`, `/jarvis-brief`, and `/jarvis-write` to trigger each workflow.
 
 **Cross-system rules:**
+- Vault Keeper's Dev-Log Capture mode cross-posts content-worthy dev events as observations in `01-CAPTURES/observations/` with `source: dev-event` — these are raw material for the JARVIS pipeline, not finished content
 - Captures in `01-CAPTURES/` and briefs in `03-BRIEFS/` may link to wiki pages using `[[wiki-link]]` syntax — this works natively in Obsidian
 - If a capture surfaces a significant new insight about ACE, BA, or personal context, surface it as a candidate for wiki ingest — don't silently discard it
 - `04-PUBLISHED/` engagement data that reveals strong audience signals can update `brand-voice.md` in the wiki — ask Conley first
@@ -276,6 +277,16 @@ Long Game Studios is a studio brand, not a separate repo. Its two product repos 
 - **`ConleyPotter/lgs-the-grind`** — The Grind, a Phaser 3 browser game. Early-stage scaffolding. ADRs in `docs/adr/` (currently empty).
 
 Neither repo cuts GitHub Releases yet — the agent synthesizes changelogs from merged PRs + commits. If Releases are adopted later, prefer release notes as the primary changelog source.
+
+### Dev → PBE content bridge
+
+Dev-Log Capture mode includes a **smart content gate** that evaluates each notable commit, PR, or release for content-worthiness. Items that pass the gate are cross-posted as observation captures in `01-CAPTURES/observations/` — bridging engineering work into the JARVIS content production pipeline.
+
+**Content-worthy** (creates a capture): `feat` commits introducing user-facing functionality, architecture decisions (ADRs), milestones (versions, releases, firsts), cost/performance improvements with specific numbers, significant build-in-public moments (hard tradeoffs, breakage-and-recovery, pivots).
+
+**Not content-worthy** (skipped): `chore`/dependency/config commits, routine bug fixes, documentation-only changes, style/formatting, internal plumbing with no user/builder narrative.
+
+Captures use `source: dev-event` in their frontmatter (distinguishing them from `source: inbox` manual captures) and follow the standard observation format. They go to `01-CAPTURES/observations/` ONLY — downstream processing (connections, briefs, publishing) is handled by the JARVIS pipeline, not by Vault Keeper.
 
 ### Coordination labels
 
