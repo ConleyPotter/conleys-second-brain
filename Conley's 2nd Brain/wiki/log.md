@@ -1365,3 +1365,41 @@ Conley's mom and Jim have invited Conley and Sami to move into a six-bedroom mul
 - Capture pipeline has been idle for 15 days (since May 19). Expected — Conley's focus has been on the LGS product build and wedding preparation.
 - Wedding is June 12, 9 days away. `conley-potter.md` currently says "engaged to Sami" — tracked in CLAUDE.md "Known pages needing attention" for a post-wedding update.
 - The Long Game Studios sections in index.md are still empty. Dev-Log Capture mode is unblocked (CI validation includes `long-game-studios`) but has not yet run its first capture.
+
+---
+
+## [2026-06-04] lint | Daily light sweep
+
+**Audit scope:** Trivial drift — index header counts, last-updated date, frontmatter, source attribution, orphan detection
+**Direct fixes:** 0
+**PRs opened:** 0
+**Issues filed:** 1
+
+### Vault state at sweep time
+
+- 71 wiki pages on disk, 42 raw-source files
+- 0 open PRs, 0 open issues — cleanest state maintained for a fourth consecutive day
+- CLAUDE.md Vault Keeper consolidation live; `long-game-studios` domain in both doctrine and CI validation
+- Capture pipeline idle since 2026-05-19 (16 days)
+- Wedding in 8 days (June 12)
+
+### What was checked
+
+- **index.md header:** page count 71 matches actual wiki directory (71 .md files minus index.md and log.md). Source count 42 matches Source Files table rows and raw-sources/ directory listing (42 files). Last updated 2026-06-01 is correct (no index modifications since then).
+- **Index-to-disk cross-check:** all 71 wiki pages on disk are referenced in index.md section tables; all index.md [[page-name]] references resolve to files on disk. No orphans, no phantom references.
+- **Frontmatter spot-check:** 2 pages sampled (`domain-general.md`, `wedding-prayer.md`) — both have valid type, domain, tags, created/updated dates, and source attribution.
+- **Raw-sources orphan check:** all 42 files in raw-sources/ have corresponding wiki pages and Source Files table entries. No orphans.
+- **log.md compliance:** append-only, newest at bottom, no ordering violations.
+- **Open PRs/issues:** none prior to this sweep. No coordination labels to reconcile.
+
+### What was found
+
+- **domain-general.md stale anchor table** — the domain anchor page lists only 4 pages in its "Pages in this domain" table, but the General Knowledge section of index.md now has 12 entries (11 excluding domain-general itself). At least 7 pages added since the anchor was created on 2026-04-17 are missing from its internal table. Filed as vault-steward issue — requires reading each page's frontmatter to determine which pages truly have `domain: general` vs. being categorized elsewhere.
+
+### Notable observations
+
+- Fourth consecutive clean sweep (no header/count drift). The vault has been in stable equilibrium since the full backlog clearance on May 31.
+- Capture pipeline has been idle for 16 days (since May 19). Expected — Conley's focus is on wedding preparation and LGS product build.
+- Wedding is June 12, 8 days away. `conley-potter.md` currently says "engaged to Sami" — tracked in CLAUDE.md "Known pages needing attention" for a post-wedding update.
+- Long Game Studios sections in index.md remain empty. Dev-Log Capture mode is unblocked but has not yet run its first capture.
+- The `domain-general.md` stale-anchor finding is the first new issue surfaced since the June 1 sweep cleared all outstanding work. It confirms that domain anchor pages need periodic refresh as the wiki grows — other anchors (`domain-drone-enterprises.md`, `domain-personal.md`) may warrant similar review during the next weekly deep audit.
