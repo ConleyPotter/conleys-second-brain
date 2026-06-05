@@ -1457,3 +1457,29 @@ Conley's mom and Jim have invited Conley and Sami to move into a six-bedroom mul
 - Wedding is June 12, 7 days away. `conley-potter.md` currently says "engaged to Sami" — tracked in CLAUDE.md "Known pages needing attention" for a post-wedding update.
 - Long Game Studios sections in index.md remain empty. Dev-Log Capture mode is unblocked but has not yet run its first capture.
 - Post-merge vault state: 0 open PRs, 0 open issues. Cleanest state maintained.
+
+---
+
+## [2026-06-05] ingest | No Priors — Satya Nadella on the Full-Stack Builder
+
+**Source type:** Podcast episode — No Priors (Sarah Guo, Elad Gil, swyx crossover) with Satya Nadella at Microsoft Build
+**Pages created:** 1 (`no-priors-nadella-full-stack-builder.md`)
+**Pages updated:** 1 (`domain-general.md`)
+
+### What this source contains
+
+A 42-minute crossover episode of the No Priors podcast recorded at Microsoft Build 2026. Satya Nadella discusses the emergence of "full-stack builders" and "hyper-leveraged generalists" — individuals empowered by AI to operate at institutional scale. Key topics: multi-model harnesses as Microsoft's strategic shift, private evals as a company's most important IP, autonomous AI agents reshaping software engineering, SaaS business model durability under AI pressure, the token economy, vendor vs. enterprise agents, AI-driven education, and data center ROI for communities.
+
+### What changed
+
+- **`no-priors-nadella-full-stack-builder.md` created** — synthesis page covering the episode's core thesis, six key idea clusters, vault relevance analysis, and open questions. Cross-linked to `[[multi-agent-orchestration]]`, `[[openai-codex-app]]`, `[[personal-brand-engine]]`, and `[[operating-doctrine-2026]]`.
+- **`domain-general.md` updated** — added the new page to the "Pages in this domain" anchor table.
+- **`index.md` updated** — source count 42→43, page count 71→72, new row in General Knowledge section, new row in Source Files table.
+
+### Notable observations
+
+- The "full-stack builder" thesis maps directly onto the Long Game Studios operating model — two people shipping multiple products using AI leverage. This is the strongest external validation of the LGS thesis from a major tech leader.
+- Nadella's framing of evals as IP connects to the vault's agent architecture and the broader pattern of building evaluation into agent workflows (see `[[multi-agent-orchestration]]`).
+- The multi-model harness pattern is already present in DailyChew's pipeline (different models for different generation stages). Microsoft's strategic embrace of multi-model suggests this is the right architectural bet.
+- SaaS durability under AI is a direct strategic question for DailyChew pricing — if AI compresses feature value, defensibility must come from personalization depth and data moats rather than functionality alone.
+- First podcast episode captured in the vault. May establish a pattern for future audio content ingestion.
