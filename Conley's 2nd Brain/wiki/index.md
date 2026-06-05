@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
-**Last updated:** 2026-06-01  
+**Last updated:** 2026-06-05  
 **Source count:** 42
-**Page count:** 71
+**Page count:** 75
 
 This wiki documents Conley Potter's life, projects, and career. It began as an ACE-only knowledge base and has expanded into a full second brain covering the Personal Brand Engine (successor to ACE), career transition strategy, BA day job, personal operating doctrine, Drone Enterprises, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -135,13 +135,15 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 
 | Page | Summary |
 |---|---|
-| | *No pages yet — domain infrastructure added 2026-05-30. Dev-log capture will populate this section.* |
+| [[domain-long-game-studios]] | Long Game Studios domain anchor — products, region/MRR map, development cadence |
+| [[dailychew-overview]] | DailyChew.AI product overview — architecture, tech stack, API surface, ADRs, dev status |
+| [[the-grind-overview]] | The Grind product overview — game design, brand rules, tech stack, backlog, dev status |
 
 ## Long Game Studios Dev Logs
 
 | Page | Summary |
 |---|---|
-| | *No pages yet — first dev-log capture pending.* |
+| [[lgs-devrecap-2026-06-05]] | First dev-log recap — repo creation through June 5, 2026; DailyChew pipeline complete, The Grind bootstrapped |
 
 ## Meta
 
@@ -164,7 +166,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | `ACE_Phase1_Campaign_Plan.md`                      | Marketing campaign plan             | 2026-04-14 |
 | `Brand Voice Guide 4.14.md`                        | Brand voice documentation           | 2026-04-14 |
 | `Upwork_Portfolio_Projects.md`                      | Portfolio copy + instructions       | 2026-04-14 |
-| `Claude Accounts' Saved Memories.md`              | Multi-account operator memory consolidation | 2026-04-14 |
+| `Claude Accounts\' Saved Memories.md`              | Multi-account operator memory consolidation | 2026-04-14 |
 | `Personal Portfolio Website Current State 4.14.26.md` | Current portfolio copy — career history, projects, philosophy, writing topics | 2026-04-14 |
 | `ACE Pivot Explanation.md` | Why and how ACE transitioned from autonomous content studio to HITL arbitrage system | 2026-04-14 |
 | `ACE What It Is, How It Works, and Why It Exists.md` | The original ACE system — 8-agent learning loop, sunsetted Feb 2026 | 2026-04-14 |
