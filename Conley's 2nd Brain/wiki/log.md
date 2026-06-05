@@ -1419,3 +1419,41 @@ Conley's mom and Jim have invited Conley and Sami to move into a six-bedroom mul
 - All 7 candidate pages listed in Issue #66 confirmed as `domain: general` — no false positives from the index.md section-based heuristic.
 - `drone-opportunity.md` has `domain: general` despite being thematically related to the Drone Enterprises project (which has its own domain and anchor page). This may warrant reclassification to `domain: drone-enterprises` in a future audit, but the current frontmatter is authoritative.
 - This is the first domain anchor page to need a refresh. Other anchors (`domain-drone-enterprises.md`, `domain-personal.md`) should be checked during the next weekly deep audit to prevent similar drift.
+
+---
+
+## [2026-06-05] lint | Daily light sweep
+
+**Audit scope:** Trivial drift — index header counts, last-updated date, frontmatter, source attribution, orphan detection, open PR/issue reconciliation
+**Direct fixes:** 0
+**PRs merged:** 1 (PR #67 — domain-general.md anchor refresh, CI-green for 19h but auto-merge had not triggered)
+**PRs opened:** 0
+**Issues filed:** 0
+
+### Vault state at sweep time
+
+- 71 wiki pages on disk, 42 raw-source files
+- 1 open PR (#67, remediation confidence 0.93, CI passed, unlabeled — expected auto-merge)
+- 1 open issue (#66, labeled remediator-claimed — addressed by PR #67)
+- CLAUDE.md Vault Keeper consolidation live; `long-game-studios` domain in both doctrine and CI validation
+- Capture pipeline idle since 2026-05-19 (17 days)
+- Wedding in 7 days (June 12)
+
+### What was checked
+
+- **index.md header:** page count 71 matches actual wiki directory (71 .md files minus index.md and log.md). Source count 42 matches Source Files table rows and raw-sources/ directory listing (42 files). Last updated 2026-06-01 is correct (no index modifications since then).
+- **Index-to-disk cross-check:** all 71 wiki pages on disk are referenced in index.md section tables; all index.md [[page-name]] references resolve to files on disk. No orphans, no phantom references.
+- **Frontmatter spot-check:** 2 pages sampled (`multi-agent-orchestration.md`, `career-transition-strategy.md`) — both have valid type, domain, tags, created/updated dates, and source attribution.
+- **Raw-sources orphan check:** all 42 files in raw-sources/ have corresponding wiki pages and Source Files table entries. No orphans.
+- **log.md compliance:** append-only, newest at bottom, no ordering violations.
+- **Open PR reconciliation:** PR #67 (remediator fix for domain-general.md anchor) had CI validate passing since 2026-06-04T16:05:51Z but had not auto-merged. Merged manually during this sweep — PR was unlabeled at confidence 0.93, within auto-merge policy.
+- **Open issue reconciliation:** Issue #66 closed automatically by PR #67 merge.
+
+### Notable observations
+
+- Fifth consecutive clean sweep with no header/count drift. The vault remains in stable equilibrium since the full backlog clearance on May 31.
+- PR #67's failure to auto-merge despite passing CI suggests auto-merge may not be reliably enabled on agent-created PRs. Worth investigating in the next remediation run to ensure the `enable auto-merge` flag is set on high-confidence PRs at creation time.
+- Capture pipeline has been idle for 17 days (since May 19). Expected — Conley's focus is on wedding preparation and LGS product build.
+- Wedding is June 12, 7 days away. `conley-potter.md` currently says "engaged to Sami" — tracked in CLAUDE.md "Known pages needing attention" for a post-wedding update.
+- Long Game Studios sections in index.md remain empty. Dev-Log Capture mode is unblocked but has not yet run its first capture.
+- Post-merge vault state: 0 open PRs, 0 open issues. Cleanest state maintained.
