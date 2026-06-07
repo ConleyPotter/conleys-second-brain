@@ -1494,3 +1494,31 @@ Conley's mom and Jim have invited Conley and Sami to move into a six-bedroom mul
 - Both open PRs modify the same navigation files (index.md, log.md) from the same base. Whichever merges first will cause a merge conflict on the other. This is expected behavior for concurrent agent branches and is not a vault integrity issue — the second PR will need a rebase before its CI can pass.
 - Wedding is June 12, 6 days away. `conley-potter.md` currently says "engaged to Sami" — tracked in CLAUDE.md "Known pages needing attention" for a post-wedding update.
 - Long Game Studios sections in index.md remain empty on main. PR #68 populates them with 4 new pages (domain anchor, two product overviews, one archival dev-log). Once it merges, the LGS domain will be fully bootstrapped in the vault.
+
+
+---
+
+## [2026-06-07] ingest | Graphiti Temporal Knowledge Graph Framework
+
+**Source type:** Google AI Mode shared result (AI-generated overview)
+**Pages created:** 1 (`graphiti.md`)
+**Pages updated:** 1 (`domain-general.md`)
+
+### What this source contains
+
+A Google AI Mode overview of Graphiti, an open-source framework for building temporally aware, multi-tenant knowledge graphs for AI agents. Covers the core architecture (episode ingestion, temporal fact tracking, incremental updates), the hybrid retrieval model (semantic + BM25 + graph traversal), LangGraph/MCP integration for agent memory, infrastructure requirements (Neo4j or FalkorDB), and Zep as the managed enterprise layer built on Graphiti.
+
+### What changed
+
+- **Created `graphiti.md`** — tool-analysis page covering Graphiti's architecture, retrieval model, agent integration, infrastructure requirements, and vault relevance (DailyChew v3.0 knowledge layer roadmap names Graphiti + Kuzu)
+- **Updated `domain-general.md`** — added `graphiti` to the domain anchor table (12th page in this domain)
+- **Updated `index.md`** — source count 42→43, page count 71→72, added row in General Knowledge section and Source Files table
+- **Appended `log.md`** — this entry
+
+### Notable observations
+
+- Graphiti is directly relevant to the DailyChew v3.0 knowledge layer roadmap, which plans to use Graphiti + Kuzu for temporal knowledge graphs. The overview confirms Graphiti's temporal fact tracking and incremental update model align with DailyChew's needs, but Graphiti primarily pairs with Neo4j or FalkorDB — not Kuzu (an embedded graph database). Compatibility would need investigation.
+- The MCP integration is notable: Graphiti can serve as a central memory layer for any MCP-compatible agent system, which includes the vault's own agent pipeline.
+- This is the second ML/data-science tool page in the vault (after `hdbscan-clustering.md`, currently in PR #70). The General Knowledge domain is expanding into technical tool analysis.
+- Source is an AI-generated overview, not primary documentation. Flagged in the wiki page with a note to cross-reference against the Graphiti GitHub repo and Zep docs before engineering decisions.
+- Three other PRs (#68, #69, #70) are currently open and modify the same navigation files. Whichever merges first will require the others to rebase.
