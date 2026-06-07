@@ -1494,3 +1494,60 @@ Conley's mom and Jim have invited Conley and Sami to move into a six-bedroom mul
 - Both open PRs modify the same navigation files (index.md, log.md) from the same base. Whichever merges first will cause a merge conflict on the other. This is expected behavior for concurrent agent branches and is not a vault integrity issue — the second PR will need a rebase before its CI can pass.
 - Wedding is June 12, 6 days away. `conley-potter.md` currently says "engaged to Sami" — tracked in CLAUDE.md "Known pages needing attention" for a post-wedding update.
 - Long Game Studios sections in index.md remain empty on main. PR #68 populates them with 4 new pages (domain anchor, two product overviews, one archival dev-log). Once it merges, the LGS domain will be fully bootstrapped in the vault.
+
+
+---
+
+## [2026-06-07] lint | Weekly deep audit
+
+**Audit scope:** Full vault review — catalog integrity, completeness, orphans, contradictions, stale pages, split candidates, domain emergence
+**Direct fixes:** 0
+**PRs opened:** 2 (vault-steward labeled, never auto-merge)
+**Issues filed:** 6 (vault-steward labeled)
+
+### Vault state at audit time
+
+- 71 wiki pages on disk, 42 raw-source files (unchanged from last sweep)
+- 4 open PRs: #68 (first dev-log capture), #69 (No Priors podcast ingest), #70 (HDBSCAN ingest), #71 (Graphiti ingest) — all expected in-flight Vault Keeper work
+- 0 open issues at audit start
+- CLAUDE.md Vault Keeper consolidation live; `long-game-studios` domain in both doctrine and CI validation
+- Wedding in 5 days (June 12, 2026)
+
+### What was checked
+
+- **Index-to-disk cross-check:** all 71 wiki pages on disk referenced in index.md; all index.md references resolve. No orphans, no phantom references.
+- **Raw-sources orphan check:** all 42 files accounted for. No orphans.
+- **Frontmatter validation:** 20-page deep sample + 6-page domain verification = 26 pages checked (36% of vault). All have valid required fields (type, domain, tags, created, updated). One date mismatch found (ace-overview.md).
+- **Domain anchor audit:** 3 existing anchors reviewed (domain-general.md, domain-personal.md, domain-drone-enterprises.md). Two missing anchors identified (ba, ace).
+- **Staleness assessment:** 14 of 20 sampled pages not updated in 6+ weeks. Expected — Conley's focus on wedding prep and LGS product build. 9 ACE pages properly archived with banners.
+- **Content contradiction:** conley-potter.md still has LinkedIn/ACE separation protocol that contradicts content-strategy.md (retirement of that protocol).
+- **Split candidates:** None identified. No pages are oversized or covering multiple unrelated topics.
+- **Domain emergence:** No new domains emerging. long-game-studios domain is in-flight (PR #68 creates the anchor).
+- **Open PR evaluation:** All 4 PRs are well-formed Vault Keeper branches. PRs #68 + #69 share a base (24ebc6a); PRs #70 + #71 share a base (232d9f8). All conflict on index.md/log.md — must merge sequentially.
+
+### Issues filed
+
+| # | Title | Nature |
+|---|---|---|
+| #72 | drone-opportunity.md domain reclassification (general → drone-enterprises) | Domain judgment call |
+| #73 | portfolio-update-plan.md PBE pivot review | Content review |
+| #74 | Post-wedding content updates (conley-potter.md + portfolio pages) | Scheduled June 12+ |
+| #75 | ba-clients-pipeline.md rolling page stale | Needs source from Conley |
+| #76 | the-sentinel.md + the-river-room.md ACE funding references stale | Content update |
+| #77 | ace-overview.md frontmatter date mismatch + ace domain anchor question | Frontmatter + domain judgment |
+
+### PRs opened
+
+| # | Title | Nature |
+|---|---|---|
+| #78 | Create domain-ba.md anchor page | New wiki (confidence 0.85) |
+| #79 | Refresh domain-personal.md — add 12 missing pages | Gap-fill (confidence 0.85) |
+
+### Notable observations
+
+- Seventh consecutive week with no index/log count drift. The vault's structural integrity is solid.
+- The personal domain anchor was the most incomplete artifact found: 6 of 18 pages listed. This was the original anchor (April 14), predating the vault's expansion into identity, career, and portfolio pages.
+- The ACE→PBE pivot (May 2026) left a broad ripple of stale references: operating-doctrine-2026, conley-potter, portfolio-update-plan, the-sentinel, the-river-room, and domain-personal.md itself. These are tracked across issues #73, #74, #76, and PR #79. A single pass to reconcile all ACE references would be efficient but requires Conley's direction on scope.
+- Wedding is June 12, 5 days away. The post-wedding content update (issue #74) is pre-filed for the Remediate pipeline to pick up on or after June 12.
+- housing-offer-lebanon.md has a June 30 closing date — 23 days away. May warrant a status update post-closing.
+- 4 open capture/devlog PRs all conflict on index.md/log.md. Merging them will require sequential rebases. This is expected behavior for concurrent agent branches and is not a vault integrity issue.
