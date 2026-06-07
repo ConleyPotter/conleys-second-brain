@@ -1551,3 +1551,36 @@ Conley's mom and Jim have invited Conley and Sami to move into a six-bedroom mul
 - Wedding is June 12, 5 days away. The post-wedding content update (issue #74) is pre-filed for the Remediate pipeline to pick up on or after June 12.
 - housing-offer-lebanon.md has a June 30 closing date — 23 days away. May warrant a status update post-closing.
 - 4 open capture/devlog PRs all conflict on index.md/log.md. Merging them will require sequential rebases. This is expected behavior for concurrent agent branches and is not a vault integrity issue.
+
+
+---
+
+## [2026-06-07] lint | Daily light sweep
+
+**Audit scope:** Trivial drift — index header counts, last-updated date, frontmatter, source attribution, orphan detection, open PR/issue reconciliation
+**Direct fixes:** 0
+**PRs opened:** 0
+**Issues filed:** 0
+
+### Vault state at sweep time
+
+- 71 wiki pages on disk, 42 raw-source files (unchanged from weekly deep audit ~1h ago)
+- 6 open PRs: #68 (first dev-log capture), #69 (No Priors ingest), #70 (HDBSCAN ingest), #71 (Graphiti ingest), #78 (domain-ba anchor), #79 (domain-personal refresh) — all expected in-flight Vault Keeper work
+- 6 open issues: #72–#77, all filed by today's weekly deep audit, all labeled vault-steward, none yet claimed by Remediate (12pm ET run pending)
+- Wedding in 5 days (June 12, 2026)
+
+### What was checked
+
+- **Index header verification:** page count 71, source count 42, last-updated 2026-06-01 — all correct. No pages added or removed on main since June 1 index update.
+- **Disk-to-index cross-check:** 71 wiki .md files on disk (excl index.md, log.md), 42 raw-source files on disk — both match index.md header counts exactly.
+- **log.md compliance:** append-only, newest at bottom, no ordering violations. Weekly audit entry from earlier today correctly formatted.
+- **Open PR reconciliation:** 6 PRs open, all from recognized Vault Keeper branches (devlog/, ingest/, steward/ prefixes). 4 capture/devlog PRs (#68–#71) need sequential rebasing — all modify index.md/log.md from behind-main base commits. 2 steward PRs (#78, #79) labeled vault-steward, Conley merges.
+- **Open issue reconciliation:** 6 issues (#72–#77) all filed today by weekly audit, all labeled vault-steward, none with Remediate labels. Correctly awaiting the 12pm ET Remediate pass.
+
+### Notable observations
+
+- Ninth consecutive clean sweep with no header/count drift. Vault structural integrity remains solid.
+- The weekly deep audit ran ~1 hour before this sweep. No new commits or merges in that window — vault state unchanged. This sweep is a confirmation pass.
+- 6-PR merge queue is the longest in vault history. PRs #68–#69 are based on commit 24ebc6a (3 commits behind main); PRs #70–#71, #78–#79 are based on 232d9f8 (1 commit behind). All conflict on index.md/log.md. Sequential rebase needed — not a trivial fix.
+- All 6 issues from the weekly audit are fresh and awaiting the 12pm Remediate pass. No coordination label conflicts.
+- Wedding in 5 days. Post-wedding content updates tracked in issue #74 (deferred to June 12+).
