@@ -1494,3 +1494,27 @@ Conley's mom and Jim have invited Conley and Sami to move into a six-bedroom mul
 - Both open PRs modify the same navigation files (index.md, log.md) from the same base. Whichever merges first will cause a merge conflict on the other. This is expected behavior for concurrent agent branches and is not a vault integrity issue — the second PR will need a rebase before its CI can pass.
 - Wedding is June 12, 6 days away. `conley-potter.md` currently says "engaged to Sami" — tracked in CLAUDE.md "Known pages needing attention" for a post-wedding update.
 - Long Game Studios sections in index.md remain empty on main. PR #68 populates them with 4 new pages (domain anchor, two product overviews, one archival dev-log). Once it merges, the LGS domain will be fully bootstrapped in the vault.
+
+
+## [2026-06-07] ingest | HDBSCAN Clustering — Google AI Mode
+
+**Source type:** Google AI Mode shared result — an AI-generated overview of the HDBSCAN clustering algorithm
+**Pages created:** 1 (`hdbscan-clustering.md`)
+**Pages updated:** 1 (`domain-general.md`)
+
+### What this source contains
+
+A comprehensive technical overview of HDBSCAN (Hierarchical Density-Based Spatial Clustering of Applications with Noise), captured from a Google AI Mode shared result. Covers the four-step algorithm (mutual reachability distance, minimum spanning tree, cluster hierarchy, stable extraction), key advantages over standard DBSCAN (variable density, noise tolerance, minimal tuning, soft clustering), a Python implementation using the scikit-learn-contrib `hdbscan` package, common use cases (BERTopic topic modeling, geospatial analytics, genomics, UMAP pipelines), and documentation resources.
+
+### What changed
+
+- **[[hdbscan-clustering]]** created — synthesis page covering the algorithm mechanics, implementation, and use cases; filed under domain `general`
+- **[[domain-general]]** updated — added new page to anchor table, updated date to 2026-06-07
+- **[[index.md]]** updated — source count 42→43, page count 71→72, last updated to 2026-06-07, new row in General Knowledge section and Source Files table
+
+### Notable observations
+
+- This is the first machine learning / data science algorithm page in the vault — a new category of general knowledge alongside the AI tooling and workflow pages.
+- HDBSCAN's use in BERTopic (topic modeling over text embeddings) is directly relevant to DailyChew's content pipeline — if episode scripts or user interest profiles ever need topic clustering, this is the standard approach.
+- The UMAP + HDBSCAN pattern (dimensionality reduction → density clustering) is a foundational ML pipeline worth knowing as the vault's technical scope expands.
+- Source is an AI-generated overview (Google AI Mode), not a primary research paper or documentation page. Treat as a well-structured introduction, not as a definitive or citable source.
