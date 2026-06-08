@@ -3,7 +3,7 @@ type: strategy
 domain: general
 tags: [domain, general, meta]
 created: 2026-04-17
-updated: 2026-06-04
+updated: 2026-06-07
 sources: []
 ---
 
@@ -36,7 +36,6 @@ Pages here address:
 | [[markitdown]] | Microsoft open-source Python tool for converting PDFs, Office docs, images, and audio to Markdown for LLM pipelines |
 | [[second-brain-mcp-server]] | Synthesis: exposing the wiki as an MCP server for persistent personalized context across gstack sprints |
 | [[jarvis-system]] | JARVIS content production system — Obsidian + Claude vault pipeline from daily observations to published content |
-| [[drone-opportunity]] | Disposable infantry UAS startup opportunity — market research, founding thesis, active co-founder collaboration |
 | [[multi-agent-orchestration]] | Multi-agent AI patterns — Pipeline, Fan-Out, Specialist Team; production examples from Netflix, Harvey, Shopify |
 | [[perplexity-agent-skills]] | Perplexity's guide to designing, refining, and maintaining agent skills — directory structure, progressive disclosure, eval suites |
 | [[ai-psychosis-hashimoto]] | Mitchell Hashimoto on "AI psychosis" — MTBF vs. MTTR parallels between cloud infrastructure and AI-assisted development |

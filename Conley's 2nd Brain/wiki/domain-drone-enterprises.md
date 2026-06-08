@@ -3,7 +3,7 @@ type: strategy
 domain: drone-enterprises
 tags: [drone-enterprises, defense-tech, UAS, hardware-startup]
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-06-07
 sources: []
 ---
 
@@ -26,6 +26,7 @@ Active as of April 2026. Pages here cover the founding thesis, market research, 
 | Page | Summary |
 |---|---|
 | [[drone-enterprises]] | Company overview — thesis, cofounders, Conley's CSO role, current status |
+| [[drone-opportunity]] | Disposable infantry UAS startup opportunity — market research, founding thesis, active co-founder collaboration |
 | [[drone-market-analysis]] | Doctrine shift, adversary capabilities, supply chain gaps, TAM math |
 | [[drone-build-strategy]] | Hardware architecture, NDAA-compliant BOM, manufacturing strategy, IP moats |
 | [[drone-funding-gtm]] | Defense VC landscape, SBIR/OTA pathways, 0–5 year GTM roadmap |
