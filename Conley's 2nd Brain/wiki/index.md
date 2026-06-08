@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
-**Last updated:** 2026-06-01  
-**Source count:** 42
-**Page count:** 71
+**Last updated:** 2026-06-08  
+**Source count:** 43
+**Page count:** 72
 
 This wiki documents Conley Potter's life, projects, and career. It began as an ACE-only knowledge base and has expanded into a full second brain covering the Personal Brand Engine (successor to ACE), career transition strategy, BA day job, personal operating doctrine, Drone Enterprises, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -46,6 +46,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | [[ba-clients-pipeline]] | Rolling reference for key client accounts and pipeline — context HubSpot doesn't hold |
 | [[adam-shop-incubator]] | Adam's 6-location auto repair shop chain — content engine, incubator, real estate play; GC referral placed Apr 7 |
 | [[autoboost-vault-skills]] | AutoBoost Vault skills development — slash commands → skills migration, team-wide AI tooling rollout plans |
+| [[lsa-auto-feedback]] | Automated LSA lead feedback pipeline — pull leads, transcribe with Deepgram, classify with Claude Haiku, submit ratings to Google; Advanced-tier clients only |
 
 ## Personal Brand Engine & Tech
 
@@ -201,3 +202,4 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | `mitchellh-ai-psychosis-software-development.md` | X thread — Mitchell Hashimoto on AI psychosis in software development, MTBF vs. MTTR parallels | 2026-05-17 |
 | `autoboost-vault-skills-development-reflection-2026-05-19.md` | Personal reflection — AutoBoost Vault skills development and team rollout | 2026-05-19 |
 | `mom-housing-offer-lebanon-pa-2026-05-19.md` | Personal voice note — multi-gen housing offer in Lebanon, PA | 2026-05-19 |
+| `lsa-auto-feedback-description-2026-06-08.md` | Project description (email capture) — automated LSA lead feedback pipeline at AutoBoost | 2026-06-08 |
