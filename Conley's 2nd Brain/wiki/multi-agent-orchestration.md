@@ -3,7 +3,7 @@ type: synthesis
 domain: general
 tags: [multi-agent, claude, orchestration, anthropic, managed-agents]
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-06-08
 sources: [how-to-build-a-team-of-ai-agents-that-actually-work-together.md]
 ---
 
@@ -73,5 +73,6 @@ Six agents (3 parallel researchers → analysis → writer → quality review). 
 - [[thought-leader-engine]] could benefit from Pattern 3 (specialist team) for content production
 - The Dreaming feature maps conceptually to what this second brain does — extracting patterns across sessions and building persistent institutional knowledge
 - [[opus-4-7-workflow]] covers verification-first patterns that complement multi-agent quality review
+- [[claude-code-agent-teams]] is the first-party Claude Code implementation of Patterns 2 (Fan-Out) and 3 (Specialist Team) — with built-in task lists, inter-teammate messaging, dependency tracking, and quality gate hooks
 
 > **Note:** The source is a social media thread by @eng_khairallah1 — specific claims about Harvey's 6x improvement and Shopify's 90% autonomous coding target by Q3 2026 are not independently verified here. The architectural patterns themselves are well-established.

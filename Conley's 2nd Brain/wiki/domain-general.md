@@ -3,7 +3,7 @@ type: strategy
 domain: general
 tags: [domain, general, meta]
 created: 2026-04-17
-updated: 2026-06-07
+updated: 2026-06-08
 sources: []
 ---
 
@@ -39,3 +39,4 @@ Pages here address:
 | [[multi-agent-orchestration]] | Multi-agent AI patterns — Pipeline, Fan-Out, Specialist Team; production examples from Netflix, Harvey, Shopify |
 | [[perplexity-agent-skills]] | Perplexity's guide to designing, refining, and maintaining agent skills — directory structure, progressive disclosure, eval suites |
 | [[ai-psychosis-hashimoto]] | Mitchell Hashimoto on "AI psychosis" — MTBF vs. MTTR parallels between cloud infrastructure and AI-assisted development |
+| [[claude-code-agent-teams]] | Claude Code agent teams — multi-session coordination with shared task lists, inter-teammate messaging, and quality gate hooks |
