@@ -1,9 +1,9 @@
 ---
 type: project
-domain: general
+domain: drone-enterprises
 tags: [defense-tech, drone, startup, research, hardware]
 created: 2026-04-24
-updated: 2026-04-24
+updated: 2026-06-07
 sources:
   - compass_artifact_wf-cf062d2d-8ed4-460c-a460-02e0262b03b7_text_markdown.md
   - Questions & Notes on the Disposable Drone Research Document.md
@@ -15,7 +15,7 @@ sources:
 
 ---
 
-> **Note:** This page documents Conley's active research into a potential defense hardware venture. Status as of April 2026: early-stage exploration with an identified collaborator ("Sam"). No capital committed. This is parallel to ACE and BA; it falls outside the 2026 operating doctrine's "consolidate on ACE and BA" mandate, so it is flagged as a significant decision point.
+> **Note:** This page documents Conley's active research into a potential defense hardware venture. Status as of April 2026: early-stage exploration with an identified collaborator ("Sam"). No capital committed. This is parallel to the PBE and BA; it falls outside the 2026 operating doctrine's consolidation mandate, so it is flagged as a significant decision point.
 
 ---
 
@@ -107,7 +107,7 @@ SBIR non-dilutive fuel: Phase I up to $314K (6 months), Phase II up to $2M (24 m
 
 ## Implications for Conley's 2026 Doctrine
 
-This project represents a significant tension with the 2026 operating doctrine, which explicitly calls for consolidation on ACE and BA with no new project additions.
+This project represents a significant tension with the 2026 operating doctrine, which explicitly calls for consolidation on the PBE and BA with no new project additions.
 
 **What makes this different from a standard new-project distraction:**
 - It has an active collaborator (Sam) who has already sent design plans — this is not speculative
@@ -115,9 +115,9 @@ This project represents a significant tension with the 2026 operating doctrine, 
 - The founding team thesis requires three archetypes: technical/CTO + commercial/defense-fluent CEO + operator/veteran advisor. Conley's profile (marketing systems, pipelines, business development) fits the commercial CEO role closely.
 
 **What makes it risky to pursue in 2026:**
-- Hardware + defense = multi-year capital-intensive path; ACE is designed to generate capital in months
-- Requires all-in attention from a team; the 15-hour/week ACE constraint doesn't translate to a defense startup
-- No BA/ACE overlap — this would be a third parallel thread
+- Hardware + defense = multi-year capital-intensive path; the PBE is designed to generate capital in months
+- Requires all-in attention from a team; the 15-hour/week constraint doesn't translate to a defense startup
+- No BA/PBE overlap — this would be a third parallel thread
 
 **Decision flag:** This project needs a formal go/no-go decision against the 2026 doctrine decision filter before further investment of time. The right question is not "is the opportunity real?" (it is) — but "is this the right year, and can the right team be assembled without Conley being the primary driver?"
 
