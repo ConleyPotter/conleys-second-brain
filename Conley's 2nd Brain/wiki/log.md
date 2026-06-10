@@ -1483,3 +1483,33 @@ A 42-minute crossover episode of the No Priors podcast recorded at Microsoft Bui
 - The multi-model harness pattern is already present in DailyChew's pipeline (different models for different generation stages). Microsoft's strategic embrace of multi-model suggests this is the right architectural bet.
 - SaaS durability under AI is a direct strategic question for DailyChew pricing — if AI compresses feature value, defensibility must come from personalization depth and data moats rather than functionality alone.
 - First podcast episode captured in the vault. May establish a pattern for future audio content ingestion.
+
+---
+
+## [2026-06-05] ingest | Long Game Studios Dev Recap — First Capture
+
+**Source type:** Dev-Log Capture (Mode 2) — weekly dev-log recap synthesized from merged PRs, commits, and CI across daily-chew-ai and lgs-the-grind
+**Pages created:** 4 (`lgs-devrecap-2026-06-05.md`, `domain-long-game-studios.md`, `dailychew-overview.md`, `the-grind-overview.md`)
+**Pages updated:** 0
+
+### What this source contains
+
+First-ever dev-log capture for Long Game Studios. Covers all development activity from repo creation (May 24–30, 2026) through June 5, 2026 across both product repos. DailyChew had 11 merged PRs shipping the full 6-node episode generation pipeline, conversation layer with AI streaming, Cloudflare R2 audio storage, Inngest notification scheduling, and Resend email delivery — 198 unit tests, 4 ADRs. The Grind had 2 merged PRs bootstrapping the repo (Vite + Phaser 3 + TypeScript + Vitest) and establishing foundational docs (CLAUDE.md, README.md, DEVOPS.md) with a 22-issue backlog.
+
+### What changed
+
+- Created `domain-long-game-studios.md` — domain anchor page linking both products, the region/MRR map, and development cadence
+- Created `dailychew-overview.md` — rolling product overview covering architecture (6-node pipeline, Inngest orchestration, conversation layer, Resend email, R2 audio), tech stack, ADRs, API surface, and development workflow
+- Created `the-grind-overview.md` — rolling product overview covering game design, brand golden rules, tech stack (Phaser 3/Vite), backlog structure, and deployment model
+- Created `lgs-devrecap-2026-06-05.md` — archival work-log with full changelog (grouped by feat/test/chore/fix per Conventional Commits), build log (CI status, dependencies, migration, cost notes), and status summary table
+- Created 3 PBE observation captures in `01-CAPTURES/observations/` for content-worthy dev events: DailyChew pipeline completion, The Grind first commit, and Resend ADR cost analysis
+- Updated `index.md` — populated Long Game Studios and Long Game Studios Dev Logs sections; incremented page count 71→75
+
+### Notable observations
+
+- DailyChew is effectively backend feature-complete for the v0.1 MVP core loop: generate episode → listen via signed R2 URL → chat with AI about the content → get notified when the next episode is ready. No live episodes have been generated yet — the entire test suite uses mocks.
+- The strategy doc (Doc 4A) specified n8n for orchestration, but the actual build uses Inngest. ADR-0002's README note records the supersession. This is a real deviation from the planning docs worth tracking.
+- The Grind has 22 issues in the backlog but zero game code. It exists as a repo with strict brand rules and development discipline (CLAUDE.md scope contract: never steal hours from DailyChew) but no pixels.
+- Three PBE observation captures created for the content production pipeline — the pipeline completion, first Grind commit, and Resend cost decision all pass the smart gate as content-worthy dev events.
+- Neither repo has cut a GitHub Release. When Releases are adopted, dev-log capture should prefer release notes as the primary changelog source over PR/commit synthesis.
+- This is the first dev-log recap; the watermark is now set to 2026-06-05 for both repos.
