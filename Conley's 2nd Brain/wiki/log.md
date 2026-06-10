@@ -1513,3 +1513,63 @@ First-ever dev-log capture for Long Game Studios. Covers all development activit
 - Three PBE observation captures created for the content production pipeline — the pipeline completion, first Grind commit, and Resend cost decision all pass the smart gate as content-worthy dev events.
 - Neither repo has cut a GitHub Release. When Releases are adopted, dev-log capture should prefer release notes as the primary changelog source over PR/commit synthesis.
 - This is the first dev-log recap; the watermark is now set to 2026-06-05 for both repos.
+
+---
+
+## [2026-06-06] lint | Daily light sweep
+
+**Audit scope:** Trivial drift — index header counts, last-updated date, frontmatter, source attribution, orphan detection, open PR/issue reconciliation
+**Direct fixes:** 0
+**PRs opened:** 0
+**Issues filed:** 0
+
+### Vault state at sweep time
+
+- 71 wiki pages on disk, 42 raw-source files
+- 2 open PRs (#68 first dev-log capture, #69 No Priors podcast ingest) — both opened 2026-06-05 after last sweep
+- 0 open issues
+- CLAUDE.md Vault Keeper consolidation live; `long-game-studios` domain in both doctrine and CI validation
+- Capture pipeline reactivated: first ingest (PR #69) since 2026-05-19 (18 days idle)
+- Wedding in 6 days (June 12)
+
+### What was checked
+
+- **index.md header:** page count 71 matches actual wiki directory (71 .md files minus index.md and log.md). Source count 42 matches Source Files table rows and raw-sources/ directory listing (42 files). Last updated 2026-06-01 is correct (no index modifications since then on main).
+- **Index-to-disk cross-check:** all 71 wiki pages on disk are referenced in index.md section tables; all index.md [[page-name]] references resolve to files on disk. No orphans, no phantom references.
+- **Frontmatter spot-check:** 3 pages sampled (`writing-style.md`, `book-project-2025.md`, `conley-potter.md`) — all have valid type, domain, tags, created/updated dates, and source attribution.
+- **Raw-sources orphan check:** all 42 files in raw-sources/ have corresponding wiki pages and Source Files table entries. No orphans.
+- **log.md compliance:** append-only, newest at bottom, no ordering violations.
+- **Open PR reconciliation:** 2 PRs opened after yesterday's sweep — PR #68 (first LGS dev-log capture, 4 pages + 3 PBE captures) and PR #69 (No Priors Nadella podcast ingest, 1 page). Both are well-formed Vault Keeper branches (devlog/, ingest/ prefixes). Both modify index.md and log.md from the same base commit (24ebc6a); the second to merge will need a rebase to resolve index/log conflicts.
+- **Open issue reconciliation:** none. No coordination labels to reconcile.
+
+### Notable observations
+
+- Sixth consecutive clean sweep with no header/count drift. The vault remains in stable equilibrium.
+- The capture pipeline is active again after 18 days idle. PR #69 is the first new ingest since May 19 — a Spotify podcast episode (No Priors with Satya Nadella). PR #68 is the inaugural Dev-Log Capture mode run, synthesizing all DailyChew and The Grind development history.
+- Both open PRs modify the same navigation files (index.md, log.md) from the same base. Whichever merges first will cause a merge conflict on the other. This is expected behavior for concurrent agent branches and is not a vault integrity issue — the second PR will need a rebase before its CI can pass.
+- Wedding is June 12, 6 days away. `conley-potter.md` currently says "engaged to Sami" — tracked in CLAUDE.md "Known pages needing attention" for a post-wedding update.
+- Long Game Studios sections in index.md remain empty on main. PR #68 populates them with 4 new pages (domain anchor, two product overviews, one archival dev-log). Once it merges, the LGS domain will be fully bootstrapped in the vault.
+
+
+## [2026-06-07] ingest | HDBSCAN Clustering — Google AI Mode
+
+**Source type:** Google AI Mode shared result — an AI-generated overview of the HDBSCAN clustering algorithm
+**Pages created:** 1 (`hdbscan-clustering.md`)
+**Pages updated:** 1 (`domain-general.md`)
+
+### What this source contains
+
+A comprehensive technical overview of HDBSCAN (Hierarchical Density-Based Spatial Clustering of Applications with Noise), captured from a Google AI Mode shared result. Covers the four-step algorithm (mutual reachability distance, minimum spanning tree, cluster hierarchy, stable extraction), key advantages over standard DBSCAN (variable density, noise tolerance, minimal tuning, soft clustering), a Python implementation using the scikit-learn-contrib `hdbscan` package, common use cases (BERTopic topic modeling, geospatial analytics, genomics, UMAP pipelines), and documentation resources.
+
+### What changed
+
+- **[[hdbscan-clustering]]** created — synthesis page covering the algorithm mechanics, implementation, and use cases; filed under domain `general`
+- **[[domain-general]]** updated — added new page to anchor table, updated date to 2026-06-07
+- **[[index.md]]** updated — source count 42→43, page count 71→72, last updated to 2026-06-07, new row in General Knowledge section and Source Files table
+
+### Notable observations
+
+- This is the first machine learning / data science algorithm page in the vault — a new category of general knowledge alongside the AI tooling and workflow pages.
+- HDBSCAN's use in BERTopic (topic modeling over text embeddings) is directly relevant to DailyChew's content pipeline — if episode scripts or user interest profiles ever need topic clustering, this is the standard approach.
+- The UMAP + HDBSCAN pattern (dimensionality reduction → density clustering) is a foundational ML pipeline worth knowing as the vault's technical scope expands.
+- Source is an AI-generated overview (Google AI Mode), not a primary research paper or documentation page. Treat as a well-structured introduction, not as a definitive or citable source.
