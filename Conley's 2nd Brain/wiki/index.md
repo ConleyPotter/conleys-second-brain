@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
 **Last updated:** 2026-06-05  
-**Source count:** 42
-**Page count:** 75
+**Source count:** 43
+**Page count:** 76
 
 This wiki documents Conley Potter's life, projects, and career. It began as an ACE-only knowledge base and has expanded into a full second brain covering the Personal Brand Engine (successor to ACE), career transition strategy, BA day job, personal operating doctrine, Drone Enterprises, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -34,6 +34,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | [[multi-agent-orchestration]] | Multi-agent AI patterns — Pipeline, Fan-Out, Specialist Team; Anthropic Managed Agents, Dreaming, Outcomes; production examples from Netflix, Harvey, Shopify |
 | [[perplexity-agent-skills]] | Perplexity's guide to designing, refining, and maintaining agent skills — directory structure, progressive disclosure, routing triggers, eval suites |
 | [[ai-psychosis-hashimoto]] | Mitchell Hashimoto on "AI psychosis" — MTBF vs. MTTR parallels between cloud infrastructure and AI-assisted development |
+| [[no-priors-nadella-full-stack-builder]] | Satya Nadella on the rise of full-stack builders — multi-model harnesses, evals as IP, SaaS durability, the token economy |
 
 ## Day Job (BA)
 
@@ -203,3 +204,4 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | `mitchellh-ai-psychosis-software-development.md` | X thread — Mitchell Hashimoto on AI psychosis in software development, MTBF vs. MTTR parallels | 2026-05-17 |
 | `autoboost-vault-skills-development-reflection-2026-05-19.md` | Personal reflection — AutoBoost Vault skills development and team rollout | 2026-05-19 |
 | `mom-housing-offer-lebanon-pa-2026-05-19.md` | Personal voice note — multi-gen housing offer in Lebanon, PA | 2026-05-19 |
+| `no-priors-nadella-full-stack-builder-2026-06-05.md` | Podcast episode — No Priors with Satya Nadella (full-stack builders, multi-model harnesses, evals as IP) | 2026-06-05 |

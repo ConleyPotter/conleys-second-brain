@@ -39,3 +39,4 @@ Pages here address:
 | [[multi-agent-orchestration]] | Multi-agent AI patterns — Pipeline, Fan-Out, Specialist Team; production examples from Netflix, Harvey, Shopify |
 | [[perplexity-agent-skills]] | Perplexity's guide to designing, refining, and maintaining agent skills — directory structure, progressive disclosure, eval suites |
 | [[ai-psychosis-hashimoto]] | Mitchell Hashimoto on "AI psychosis" — MTBF vs. MTTR parallels between cloud infrastructure and AI-assisted development |
+| [[no-priors-nadella-full-stack-builder]] | Satya Nadella on the rise of full-stack builders — multi-model harnesses, evals as IP, SaaS durability, the token economy |
