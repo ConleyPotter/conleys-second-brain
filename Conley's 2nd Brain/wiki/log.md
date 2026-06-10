@@ -1842,3 +1842,29 @@ Anthropic's official documentation for Claude Code sub-agents — specialized AI
 - Sub-agent skill preloading (`skills` frontmatter) mirrors Perplexity's progressive disclosure pattern documented in `[[perplexity-agent-skills]]` — domain knowledge injected at startup rather than discovered during execution.
 - The `gstack` framework's 23 specialist commands are built on this sub-agent system — this page provides the underlying infrastructure documentation that `[[gstack]]` references.
 - Source is official Anthropic product documentation — high reliability, likely to be updated as the product evolves. Worth re-capturing periodically.
+
+---
+
+## [2026-06-08] ingest | Claude Code Agent Teams Documentation
+
+**Source type:** Official Anthropic documentation (code.claude.com)
+**Pages created:** 1 (`claude-code-agent-teams.md`)
+**Pages updated:** 2 (`multi-agent-orchestration.md`, `domain-general.md`)
+
+### What this source contains
+
+The official Anthropic documentation for Claude Code Agent Teams — an experimental feature (v2.1.32+, June 2026) that coordinates multiple Claude Code sessions as a team. One session acts as team lead, spawning teammates that operate as fully independent Claude Code instances with their own context windows. Key differentiator from subagents: teammates communicate directly with each other through a shared mailbox and task list, rather than only reporting back to a parent.
+
+### What changed
+
+- **Created `claude-code-agent-teams.md`** — tool-analysis page covering the full feature: architecture (lead/teammates/task list/mailbox), comparison with subagents, display modes (in-process vs. split panes via tmux/iTerm2), task coordination with dependencies, quality gate hooks (TeammateIdle/TaskCreated/TaskCompleted), plan approval mode, best practices (3–5 teammates, 5–6 tasks each), and known limitations (no session resumption, no nested teams, one team at a time).
+- **Updated `multi-agent-orchestration.md`** — added cross-reference noting that agent teams are the first-party implementation of the Fan-Out and Specialist Team patterns.
+- **Updated `domain-general.md`** — added new page to the anchor table (11th page in domain).
+
+### Notable observations
+
+- This is the first official Anthropic tool documentation captured in the vault. Previous Claude-related pages (`opus-4-7-workflow`, `gstack`, `multi-agent-orchestration`) were community-sourced threads and guides. Having primary documentation raises the signal-to-noise quality of the AI tooling knowledge in the vault.
+- Agent teams are a direct implementation of Patterns 2 and 3 from `[[multi-agent-orchestration]]` — the competing-hypotheses debugging example is particularly noteworthy as an adversarial variant of Fan-Out.
+- The shared task list with dependencies mirrors project management conventions used in Conley's own GitHub Projects boards (Now/Next/Later with dependencies). The architectural parallel is worth noting.
+- **Practical relevance to Conley's stack:** Claude Code is the primary development tool for both DailyChew and The Grind. Agent teams could accelerate cross-layer work (frontend + backend + tests) once the feature stabilizes past experimental. The token cost constraint is real — each teammate is a full Claude instance, which matters for Conley's budget-constrained quota.
+- The CLAUDE.md propagation behavior (teammates read CLAUDE.md from the working directory) means any team working on vault-related or product-related code would automatically inherit the operating contracts.
