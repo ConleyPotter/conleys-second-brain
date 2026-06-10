@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
 **Last updated:** 2026-06-08  
-**Source count:** 46
-**Page count:** 79
+**Source count:** 47
+**Page count:** 80
 
 This wiki documents Conley Potter's life, projects, and career. It began as an ACE-only knowledge base and has expanded into a full second brain covering the Personal Brand Engine (successor to ACE), career transition strategy, BA day job, personal operating doctrine, Drone Enterprises, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -49,6 +49,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | [[ba-clients-pipeline]] | Rolling reference for key client accounts and pipeline — context HubSpot doesn't hold |
 | [[adam-shop-incubator]] | Adam's 6-location auto repair shop chain — content engine, incubator, real estate play; GC referral placed Apr 7 |
 | [[autoboost-vault-skills]] | AutoBoost Vault skills development — slash commands → skills migration, team-wide AI tooling rollout plans |
+| [[lsa-auto-feedback]] | Automated LSA lead feedback pipeline — pull leads, transcribe with Deepgram, classify with Claude Haiku, submit ratings to Google; Advanced-tier clients only |
 | [[ab-lead-classifier]] | Confidence-gated lead classification pipeline — Haiku self-consistency scoring, HITL review queue, gold-set eval for Google Ads lead feedback |
 
 ## Personal Brand Engine & Tech
@@ -207,6 +208,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | `mitchellh-ai-psychosis-software-development.md` | X thread — Mitchell Hashimoto on AI psychosis in software development, MTBF vs. MTTR parallels | 2026-05-17 |
 | `autoboost-vault-skills-development-reflection-2026-05-19.md` | Personal reflection — AutoBoost Vault skills development and team rollout | 2026-05-19 |
 | `mom-housing-offer-lebanon-pa-2026-05-19.md` | Personal voice note — multi-gen housing offer in Lebanon, PA | 2026-05-19 |
+| `lsa-auto-feedback-description-2026-06-08.md` | Project description (email capture) — automated LSA lead feedback pipeline at AutoBoost | 2026-06-08 |
 | `ab-lead-classifier-confidence-pipeline-issue-2026-06-08.md` | Engineering design — confidence-gated lead classifier pipeline for Google Ads lead feedback at AutoBoost | 2026-06-08 |
 | `graphiti-google-ai-mode-2026-06-07.md` | Google AI Mode shared result — Graphiti temporal knowledge graph framework for AI agents | 2026-06-07 |
 | `google-ai-mode-hdbscan-clustering-2026-06-07.md` | Google AI Mode shared result — HDBSCAN clustering algorithm overview, implementation, and use cases | 2026-06-07 |

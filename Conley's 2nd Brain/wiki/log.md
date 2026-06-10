@@ -1763,3 +1763,28 @@ Six sub-issues (#26–#31) cover: data models, self-consistency sampling, review
 - The dissatisfied/dispute direction carrying a higher precision bar is a mature risk-asymmetry call — false positives in the "harmful" direction (disputing a valid lead) are costlier than false negatives (missing a bad lead). This same pattern appears in DailyChew's eval system where source-date consistency errors are treated as more harmful than missing a nuance.
 - The human-review queue → gold-set flywheel is the right architecture: each human resolution becomes ground truth, reducing future human load. The current gap (nightly pipeline auto-submits with no human) is a meaningful operational risk that this work directly addresses.
 - Out-of-scope: the autoboost-vault business-context provider (#27 ships the Protocol interface, wiring the vault MCP client happens separately). When that ships, it will be the first cross-repo dependency between AutoBoost's vault and the lead pipeline.
+
+---
+
+## [2026-06-08] ingest | lsa-auto-feedback pipeline description
+
+**Source type:** Email capture — Conley's description of the LSA/lead project at AutoBoost
+**Pages created:** 1 (`lsa-auto-feedback.md`)
+**Pages updated:** 1 (`ba-overview.md`)
+
+### What this source contains
+
+Conley emailed a project description for `lsa-auto-feedback`, an internal AutoBoost pipeline that automates Google Local Services Ads (LSA) lead feedback. The pipeline replaces manual human review of call recordings for Advanced-tier LSA clients by: pulling leads from the Google Ads API, downloading recordings, transcribing with Deepgram, classifying quality with Claude Haiku, and submitting 5-point survey ratings back to Google via `ProvideLeadFeedback()`.
+
+### What changed
+
+- **Created `lsa-auto-feedback.md`** — project page covering the full 5-step pipeline architecture, client scope (Advanced LSA only, sourced from HubSpot), technology stack, and strategic importance. Cross-references `[[ab-lead-classifier]]` for the confidence-gated classification sub-component (captured earlier today in PR #84).
+- **Updated `ba-overview.md`** — added lsa-auto-feedback as an active BA workstream; added `[[lsa-auto-feedback]]` to Related links; bumped updated date.
+
+### Notable observations
+
+- This is the parent pipeline for the `ab-lead-classifier` confidence system captured earlier today (PR #84). The classifier handles step 4 (classify + confidence gate); this page covers all 5 steps end to end.
+- The pipeline only processes Advanced LSA clients ($599/mo) — directly automating the core deliverable that differentiates Advanced from Standard LSA ($199/mo). See `[[ba-products]]` for tier detail.
+- This is Conley's first major AI automation initiative at BA, bridging his systems-building skills with agency service delivery. The project sits at the intersection of his day-job excellence strategy and his broader AI/automation expertise.
+- The pipeline is architecturally interesting: Deepgram STT → Claude Haiku classification → self-consistency confidence gating → Google feedback API. The confidence pipeline adds a human-in-the-loop safety net for uncertain or dissatisfied-direction classifications — critical since false negatives directly harm client accounts.
+- No URL or repo link was provided; the email contained only a README-style project description. Additional implementation detail may arrive as the project progresses.
