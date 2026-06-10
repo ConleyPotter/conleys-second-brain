@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
 **Last updated:** 2026-06-07  
-**Source count:** 43
-**Page count:** 72
+**Source count:** 45
+**Page count:** 78
 
 This wiki documents Conley Potter's life, projects, and career. It began as an ACE-only knowledge base and has expanded into a full second brain covering the Personal Brand Engine (successor to ACE), career transition strategy, BA day job, personal operating doctrine, Drone Enterprises, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -35,6 +35,8 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | [[perplexity-agent-skills]] | Perplexity's guide to designing, refining, and maintaining agent skills — directory structure, progressive disclosure, routing triggers, eval suites |
 | [[ai-psychosis-hashimoto]] | Mitchell Hashimoto on "AI psychosis" — MTBF vs. MTTR parallels between cloud infrastructure and AI-assisted development |
 | [[graphiti]] | Graphiti open-source framework — temporally aware knowledge graphs for AI agents; hybrid retrieval, temporal fact tracking, MCP integration, Neo4j/FalkorDB, Zep enterprise layer |
+| [[hdbscan-clustering]] | HDBSCAN unsupervised clustering algorithm — variable-density grouping, noise tolerance, soft clustering, Python implementation, BERTopic and geospatial use cases |
+| [[no-priors-nadella-full-stack-builder]] | Satya Nadella on the rise of full-stack builders — multi-model harnesses, evals as IP, SaaS durability, the token economy |
 
 ## Day Job (BA)
 
@@ -136,13 +138,15 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 
 | Page | Summary |
 |---|---|
-| | *No pages yet — domain infrastructure added 2026-05-30. Dev-log capture will populate this section.* |
+| [[domain-long-game-studios]] | Long Game Studios domain anchor — products, region/MRR map, development cadence |
+| [[dailychew-overview]] | DailyChew.AI product overview — architecture, tech stack, API surface, ADRs, dev status |
+| [[the-grind-overview]] | The Grind product overview — game design, brand rules, tech stack, backlog, dev status |
 
 ## Long Game Studios Dev Logs
 
 | Page | Summary |
 |---|---|
-| | *No pages yet — first dev-log capture pending.* |
+| [[lgs-devrecap-2026-06-05]] | First dev-log recap — repo creation through June 5, 2026; DailyChew pipeline complete, The Grind bootstrapped |
 
 ## Meta
 
@@ -165,7 +169,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | `ACE_Phase1_Campaign_Plan.md`                      | Marketing campaign plan             | 2026-04-14 |
 | `Brand Voice Guide 4.14.md`                        | Brand voice documentation           | 2026-04-14 |
 | `Upwork_Portfolio_Projects.md`                      | Portfolio copy + instructions       | 2026-04-14 |
-| `Claude Accounts' Saved Memories.md`              | Multi-account operator memory consolidation | 2026-04-14 |
+| `Claude Accounts\' Saved Memories.md`              | Multi-account operator memory consolidation | 2026-04-14 |
 | `Personal Portfolio Website Current State 4.14.26.md` | Current portfolio copy — career history, projects, philosophy, writing topics | 2026-04-14 |
 | `ACE Pivot Explanation.md` | Why and how ACE transitioned from autonomous content studio to HITL arbitrage system | 2026-04-14 |
 | `ACE What It Is, How It Works, and Why It Exists.md` | The original ACE system — 8-agent learning loop, sunsetted Feb 2026 | 2026-04-14 |
@@ -203,3 +207,5 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | `autoboost-vault-skills-development-reflection-2026-05-19.md` | Personal reflection — AutoBoost Vault skills development and team rollout | 2026-05-19 |
 | `mom-housing-offer-lebanon-pa-2026-05-19.md` | Personal voice note — multi-gen housing offer in Lebanon, PA | 2026-05-19 |
 | `graphiti-google-ai-mode-2026-06-07.md` | Google AI Mode shared result — Graphiti temporal knowledge graph framework for AI agents | 2026-06-07 |
+| `google-ai-mode-hdbscan-clustering-2026-06-07.md` | Google AI Mode shared result — HDBSCAN clustering algorithm overview, implementation, and use cases | 2026-06-07 |
+| `no-priors-nadella-full-stack-builder-2026-06-05.md` | Podcast episode — No Priors with Satya Nadella (full-stack builders, multi-model harnesses, evals as IP) | 2026-06-05 |
