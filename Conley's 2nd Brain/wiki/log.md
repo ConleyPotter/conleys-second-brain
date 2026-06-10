@@ -1550,6 +1550,101 @@ First-ever dev-log capture for Long Game Studios. Covers all development activit
 - Wedding is June 12, 6 days away. `conley-potter.md` currently says "engaged to Sami" — tracked in CLAUDE.md "Known pages needing attention" for a post-wedding update.
 - Long Game Studios sections in index.md remain empty on main. PR #68 populates them with 4 new pages (domain anchor, two product overviews, one archival dev-log). Once it merges, the LGS domain will be fully bootstrapped in the vault.
 
+---
+
+## [2026-06-07] lint | Weekly deep audit
+
+**Audit scope:** Full vault review — catalog integrity, completeness, orphans, contradictions, stale pages, split candidates, domain emergence
+**Direct fixes:** 0
+**PRs opened:** 2 (vault-steward labeled, never auto-merge)
+**Issues filed:** 6 (vault-steward labeled)
+
+### Vault state at audit time
+
+- 71 wiki pages on disk, 42 raw-source files (unchanged from last sweep)
+- 4 open PRs: #68 (first dev-log capture), #69 (No Priors podcast ingest), #70 (HDBSCAN ingest), #71 (Graphiti ingest) — all expected in-flight Vault Keeper work
+- 0 open issues at audit start
+- CLAUDE.md Vault Keeper consolidation live; `long-game-studios` domain in both doctrine and CI validation
+- Wedding in 5 days (June 12, 2026)
+
+### What was checked
+
+- **Index-to-disk cross-check:** all 71 wiki pages on disk referenced in index.md; all index.md references resolve. No orphans, no phantom references.
+- **Raw-sources orphan check:** all 42 files accounted for. No orphans.
+- **Frontmatter validation:** 20-page deep sample + 6-page domain verification = 26 pages checked (36% of vault). All have valid required fields (type, domain, tags, created, updated). One date mismatch found (ace-overview.md).
+- **Domain anchor audit:** 3 existing anchors reviewed (domain-general.md, domain-personal.md, domain-drone-enterprises.md). Two missing anchors identified (ba, ace).
+- **Staleness assessment:** 14 of 20 sampled pages not updated in 6+ weeks. Expected — Conley's focus on wedding prep and LGS product build. 9 ACE pages properly archived with banners.
+- **Content contradiction:** conley-potter.md still has LinkedIn/ACE separation protocol that contradicts content-strategy.md (retirement of that protocol).
+- **Split candidates:** None identified. No pages are oversized or covering multiple unrelated topics.
+- **Domain emergence:** No new domains emerging. long-game-studios domain is in-flight (PR #68 creates the anchor).
+- **Open PR evaluation:** All 4 PRs are well-formed Vault Keeper branches. PRs #68 + #69 share a base (24ebc6a); PRs #70 + #71 share a base (232d9f8). All conflict on index.md/log.md — must merge sequentially.
+
+### Issues filed
+
+| # | Title | Nature |
+|---|---|---|
+| #72 | drone-opportunity.md domain reclassification (general → drone-enterprises) | Domain judgment call |
+| #73 | portfolio-update-plan.md PBE pivot review | Content review |
+| #74 | Post-wedding content updates (conley-potter.md + portfolio pages) | Scheduled June 12+ |
+| #75 | ba-clients-pipeline.md rolling page stale | Needs source from Conley |
+| #76 | the-sentinel.md + the-river-room.md ACE funding references stale | Content update |
+| #77 | ace-overview.md frontmatter date mismatch + ace domain anchor question | Frontmatter + domain judgment |
+
+### PRs opened
+
+| # | Title | Nature |
+|---|---|---|
+| #78 | Create domain-ba.md anchor page | New wiki (confidence 0.85) |
+| #79 | Refresh domain-personal.md — add 12 missing pages | Gap-fill (confidence 0.85) |
+
+### Notable observations
+
+- Seventh consecutive week with no index/log count drift. The vault's structural integrity is solid.
+- The personal domain anchor was the most incomplete artifact found: 6 of 18 pages listed. This was the original anchor (April 14), predating the vault's expansion into identity, career, and portfolio pages.
+- The ACE→PBE pivot (May 2026) left a broad ripple of stale references: operating-doctrine-2026, conley-potter, portfolio-update-plan, the-sentinel, the-river-room, and domain-personal.md itself. These are tracked across issues #73, #74, #76, and PR #79. A single pass to reconcile all ACE references would be efficient but requires Conley's direction on scope.
+- Wedding is June 12, 5 days away. The post-wedding content update (issue #74) is pre-filed for the Remediate pipeline to pick up on or after June 12.
+- housing-offer-lebanon.md has a June 30 closing date — 23 days away. May warrant a status update post-closing.
+- 4 open capture/devlog PRs all conflict on index.md/log.md. Merging them will require sequential rebases. This is expected behavior for concurrent agent branches and is not a vault integrity issue.
+
+
+---
+
+---
+
+## [2026-06-07] lint | Daily light sweep
+
+**Audit scope:** Trivial drift — index header counts, last-updated date, frontmatter, source attribution, orphan detection, open PR/issue reconciliation
+**Direct fixes:** 0
+**PRs opened:** 0
+**Issues filed:** 0
+
+### Vault state at sweep time
+
+- 71 wiki pages on disk, 42 raw-source files (unchanged from weekly deep audit ~1h ago)
+- 6 open PRs: #68 (first dev-log capture), #69 (No Priors ingest), #70 (HDBSCAN ingest), #71 (Graphiti ingest), #78 (domain-ba anchor), #79 (domain-personal refresh) — all expected in-flight Vault Keeper work
+- 6 open issues: #72–#77, all filed by today's weekly deep audit, all labeled vault-steward, none yet claimed by Remediate (12pm ET run pending)
+- Wedding in 5 days (June 12, 2026)
+
+### What was checked
+
+- **Index header verification:** page count 71, source count 42, last-updated 2026-06-01 — all correct. No pages added or removed on main since June 1 index update.
+- **Disk-to-index cross-check:** 71 wiki .md files on disk (excl index.md, log.md), 42 raw-source files on disk — both match index.md header counts exactly.
+- **log.md compliance:** append-only, newest at bottom, no ordering violations. Weekly audit entry from earlier today correctly formatted.
+- **Open PR reconciliation:** 6 PRs open, all from recognized Vault Keeper branches (devlog/, ingest/, steward/ prefixes). 4 capture/devlog PRs (#68–#71) need sequential rebasing — all modify index.md/log.md from behind-main base commits. 2 steward PRs (#78, #79) labeled vault-steward, Conley merges.
+- **Open issue reconciliation:** 6 issues (#72–#77) all filed today by weekly audit, all labeled vault-steward, none with Remediate labels. Correctly awaiting the 12pm ET Remediate pass.
+
+### Notable observations
+
+- Ninth consecutive clean sweep with no header/count drift. Vault structural integrity remains solid.
+- The weekly deep audit ran ~1 hour before this sweep. No new commits or merges in that window — vault state unchanged. This sweep is a confirmation pass.
+- 6-PR merge queue is the longest in vault history. PRs #68–#69 are based on commit 24ebc6a (3 commits behind main); PRs #70–#71, #78–#79 are based on 232d9f8 (1 commit behind). All conflict on index.md/log.md. Sequential rebase needed — not a trivial fix.
+- All 6 issues from the weekly audit are fresh and awaiting the 12pm Remediate pass. No coordination label conflicts.
+- Wedding in 5 days. Post-wedding content updates tracked in issue #74 (deferred to June 12+).
+
+
+---
+
+---
 
 ## [2026-06-07] ingest | HDBSCAN Clustering — Google AI Mode
 
@@ -1600,3 +1695,71 @@ A Google AI Mode overview of Graphiti, an open-source framework for building tem
 - This is the second ML/data-science tool page in the vault (after `hdbscan-clustering.md`, currently in PR #70). The General Knowledge domain is expanding into technical tool analysis.
 - Source is an AI-generated overview, not primary documentation. Flagged in the wiki page with a note to cross-reference against the Graphiti GitHub repo and Zep docs before engineering decisions.
 - Three other PRs (#68, #69, #70) are currently open and modify the same navigation files. Whichever merges first will require the others to rebase.
+
+---
+
+## [2026-06-08] lint | Daily light sweep
+
+**Audit scope:** Trivial drift — index header counts, last-updated date, frontmatter, source attribution, orphan detection, open PR/issue reconciliation
+**Direct fixes:** 3 (merge stale PR, add missing labels)
+**PRs opened:** 0
+**Issues filed:** 0
+
+### Vault state at sweep time
+
+- 71 wiki pages on disk, 42 raw-source files (unchanged)
+- 10 open PRs at start: #68 (first dev-log capture), #69 (No Priors ingest), #70 (HDBSCAN ingest), #71 (Graphiti ingest), #78 (domain-ba anchor), #79 (domain-personal refresh), #80 (ace-overview date fix), #81 (ACE→LGS funding refs), #82 (drone domain reclass), #83 (portfolio-plan archive)
+- 6 open issues: #72–#77, all from yesterday's weekly audit
+- Wedding in 4 days (June 12, 2026)
+
+### What was checked
+
+- **Index header verification:** page count 71, source count 42, last-updated 2026-06-01 — all correct. No pages added or removed on main since June 1 index update.
+- **Disk-to-index cross-check:** 71 wiki .md files on disk (excl index.md, log.md), 1 non-.md file (Wiki Database.base), 42 raw-source files on disk — all match index.md headers.
+- **log.md compliance:** append-only, newest at bottom, no ordering violations. Yesterday's weekly audit and daily sweep entries correctly formatted.
+- **Open PR reconciliation:** 10 PRs open at start. PR #80 (confidence 0.95, frontmatter date fix, no label) was stale — 15h without auto-merge. Merged manually; auto-merge likely failed because it was not explicitly enabled on the individual PR. PRs #78 and #79 (weekly audit PRs) were missing `vault-steward` labels — added. After fixes: 9 PRs remain open.
+- **Open issue reconciliation:** 6 issues (#72–#77). Labels: #72 remediator-claimed (PR #82 draft), #73 remediator-claimed (PR #83 draft), #74 vault-steward only (June 12+ deferred), #75 remediator-skipped (needs Conley input), #76 remediator-claimed (PR #81), #77 remediator-claimed (PR #80, now merged — frontmatter part resolved, domain anchor question still open).
+
+### Direct fixes applied
+
+1. **Merged stale PR #80** — ace-overview.md frontmatter `updated` date correction (confidence 0.95, auto-merge eligible but stuck). Squash merged. Issue #77 remains open for the domain anchor question.
+2. **Added `vault-steward` label to PR #78** — weekly audit PR (domain-ba anchor) was missing its coordination label.
+3. **Added `vault-steward` label to PR #79** — weekly audit PR (domain-personal refresh) was missing its coordination label.
+
+### Notable observations
+
+- Tenth consecutive clean sweep with no header/count drift. Vault structural integrity remains solid.
+- 9-PR merge queue is the longest in vault history (down from 10 after merging #80). 4 capture/devlog PRs (#68–#71) and 4 remediation PRs (#81–#83 + now-merged #80) all conflict on index.md/log.md. Sequential merge-and-rebase is needed — not a trivial fix, but expected behavior for concurrent agent branches.
+- The auto-merge gap on PR #80 suggests the Remediate mode may not be explicitly enabling auto-merge on individual PRs. Future high-confidence PRs should verify auto-merge is toggled on.
+- Wedding is June 12, 4 days away. Post-wedding content updates tracked in issue #74 (deferred). housing-offer-lebanon.md has a June 30 closing date — 22 days away.
+- Issue #77 partially resolved (frontmatter date via PR #80) but the domain anchor question (options a/b/c) remains open for Conley.
+
+
+---
+
+---
+
+## [2026-06-08] ingest | AutoBoost Lead Classifier — Confidence-Gated Pipeline
+
+**Source type:** GitHub issue from AutoBoost internal repo — engineering design document for confidence-gated lead classification pipeline
+**Pages created:** 1 (`ab-lead-classifier.md`)
+**Pages updated:** 1 (`ba-overview.md`)
+
+### What this source contains
+
+Engineering specification for a confidence-gated pipeline that classifies Google Ads leads (phone call transcripts via Deepgram STT) and submits structured feedback to Google via ProvideLeadFeedback(). The system uses Claude Haiku self-consistency sampling (N runs at temperature > 0, vote agreement) as a confidence signal, since the Anthropic Messages API exposes no token logprobs. A three-way router sends high-confidence leads to auto-submit, low-confidence or dissatisfied-direction leads to a human review queue, and unusable transcripts to a drop bucket. A gold-set eval harness gates CI promotion and is continuously refilled by human reviewer resolutions.
+
+Six sub-issues (#26–#31) cover: data models, self-consistency sampling, review queue persistence, confidence scorer, pipeline gate, and the gold-set harness. North-star targets include binary agreement ≥ 0.95, dissatisfied precision ≥ 0.98, Cohen's kappa ≥ 0.70, and ECE ≤ 0.05.
+
+### What changed
+
+- **Created `ab-lead-classifier.md`** — new operations page under the BA domain covering the full classifier architecture: self-consistency scoring, three-way routing (AUTO_SUBMIT / HUMAN_REVIEW / DROP), north-star acceptance metrics, the six-issue implementation plan, gold-set flywheel, and out-of-scope items (business-context provider, shadow mode).
+- **Updated `ba-overview.md`** — added the lead classifier as a fifth item under "Active BA workstreams," added the raw source to the sources list, added `[[ab-lead-classifier]]` to the Related links, and bumped the updated date to 2026-06-08.
+
+### Notable observations
+
+- This is the first BA engineering initiative captured in the vault — prior BA content focused on client operations, team, and products. The lead classifier represents AutoBoost's investment in AI-powered operational infrastructure, distinct from the team-facing Vault skills work in [[autoboost-vault-skills]].
+- The pipeline's use of Claude Haiku parallels DailyChew's multi-model strategy: small models for high-volume classification, larger models for harder cases. The self-consistency sampling approach (N runs at temperature > 0) is a clean workaround for Anthropic's lack of token logprobs.
+- The dissatisfied/dispute direction carrying a higher precision bar is a mature risk-asymmetry call — false positives in the "harmful" direction (disputing a valid lead) are costlier than false negatives (missing a bad lead). This same pattern appears in DailyChew's eval system where source-date consistency errors are treated as more harmful than missing a nuance.
+- The human-review queue → gold-set flywheel is the right architecture: each human resolution becomes ground truth, reducing future human load. The current gap (nightly pipeline auto-submits with no human) is a meaningful operational risk that this work directly addresses.
+- Out-of-scope: the autoboost-vault business-context provider (#27 ships the Protocol interface, wiring the vault MCP client happens separately). When that ships, it will be the first cross-repo dependency between AutoBoost's vault and the lead pipeline.
