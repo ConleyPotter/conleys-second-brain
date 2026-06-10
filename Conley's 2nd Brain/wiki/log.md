@@ -1868,3 +1868,31 @@ The official Anthropic documentation for Claude Code Agent Teams — an experime
 - The shared task list with dependencies mirrors project management conventions used in Conley's own GitHub Projects boards (Now/Next/Later with dependencies). The architectural parallel is worth noting.
 - **Practical relevance to Conley's stack:** Claude Code is the primary development tool for both DailyChew and The Grind. Agent teams could accelerate cross-layer work (frontend + backend + tests) once the feature stabilizes past experimental. The token cost constraint is real — each teammate is a full Claude instance, which matters for Conley's budget-constrained quota.
 - The CLAUDE.md propagation behavior (teammates read CLAUDE.md from the working directory) means any team working on vault-related or product-related code would automatically inherit the operating contracts.
+
+---
+
+## [2026-06-09] ingest | Long Game Studios Dev Recap — June 6–9
+
+**Source type:** Dev-Log Capture (Mode 2) — dev-log recap synthesized from merged PRs, commits, and CI across daily-chew-ai and lgs-the-grind
+**Pages created:** 1 (`lgs-devrecap-2026-06-09.md`)
+**Pages updated:** 3 (`dailychew-overview.md`, `the-grind-overview.md`, `domain-long-game-studios.md`)
+
+### What this source contains
+
+Second dev-log capture covering June 6–9. DailyChew had 3 merged PRs: episode eval system with Gemini judge (issue #8), reflection UI (issue #20), and activation instrumentation TDD (issue #6). Also: R2→GCS audio storage migration, script writer model swap to gpt-4.1, and a new /resolve-issues Claude Code skill. The Grind had 3 merged PRs shipping the core loop from zero to playable gray-box: RunManager, combat system, three Phaser scenes with full state handoff, and its first ADR (Phaser 3 over Godot 4).
+
+### What changed
+
+- Created `lgs-devrecap-2026-06-09.md` — archival work-log with full changelog grouped by Conventional Commit type, build log (CI, dependencies, migrations, cost notes), model roster, and status summary
+- Updated `dailychew-overview.md` — added eval system section (Gemini judge, 5-dimension rubric, calibration), updated audio storage from R2 to GCS, changed script writer model to gpt-4.1, added /resolve-issues skill, updated test count to ~320, added ReflectClient description, updated tech stack table
+- Updated `the-grind-overview.md` — updated stage from "bootstrapped" to "core loop playable", added Core Systems section documenting RunManager/combat/scenes, added ADR table, updated test count to 103, noted issues #3 and #4 closed
+- Updated `domain-long-game-studios.md` — added new devrecap row to pages table, updated product stages in Products table
+- Created 4 PBE observation captures in `01-CAPTURES/observations/`: R2→GCS migration, Gemini eval judge, Grind core loop playable, script writer model swap
+
+### Notable observations
+
+- DailyChew now uses 5 different model providers across its pipeline: GPT-5.4 Nano, gpt-4.1, gpt-4o-mini-tts, Claude Sonnet 4.6, and Gemini. The multi-model harness is a real architectural feature, not just model shopping.
+- The script writer model swap from Claude Sonnet 4.6 Batch to gpt-4.1 may have cost implications — gpt-4.1 loses the 50% batch discount that Claude Batch API provided. Worth tracking in the financial model.
+- The Grind went from zero game code to a playable (gray-box) core loop in a single day (June 6). Issues #3 and #4 both closed. The scope contract ("never steal hours from DailyChew") is holding — all Grind work was concentrated into one burst.
+- R2→GCS migration left 4 broken tests (source.test.ts, audio/upload.test.ts) — tech debt to clean up.
+- The ReflectClient.tsx has 3 documented useChat bugs that block production use. These will need to be fixed before the web-to-native pivot (issue #52) or resolved as part of the RN port.

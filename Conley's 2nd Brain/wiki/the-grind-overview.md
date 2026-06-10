@@ -3,7 +3,7 @@ type: operations
 domain: long-game-studios
 tags: [the-grind, game, phaser, arcade]
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-09
 sources: [lgs-the-grind]
 ---
 
@@ -12,7 +12,7 @@ sources: [lgs-the-grind]
 The Grind is a cozy dungeon crawler browser game — the first LGS Arcade title, mapped to the Campfire region ($0–$1K MRR). It is a content asset for Long Game Studios' build-in-public brand, not a revenue product. Players earn gold (1:1 to MRR), and the public scoreboard reflects real studio revenue including $0.
 
 **Repo:** `ConleyPotter/lgs-the-grind` (private, TypeScript, Phaser 3)
-**Stage:** Bootstrapped. Backlog seeded (22 issues). Foundational docs written. No game code yet.
+**Stage:** Core loop playable (gray-box). RunManager + combat + scene transitions wired. 103 tests passing. First ADR recorded.
 
 ---
 
@@ -36,6 +36,28 @@ The Grind is a cozy dungeon crawler browser game — the first LGS Arcade title,
 
 ---
 
+## Core systems (implemented)
+
+### RunManager (`src/systems/RunManager.ts`)
+
+Owns the full run lifecycle: `startRun`, `collectGold`, `applyDamage`, `advanceDepth`, `endRun` (banked or lost), `isPlayerDead`. Manages two state tiers:
+- `RunState` — volatile, per-run (HP, depth, gold collected this run)
+- `MetaState` — persistent (banked gold, carried across runs)
+
+A lost run returns "Back to the grind..." and never banks gold. Double-banking is guarded by an `isActive` check on `requireRun()`.
+
+### Combat (`src/systems/combat.ts`)
+
+Pure functions with no Phaser dependency: `attack` (immutable, clamps health to 0), `isDefeated`, `computeGoldReward`. Fully unit-testable without a browser.
+
+### Scenes
+
+- `CampfireScene` — Hub entry point. Accepts returning `MetaState` via `init()`. SPACE descends to dungeon.
+- `DungeonScene` — Run scene. Constructs fresh `RunManager`, binds B (bank) and L (lose). Returns to Campfire or GameOver with updated state.
+- `GameOverScene` — Soft failure display. Captures MetaState and fail message. SPACE restarts at Campfire with banked gold preserved.
+
+---
+
 ## Tech stack
 
 | Layer | Technology |
@@ -43,9 +65,17 @@ The Grind is a cozy dungeon crawler browser game — the first LGS Arcade title,
 | Framework | Phaser 3 |
 | Bundler | Vite |
 | Language | TypeScript (strict) |
-| Testing | Vitest |
+| Testing | Vitest (103 passing tests) |
 | Build output | Static web (no backend, no PII, localStorage only) |
 | Package manager | npm |
+
+## ADRs
+
+| # | Decision | Status |
+|---|----------|--------|
+| 0001 | Phaser 3 over Godot 4 | Accepted |
+
+Godot 4 documented as the scaling alternative if a second arcade game enters build.
 
 ## Backlog
 
@@ -53,11 +83,11 @@ The Grind is a cozy dungeon crawler browser game — the first LGS Arcade title,
 
 | Horizon | Issues | Scope |
 |---------|--------|-------|
-| Now (#1–#7) | P0 bootstrap, core scene, dungeon generation, player movement, inventory | |
-| Next (#8–#16) | Combat, enemy AI, loot tables, progression, audio, save system | |
-| Later (#17–#22) | Overworld, NPC dialogue, boss encounters, accessibility, polish | |
+| Now (#1–#7) | P0 bootstrap, core scene, dungeon generation, player movement, inventory |  |
+| Next (#8–#16) | Combat, enemy AI, loot tables, progression, audio, save system |  |
+| Later (#17–#22) | Overworld, NPC dialogue, boss encounters, accessibility, polish |  |
 
-Each issue body includes Priority, Effort, Theme, and Horizon fields for the GitHub Projects V2 board.
+Issues #3 (core loop) and #4 (scene transitions) closed this period.
 
 ## Development workflow
 
@@ -73,4 +103,4 @@ Static web build. Will be embedded via iframe on the LGS site. No backend, no us
 
 ---
 
-*Last dev-log: [[lgs-devrecap-2026-06-05]]*
+*Last dev-log: [[lgs-devrecap-2026-06-09]]*
