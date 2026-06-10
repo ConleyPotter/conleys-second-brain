@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
 **Last updated:** 2026-06-08  
-**Source count:** 48
-**Page count:** 81
+**Source count:** 49
+**Page count:** 82
 
 This wiki documents Conley Potter's life, projects, and career. It began as an ACE-only knowledge base and has expanded into a full second brain covering the Personal Brand Engine (successor to ACE), career transition strategy, BA day job, personal operating doctrine, Drone Enterprises, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -34,6 +34,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | [[multi-agent-orchestration]] | Multi-agent AI patterns — Pipeline, Fan-Out, Specialist Team; Anthropic Managed Agents, Dreaming, Outcomes; production examples from Netflix, Harvey, Shopify |
 | [[perplexity-agent-skills]] | Perplexity's guide to designing, refining, and maintaining agent skills — directory structure, progressive disclosure, routing triggers, eval suites |
 | [[ai-psychosis-hashimoto]] | Mitchell Hashimoto on "AI psychosis" — MTBF vs. MTTR parallels between cloud infrastructure and AI-assisted development |
+| [[claude-code-subagents]] | Claude Code sub-agents — specialized AI assistants with custom prompts, tool restrictions, memory, and worktree isolation for context management |
 | [[claude-code-workflows]] | Claude Code dynamic workflows — JavaScript-scripted multi-agent orchestration at scale; /deep-research, ultracode, reusable workflow commands |
 | [[graphiti]] | Graphiti open-source framework — temporally aware knowledge graphs for AI agents; hybrid retrieval, temporal fact tracking, MCP integration, Neo4j/FalkorDB, Zep enterprise layer |
 | [[hdbscan-clustering]] | HDBSCAN unsupervised clustering algorithm — variable-density grouping, noise tolerance, soft clustering, Python implementation, BERTopic and geospatial use cases |
@@ -209,6 +210,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | `mitchellh-ai-psychosis-software-development.md` | X thread — Mitchell Hashimoto on AI psychosis in software development, MTBF vs. MTTR parallels | 2026-05-17 |
 | `autoboost-vault-skills-development-reflection-2026-05-19.md` | Personal reflection — AutoBoost Vault skills development and team rollout | 2026-05-19 |
 | `mom-housing-offer-lebanon-pa-2026-05-19.md` | Personal voice note — multi-gen housing offer in Lebanon, PA | 2026-05-19 |
+| `claude-code-subagents-docs-2026-06-08.md` | Official product documentation (Anthropic) — Claude Code sub-agents system | 2026-06-08 |
 | `claude-code-workflows-docs-2026-06-08.md` | Official product documentation — Claude Code dynamic workflows (Anthropic) | 2026-06-08 |
 | `lsa-auto-feedback-description-2026-06-08.md` | Project description (email capture) — automated LSA lead feedback pipeline at AutoBoost | 2026-06-08 |
 | `ab-lead-classifier-confidence-pipeline-issue-2026-06-08.md` | Engineering design — confidence-gated lead classifier pipeline for Google Ads lead feedback at AutoBoost | 2026-06-08 |

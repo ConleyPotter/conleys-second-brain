@@ -1815,3 +1815,30 @@ Official documentation for Claude Code's dynamic workflows feature (research pre
 - The workflows-as-reusable-commands pattern (`.claude/workflows/` saved via `/` autocomplete) parallels the gstack slash-command architecture and the vault's own skill system
 - DailyChew engineering use case: the 500-file migration example matches the scope of the web-to-native-mobile pivot (issues #50–#60) — workflows could orchestrate the codebase-wide port in a single run
 - Feature is in research preview — documentation may evolve. Source page flagged accordingly in the wiki page
+
+---
+
+## [2026-06-08] ingest | Claude Code Sub-Agents Documentation
+
+**Source type:** Official product documentation (Anthropic) — sub-agent system reference from code.claude.com
+**Pages created:** 1 (`claude-code-subagents.md`)
+**Pages updated:** 0
+
+### What this source contains
+
+Anthropic's official documentation for Claude Code sub-agents — specialized AI assistants that run in their own context window with custom system prompts, tool restrictions, and independent permissions. Covers built-in sub-agents (Explore, Plan, General-purpose), custom sub-agent creation via YAML frontmatter + markdown files, five scope levels (managed → user → project → plugin), full configuration options (tools, models, MCP servers, hooks, memory, isolation), and advanced patterns including worktree isolation, forked sub-agents, and persistent memory.
+
+### What changed
+
+- Created `claude-code-subagents.md` (type synthesis, domain general) — structured reference synthesizing the official documentation into a vault-ready page covering architecture, built-in agents, configuration fields, model resolution, advanced patterns (persistent memory, MCP scoping, worktree isolation), and vault relevance
+- No existing pages updated — this is a new knowledge domain entry. Cross-references added within the page to `[[gstack]]`, `[[multi-agent-orchestration]]`, `[[perplexity-agent-skills]]`, and `[[opus-4-7-workflow]]`
+- `index.md` updated: page count 71→72, source count 42→43, last updated → 2026-06-08, new row in General Knowledge section, new row in Source Files
+- `log.md` appended
+
+### Notable observations
+
+- This is the fourth Claude Code–specific page in the vault (joining `gstack`, `opus-4-7-workflow`, and indirectly `llm-wiki-pattern`). Together they form a coherent reference layer for how Conley uses Claude Code as his primary development tool.
+- The sub-agent architecture is conceptually parallel to Hyperagent's named agent system (the vault's own operating model) — custom prompts, tool restrictions, persistent memory, specialized behavior. Key difference: Claude Code sub-agents are local/session-scoped; Hyperagent agents are cloud-hosted and persistent.
+- Sub-agent skill preloading (`skills` frontmatter) mirrors Perplexity's progressive disclosure pattern documented in `[[perplexity-agent-skills]]` — domain knowledge injected at startup rather than discovered during execution.
+- The `gstack` framework's 23 specialist commands are built on this sub-agent system — this page provides the underlying infrastructure documentation that `[[gstack]]` references.
+- Source is official Anthropic product documentation — high reliability, likely to be updated as the product evolves. Worth re-capturing periodically.
