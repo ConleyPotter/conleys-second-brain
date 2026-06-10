@@ -1788,3 +1788,30 @@ Conley emailed a project description for `lsa-auto-feedback`, an internal AutoBo
 - This is Conley's first major AI automation initiative at BA, bridging his systems-building skills with agency service delivery. The project sits at the intersection of his day-job excellence strategy and his broader AI/automation expertise.
 - The pipeline is architecturally interesting: Deepgram STT → Claude Haiku classification → self-consistency confidence gating → Google feedback API. The confidence pipeline adds a human-in-the-loop safety net for uncertain or dissatisfied-direction classifications — critical since false negatives directly harm client accounts.
 - No URL or repo link was provided; the email contained only a README-style project description. Additional implementation detail may arrive as the project progresses.
+
+---
+
+## [2026-06-08] ingest | Claude Code Dynamic Workflows — Official Documentation
+
+**Source type:** Official Anthropic product documentation (Claude Code docs)
+**Pages created:** 1 (`claude-code-workflows.md`)
+**Pages updated:** 1 (`domain-general.md`)
+
+### What this source contains
+
+Official documentation for Claude Code's dynamic workflows feature (research preview, v2.1.154+). Workflows are JavaScript scripts that orchestrate subagents at scale — Claude writes the script, a runtime executes it in the background while the session stays responsive. The page covers the full feature: comparison with subagents/skills/agent teams, the built-in `/deep-research` workflow, the `ultracode` effort level, creating/saving/rerunning custom workflows, runtime constraints (16 concurrent agents, 1,000 per run), cost management, approval behavior across permission modes, and org-level disable options.
+
+### What changed
+
+- Created `claude-code-workflows.md` (type: tool-analysis, domain: general) — covers the orchestration model (plan-in-code vs. plan-in-context), the workflow-vs-other-patterns comparison table, `/deep-research`, ultracode triggering, saving workflows as reusable commands, runtime constraints, and vault relevance
+- Updated `domain-general.md` — added 11th page to anchor table, bumped updated date to 2026-06-08
+- Updated `index.md` — page count 71→72, source count 42→43, new row in General Knowledge section and Source Files table
+- Appended to `log.md`
+
+### Notable observations
+
+- This is the third Claude Code tooling page in the vault (after `gstack` and `opus-4-7-workflow`), and the first documenting an official Anthropic product feature rather than a community framework
+- The adversarial cross-checking pattern (independent agents reviewing each other's findings) is directly relevant to the vault's own audit/remediation pipeline — multiple independent checks before reporting
+- The workflows-as-reusable-commands pattern (`.claude/workflows/` saved via `/` autocomplete) parallels the gstack slash-command architecture and the vault's own skill system
+- DailyChew engineering use case: the 500-file migration example matches the scope of the web-to-native-mobile pivot (issues #50–#60) — workflows could orchestrate the codebase-wide port in a single run
+- Feature is in research preview — documentation may evolve. Source page flagged accordingly in the wiki page
