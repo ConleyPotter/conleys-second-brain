@@ -3,7 +3,7 @@ type: project
 domain: personal
 tags: [river-room, long-range, community, physical-space, marietta, digital-workshop]
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-06-07
 sources: [the-river-room-business-plan-v2.md]
 ---
 
@@ -15,7 +15,7 @@ sources: [the-river-room-business-plan-v2.md]
 
 ## What It Is
 
-The River Room is a planned creative commons and digital workshop to be established in a restored historic building in Marietta, Pennsylvania. It is Conley's long-range vision for a physical community institution — not an ACE side project, but the thing ACE is building toward making possible.
+The River Room is a planned creative commons and digital workshop to be established in a restored historic building in Marietta, Pennsylvania. It is Conley's long-range vision for a physical community institution — not a side project, but the thing Long Game Studios product revenue is building toward making possible.
 
 **Status:** Draft business plan (V2, 2026). Not active. Pre-Phase 0. No building acquired, no capital committed. The plan represents a serious, fundable concept, not a daydream.
 
@@ -81,7 +81,7 @@ V2 of the business plan introduces a critical structural shift: **The River Room
 
 > The digital business funds and de-risks the physical one. The physical space no longer needs to be profitable from day one. It needs to be *viable* — covering its own operating costs — while the digital operation generates the surplus capital that funds growth.
 
-**Why this matters:** This is the same model Conley uses with ACE. The plan explicitly names "digital revenue pre-accumulation (Years 1–2 before physical opening)" as a funding source of $40K–$80K directed to the building fund. ACE is the mechanism that makes this real.
+**Why this matters:** This is the same model Conley uses with Long Game Studios. The plan explicitly names "digital revenue pre-accumulation (Years 1–2 before physical opening)" as a funding source of $40K–$80K directed to the building fund. LGS product revenue is the mechanism that makes this real.
 
 ### Startup Cost Estimate
 
@@ -174,11 +174,11 @@ These values are not marketing language. "Human First" and "Honest and Useful" a
 
 ---
 
-## Connection to ACE and The Sentinel
+## Connection to Long Game Studios and The Sentinel
 
-The River Room occupies the same structural position in Conley's thinking as [[the-sentinel]]: a meaningful long-range project that ACE revenue is intended to seed. Where The Sentinel is individual and technological, The River Room is communal and physical. Together they represent the two poles of the longer vision: the tool you build for yourself, and the place you build for everyone.
+The River Room occupies the same structural position in Conley's thinking as [[the-sentinel]]: a meaningful long-range project that Long Game Studios revenue is intended to seed. Where The Sentinel is individual and technological, The River Room is communal and physical. Together they represent the two poles of the longer vision: the tool you build for yourself, and the place you build for everyone.
 
-The V2 financial model is explicit: ACE-scale digital revenue (the Workshop's online equivalent) is what makes the physical space viable without grant dependency.
+The V2 financial model is explicit: LGS-scale digital revenue (the Workshop's online equivalent) is what makes the physical space viable without grant dependency.
 
 ---
 
