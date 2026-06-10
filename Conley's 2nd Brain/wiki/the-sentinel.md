@@ -3,13 +3,13 @@ type: project
 domain: personal
 tags: [project, hardware, vision, aspiration]
 created: 2026-04-14
-updated: 2026-04-16
+updated: 2026-06-07
 sources: [Project Brief for The Sentinel.md, Personal Portfolio Website Current State 4.14.26.md]
 ---
 
 # The Sentinel
 
-**Related:** [[ace-overview]], [[conley-potter]], [[portfolio-website]]
+**Related:** [[personal-brand-engine]], [[conley-potter]], [[portfolio-website]]
 
 ---
 
@@ -17,7 +17,7 @@ sources: [Project Brief for The Sentinel.md, Personal Portfolio Website Current 
 
 **Status:** Alpha Prototype Phase — aspirational / in planning
 
-The Sentinel is not an active build. It is a vision Conley is working toward, contingent on ACE generating the revenue and seed capital to fund it. This is the directional north star, not the current priority. See [[ace-overview]] — "ACE as Seed Capital for The Sentinel."
+The Sentinel is not an active build. It is a vision Conley is working toward, contingent on Long Game Studios generating the revenue and seed capital to fund it. This is the directional north star, not the current priority. See [[personal-brand-engine]] and [[ace-overview]] for the evolution from ACE to PBE to LGS.
 
 The portfolio website lists it as "In Development," which is an aspirational framing. The project brief exists, the design is fully conceived, and the hardware BOM is priced out. It has not been built yet.
 
@@ -105,15 +105,15 @@ The HyperPixel display sits in the base, facing upward. The beamsplitter glass s
 
 ---
 
-## Relationship to ACE
+## Relationship to Long Game Studios
 
-The Sentinel and ACE are connected through a funding dependency, not a technical one:
+The Sentinel and Long Game Studios are connected through a funding dependency, not a technical one:
 
-- ACE is the revenue engine — freelance arbitrage generating operating capital and runway
+- Long Game Studios is the revenue engine — product revenue (DailyChew.AI and future products) generating operating capital and runway
 - The Sentinel is the destination — what that capital eventually funds
-- ACE Phase I (B2B lead enrichment) → operating revenue → personal stability + seed capital → The Sentinel build
+- LGS product revenue → personal stability + seed capital → The Sentinel build
 
-The Sentinel also represents a different mode of thinking than ACE. ACE is pragmatic, commercially oriented, optimized for margin. The Sentinel is philosophical — it's about what it means to build physical things with care, to give AI a body, to make technology feel intimate rather than exhausting. They are the same builder at different registers.
+The Sentinel also represents a different mode of thinking than LGS. Long Game Studios is pragmatic, commercially oriented, optimized for margin. The Sentinel is philosophical — it's about what it means to build physical things with care, to give AI a body, to make technology feel intimate rather than exhausting. They are the same builder at different registers.
 
 ---
 

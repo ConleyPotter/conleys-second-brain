@@ -40,3 +40,6 @@ Pages here address:
 | [[perplexity-agent-skills]] | Perplexity's guide to designing, refining, and maintaining agent skills — directory structure, progressive disclosure, eval suites |
 | [[ai-psychosis-hashimoto]] | Mitchell Hashimoto on "AI psychosis" — MTBF vs. MTTR parallels between cloud infrastructure and AI-assisted development |
 | [[claude-code-workflows]] | Claude Code dynamic workflows — JavaScript-scripted multi-agent orchestration at scale; /deep-research, ultracode, reusable workflow commands |
+| [[graphiti]] | Graphiti open-source framework — temporally aware knowledge graphs for AI agents; hybrid retrieval, MCP integration, Neo4j/FalkorDB backend, Zep enterprise layer |
+| [[hdbscan-clustering]] | HDBSCAN unsupervised clustering algorithm — variable-density grouping, noise tolerance, Python implementation, BERTopic and geospatial use cases |
+| [[no-priors-nadella-full-stack-builder]] | Satya Nadella on the rise of full-stack builders — multi-model harnesses, evals as IP, SaaS durability, the token economy |
