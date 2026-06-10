@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
 **Last updated:** 2026-06-07  
-**Source count:** 44
-**Page count:** 77
+**Source count:** 45
+**Page count:** 78
 
 This wiki documents Conley Potter's life, projects, and career. It began as an ACE-only knowledge base and has expanded into a full second brain covering the Personal Brand Engine (successor to ACE), career transition strategy, BA day job, personal operating doctrine, Drone Enterprises, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -34,6 +34,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | [[multi-agent-orchestration]] | Multi-agent AI patterns — Pipeline, Fan-Out, Specialist Team; Anthropic Managed Agents, Dreaming, Outcomes; production examples from Netflix, Harvey, Shopify |
 | [[perplexity-agent-skills]] | Perplexity's guide to designing, refining, and maintaining agent skills — directory structure, progressive disclosure, routing triggers, eval suites |
 | [[ai-psychosis-hashimoto]] | Mitchell Hashimoto on "AI psychosis" — MTBF vs. MTTR parallels between cloud infrastructure and AI-assisted development |
+| [[graphiti]] | Graphiti open-source framework — temporally aware knowledge graphs for AI agents; hybrid retrieval, temporal fact tracking, MCP integration, Neo4j/FalkorDB, Zep enterprise layer |
 | [[hdbscan-clustering]] | HDBSCAN unsupervised clustering algorithm — variable-density grouping, noise tolerance, soft clustering, Python implementation, BERTopic and geospatial use cases |
 | [[no-priors-nadella-full-stack-builder]] | Satya Nadella on the rise of full-stack builders — multi-model harnesses, evals as IP, SaaS durability, the token economy |
 
@@ -205,5 +206,6 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | `mitchellh-ai-psychosis-software-development.md` | X thread — Mitchell Hashimoto on AI psychosis in software development, MTBF vs. MTTR parallels | 2026-05-17 |
 | `autoboost-vault-skills-development-reflection-2026-05-19.md` | Personal reflection — AutoBoost Vault skills development and team rollout | 2026-05-19 |
 | `mom-housing-offer-lebanon-pa-2026-05-19.md` | Personal voice note — multi-gen housing offer in Lebanon, PA | 2026-05-19 |
+| `graphiti-google-ai-mode-2026-06-07.md` | Google AI Mode shared result — Graphiti temporal knowledge graph framework for AI agents | 2026-06-07 |
 | `google-ai-mode-hdbscan-clustering-2026-06-07.md` | Google AI Mode shared result — HDBSCAN clustering algorithm overview, implementation, and use cases | 2026-06-07 |
 | `no-priors-nadella-full-stack-builder-2026-06-05.md` | Podcast episode — No Priors with Satya Nadella (full-stack builders, multi-model harnesses, evals as IP) | 2026-06-05 |
