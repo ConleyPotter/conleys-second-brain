@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
-**Last updated:** 2026-06-05  
+**Last updated:** 2026-06-09  
 **Source count:** 42
-**Page count:** 75
+**Page count:** 76
 
 This wiki documents Conley Potter's life, projects, and career. It began as an ACE-only knowledge base and has expanded into a full second brain covering the Personal Brand Engine (successor to ACE), career transition strategy, BA day job, personal operating doctrine, Drone Enterprises, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -144,6 +144,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 | Page | Summary |
 |---|---|
 | [[lgs-devrecap-2026-06-05]] | First dev-log recap — repo creation through June 5, 2026; DailyChew pipeline complete, The Grind bootstrapped |
+| [[lgs-devrecap-2026-06-09]] | Dev-log recap June 6–9 — Gemini eval judge, R2→GCS migration, Grind core loop playable, script writer model swap |
 
 ## Meta
 
