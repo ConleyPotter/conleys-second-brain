@@ -1458,6 +1458,31 @@ Conley's mom and Jim have invited Conley and Sami to move into a six-bedroom mul
 - Long Game Studios sections in index.md remain empty. Dev-Log Capture mode is unblocked but has not yet run its first capture.
 - Post-merge vault state: 0 open PRs, 0 open issues. Cleanest state maintained.
 
+---
+
+## [2026-06-05] ingest | No Priors — Satya Nadella on the Full-Stack Builder
+
+**Source type:** Podcast episode — No Priors (Sarah Guo, Elad Gil, swyx crossover) with Satya Nadella at Microsoft Build
+**Pages created:** 1 (`no-priors-nadella-full-stack-builder.md`)
+**Pages updated:** 1 (`domain-general.md`)
+
+### What this source contains
+
+A 42-minute crossover episode of the No Priors podcast recorded at Microsoft Build 2026. Satya Nadella discusses the emergence of "full-stack builders" and "hyper-leveraged generalists" — individuals empowered by AI to operate at institutional scale. Key topics: multi-model harnesses as Microsoft's strategic shift, private evals as a company's most important IP, autonomous AI agents reshaping software engineering, SaaS business model durability under AI pressure, the token economy, vendor vs. enterprise agents, AI-driven education, and data center ROI for communities.
+
+### What changed
+
+- **`no-priors-nadella-full-stack-builder.md` created** — synthesis page covering the episode's core thesis, six key idea clusters, vault relevance analysis, and open questions. Cross-linked to `[[multi-agent-orchestration]]`, `[[openai-codex-app]]`, `[[personal-brand-engine]]`, and `[[operating-doctrine-2026]]`.
+- **`domain-general.md` updated** — added the new page to the "Pages in this domain" anchor table.
+- **`index.md` updated** — source count 42→43, page count 71→72, new row in General Knowledge section, new row in Source Files table.
+
+### Notable observations
+
+- The "full-stack builder" thesis maps directly onto the Long Game Studios operating model — two people shipping multiple products using AI leverage. This is the strongest external validation of the LGS thesis from a major tech leader.
+- Nadella's framing of evals as IP connects to the vault's agent architecture and the broader pattern of building evaluation into agent workflows (see `[[multi-agent-orchestration]]`).
+- The multi-model harness pattern is already present in DailyChew's pipeline (different models for different generation stages). Microsoft's strategic embrace of multi-model suggests this is the right architectural bet.
+- SaaS durability under AI is a direct strategic question for DailyChew pricing — if AI compresses feature value, defensibility must come from personalization depth and data moats rather than functionality alone.
+- First podcast episode captured in the vault. May establish a pattern for future audio content ingestion.
 
 ---
 
@@ -1489,6 +1514,360 @@ First-ever dev-log capture for Long Game Studios. Covers all development activit
 - Neither repo has cut a GitHub Release. When Releases are adopted, dev-log capture should prefer release notes as the primary changelog source over PR/commit synthesis.
 - This is the first dev-log recap; the watermark is now set to 2026-06-05 for both repos.
 
+---
+
+## [2026-06-06] lint | Daily light sweep
+
+**Audit scope:** Trivial drift — index header counts, last-updated date, frontmatter, source attribution, orphan detection, open PR/issue reconciliation
+**Direct fixes:** 0
+**PRs opened:** 0
+**Issues filed:** 0
+
+### Vault state at sweep time
+
+- 71 wiki pages on disk, 42 raw-source files
+- 2 open PRs (#68 first dev-log capture, #69 No Priors podcast ingest) — both opened 2026-06-05 after last sweep
+- 0 open issues
+- CLAUDE.md Vault Keeper consolidation live; `long-game-studios` domain in both doctrine and CI validation
+- Capture pipeline reactivated: first ingest (PR #69) since 2026-05-19 (18 days idle)
+- Wedding in 6 days (June 12)
+
+### What was checked
+
+- **index.md header:** page count 71 matches actual wiki directory (71 .md files minus index.md and log.md). Source count 42 matches Source Files table rows and raw-sources/ directory listing (42 files). Last updated 2026-06-01 is correct (no index modifications since then on main).
+- **Index-to-disk cross-check:** all 71 wiki pages on disk are referenced in index.md section tables; all index.md [[page-name]] references resolve to files on disk. No orphans, no phantom references.
+- **Frontmatter spot-check:** 3 pages sampled (`writing-style.md`, `book-project-2025.md`, `conley-potter.md`) — all have valid type, domain, tags, created/updated dates, and source attribution.
+- **Raw-sources orphan check:** all 42 files in raw-sources/ have corresponding wiki pages and Source Files table entries. No orphans.
+- **log.md compliance:** append-only, newest at bottom, no ordering violations.
+- **Open PR reconciliation:** 2 PRs opened after yesterday's sweep — PR #68 (first LGS dev-log capture, 4 pages + 3 PBE captures) and PR #69 (No Priors Nadella podcast ingest, 1 page). Both are well-formed Vault Keeper branches (devlog/, ingest/ prefixes). Both modify index.md and log.md from the same base commit (24ebc6a); the second to merge will need a rebase to resolve index/log conflicts.
+- **Open issue reconciliation:** none. No coordination labels to reconcile.
+
+### Notable observations
+
+- Sixth consecutive clean sweep with no header/count drift. The vault remains in stable equilibrium.
+- The capture pipeline is active again after 18 days idle. PR #69 is the first new ingest since May 19 — a Spotify podcast episode (No Priors with Satya Nadella). PR #68 is the inaugural Dev-Log Capture mode run, synthesizing all DailyChew and The Grind development history.
+- Both open PRs modify the same navigation files (index.md, log.md) from the same base. Whichever merges first will cause a merge conflict on the other. This is expected behavior for concurrent agent branches and is not a vault integrity issue — the second PR will need a rebase before its CI can pass.
+- Wedding is June 12, 6 days away. `conley-potter.md` currently says "engaged to Sami" — tracked in CLAUDE.md "Known pages needing attention" for a post-wedding update.
+- Long Game Studios sections in index.md remain empty on main. PR #68 populates them with 4 new pages (domain anchor, two product overviews, one archival dev-log). Once it merges, the LGS domain will be fully bootstrapped in the vault.
+
+---
+
+## [2026-06-07] lint | Weekly deep audit
+
+**Audit scope:** Full vault review — catalog integrity, completeness, orphans, contradictions, stale pages, split candidates, domain emergence
+**Direct fixes:** 0
+**PRs opened:** 2 (vault-steward labeled, never auto-merge)
+**Issues filed:** 6 (vault-steward labeled)
+
+### Vault state at audit time
+
+- 71 wiki pages on disk, 42 raw-source files (unchanged from last sweep)
+- 4 open PRs: #68 (first dev-log capture), #69 (No Priors podcast ingest), #70 (HDBSCAN ingest), #71 (Graphiti ingest) — all expected in-flight Vault Keeper work
+- 0 open issues at audit start
+- CLAUDE.md Vault Keeper consolidation live; `long-game-studios` domain in both doctrine and CI validation
+- Wedding in 5 days (June 12, 2026)
+
+### What was checked
+
+- **Index-to-disk cross-check:** all 71 wiki pages on disk referenced in index.md; all index.md references resolve. No orphans, no phantom references.
+- **Raw-sources orphan check:** all 42 files accounted for. No orphans.
+- **Frontmatter validation:** 20-page deep sample + 6-page domain verification = 26 pages checked (36% of vault). All have valid required fields (type, domain, tags, created, updated). One date mismatch found (ace-overview.md).
+- **Domain anchor audit:** 3 existing anchors reviewed (domain-general.md, domain-personal.md, domain-drone-enterprises.md). Two missing anchors identified (ba, ace).
+- **Staleness assessment:** 14 of 20 sampled pages not updated in 6+ weeks. Expected — Conley's focus on wedding prep and LGS product build. 9 ACE pages properly archived with banners.
+- **Content contradiction:** conley-potter.md still has LinkedIn/ACE separation protocol that contradicts content-strategy.md (retirement of that protocol).
+- **Split candidates:** None identified. No pages are oversized or covering multiple unrelated topics.
+- **Domain emergence:** No new domains emerging. long-game-studios domain is in-flight (PR #68 creates the anchor).
+- **Open PR evaluation:** All 4 PRs are well-formed Vault Keeper branches. PRs #68 + #69 share a base (24ebc6a); PRs #70 + #71 share a base (232d9f8). All conflict on index.md/log.md — must merge sequentially.
+
+### Issues filed
+
+| # | Title | Nature |
+|---|---|---|
+| #72 | drone-opportunity.md domain reclassification (general → drone-enterprises) | Domain judgment call |
+| #73 | portfolio-update-plan.md PBE pivot review | Content review |
+| #74 | Post-wedding content updates (conley-potter.md + portfolio pages) | Scheduled June 12+ |
+| #75 | ba-clients-pipeline.md rolling page stale | Needs source from Conley |
+| #76 | the-sentinel.md + the-river-room.md ACE funding references stale | Content update |
+| #77 | ace-overview.md frontmatter date mismatch + ace domain anchor question | Frontmatter + domain judgment |
+
+### PRs opened
+
+| # | Title | Nature |
+|---|---|---|
+| #78 | Create domain-ba.md anchor page | New wiki (confidence 0.85) |
+| #79 | Refresh domain-personal.md — add 12 missing pages | Gap-fill (confidence 0.85) |
+
+### Notable observations
+
+- Seventh consecutive week with no index/log count drift. The vault's structural integrity is solid.
+- The personal domain anchor was the most incomplete artifact found: 6 of 18 pages listed. This was the original anchor (April 14), predating the vault's expansion into identity, career, and portfolio pages.
+- The ACE→PBE pivot (May 2026) left a broad ripple of stale references: operating-doctrine-2026, conley-potter, portfolio-update-plan, the-sentinel, the-river-room, and domain-personal.md itself. These are tracked across issues #73, #74, #76, and PR #79. A single pass to reconcile all ACE references would be efficient but requires Conley's direction on scope.
+- Wedding is June 12, 5 days away. The post-wedding content update (issue #74) is pre-filed for the Remediate pipeline to pick up on or after June 12.
+- housing-offer-lebanon.md has a June 30 closing date — 23 days away. May warrant a status update post-closing.
+- 4 open capture/devlog PRs all conflict on index.md/log.md. Merging them will require sequential rebases. This is expected behavior for concurrent agent branches and is not a vault integrity issue.
+
+
+---
+
+---
+
+## [2026-06-07] lint | Daily light sweep
+
+**Audit scope:** Trivial drift — index header counts, last-updated date, frontmatter, source attribution, orphan detection, open PR/issue reconciliation
+**Direct fixes:** 0
+**PRs opened:** 0
+**Issues filed:** 0
+
+### Vault state at sweep time
+
+- 71 wiki pages on disk, 42 raw-source files (unchanged from weekly deep audit ~1h ago)
+- 6 open PRs: #68 (first dev-log capture), #69 (No Priors ingest), #70 (HDBSCAN ingest), #71 (Graphiti ingest), #78 (domain-ba anchor), #79 (domain-personal refresh) — all expected in-flight Vault Keeper work
+- 6 open issues: #72–#77, all filed by today's weekly deep audit, all labeled vault-steward, none yet claimed by Remediate (12pm ET run pending)
+- Wedding in 5 days (June 12, 2026)
+
+### What was checked
+
+- **Index header verification:** page count 71, source count 42, last-updated 2026-06-01 — all correct. No pages added or removed on main since June 1 index update.
+- **Disk-to-index cross-check:** 71 wiki .md files on disk (excl index.md, log.md), 42 raw-source files on disk — both match index.md header counts exactly.
+- **log.md compliance:** append-only, newest at bottom, no ordering violations. Weekly audit entry from earlier today correctly formatted.
+- **Open PR reconciliation:** 6 PRs open, all from recognized Vault Keeper branches (devlog/, ingest/, steward/ prefixes). 4 capture/devlog PRs (#68–#71) need sequential rebasing — all modify index.md/log.md from behind-main base commits. 2 steward PRs (#78, #79) labeled vault-steward, Conley merges.
+- **Open issue reconciliation:** 6 issues (#72–#77) all filed today by weekly audit, all labeled vault-steward, none with Remediate labels. Correctly awaiting the 12pm ET Remediate pass.
+
+### Notable observations
+
+- Ninth consecutive clean sweep with no header/count drift. Vault structural integrity remains solid.
+- The weekly deep audit ran ~1 hour before this sweep. No new commits or merges in that window — vault state unchanged. This sweep is a confirmation pass.
+- 6-PR merge queue is the longest in vault history. PRs #68–#69 are based on commit 24ebc6a (3 commits behind main); PRs #70–#71, #78–#79 are based on 232d9f8 (1 commit behind). All conflict on index.md/log.md. Sequential rebase needed — not a trivial fix.
+- All 6 issues from the weekly audit are fresh and awaiting the 12pm Remediate pass. No coordination label conflicts.
+- Wedding in 5 days. Post-wedding content updates tracked in issue #74 (deferred to June 12+).
+
+
+---
+
+---
+
+## [2026-06-07] ingest | HDBSCAN Clustering — Google AI Mode
+
+**Source type:** Google AI Mode shared result — an AI-generated overview of the HDBSCAN clustering algorithm
+**Pages created:** 1 (`hdbscan-clustering.md`)
+**Pages updated:** 1 (`domain-general.md`)
+
+### What this source contains
+
+A comprehensive technical overview of HDBSCAN (Hierarchical Density-Based Spatial Clustering of Applications with Noise), captured from a Google AI Mode shared result. Covers the four-step algorithm (mutual reachability distance, minimum spanning tree, cluster hierarchy, stable extraction), key advantages over standard DBSCAN (variable density, noise tolerance, minimal tuning, soft clustering), a Python implementation using the scikit-learn-contrib `hdbscan` package, common use cases (BERTopic topic modeling, geospatial analytics, genomics, UMAP pipelines), and documentation resources.
+
+### What changed
+
+- **[[hdbscan-clustering]]** created — synthesis page covering the algorithm mechanics, implementation, and use cases; filed under domain `general`
+- **[[domain-general]]** updated — added new page to anchor table, updated date to 2026-06-07
+- **[[index.md]]** updated — source count 42→43, page count 71→72, last updated to 2026-06-07, new row in General Knowledge section and Source Files table
+
+### Notable observations
+
+- This is the first machine learning / data science algorithm page in the vault — a new category of general knowledge alongside the AI tooling and workflow pages.
+- HDBSCAN's use in BERTopic (topic modeling over text embeddings) is directly relevant to DailyChew's content pipeline — if episode scripts or user interest profiles ever need topic clustering, this is the standard approach.
+- The UMAP + HDBSCAN pattern (dimensionality reduction → density clustering) is a foundational ML pipeline worth knowing as the vault's technical scope expands.
+- Source is an AI-generated overview (Google AI Mode), not a primary research paper or documentation page. Treat as a well-structured introduction, not as a definitive or citable source.
+
+---
+
+## [2026-06-07] ingest | Graphiti Temporal Knowledge Graph Framework
+
+**Source type:** Google AI Mode shared result (AI-generated overview)
+**Pages created:** 1 (`graphiti.md`)
+**Pages updated:** 1 (`domain-general.md`)
+
+### What this source contains
+
+A Google AI Mode overview of Graphiti, an open-source framework for building temporally aware, multi-tenant knowledge graphs for AI agents. Covers the core architecture (episode ingestion, temporal fact tracking, incremental updates), the hybrid retrieval model (semantic + BM25 + graph traversal), LangGraph/MCP integration for agent memory, infrastructure requirements (Neo4j or FalkorDB), and Zep as the managed enterprise layer built on Graphiti.
+
+### What changed
+
+- **Created `graphiti.md`** — tool-analysis page covering Graphiti's architecture, retrieval model, agent integration, infrastructure requirements, and vault relevance (DailyChew v3.0 knowledge layer roadmap names Graphiti + Kuzu)
+- **Updated `domain-general.md`** — added `graphiti` to the domain anchor table (12th page in this domain)
+- **Updated `index.md`** — source count 42→43, page count 71→72, added row in General Knowledge section and Source Files table
+- **Appended `log.md`** — this entry
+
+### Notable observations
+
+- Graphiti is directly relevant to the DailyChew v3.0 knowledge layer roadmap, which plans to use Graphiti + Kuzu for temporal knowledge graphs. The overview confirms Graphiti's temporal fact tracking and incremental update model align with DailyChew's needs, but Graphiti primarily pairs with Neo4j or FalkorDB — not Kuzu (an embedded graph database). Compatibility would need investigation.
+- The MCP integration is notable: Graphiti can serve as a central memory layer for any MCP-compatible agent system, which includes the vault's own agent pipeline.
+- This is the second ML/data-science tool page in the vault (after `hdbscan-clustering.md`, currently in PR #70). The General Knowledge domain is expanding into technical tool analysis.
+- Source is an AI-generated overview, not primary documentation. Flagged in the wiki page with a note to cross-reference against the Graphiti GitHub repo and Zep docs before engineering decisions.
+- Three other PRs (#68, #69, #70) are currently open and modify the same navigation files. Whichever merges first will require the others to rebase.
+
+---
+
+## [2026-06-08] lint | Daily light sweep
+
+**Audit scope:** Trivial drift — index header counts, last-updated date, frontmatter, source attribution, orphan detection, open PR/issue reconciliation
+**Direct fixes:** 3 (merge stale PR, add missing labels)
+**PRs opened:** 0
+**Issues filed:** 0
+
+### Vault state at sweep time
+
+- 71 wiki pages on disk, 42 raw-source files (unchanged)
+- 10 open PRs at start: #68 (first dev-log capture), #69 (No Priors ingest), #70 (HDBSCAN ingest), #71 (Graphiti ingest), #78 (domain-ba anchor), #79 (domain-personal refresh), #80 (ace-overview date fix), #81 (ACE→LGS funding refs), #82 (drone domain reclass), #83 (portfolio-plan archive)
+- 6 open issues: #72–#77, all from yesterday's weekly audit
+- Wedding in 4 days (June 12, 2026)
+
+### What was checked
+
+- **Index header verification:** page count 71, source count 42, last-updated 2026-06-01 — all correct. No pages added or removed on main since June 1 index update.
+- **Disk-to-index cross-check:** 71 wiki .md files on disk (excl index.md, log.md), 1 non-.md file (Wiki Database.base), 42 raw-source files on disk — all match index.md headers.
+- **log.md compliance:** append-only, newest at bottom, no ordering violations. Yesterday's weekly audit and daily sweep entries correctly formatted.
+- **Open PR reconciliation:** 10 PRs open at start. PR #80 (confidence 0.95, frontmatter date fix, no label) was stale — 15h without auto-merge. Merged manually; auto-merge likely failed because it was not explicitly enabled on the individual PR. PRs #78 and #79 (weekly audit PRs) were missing `vault-steward` labels — added. After fixes: 9 PRs remain open.
+- **Open issue reconciliation:** 6 issues (#72–#77). Labels: #72 remediator-claimed (PR #82 draft), #73 remediator-claimed (PR #83 draft), #74 vault-steward only (June 12+ deferred), #75 remediator-skipped (needs Conley input), #76 remediator-claimed (PR #81), #77 remediator-claimed (PR #80, now merged — frontmatter part resolved, domain anchor question still open).
+
+### Direct fixes applied
+
+1. **Merged stale PR #80** — ace-overview.md frontmatter `updated` date correction (confidence 0.95, auto-merge eligible but stuck). Squash merged. Issue #77 remains open for the domain anchor question.
+2. **Added `vault-steward` label to PR #78** — weekly audit PR (domain-ba anchor) was missing its coordination label.
+3. **Added `vault-steward` label to PR #79** — weekly audit PR (domain-personal refresh) was missing its coordination label.
+
+### Notable observations
+
+- Tenth consecutive clean sweep with no header/count drift. Vault structural integrity remains solid.
+- 9-PR merge queue is the longest in vault history (down from 10 after merging #80). 4 capture/devlog PRs (#68–#71) and 4 remediation PRs (#81–#83 + now-merged #80) all conflict on index.md/log.md. Sequential merge-and-rebase is needed — not a trivial fix, but expected behavior for concurrent agent branches.
+- The auto-merge gap on PR #80 suggests the Remediate mode may not be explicitly enabling auto-merge on individual PRs. Future high-confidence PRs should verify auto-merge is toggled on.
+- Wedding is June 12, 4 days away. Post-wedding content updates tracked in issue #74 (deferred). housing-offer-lebanon.md has a June 30 closing date — 22 days away.
+- Issue #77 partially resolved (frontmatter date via PR #80) but the domain anchor question (options a/b/c) remains open for Conley.
+
+
+---
+
+---
+
+## [2026-06-08] ingest | AutoBoost Lead Classifier — Confidence-Gated Pipeline
+
+**Source type:** GitHub issue from AutoBoost internal repo — engineering design document for confidence-gated lead classification pipeline
+**Pages created:** 1 (`ab-lead-classifier.md`)
+**Pages updated:** 1 (`ba-overview.md`)
+
+### What this source contains
+
+Engineering specification for a confidence-gated pipeline that classifies Google Ads leads (phone call transcripts via Deepgram STT) and submits structured feedback to Google via ProvideLeadFeedback(). The system uses Claude Haiku self-consistency sampling (N runs at temperature > 0, vote agreement) as a confidence signal, since the Anthropic Messages API exposes no token logprobs. A three-way router sends high-confidence leads to auto-submit, low-confidence or dissatisfied-direction leads to a human review queue, and unusable transcripts to a drop bucket. A gold-set eval harness gates CI promotion and is continuously refilled by human reviewer resolutions.
+
+Six sub-issues (#26–#31) cover: data models, self-consistency sampling, review queue persistence, confidence scorer, pipeline gate, and the gold-set harness. North-star targets include binary agreement ≥ 0.95, dissatisfied precision ≥ 0.98, Cohen's kappa ≥ 0.70, and ECE ≤ 0.05.
+
+### What changed
+
+- **Created `ab-lead-classifier.md`** — new operations page under the BA domain covering the full classifier architecture: self-consistency scoring, three-way routing (AUTO_SUBMIT / HUMAN_REVIEW / DROP), north-star acceptance metrics, the six-issue implementation plan, gold-set flywheel, and out-of-scope items (business-context provider, shadow mode).
+- **Updated `ba-overview.md`** — added the lead classifier as a fifth item under "Active BA workstreams," added the raw source to the sources list, added `[[ab-lead-classifier]]` to the Related links, and bumped the updated date to 2026-06-08.
+
+### Notable observations
+
+- This is the first BA engineering initiative captured in the vault — prior BA content focused on client operations, team, and products. The lead classifier represents AutoBoost's investment in AI-powered operational infrastructure, distinct from the team-facing Vault skills work in [[autoboost-vault-skills]].
+- The pipeline's use of Claude Haiku parallels DailyChew's multi-model strategy: small models for high-volume classification, larger models for harder cases. The self-consistency sampling approach (N runs at temperature > 0) is a clean workaround for Anthropic's lack of token logprobs.
+- The dissatisfied/dispute direction carrying a higher precision bar is a mature risk-asymmetry call — false positives in the "harmful" direction (disputing a valid lead) are costlier than false negatives (missing a bad lead). This same pattern appears in DailyChew's eval system where source-date consistency errors are treated as more harmful than missing a nuance.
+- The human-review queue → gold-set flywheel is the right architecture: each human resolution becomes ground truth, reducing future human load. The current gap (nightly pipeline auto-submits with no human) is a meaningful operational risk that this work directly addresses.
+- Out-of-scope: the autoboost-vault business-context provider (#27 ships the Protocol interface, wiring the vault MCP client happens separately). When that ships, it will be the first cross-repo dependency between AutoBoost's vault and the lead pipeline.
+
+---
+
+## [2026-06-08] ingest | lsa-auto-feedback pipeline description
+
+**Source type:** Email capture — Conley's description of the LSA/lead project at AutoBoost
+**Pages created:** 1 (`lsa-auto-feedback.md`)
+**Pages updated:** 1 (`ba-overview.md`)
+
+### What this source contains
+
+Conley emailed a project description for `lsa-auto-feedback`, an internal AutoBoost pipeline that automates Google Local Services Ads (LSA) lead feedback. The pipeline replaces manual human review of call recordings for Advanced-tier LSA clients by: pulling leads from the Google Ads API, downloading recordings, transcribing with Deepgram, classifying quality with Claude Haiku, and submitting 5-point survey ratings back to Google via `ProvideLeadFeedback()`.
+
+### What changed
+
+- **Created `lsa-auto-feedback.md`** — project page covering the full 5-step pipeline architecture, client scope (Advanced LSA only, sourced from HubSpot), technology stack, and strategic importance. Cross-references `[[ab-lead-classifier]]` for the confidence-gated classification sub-component (captured earlier today in PR #84).
+- **Updated `ba-overview.md`** — added lsa-auto-feedback as an active BA workstream; added `[[lsa-auto-feedback]]` to Related links; bumped updated date.
+
+### Notable observations
+
+- This is the parent pipeline for the `ab-lead-classifier` confidence system captured earlier today (PR #84). The classifier handles step 4 (classify + confidence gate); this page covers all 5 steps end to end.
+- The pipeline only processes Advanced LSA clients ($599/mo) — directly automating the core deliverable that differentiates Advanced from Standard LSA ($199/mo). See `[[ba-products]]` for tier detail.
+- This is Conley's first major AI automation initiative at BA, bridging his systems-building skills with agency service delivery. The project sits at the intersection of his day-job excellence strategy and his broader AI/automation expertise.
+- The pipeline is architecturally interesting: Deepgram STT → Claude Haiku classification → self-consistency confidence gating → Google feedback API. The confidence pipeline adds a human-in-the-loop safety net for uncertain or dissatisfied-direction classifications — critical since false negatives directly harm client accounts.
+- No URL or repo link was provided; the email contained only a README-style project description. Additional implementation detail may arrive as the project progresses.
+
+---
+
+## [2026-06-08] ingest | Claude Code Dynamic Workflows — Official Documentation
+
+**Source type:** Official Anthropic product documentation (Claude Code docs)
+**Pages created:** 1 (`claude-code-workflows.md`)
+**Pages updated:** 1 (`domain-general.md`)
+
+### What this source contains
+
+Official documentation for Claude Code's dynamic workflows feature (research preview, v2.1.154+). Workflows are JavaScript scripts that orchestrate subagents at scale — Claude writes the script, a runtime executes it in the background while the session stays responsive. The page covers the full feature: comparison with subagents/skills/agent teams, the built-in `/deep-research` workflow, the `ultracode` effort level, creating/saving/rerunning custom workflows, runtime constraints (16 concurrent agents, 1,000 per run), cost management, approval behavior across permission modes, and org-level disable options.
+
+### What changed
+
+- Created `claude-code-workflows.md` (type: tool-analysis, domain: general) — covers the orchestration model (plan-in-code vs. plan-in-context), the workflow-vs-other-patterns comparison table, `/deep-research`, ultracode triggering, saving workflows as reusable commands, runtime constraints, and vault relevance
+- Updated `domain-general.md` — added 11th page to anchor table, bumped updated date to 2026-06-08
+- Updated `index.md` — page count 71→72, source count 42→43, new row in General Knowledge section and Source Files table
+- Appended to `log.md`
+
+### Notable observations
+
+- This is the third Claude Code tooling page in the vault (after `gstack` and `opus-4-7-workflow`), and the first documenting an official Anthropic product feature rather than a community framework
+- The adversarial cross-checking pattern (independent agents reviewing each other's findings) is directly relevant to the vault's own audit/remediation pipeline — multiple independent checks before reporting
+- The workflows-as-reusable-commands pattern (`.claude/workflows/` saved via `/` autocomplete) parallels the gstack slash-command architecture and the vault's own skill system
+- DailyChew engineering use case: the 500-file migration example matches the scope of the web-to-native-mobile pivot (issues #50–#60) — workflows could orchestrate the codebase-wide port in a single run
+- Feature is in research preview — documentation may evolve. Source page flagged accordingly in the wiki page
+
+---
+
+## [2026-06-08] ingest | Claude Code Sub-Agents Documentation
+
+**Source type:** Official product documentation (Anthropic) — sub-agent system reference from code.claude.com
+**Pages created:** 1 (`claude-code-subagents.md`)
+**Pages updated:** 0
+
+### What this source contains
+
+Anthropic's official documentation for Claude Code sub-agents — specialized AI assistants that run in their own context window with custom system prompts, tool restrictions, and independent permissions. Covers built-in sub-agents (Explore, Plan, General-purpose), custom sub-agent creation via YAML frontmatter + markdown files, five scope levels (managed → user → project → plugin), full configuration options (tools, models, MCP servers, hooks, memory, isolation), and advanced patterns including worktree isolation, forked sub-agents, and persistent memory.
+
+### What changed
+
+- Created `claude-code-subagents.md` (type synthesis, domain general) — structured reference synthesizing the official documentation into a vault-ready page covering architecture, built-in agents, configuration fields, model resolution, advanced patterns (persistent memory, MCP scoping, worktree isolation), and vault relevance
+- No existing pages updated — this is a new knowledge domain entry. Cross-references added within the page to `[[gstack]]`, `[[multi-agent-orchestration]]`, `[[perplexity-agent-skills]]`, and `[[opus-4-7-workflow]]`
+- `index.md` updated: page count 71→72, source count 42→43, last updated → 2026-06-08, new row in General Knowledge section, new row in Source Files
+- `log.md` appended
+
+### Notable observations
+
+- This is the fourth Claude Code–specific page in the vault (joining `gstack`, `opus-4-7-workflow`, and indirectly `llm-wiki-pattern`). Together they form a coherent reference layer for how Conley uses Claude Code as his primary development tool.
+- The sub-agent architecture is conceptually parallel to Hyperagent's named agent system (the vault's own operating model) — custom prompts, tool restrictions, persistent memory, specialized behavior. Key difference: Claude Code sub-agents are local/session-scoped; Hyperagent agents are cloud-hosted and persistent.
+- Sub-agent skill preloading (`skills` frontmatter) mirrors Perplexity's progressive disclosure pattern documented in `[[perplexity-agent-skills]]` — domain knowledge injected at startup rather than discovered during execution.
+- The `gstack` framework's 23 specialist commands are built on this sub-agent system — this page provides the underlying infrastructure documentation that `[[gstack]]` references.
+- Source is official Anthropic product documentation — high reliability, likely to be updated as the product evolves. Worth re-capturing periodically.
+
+---
+
+## [2026-06-08] ingest | Claude Code Agent Teams Documentation
+
+**Source type:** Official Anthropic documentation (code.claude.com)
+**Pages created:** 1 (`claude-code-agent-teams.md`)
+**Pages updated:** 2 (`multi-agent-orchestration.md`, `domain-general.md`)
+
+### What this source contains
+
+The official Anthropic documentation for Claude Code Agent Teams — an experimental feature (v2.1.32+, June 2026) that coordinates multiple Claude Code sessions as a team. One session acts as team lead, spawning teammates that operate as fully independent Claude Code instances with their own context windows. Key differentiator from subagents: teammates communicate directly with each other through a shared mailbox and task list, rather than only reporting back to a parent.
+
+### What changed
+
+- **Created `claude-code-agent-teams.md`** — tool-analysis page covering the full feature: architecture (lead/teammates/task list/mailbox), comparison with subagents, display modes (in-process vs. split panes via tmux/iTerm2), task coordination with dependencies, quality gate hooks (TeammateIdle/TaskCreated/TaskCompleted), plan approval mode, best practices (3–5 teammates, 5–6 tasks each), and known limitations (no session resumption, no nested teams, one team at a time).
+- **Updated `multi-agent-orchestration.md`** — added cross-reference noting that agent teams are the first-party implementation of the Fan-Out and Specialist Team patterns.
+- **Updated `domain-general.md`** — added new page to the anchor table (11th page in domain).
+
+### Notable observations
+
+- This is the first official Anthropic tool documentation captured in the vault. Previous Claude-related pages (`opus-4-7-workflow`, `gstack`, `multi-agent-orchestration`) were community-sourced threads and guides. Having primary documentation raises the signal-to-noise quality of the AI tooling knowledge in the vault.
+- Agent teams are a direct implementation of Patterns 2 and 3 from `[[multi-agent-orchestration]]` — the competing-hypotheses debugging example is particularly noteworthy as an adversarial variant of Fan-Out.
+- The shared task list with dependencies mirrors project management conventions used in Conley's own GitHub Projects boards (Now/Next/Later with dependencies). The architectural parallel is worth noting.
+- **Practical relevance to Conley's stack:** Claude Code is the primary development tool for both DailyChew and The Grind. Agent teams could accelerate cross-layer work (frontend + backend + tests) once the feature stabilizes past experimental. The token cost constraint is real — each teammate is a full Claude instance, which matters for Conley's budget-constrained quota.
+- The CLAUDE.md propagation behavior (teammates read CLAUDE.md from the working directory) means any team working on vault-related or product-related code would automatically inherit the operating contracts.
 
 ---
 
