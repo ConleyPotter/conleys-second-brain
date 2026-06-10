@@ -1896,3 +1896,21 @@ Second dev-log capture covering June 6–9. DailyChew had 3 merged PRs: episode 
 - The Grind went from zero game code to a playable (gray-box) core loop in a single day (June 6). Issues #3 and #4 both closed. The scope contract ("never steal hours from DailyChew") is holding — all Grind work was concentrated into one burst.
 - R2→GCS migration left 4 broken tests (source.test.ts, audio/upload.test.ts) — tech debt to clean up.
 - The ReflectClient.tsx has 3 documented useChat bugs that block production use. These will need to be fixed before the web-to-native pivot (issue #52) or resolved as part of the RN port.
+
+---
+
+## [2026-06-10] update | Merged 12 open PRs — index sync for domain-ba
+
+**Pages updated:** 1 (`index.md`)
+
+### What changed
+
+- Merged all 12 open PRs into main in chronological order (#69, #70, #71, #78, #79, #81, #84, #85, #86, #87, #88, #89), resolving index.md/log.md merge conflicts at each step. Combined log entries chronologically and recomputed index counts cumulatively (final: 50 sources, 85 pages).
+- Restored four lint entries ([2026-06-06] daily, [2026-06-07] weekly deep audit, [2026-06-07] daily, [2026-06-08] daily) that had been dropped from log.md during the PR #68 conflict resolution — recovered from the ingest branches that still carried them.
+- Added `[[domain-ba]]` to the Day Job (BA) index section and corrected the page count 84→85. PR #78 created the anchor page but deliberately deferred its own index row to post-merge.
+
+### Notable observations
+
+- PR branches could not be deleted from this environment (remote rejects ref deletions); they remain for manual cleanup.
+- The append-only log check will flag this sweep's log edits as insertions rather than pure appends — expected, since out-of-order PR merges required chronological reordering per Conley's direction.
+

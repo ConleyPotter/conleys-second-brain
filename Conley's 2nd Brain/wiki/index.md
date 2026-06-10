@@ -1,8 +1,8 @@
 # Conley Potter's 2nd Brain — Index
 
-**Last updated:** 2026-06-09  
+**Last updated:** 2026-06-10  
 **Source count:** 50
-**Page count:** 84
+**Page count:** 85
 
 This wiki documents Conley Potter's life, projects, and career. It began as an ACE-only knowledge base and has expanded into a full second brain covering the Personal Brand Engine (successor to ACE), career transition strategy, BA day job, personal operating doctrine, Drone Enterprises, and long-range vision. The LLM maintains this wiki; Conley reads and directs it.
 
@@ -45,6 +45,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 
 | Page | Summary |
 |---|---|
+| [[domain-ba]] | BA domain anchor — all day-job pages with type and summary, day job log pointers, rolling page freshness |
 | [[ba-overview]] | What Business Actualization is, Conley's role, tooling, team, and its position in the 2026 Operating Doctrine |
 | [[ba-products]] | BA's full service/product catalog — website tiers, Google Ads tiers, LSA tiers, programmatic, review platform, attribution |
 | [[ba-partners]] | AutoVitals and Turnkey Auto Marketing — referral structure, key contacts, commercial relationships |
