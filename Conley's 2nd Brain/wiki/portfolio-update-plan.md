@@ -3,13 +3,17 @@ type: asset
 domain: personal
 tags: [portfolio, phase-1, website, coding-queries]
 created: 2026-04-14
-updated: 2026-05-17
+updated: 2026-06-07
 sources: [portfolio-website.md, ace-overview.md, brand-voice.md, phase-1-lead-enrichment.md, campaign-plan.md, conley-potter.md, career-history.md, operating-doctrine-2026.md, second-brain-article.md, Conley-Potter-Resume-July-2025.md, Conley-Potter-Resume-July-2025-AI.md, Conley-Potter-Resume-July-2025-ADS.md]
 ---
 
 # Portfolio Website Update Plan — Phase 1 ACE Launch
 
 **Related:** [[portfolio-website]], [[portfolio-update-history]], [[ace-overview]], [[brand-voice]], [[campaign-plan]], [[phase-1-lead-enrichment]], [[conley-potter]], [[career-history]], [[second-brain-article]]
+
+---
+
+> ⚠ **Archive notice (June 2026):** This page was framed around ACE Phase 1 operations (the Upwork freelance arbitrage system). ACE was archived in May 2026 and succeeded by the Personal Brand Engine (PBE). The deadline (April 21–27) has long passed. Queries 1–4 were completed; Queries 5–8 may still be relevant under a PBE framing; Query 9 (Upwork profile) is obsolete. **Conley's direction needed:** Should this page be (a) archived entirely, (b) rewritten for PBE, or (c) left as-is? See issue #73.
 
 ---
 
@@ -314,7 +318,7 @@ Replace the "Previous" section with all six entries, in reverse chronological or
 
 ---
 
-## Query 9 — Update Upwork Profile Link 🔜 DEFERRED
+## Query 9 — Update Upwork Profile Link ❌ OBSOLETE
 
 **Scope:** Consulting section. One-line change.
 

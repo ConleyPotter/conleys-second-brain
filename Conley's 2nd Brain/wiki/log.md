@@ -1458,6 +1458,61 @@ Conley's mom and Jim have invited Conley and Sami to move into a six-bedroom mul
 - Long Game Studios sections in index.md remain empty. Dev-Log Capture mode is unblocked but has not yet run its first capture.
 - Post-merge vault state: 0 open PRs, 0 open issues. Cleanest state maintained.
 
+---
+
+## [2026-06-05] ingest | No Priors — Satya Nadella on the Full-Stack Builder
+
+**Source type:** Podcast episode — No Priors (Sarah Guo, Elad Gil, swyx crossover) with Satya Nadella at Microsoft Build
+**Pages created:** 1 (`no-priors-nadella-full-stack-builder.md`)
+**Pages updated:** 1 (`domain-general.md`)
+
+### What this source contains
+
+A 42-minute crossover episode of the No Priors podcast recorded at Microsoft Build 2026. Satya Nadella discusses the emergence of "full-stack builders" and "hyper-leveraged generalists" — individuals empowered by AI to operate at institutional scale. Key topics: multi-model harnesses as Microsoft's strategic shift, private evals as a company's most important IP, autonomous AI agents reshaping software engineering, SaaS business model durability under AI pressure, the token economy, vendor vs. enterprise agents, AI-driven education, and data center ROI for communities.
+
+### What changed
+
+- **`no-priors-nadella-full-stack-builder.md` created** — synthesis page covering the episode's core thesis, six key idea clusters, vault relevance analysis, and open questions. Cross-linked to `[[multi-agent-orchestration]]`, `[[openai-codex-app]]`, `[[personal-brand-engine]]`, and `[[operating-doctrine-2026]]`.
+- **`domain-general.md` updated** — added the new page to the "Pages in this domain" anchor table.
+- **`index.md` updated** — source count 42→43, page count 71→72, new row in General Knowledge section, new row in Source Files table.
+
+### Notable observations
+
+- The "full-stack builder" thesis maps directly onto the Long Game Studios operating model — two people shipping multiple products using AI leverage. This is the strongest external validation of the LGS thesis from a major tech leader.
+- Nadella's framing of evals as IP connects to the vault's agent architecture and the broader pattern of building evaluation into agent workflows (see `[[multi-agent-orchestration]]`).
+- The multi-model harness pattern is already present in DailyChew's pipeline (different models for different generation stages). Microsoft's strategic embrace of multi-model suggests this is the right architectural bet.
+- SaaS durability under AI is a direct strategic question for DailyChew pricing — if AI compresses feature value, defensibility must come from personalization depth and data moats rather than functionality alone.
+- First podcast episode captured in the vault. May establish a pattern for future audio content ingestion.
+
+---
+
+## [2026-06-05] ingest | Long Game Studios Dev Recap — First Capture
+
+**Source type:** Dev-Log Capture (Mode 2) — weekly dev-log recap synthesized from merged PRs, commits, and CI across daily-chew-ai and lgs-the-grind
+**Pages created:** 4 (`lgs-devrecap-2026-06-05.md`, `domain-long-game-studios.md`, `dailychew-overview.md`, `the-grind-overview.md`)
+**Pages updated:** 0
+
+### What this source contains
+
+First-ever dev-log capture for Long Game Studios. Covers all development activity from repo creation (May 24–30, 2026) through June 5, 2026 across both product repos. DailyChew had 11 merged PRs shipping the full 6-node episode generation pipeline, conversation layer with AI streaming, Cloudflare R2 audio storage, Inngest notification scheduling, and Resend email delivery — 198 unit tests, 4 ADRs. The Grind had 2 merged PRs bootstrapping the repo (Vite + Phaser 3 + TypeScript + Vitest) and establishing foundational docs (CLAUDE.md, README.md, DEVOPS.md) with a 22-issue backlog.
+
+### What changed
+
+- Created `domain-long-game-studios.md` — domain anchor page linking both products, the region/MRR map, and development cadence
+- Created `dailychew-overview.md` — rolling product overview covering architecture (6-node pipeline, Inngest orchestration, conversation layer, Resend email, R2 audio), tech stack, ADRs, API surface, and development workflow
+- Created `the-grind-overview.md` — rolling product overview covering game design, brand golden rules, tech stack (Phaser 3/Vite), backlog structure, and deployment model
+- Created `lgs-devrecap-2026-06-05.md` — archival work-log with full changelog (grouped by feat/test/chore/fix per Conventional Commits), build log (CI status, dependencies, migration, cost notes), and status summary table
+- Created 3 PBE observation captures in `01-CAPTURES/observations/` for content-worthy dev events: DailyChew pipeline completion, The Grind first commit, and Resend ADR cost analysis
+- Updated `index.md` — populated Long Game Studios and Long Game Studios Dev Logs sections; incremented page count 71→75
+
+### Notable observations
+
+- DailyChew is effectively backend feature-complete for the v0.1 MVP core loop: generate episode → listen via signed R2 URL → chat with AI about the content → get notified when the next episode is ready. No live episodes have been generated yet — the entire test suite uses mocks.
+- The strategy doc (Doc 4A) specified n8n for orchestration, but the actual build uses Inngest. ADR-0002's README note records the supersession. This is a real deviation from the planning docs worth tracking.
+- The Grind has 22 issues in the backlog but zero game code. It exists as a repo with strict brand rules and development discipline (CLAUDE.md scope contract: never steal hours from DailyChew) but no pixels.
+- Three PBE observation captures created for the content production pipeline — the pipeline completion, first Grind commit, and Resend cost decision all pass the smart gate as content-worthy dev events.
+- Neither repo has cut a GitHub Release. When Releases are adopted, dev-log capture should prefer release notes as the primary changelog source over PR/commit synthesis.
+- This is the first dev-log recap; the watermark is now set to 2026-06-05 for both repos.
 
 ---
 
@@ -1496,91 +1551,52 @@ Conley's mom and Jim have invited Conley and Sami to move into a six-bedroom mul
 - Long Game Studios sections in index.md remain empty on main. PR #68 populates them with 4 new pages (domain anchor, two product overviews, one archival dev-log). Once it merges, the LGS domain will be fully bootstrapped in the vault.
 
 
----
+## [2026-06-07] ingest | HDBSCAN Clustering — Google AI Mode
 
-## [2026-06-07] lint | Weekly deep audit
+**Source type:** Google AI Mode shared result — an AI-generated overview of the HDBSCAN clustering algorithm
+**Pages created:** 1 (`hdbscan-clustering.md`)
+**Pages updated:** 1 (`domain-general.md`)
 
-**Audit scope:** Full vault review — catalog integrity, completeness, orphans, contradictions, stale pages, split candidates, domain emergence
-**Direct fixes:** 0
-**PRs opened:** 2 (vault-steward labeled, never auto-merge)
-**Issues filed:** 6 (vault-steward labeled)
+### What this source contains
 
-### Vault state at audit time
+A comprehensive technical overview of HDBSCAN (Hierarchical Density-Based Spatial Clustering of Applications with Noise), captured from a Google AI Mode shared result. Covers the four-step algorithm (mutual reachability distance, minimum spanning tree, cluster hierarchy, stable extraction), key advantages over standard DBSCAN (variable density, noise tolerance, minimal tuning, soft clustering), a Python implementation using the scikit-learn-contrib `hdbscan` package, common use cases (BERTopic topic modeling, geospatial analytics, genomics, UMAP pipelines), and documentation resources.
 
-- 71 wiki pages on disk, 42 raw-source files (unchanged from last sweep)
-- 4 open PRs: #68 (first dev-log capture), #69 (No Priors podcast ingest), #70 (HDBSCAN ingest), #71 (Graphiti ingest) — all expected in-flight Vault Keeper work
-- 0 open issues at audit start
-- CLAUDE.md Vault Keeper consolidation live; `long-game-studios` domain in both doctrine and CI validation
-- Wedding in 5 days (June 12, 2026)
+### What changed
 
-### What was checked
-
-- **Index-to-disk cross-check:** all 71 wiki pages on disk referenced in index.md; all index.md references resolve. No orphans, no phantom references.
-- **Raw-sources orphan check:** all 42 files accounted for. No orphans.
-- **Frontmatter validation:** 20-page deep sample + 6-page domain verification = 26 pages checked (36% of vault). All have valid required fields (type, domain, tags, created, updated). One date mismatch found (ace-overview.md).
-- **Domain anchor audit:** 3 existing anchors reviewed (domain-general.md, domain-personal.md, domain-drone-enterprises.md). Two missing anchors identified (ba, ace).
-- **Staleness assessment:** 14 of 20 sampled pages not updated in 6+ weeks. Expected — Conley's focus on wedding prep and LGS product build. 9 ACE pages properly archived with banners.
-- **Content contradiction:** conley-potter.md still has LinkedIn/ACE separation protocol that contradicts content-strategy.md (retirement of that protocol).
-- **Split candidates:** None identified. No pages are oversized or covering multiple unrelated topics.
-- **Domain emergence:** No new domains emerging. long-game-studios domain is in-flight (PR #68 creates the anchor).
-- **Open PR evaluation:** All 4 PRs are well-formed Vault Keeper branches. PRs #68 + #69 share a base (24ebc6a); PRs #70 + #71 share a base (232d9f8). All conflict on index.md/log.md — must merge sequentially.
-
-### Issues filed
-
-| # | Title | Nature |
-|---|---|---|
-| #72 | drone-opportunity.md domain reclassification (general → drone-enterprises) | Domain judgment call |
-| #73 | portfolio-update-plan.md PBE pivot review | Content review |
-| #74 | Post-wedding content updates (conley-potter.md + portfolio pages) | Scheduled June 12+ |
-| #75 | ba-clients-pipeline.md rolling page stale | Needs source from Conley |
-| #76 | the-sentinel.md + the-river-room.md ACE funding references stale | Content update |
-| #77 | ace-overview.md frontmatter date mismatch + ace domain anchor question | Frontmatter + domain judgment |
-
-### PRs opened
-
-| # | Title | Nature |
-|---|---|---|
-| #78 | Create domain-ba.md anchor page | New wiki (confidence 0.85) |
-| #79 | Refresh domain-personal.md — add 12 missing pages | Gap-fill (confidence 0.85) |
+- **[[hdbscan-clustering]]** created — synthesis page covering the algorithm mechanics, implementation, and use cases; filed under domain `general`
+- **[[domain-general]]** updated — added new page to anchor table, updated date to 2026-06-07
+- **[[index.md]]** updated — source count 42→43, page count 71→72, last updated to 2026-06-07, new row in General Knowledge section and Source Files table
 
 ### Notable observations
 
-- Seventh consecutive week with no index/log count drift. The vault's structural integrity is solid.
-- The personal domain anchor was the most incomplete artifact found: 6 of 18 pages listed. This was the original anchor (April 14), predating the vault's expansion into identity, career, and portfolio pages.
-- The ACE→PBE pivot (May 2026) left a broad ripple of stale references: operating-doctrine-2026, conley-potter, portfolio-update-plan, the-sentinel, the-river-room, and domain-personal.md itself. These are tracked across issues #73, #74, #76, and PR #79. A single pass to reconcile all ACE references would be efficient but requires Conley's direction on scope.
-- Wedding is June 12, 5 days away. The post-wedding content update (issue #74) is pre-filed for the Remediate pipeline to pick up on or after June 12.
-- housing-offer-lebanon.md has a June 30 closing date — 23 days away. May warrant a status update post-closing.
-- 4 open capture/devlog PRs all conflict on index.md/log.md. Merging them will require sequential rebases. This is expected behavior for concurrent agent branches and is not a vault integrity issue.
-
+- This is the first machine learning / data science algorithm page in the vault — a new category of general knowledge alongside the AI tooling and workflow pages.
+- HDBSCAN's use in BERTopic (topic modeling over text embeddings) is directly relevant to DailyChew's content pipeline — if episode scripts or user interest profiles ever need topic clustering, this is the standard approach.
+- The UMAP + HDBSCAN pattern (dimensionality reduction → density clustering) is a foundational ML pipeline worth knowing as the vault's technical scope expands.
+- Source is an AI-generated overview (Google AI Mode), not a primary research paper or documentation page. Treat as a well-structured introduction, not as a definitive or citable source.
 
 ---
 
-## [2026-06-07] lint | Daily light sweep
+## [2026-06-07] ingest | Graphiti Temporal Knowledge Graph Framework
 
-**Audit scope:** Trivial drift — index header counts, last-updated date, frontmatter, source attribution, orphan detection, open PR/issue reconciliation
-**Direct fixes:** 0
-**PRs opened:** 0
-**Issues filed:** 0
+**Source type:** Google AI Mode shared result (AI-generated overview)
+**Pages created:** 1 (`graphiti.md`)
+**Pages updated:** 1 (`domain-general.md`)
 
-### Vault state at sweep time
+### What this source contains
 
-- 71 wiki pages on disk, 42 raw-source files (unchanged from weekly deep audit ~1h ago)
-- 6 open PRs: #68 (first dev-log capture), #69 (No Priors ingest), #70 (HDBSCAN ingest), #71 (Graphiti ingest), #78 (domain-ba anchor), #79 (domain-personal refresh) — all expected in-flight Vault Keeper work
-- 6 open issues: #72–#77, all filed by today's weekly deep audit, all labeled vault-steward, none yet claimed by Remediate (12pm ET run pending)
-- Wedding in 5 days (June 12, 2026)
+A Google AI Mode overview of Graphiti, an open-source framework for building temporally aware, multi-tenant knowledge graphs for AI agents. Covers the core architecture (episode ingestion, temporal fact tracking, incremental updates), the hybrid retrieval model (semantic + BM25 + graph traversal), LangGraph/MCP integration for agent memory, infrastructure requirements (Neo4j or FalkorDB), and Zep as the managed enterprise layer built on Graphiti.
 
-### What was checked
+### What changed
 
-- **Index header verification:** page count 71, source count 42, last-updated 2026-06-01 — all correct. No pages added or removed on main since June 1 index update.
-- **Disk-to-index cross-check:** 71 wiki .md files on disk (excl index.md, log.md), 42 raw-source files on disk — both match index.md header counts exactly.
-- **log.md compliance:** append-only, newest at bottom, no ordering violations. Weekly audit entry from earlier today correctly formatted.
-- **Open PR reconciliation:** 6 PRs open, all from recognized Vault Keeper branches (devlog/, ingest/, steward/ prefixes). 4 capture/devlog PRs (#68–#71) need sequential rebasing — all modify index.md/log.md from behind-main base commits. 2 steward PRs (#78, #79) labeled vault-steward, Conley merges.
-- **Open issue reconciliation:** 6 issues (#72–#77) all filed today by weekly audit, all labeled vault-steward, none with Remediate labels. Correctly awaiting the 12pm ET Remediate pass.
+- **Created `graphiti.md`** — tool-analysis page covering Graphiti's architecture, retrieval model, agent integration, infrastructure requirements, and vault relevance (DailyChew v3.0 knowledge layer roadmap names Graphiti + Kuzu)
+- **Updated `domain-general.md`** — added `graphiti` to the domain anchor table (12th page in this domain)
+- **Updated `index.md`** — source count 42→43, page count 71→72, added row in General Knowledge section and Source Files table
+- **Appended `log.md`** — this entry
 
 ### Notable observations
 
-- Ninth consecutive clean sweep with no header/count drift. Vault structural integrity remains solid.
-- The weekly deep audit ran ~1 hour before this sweep. No new commits or merges in that window — vault state unchanged. This sweep is a confirmation pass.
-- 6-PR merge queue is the longest in vault history. PRs #68–#69 are based on commit 24ebc6a (3 commits behind main); PRs #70–#71, #78–#79 are based on 232d9f8 (1 commit behind). All conflict on index.md/log.md. Sequential rebase needed — not a trivial fix.
-- All 6 issues from the weekly audit are fresh and awaiting the 12pm Remediate pass. No coordination label conflicts.
-- Wedding in 5 days. Post-wedding content updates tracked in issue #74 (deferred to June 12+).
+- Graphiti is directly relevant to the DailyChew v3.0 knowledge layer roadmap, which plans to use Graphiti + Kuzu for temporal knowledge graphs. The overview confirms Graphiti's temporal fact tracking and incremental update model align with DailyChew's needs, but Graphiti primarily pairs with Neo4j or FalkorDB — not Kuzu (an embedded graph database). Compatibility would need investigation.
+- The MCP integration is notable: Graphiti can serve as a central memory layer for any MCP-compatible agent system, which includes the vault's own agent pipeline.
+- This is the second ML/data-science tool page in the vault (after `hdbscan-clustering.md`, currently in PR #70). The General Knowledge domain is expanding into technical tool analysis.
+- Source is an AI-generated overview, not primary documentation. Flagged in the wiki page with a note to cross-reference against the Graphiti GitHub repo and Zep docs before engineering decisions.
+- Three other PRs (#68, #69, #70) are currently open and modify the same navigation files. Whichever merges first will require the others to rebase.
