@@ -4,12 +4,12 @@ domain: ba
 tags: [ba, autoboost, day-job, agency, rebrand]
 created: 2026-04-16
 updated: 2026-06-08
-sources: [Claude Accounts' Saved Memories.md, Personal Portfolio Website Current State 4.14.26.md, conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md, BA Team Roster.md, Daily-Recap_2026-04-16.md, Daily-Recap_2026-04-20.md, Daily-Recap_2026-04-21.md, lsa-auto-feedback-description-2026-06-08.md]
+sources: [Claude Accounts' Saved Memories.md, Personal Portfolio Website Current State 4.14.26.md, conley-weekly-summary-apr-6-12-2026.md, Daily-Recap_2026-04-15.md, BA Team Roster.md, Daily-Recap_2026-04-16.md, Daily-Recap_2026-04-20.md, Daily-Recap_2026-04-21.md, ab-lead-classifier-confidence-pipeline-issue-2026-06-08.md, lsa-auto-feedback-description-2026-06-08.md]
 ---
 
 # AutoBoost (formerly Business Actualization) — Day Job Overview
 
-**Related:** [[conley-potter]], [[career-history]], [[ba-products]], [[ba-team]], [[ba-partners]], [[ba-clients-pipeline]], [[operating-doctrine-2026]], [[lsa-auto-feedback]]
+**Related:** [[conley-potter]], [[career-history]], [[ba-products]], [[ba-team]], [[ba-partners]], [[ba-clients-pipeline]], [[operating-doctrine-2026]], [[ab-lead-classifier]], [[lsa-auto-feedback]]
 
 ---
 
@@ -37,6 +37,7 @@ In practice the role is a hybrid of sales, client success, and internal systems 
 - n8n automation exploration (HubSpot call → Claude summary → HubSpot note is identified highest near-term priority)
 - Director title alignment in progress — the April 2026 FLSA compliance incident (29 C.F.R. § 785.37) is a documented example of the behavior supporting that case
 - `lsa-auto-feedback` — automated LSA lead feedback pipeline replacing manual call review for Advanced-tier clients; Deepgram STT + Claude Haiku classification + confidence gating + Google `ProvideLeadFeedback()` (see [[lsa-auto-feedback]], [[ab-lead-classifier]])
+- Confidence-gated lead classifier pipeline — Haiku-based classifier for Google Ads lead feedback with self-consistency scoring, human-in-the-loop review queue, and gold-set eval harness (see [[ab-lead-classifier]])
 
 **On the flatarchy proposal:** Dropped as a formal initiative, though concepts from the investigation (pod structure, formalized leadership tiers) may resurface as AutoBoost formalizes its org structure over the coming months.
 
