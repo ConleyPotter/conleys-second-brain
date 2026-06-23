@@ -153,6 +153,7 @@ This wiki documents Conley Potter's life, projects, and career. It began as an A
 |---|---|
 | [[lgs-devrecap-2026-06-05]] | First dev-log recap — repo creation through June 5, 2026; DailyChew pipeline complete, The Grind bootstrapped |
 | [[lgs-devrecap-2026-06-09]] | Dev-log recap June 6–9 — Gemini eval judge, R2→GCS migration, Grind core loop playable, script writer model swap |
+| [[lgs-devrecap-2026-06-23]] | Dev-log recap — June 10-23; temporal verification, Helicone, memory loop, mobile scaffold |
 
 ## Meta
 

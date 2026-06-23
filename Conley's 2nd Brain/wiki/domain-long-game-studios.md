@@ -3,7 +3,7 @@ type: strategy
 domain: long-game-studios
 tags: [lgs, studio, dailychew, the-grind]
 created: 2026-06-05
-updated: 2026-06-09
+updated: 2026-06-23
 sources: []
 ---
 
@@ -17,7 +17,7 @@ This domain covers both LGS products and the studio-level strategy. Product repo
 
 | Product | Repo | Stack | Stage |
 |---------|------|-------|-------|
-| [[dailychew-overview\|DailyChew.AI]] | `ConleyPotter/daily-chew-ai` | Next.js, Inngest, LangGraph, GCS, Resend, Drizzle/Postgres, Gemini eval | Backend + eval feature-complete for v0.1 MVP |
+| [[dailychew-overview\|DailyChew.AI]] | `ConleyPotter/daily-chew-ai` | Next.js + Expo, Inngest, LangGraph, GCS, Resend, Helicone, Drizzle/Postgres, Gemini eval | Pipeline feature-complete; temporal verification shipped; Helicone wired; mobile scaffold landed |
 | [[the-grind-overview\|The Grind]] | `ConleyPotter/lgs-the-grind` | Vite, Phaser 3, TypeScript, Vitest | Core loop playable (gray-box); 103 tests |
 
 ## Region / MRR Map
@@ -37,7 +37,8 @@ This domain covers both LGS products and the studio-level strategy. Product repo
 | [[dailychew-overview]] | operations | DailyChew.AI product overview — architecture, features, dev status |
 | [[the-grind-overview]] | operations | The Grind product overview — game design, architecture, dev status |
 | [[lgs-devrecap-2026-06-05]] | work-log | First dev-log recap — repo creation through June 5, 2026 |
-| [[lgs-devrecap-2026-06-09]] | work-log | Dev-log recap — June 6–9, 2026; eval system, R2→GCS, core loop playable |
+| [[lgs-devrecap-2026-06-09]] | work-log | Dev-log recap — June 6-9; eval system, R2-to-GCS, core loop playable |
+| [[lgs-devrecap-2026-06-23]] | work-log | Dev-log recap — June 10-23; temporal verification, Helicone, memory loop, mobile scaffold |
 
 ## Development cadence
 

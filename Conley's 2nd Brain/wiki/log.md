@@ -1896,3 +1896,31 @@ Second dev-log capture covering June 6–9. DailyChew had 3 merged PRs: episode 
 - The Grind went from zero game code to a playable (gray-box) core loop in a single day (June 6). Issues #3 and #4 both closed. The scope contract ("never steal hours from DailyChew") is holding — all Grind work was concentrated into one burst.
 - R2→GCS migration left 4 broken tests (source.test.ts, audio/upload.test.ts) — tech debt to clean up.
 - The ReflectClient.tsx has 3 documented useChat bugs that block production use. These will need to be fixed before the web-to-native pivot (issue #52) or resolved as part of the RN port.
+
+---
+
+## [2026-06-23] ingest | Long Game Studios Dev Recap — June 10–23
+
+**Source type:** Dev-Log Capture (Mode 2) — dev-log recap synthesized from merged PRs, commits, and CI across daily-chew-ai and lgs-the-grind
+**Pages created:** 1 (`lgs-devrecap-2026-06-23.md`)
+**Pages updated:** 2 (`dailychew-overview.md`, `domain-long-game-studios.md`)
+
+### What this source contains
+
+Third dev-log capture covering June 10–23. DailyChew had 18 merged PRs across 8 major features: temporal verification pipeline (3 stacked PRs closing issues #38/#39/#40, completing the Doc 4D verification layer), Helicone observability for all LLM/TTS calls (issue #7), conversation memory extraction loop closing the personalization feedback loop (issue #9), retention and trial-funnel analytics instrumentation (issue #10), model fallback with circuit breaker for inference-crunch resilience (issue #12), and the first Expo mobile scaffold (issue #50). Also: 3 security fixes (XSS + SQL injection), 3 performance optimizations, 2 new ADRs (bootstrap-before-raising, Resend for email), and Doc 4D (Knowledge & Verification Layer) added to the codebase. The Grind had no activity — remains at core-loop-playable from the June 6–9 sprint.
+
+### What changed
+
+- Created `lgs-devrecap-2026-06-23.md` — archival work-log covering 18 merged PRs, 2 new ADRs, full changelog grouped by Conventional Commit type, build log (CI/Jules bot code health batch, test growth, migrations, model roster, cost notes), and status summary
+- Updated `dailychew-overview.md` — added temporal verification pipeline section (regex gate + judge gate with ship/retry/block routing), memory personalization loop section, model fallback and resilience section, observability (Helicone) section, analytics instrumentation section, mobile scaffold section, updated tech stack table (added Expo, Helicone, claude-haiku-4-5), ADR table (added 0003 + 0004), added engineering docs table (Doc 4D), updated test count to ~450+, added known tech debt section
+- Updated `domain-long-game-studios.md` — added new devrecap row to pages table, updated product stages in Products table (added Helicone + mobile scaffold to DailyChew)
+- Created 6 PBE observation captures in `01-CAPTURES/observations/`: temporal verification pipeline, Helicone observability, memory personalization loop, Expo mobile scaffold, model fallback circuit breaker, ADR bootstrap-before-raising
+
+### Notable observations
+
+- DailyChew's temporal verification pipeline is a complete end-to-end solution: prompt grounding (#38) → regex gate (#39) → LLM judge with routing (#40). Total verification cost is ~$0.001/episode, trivial against the $0.24 COGS. The generator never grades its own work — cross-model evaluation by design.
+- The pipeline now uses 6 model providers across 12+ distinct model roles. Helicone observability makes this manageable — every call is tagged per-user and per-node for cost attribution.
+- Google Jules bot contributed a batch of 9 automated code health PRs in a single day (June 19), including security fixes for XSS and SQL injection. This is automated vulnerability detection and remediation running against the codebase.
+- The memory personalization loop (#9) is the last major pipeline feature before the product is "complete enough to ship." Episodes now get sharper over time as user signals accumulate and feed back into the Script Writer prompt.
+- The mobile scaffold (PR #81, issue #50) is the first real code artifact from the web-to-native pivot. It defines the contract between the Expo app and the headless Next.js backend, though the full Expo project (create-expo-app, NativeWind, EAS) is still ahead.
+- Test count grew from ~320 to ~450+ across the period. The 53 pre-existing eval test failures remain unaddressed across all branches.
